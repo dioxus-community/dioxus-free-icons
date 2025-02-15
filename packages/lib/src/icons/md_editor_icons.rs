@@ -3509,3 +3509,138 @@ impl IconShape for MdWrapText {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdAddChart".to_owned(), rsx!(Icon { icon: MdAddChart, width: width, height: height })));
+    icons.push(("MdAddComment".to_owned(), rsx!(Icon { icon: MdAddComment, width: width, height: height })));
+    icons.push(("MdAlignHorizontalCenter".to_owned(), rsx!(Icon { icon: MdAlignHorizontalCenter, width: width, height: height })));
+    icons.push(("MdAlignHorizontalLeft".to_owned(), rsx!(Icon { icon: MdAlignHorizontalLeft, width: width, height: height })));
+    icons.push(("MdAlignHorizontalRight".to_owned(), rsx!(Icon { icon: MdAlignHorizontalRight, width: width, height: height })));
+    icons.push(("MdAlignVerticalBottom".to_owned(), rsx!(Icon { icon: MdAlignVerticalBottom, width: width, height: height })));
+    icons.push(("MdAlignVerticalCenter".to_owned(), rsx!(Icon { icon: MdAlignVerticalCenter, width: width, height: height })));
+    icons.push(("MdAlignVerticalTop".to_owned(), rsx!(Icon { icon: MdAlignVerticalTop, width: width, height: height })));
+    icons.push(("MdAreaChart".to_owned(), rsx!(Icon { icon: MdAreaChart, width: width, height: height })));
+    icons.push(("MdAttachFile".to_owned(), rsx!(Icon { icon: MdAttachFile, width: width, height: height })));
+    icons.push(("MdAttachMoney".to_owned(), rsx!(Icon { icon: MdAttachMoney, width: width, height: height })));
+    icons.push(("MdAutoGraph".to_owned(), rsx!(Icon { icon: MdAutoGraph, width: width, height: height })));
+    icons.push(("MdBarChart".to_owned(), rsx!(Icon { icon: MdBarChart, width: width, height: height })));
+    icons.push(("MdBorderAll".to_owned(), rsx!(Icon { icon: MdBorderAll, width: width, height: height })));
+    icons.push(("MdBorderBottom".to_owned(), rsx!(Icon { icon: MdBorderBottom, width: width, height: height })));
+    icons.push(("MdBorderClear".to_owned(), rsx!(Icon { icon: MdBorderClear, width: width, height: height })));
+    icons.push(("MdBorderColor".to_owned(), rsx!(Icon { icon: MdBorderColor, width: width, height: height })));
+    icons.push(("MdBorderHorizontal".to_owned(), rsx!(Icon { icon: MdBorderHorizontal, width: width, height: height })));
+    icons.push(("MdBorderInner".to_owned(), rsx!(Icon { icon: MdBorderInner, width: width, height: height })));
+    icons.push(("MdBorderLeft".to_owned(), rsx!(Icon { icon: MdBorderLeft, width: width, height: height })));
+    icons.push(("MdBorderOuter".to_owned(), rsx!(Icon { icon: MdBorderOuter, width: width, height: height })));
+    icons.push(("MdBorderRight".to_owned(), rsx!(Icon { icon: MdBorderRight, width: width, height: height })));
+    icons.push(("MdBorderStyle".to_owned(), rsx!(Icon { icon: MdBorderStyle, width: width, height: height })));
+    icons.push(("MdBorderTop".to_owned(), rsx!(Icon { icon: MdBorderTop, width: width, height: height })));
+    icons.push(("MdBorderVertical".to_owned(), rsx!(Icon { icon: MdBorderVertical, width: width, height: height })));
+    icons.push(("MdBubbleChart".to_owned(), rsx!(Icon { icon: MdBubbleChart, width: width, height: height })));
+    icons.push(("MdCandlestickChart".to_owned(), rsx!(Icon { icon: MdCandlestickChart, width: width, height: height })));
+    icons.push(("MdChecklist".to_owned(), rsx!(Icon { icon: MdChecklist, width: width, height: height })));
+    icons.push(("MdChecklistRtl".to_owned(), rsx!(Icon { icon: MdChecklistRtl, width: width, height: height })));
+    icons.push(("MdDataArray".to_owned(), rsx!(Icon { icon: MdDataArray, width: width, height: height })));
+    icons.push(("MdDataObject".to_owned(), rsx!(Icon { icon: MdDataObject, width: width, height: height })));
+    icons.push(("MdDragHandle".to_owned(), rsx!(Icon { icon: MdDragHandle, width: width, height: height })));
+    icons.push(("MdDraw".to_owned(), rsx!(Icon { icon: MdDraw, width: width, height: height })));
+    icons.push(("MdEditNote".to_owned(), rsx!(Icon { icon: MdEditNote, width: width, height: height })));
+    icons.push(("MdFormatAlignCenter".to_owned(), rsx!(Icon { icon: MdFormatAlignCenter, width: width, height: height })));
+    icons.push(("MdFormatAlignJustify".to_owned(), rsx!(Icon { icon: MdFormatAlignJustify, width: width, height: height })));
+    icons.push(("MdFormatAlignLeft".to_owned(), rsx!(Icon { icon: MdFormatAlignLeft, width: width, height: height })));
+    icons.push(("MdFormatAlignRight".to_owned(), rsx!(Icon { icon: MdFormatAlignRight, width: width, height: height })));
+    icons.push(("MdFormatBold".to_owned(), rsx!(Icon { icon: MdFormatBold, width: width, height: height })));
+    icons.push(("MdFormatClear".to_owned(), rsx!(Icon { icon: MdFormatClear, width: width, height: height })));
+    icons.push(("MdFormatColorFill".to_owned(), rsx!(Icon { icon: MdFormatColorFill, width: width, height: height })));
+    icons.push(("MdFormatColorReset".to_owned(), rsx!(Icon { icon: MdFormatColorReset, width: width, height: height })));
+    icons.push(("MdFormatColorText".to_owned(), rsx!(Icon { icon: MdFormatColorText, width: width, height: height })));
+    icons.push(("MdFormatIndentDecrease".to_owned(), rsx!(Icon { icon: MdFormatIndentDecrease, width: width, height: height })));
+    icons.push(("MdFormatIndentIncrease".to_owned(), rsx!(Icon { icon: MdFormatIndentIncrease, width: width, height: height })));
+    icons.push(("MdFormatItalic".to_owned(), rsx!(Icon { icon: MdFormatItalic, width: width, height: height })));
+    icons.push(("MdFormatLineSpacing".to_owned(), rsx!(Icon { icon: MdFormatLineSpacing, width: width, height: height })));
+    icons.push(("MdFormatListBulleted".to_owned(), rsx!(Icon { icon: MdFormatListBulleted, width: width, height: height })));
+    icons.push(("MdFormatListBulletedAdd".to_owned(), rsx!(Icon { icon: MdFormatListBulletedAdd, width: width, height: height })));
+    icons.push(("MdFormatListNumbered".to_owned(), rsx!(Icon { icon: MdFormatListNumbered, width: width, height: height })));
+    icons.push(("MdFormatListNumberedRtl".to_owned(), rsx!(Icon { icon: MdFormatListNumberedRtl, width: width, height: height })));
+    icons.push(("MdFormatPaint".to_owned(), rsx!(Icon { icon: MdFormatPaint, width: width, height: height })));
+    icons.push(("MdFormatQuote".to_owned(), rsx!(Icon { icon: MdFormatQuote, width: width, height: height })));
+    icons.push(("MdFormatShapes".to_owned(), rsx!(Icon { icon: MdFormatShapes, width: width, height: height })));
+    icons.push(("MdFormatSize".to_owned(), rsx!(Icon { icon: MdFormatSize, width: width, height: height })));
+    icons.push(("MdFormatStrikethrough".to_owned(), rsx!(Icon { icon: MdFormatStrikethrough, width: width, height: height })));
+    icons.push(("MdFormatTextdirectionLToR".to_owned(), rsx!(Icon { icon: MdFormatTextdirectionLToR, width: width, height: height })));
+    icons.push(("MdFormatTextdirectionRToL".to_owned(), rsx!(Icon { icon: MdFormatTextdirectionRToL, width: width, height: height })));
+    icons.push(("MdFormatUnderlined".to_owned(), rsx!(Icon { icon: MdFormatUnderlined, width: width, height: height })));
+    icons.push(("MdFunctions".to_owned(), rsx!(Icon { icon: MdFunctions, width: width, height: height })));
+    icons.push(("MdHeight".to_owned(), rsx!(Icon { icon: MdHeight, width: width, height: height })));
+    icons.push(("MdHexagon".to_owned(), rsx!(Icon { icon: MdHexagon, width: width, height: height })));
+    icons.push(("MdHighlight".to_owned(), rsx!(Icon { icon: MdHighlight, width: width, height: height })));
+    icons.push(("MdHorizontalDistribute".to_owned(), rsx!(Icon { icon: MdHorizontalDistribute, width: width, height: height })));
+    icons.push(("MdHorizontalRule".to_owned(), rsx!(Icon { icon: MdHorizontalRule, width: width, height: height })));
+    icons.push(("MdInsertChart".to_owned(), rsx!(Icon { icon: MdInsertChart, width: width, height: height })));
+    icons.push(("MdInsertChartOutlined".to_owned(), rsx!(Icon { icon: MdInsertChartOutlined, width: width, height: height })));
+    icons.push(("MdInsertComment".to_owned(), rsx!(Icon { icon: MdInsertComment, width: width, height: height })));
+    icons.push(("MdInsertDriveFile".to_owned(), rsx!(Icon { icon: MdInsertDriveFile, width: width, height: height })));
+    icons.push(("MdInsertEmoticon".to_owned(), rsx!(Icon { icon: MdInsertEmoticon, width: width, height: height })));
+    icons.push(("MdInsertInvitation".to_owned(), rsx!(Icon { icon: MdInsertInvitation, width: width, height: height })));
+    icons.push(("MdInsertLink".to_owned(), rsx!(Icon { icon: MdInsertLink, width: width, height: height })));
+    icons.push(("MdInsertPageBreak".to_owned(), rsx!(Icon { icon: MdInsertPageBreak, width: width, height: height })));
+    icons.push(("MdInsertPhoto".to_owned(), rsx!(Icon { icon: MdInsertPhoto, width: width, height: height })));
+    icons.push(("MdLineAxis".to_owned(), rsx!(Icon { icon: MdLineAxis, width: width, height: height })));
+    icons.push(("MdLinearScale".to_owned(), rsx!(Icon { icon: MdLinearScale, width: width, height: height })));
+    icons.push(("MdMargin".to_owned(), rsx!(Icon { icon: MdMargin, width: width, height: height })));
+    icons.push(("MdMergeType".to_owned(), rsx!(Icon { icon: MdMergeType, width: width, height: height })));
+    icons.push(("MdMode".to_owned(), rsx!(Icon { icon: MdMode, width: width, height: height })));
+    icons.push(("MdModeComment".to_owned(), rsx!(Icon { icon: MdModeComment, width: width, height: height })));
+    icons.push(("MdModeEdit".to_owned(), rsx!(Icon { icon: MdModeEdit, width: width, height: height })));
+    icons.push(("MdModeEditOutline".to_owned(), rsx!(Icon { icon: MdModeEditOutline, width: width, height: height })));
+    icons.push(("MdMonetizationOn".to_owned(), rsx!(Icon { icon: MdMonetizationOn, width: width, height: height })));
+    icons.push(("MdMoneyOff".to_owned(), rsx!(Icon { icon: MdMoneyOff, width: width, height: height })));
+    icons.push(("MdMoneyOffCsred".to_owned(), rsx!(Icon { icon: MdMoneyOffCsred, width: width, height: height })));
+    icons.push(("MdMoveDown".to_owned(), rsx!(Icon { icon: MdMoveDown, width: width, height: height })));
+    icons.push(("MdMoveUp".to_owned(), rsx!(Icon { icon: MdMoveUp, width: width, height: height })));
+    icons.push(("MdMultilineChart".to_owned(), rsx!(Icon { icon: MdMultilineChart, width: width, height: height })));
+    icons.push(("MdNotes".to_owned(), rsx!(Icon { icon: MdNotes, width: width, height: height })));
+    icons.push(("MdNumbers".to_owned(), rsx!(Icon { icon: MdNumbers, width: width, height: height })));
+    icons.push(("MdPadding".to_owned(), rsx!(Icon { icon: MdPadding, width: width, height: height })));
+    icons.push(("MdPentagon".to_owned(), rsx!(Icon { icon: MdPentagon, width: width, height: height })));
+    icons.push(("MdPieChart".to_owned(), rsx!(Icon { icon: MdPieChart, width: width, height: height })));
+    icons.push(("MdPieChartOutline".to_owned(), rsx!(Icon { icon: MdPieChartOutline, width: width, height: height })));
+    icons.push(("MdPieChartOutlined".to_owned(), rsx!(Icon { icon: MdPieChartOutlined, width: width, height: height })));
+    icons.push(("MdPolyline".to_owned(), rsx!(Icon { icon: MdPolyline, width: width, height: height })));
+    icons.push(("MdPostAdd".to_owned(), rsx!(Icon { icon: MdPostAdd, width: width, height: height })));
+    icons.push(("MdPublish".to_owned(), rsx!(Icon { icon: MdPublish, width: width, height: height })));
+    icons.push(("MdQueryStats".to_owned(), rsx!(Icon { icon: MdQueryStats, width: width, height: height })));
+    icons.push(("MdRectangle".to_owned(), rsx!(Icon { icon: MdRectangle, width: width, height: height })));
+    icons.push(("MdScatterPlot".to_owned(), rsx!(Icon { icon: MdScatterPlot, width: width, height: height })));
+    icons.push(("MdSchema".to_owned(), rsx!(Icon { icon: MdSchema, width: width, height: height })));
+    icons.push(("MdScore".to_owned(), rsx!(Icon { icon: MdScore, width: width, height: height })));
+    icons.push(("MdShapeLine".to_owned(), rsx!(Icon { icon: MdShapeLine, width: width, height: height })));
+    icons.push(("MdShortText".to_owned(), rsx!(Icon { icon: MdShortText, width: width, height: height })));
+    icons.push(("MdShowChart".to_owned(), rsx!(Icon { icon: MdShowChart, width: width, height: height })));
+    icons.push(("MdSpaceBar".to_owned(), rsx!(Icon { icon: MdSpaceBar, width: width, height: height })));
+    icons.push(("MdSquare".to_owned(), rsx!(Icon { icon: MdSquare, width: width, height: height })));
+    icons.push(("MdStackedLineChart".to_owned(), rsx!(Icon { icon: MdStackedLineChart, width: width, height: height })));
+    icons.push(("MdStrikethroughS".to_owned(), rsx!(Icon { icon: MdStrikethroughS, width: width, height: height })));
+    icons.push(("MdSubscript".to_owned(), rsx!(Icon { icon: MdSubscript, width: width, height: height })));
+    icons.push(("MdSuperscript".to_owned(), rsx!(Icon { icon: MdSuperscript, width: width, height: height })));
+    icons.push(("MdTableChart".to_owned(), rsx!(Icon { icon: MdTableChart, width: width, height: height })));
+    icons.push(("MdTableRows".to_owned(), rsx!(Icon { icon: MdTableRows, width: width, height: height })));
+    icons.push(("MdTextDecrease".to_owned(), rsx!(Icon { icon: MdTextDecrease, width: width, height: height })));
+    icons.push(("MdTextFields".to_owned(), rsx!(Icon { icon: MdTextFields, width: width, height: height })));
+    icons.push(("MdTextIncrease".to_owned(), rsx!(Icon { icon: MdTextIncrease, width: width, height: height })));
+    icons.push(("MdTitle".to_owned(), rsx!(Icon { icon: MdTitle, width: width, height: height })));
+    icons.push(("MdTypeSpecimen".to_owned(), rsx!(Icon { icon: MdTypeSpecimen, width: width, height: height })));
+    icons.push(("MdVerticalAlignBottom".to_owned(), rsx!(Icon { icon: MdVerticalAlignBottom, width: width, height: height })));
+    icons.push(("MdVerticalAlignCenter".to_owned(), rsx!(Icon { icon: MdVerticalAlignCenter, width: width, height: height })));
+    icons.push(("MdVerticalAlignTop".to_owned(), rsx!(Icon { icon: MdVerticalAlignTop, width: width, height: height })));
+    icons.push(("MdVerticalDistribute".to_owned(), rsx!(Icon { icon: MdVerticalDistribute, width: width, height: height })));
+    icons.push(("MdWrapText".to_owned(), rsx!(Icon { icon: MdWrapText, width: width, height: height })));
+    icons
+}}

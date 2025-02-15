@@ -50,7 +50,7 @@ pub struct SearchIcon(String);
 fn MainWrapper() -> Element {
     let grey_background = true;
     let mut search_icon = use_context_provider(|| Signal::new(SearchIcon(String::new())));
-    let _iconsets = use_context_provider(|| Signal::new(get_icon_sets()));
+    let iconsets = use_context_provider(|| Signal::new(get_icon_sets(48, 48)));
     rsx!(
         div {
             header {
@@ -71,27 +71,20 @@ fn MainWrapper() -> Element {
                             class: "rounded-full w-full bg-gray-200 rounded border border-gray-700 focus:outline-none focus:border-indigo-500 text-base px-4 py-2",
                             placeholder: "Search Icons",
                             oninput: move |e| {
-                                search_icon.set(SearchIcon(e.value()));
+                                search_icon.set(SearchIcon(e.value().to_ascii_lowercase()));
                             },
                         }
                     }
-                    li {
-                        Link {
-                            class: "mr-5 hover:text-white",
-                            to: Route::Template {
-                                code: "fa_solid_icons".to_string(),
-                            },
-                            "Font Awesome Solid Icons"
+                    for iconset in iconsets() {
+                        li {
+                            Link {
+                                class: "mr-5 hover:text-white",
+                                to: Route::Template {
+                                    code: iconset.code.clone(),
+                                },
+                                {iconset.name.clone()}
+                            }
                         }
-                    }
-                    li {
-                        a { class: "mr-5 hover:text-white", "Second Link" }
-                    }
-                    li {
-                        a { class: "mr-5 hover:text-white", "Third Link" }
-                    }
-                    li {
-                        a { class: "mr-5 hover:text-white", "Fourth Link" }
                     }
                 }
 
@@ -137,7 +130,7 @@ fn Index() -> Element {
     }
 }
 
-#[derive(Clone, Debug)]
+#[derive(Clone)]
 pub struct IconSet {
     pub code: String,
     pub name: String,
@@ -146,7 +139,7 @@ pub struct IconSet {
     pub license_url: String,
     pub version: String,
     pub source_url: String,
-    pub icons: Vec<IconName>,
+    pub icons: Vec<(String, Element)>,
 }
 
 impl Default for IconSet {
@@ -164,12 +157,6 @@ impl Default for IconSet {
     }
 }
 
-#[derive(Clone, Debug)]
-pub struct IconName {
-    pub name: String,
-    pub icon: Element,
-}
-
 #[component]
 fn Template(code: String) -> Element {
     let mut search_icon = consume_context::<Signal<SearchIcon>>();
@@ -183,7 +170,7 @@ fn Template(code: String) -> Element {
     if !search_icon().0.is_empty() {
         icons = icons
             .into_iter()
-            .filter(|icon| icon.name.contains(&search_icon().0))
+            .filter(|icon| icon.0.to_ascii_lowercase().contains(&search_icon().0))
             .collect();
     }
 
@@ -200,25 +187,35 @@ fn Template(code: String) -> Element {
                     a { href: icon_set.url.clone(), {icon_set.url.clone()} }
                 }
             }
+            tr {
+                td { "Version" }
+                td { {icon_set.version} }
+            }
+            tr {
+                td { "Crate Feature" }
+                td { {icon_set.code} }
+            }
         }
-        h2 { class: "text-2xl font-bold text-gray-900", "Setup" }
         h2 { class: "text-2xl font-bold text-gray-900", "Icons" }
         div { class: "flex flex-wrap",
             for icon in icons {
-                div {
-                    class: "w-1/8 p-2 items-center justify-center text-center",
-                    onclick: move |_e| {
-                        let icon_name = icon.name.clone();
-                        async move {
-                            copy_to_clipboard(&format!(" {{ Icon {{ icon: {} }} }}", icon_name))
-                                .await
-                                .unwrap()
-                        };
-                    },
-                    {icon.icon}
-                    div { {icon.name.clone()} }
-                }
+                IconPlaceholder { name: icon.0, icon: icon.1 }
             }
+        }
+    }
+}
+
+#[component]
+fn IconPlaceholder(name: String, icon: Element) -> Element {
+    rsx! {
+        div {
+            class: "w-1/8 p-2 items-center justify-center text-center",
+            onclick: move |_e| {
+                let icon_name = name.clone();
+                copy_to_clipboard(&format!(" {{ Icon {{ icon: {} }} }}", icon_name));
+            },
+            {icon}
+            div { {name.clone()} }
         }
     }
 }

@@ -1584,3 +1584,72 @@ impl IconShape for MdWest {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdAddHomeWork".to_owned(), rsx!(Icon { icon: MdAddHomeWork, width: width, height: height })));
+    icons.push(("MdAppSettingsAlt".to_owned(), rsx!(Icon { icon: MdAppSettingsAlt, width: width, height: height })));
+    icons.push(("MdApps".to_owned(), rsx!(Icon { icon: MdApps, width: width, height: height })));
+    icons.push(("MdAppsOutage".to_owned(), rsx!(Icon { icon: MdAppsOutage, width: width, height: height })));
+    icons.push(("MdArrowBack".to_owned(), rsx!(Icon { icon: MdArrowBack, width: width, height: height })));
+    icons.push(("MdArrowBackIos".to_owned(), rsx!(Icon { icon: MdArrowBackIos, width: width, height: height })));
+    icons.push(("MdArrowBackIosNew".to_owned(), rsx!(Icon { icon: MdArrowBackIosNew, width: width, height: height })));
+    icons.push(("MdArrowDownward".to_owned(), rsx!(Icon { icon: MdArrowDownward, width: width, height: height })));
+    icons.push(("MdArrowDropDown".to_owned(), rsx!(Icon { icon: MdArrowDropDown, width: width, height: height })));
+    icons.push(("MdArrowDropDownCircle".to_owned(), rsx!(Icon { icon: MdArrowDropDownCircle, width: width, height: height })));
+    icons.push(("MdArrowDropUp".to_owned(), rsx!(Icon { icon: MdArrowDropUp, width: width, height: height })));
+    icons.push(("MdArrowForward".to_owned(), rsx!(Icon { icon: MdArrowForward, width: width, height: height })));
+    icons.push(("MdArrowForwardIos".to_owned(), rsx!(Icon { icon: MdArrowForwardIos, width: width, height: height })));
+    icons.push(("MdArrowLeft".to_owned(), rsx!(Icon { icon: MdArrowLeft, width: width, height: height })));
+    icons.push(("MdArrowRight".to_owned(), rsx!(Icon { icon: MdArrowRight, width: width, height: height })));
+    icons.push(("MdArrowUpward".to_owned(), rsx!(Icon { icon: MdArrowUpward, width: width, height: height })));
+    icons.push(("MdAssistantDirection".to_owned(), rsx!(Icon { icon: MdAssistantDirection, width: width, height: height })));
+    icons.push(("MdAssistantNavigation".to_owned(), rsx!(Icon { icon: MdAssistantNavigation, width: width, height: height })));
+    icons.push(("MdCampaign".to_owned(), rsx!(Icon { icon: MdCampaign, width: width, height: height })));
+    icons.push(("MdCancel".to_owned(), rsx!(Icon { icon: MdCancel, width: width, height: height })));
+    icons.push(("MdCheck".to_owned(), rsx!(Icon { icon: MdCheck, width: width, height: height })));
+    icons.push(("MdChevronLeft".to_owned(), rsx!(Icon { icon: MdChevronLeft, width: width, height: height })));
+    icons.push(("MdChevronRight".to_owned(), rsx!(Icon { icon: MdChevronRight, width: width, height: height })));
+    icons.push(("MdClose".to_owned(), rsx!(Icon { icon: MdClose, width: width, height: height })));
+    icons.push(("MdDoubleArrow".to_owned(), rsx!(Icon { icon: MdDoubleArrow, width: width, height: height })));
+    icons.push(("MdEast".to_owned(), rsx!(Icon { icon: MdEast, width: width, height: height })));
+    icons.push(("MdExpandCircleDown".to_owned(), rsx!(Icon { icon: MdExpandCircleDown, width: width, height: height })));
+    icons.push(("MdExpandLess".to_owned(), rsx!(Icon { icon: MdExpandLess, width: width, height: height })));
+    icons.push(("MdExpandMore".to_owned(), rsx!(Icon { icon: MdExpandMore, width: width, height: height })));
+    icons.push(("MdFirstPage".to_owned(), rsx!(Icon { icon: MdFirstPage, width: width, height: height })));
+    icons.push(("MdFullscreen".to_owned(), rsx!(Icon { icon: MdFullscreen, width: width, height: height })));
+    icons.push(("MdFullscreenExit".to_owned(), rsx!(Icon { icon: MdFullscreenExit, width: width, height: height })));
+    icons.push(("MdHomeWork".to_owned(), rsx!(Icon { icon: MdHomeWork, width: width, height: height })));
+    icons.push(("MdLastPage".to_owned(), rsx!(Icon { icon: MdLastPage, width: width, height: height })));
+    icons.push(("MdLegendToggle".to_owned(), rsx!(Icon { icon: MdLegendToggle, width: width, height: height })));
+    icons.push(("MdMapsHomeWork".to_owned(), rsx!(Icon { icon: MdMapsHomeWork, width: width, height: height })));
+    icons.push(("MdMenu".to_owned(), rsx!(Icon { icon: MdMenu, width: width, height: height })));
+    icons.push(("MdMenuOpen".to_owned(), rsx!(Icon { icon: MdMenuOpen, width: width, height: height })));
+    icons.push(("MdMoreHoriz".to_owned(), rsx!(Icon { icon: MdMoreHoriz, width: width, height: height })));
+    icons.push(("MdMoreVert".to_owned(), rsx!(Icon { icon: MdMoreVert, width: width, height: height })));
+    icons.push(("MdNorth".to_owned(), rsx!(Icon { icon: MdNorth, width: width, height: height })));
+    icons.push(("MdNorthEast".to_owned(), rsx!(Icon { icon: MdNorthEast, width: width, height: height })));
+    icons.push(("MdNorthWest".to_owned(), rsx!(Icon { icon: MdNorthWest, width: width, height: height })));
+    icons.push(("MdOfflineShare".to_owned(), rsx!(Icon { icon: MdOfflineShare, width: width, height: height })));
+    icons.push(("MdPayments".to_owned(), rsx!(Icon { icon: MdPayments, width: width, height: height })));
+    icons.push(("MdPivotTableChart".to_owned(), rsx!(Icon { icon: MdPivotTableChart, width: width, height: height })));
+    icons.push(("MdRefresh".to_owned(), rsx!(Icon { icon: MdRefresh, width: width, height: height })));
+    icons.push(("MdSouth".to_owned(), rsx!(Icon { icon: MdSouth, width: width, height: height })));
+    icons.push(("MdSouthEast".to_owned(), rsx!(Icon { icon: MdSouthEast, width: width, height: height })));
+    icons.push(("MdSouthWest".to_owned(), rsx!(Icon { icon: MdSouthWest, width: width, height: height })));
+    icons.push(("MdSubdirectoryArrowLeft".to_owned(), rsx!(Icon { icon: MdSubdirectoryArrowLeft, width: width, height: height })));
+    icons.push(("MdSubdirectoryArrowRight".to_owned(), rsx!(Icon { icon: MdSubdirectoryArrowRight, width: width, height: height })));
+    icons.push(("MdSwitchLeft".to_owned(), rsx!(Icon { icon: MdSwitchLeft, width: width, height: height })));
+    icons.push(("MdSwitchRight".to_owned(), rsx!(Icon { icon: MdSwitchRight, width: width, height: height })));
+    icons.push(("MdUnfoldLess".to_owned(), rsx!(Icon { icon: MdUnfoldLess, width: width, height: height })));
+    icons.push(("MdUnfoldMore".to_owned(), rsx!(Icon { icon: MdUnfoldMore, width: width, height: height })));
+    icons.push(("MdWaterfallChart".to_owned(), rsx!(Icon { icon: MdWaterfallChart, width: width, height: height })));
+    icons.push(("MdWest".to_owned(), rsx!(Icon { icon: MdWest, width: width, height: height })));
+    icons
+}}

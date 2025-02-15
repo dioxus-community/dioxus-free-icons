@@ -2887,3 +2887,113 @@ impl IconShape for MdWifiCalling {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("Md3p".to_owned(), rsx!(Icon { icon: Md3p, width: width, height: height })));
+    icons.push(("MdAddIcCall".to_owned(), rsx!(Icon { icon: MdAddIcCall, width: width, height: height })));
+    icons.push(("MdAlternateEmail".to_owned(), rsx!(Icon { icon: MdAlternateEmail, width: width, height: height })));
+    icons.push(("MdAppRegistration".to_owned(), rsx!(Icon { icon: MdAppRegistration, width: width, height: height })));
+    icons.push(("MdBusiness".to_owned(), rsx!(Icon { icon: MdBusiness, width: width, height: height })));
+    icons.push(("MdCall".to_owned(), rsx!(Icon { icon: MdCall, width: width, height: height })));
+    icons.push(("MdCallEnd".to_owned(), rsx!(Icon { icon: MdCallEnd, width: width, height: height })));
+    icons.push(("MdCallMade".to_owned(), rsx!(Icon { icon: MdCallMade, width: width, height: height })));
+    icons.push(("MdCallMerge".to_owned(), rsx!(Icon { icon: MdCallMerge, width: width, height: height })));
+    icons.push(("MdCallMissed".to_owned(), rsx!(Icon { icon: MdCallMissed, width: width, height: height })));
+    icons.push(("MdCallMissedOutgoing".to_owned(), rsx!(Icon { icon: MdCallMissedOutgoing, width: width, height: height })));
+    icons.push(("MdCallReceived".to_owned(), rsx!(Icon { icon: MdCallReceived, width: width, height: height })));
+    icons.push(("MdCallSplit".to_owned(), rsx!(Icon { icon: MdCallSplit, width: width, height: height })));
+    icons.push(("MdCancelPresentation".to_owned(), rsx!(Icon { icon: MdCancelPresentation, width: width, height: height })));
+    icons.push(("MdCellTower".to_owned(), rsx!(Icon { icon: MdCellTower, width: width, height: height })));
+    icons.push(("MdCellWifi".to_owned(), rsx!(Icon { icon: MdCellWifi, width: width, height: height })));
+    icons.push(("MdChat".to_owned(), rsx!(Icon { icon: MdChat, width: width, height: height })));
+    icons.push(("MdChatBubble".to_owned(), rsx!(Icon { icon: MdChatBubble, width: width, height: height })));
+    icons.push(("MdChatBubbleOutline".to_owned(), rsx!(Icon { icon: MdChatBubbleOutline, width: width, height: height })));
+    icons.push(("MdClearAll".to_owned(), rsx!(Icon { icon: MdClearAll, width: width, height: height })));
+    icons.push(("MdCoPresent".to_owned(), rsx!(Icon { icon: MdCoPresent, width: width, height: height })));
+    icons.push(("MdComment".to_owned(), rsx!(Icon { icon: MdComment, width: width, height: height })));
+    icons.push(("MdCommentsDisabled".to_owned(), rsx!(Icon { icon: MdCommentsDisabled, width: width, height: height })));
+    icons.push(("MdContactEmergency".to_owned(), rsx!(Icon { icon: MdContactEmergency, width: width, height: height })));
+    icons.push(("MdContactMail".to_owned(), rsx!(Icon { icon: MdContactMail, width: width, height: height })));
+    icons.push(("MdContactPhone".to_owned(), rsx!(Icon { icon: MdContactPhone, width: width, height: height })));
+    icons.push(("MdContacts".to_owned(), rsx!(Icon { icon: MdContacts, width: width, height: height })));
+    icons.push(("MdDesktopAccessDisabled".to_owned(), rsx!(Icon { icon: MdDesktopAccessDisabled, width: width, height: height })));
+    icons.push(("MdDialerSip".to_owned(), rsx!(Icon { icon: MdDialerSip, width: width, height: height })));
+    icons.push(("MdDialpad".to_owned(), rsx!(Icon { icon: MdDialpad, width: width, height: height })));
+    icons.push(("MdDocumentScanner".to_owned(), rsx!(Icon { icon: MdDocumentScanner, width: width, height: height })));
+    icons.push(("MdDomainDisabled".to_owned(), rsx!(Icon { icon: MdDomainDisabled, width: width, height: height })));
+    icons.push(("MdDomainVerification".to_owned(), rsx!(Icon { icon: MdDomainVerification, width: width, height: height })));
+    icons.push(("MdDuo".to_owned(), rsx!(Icon { icon: MdDuo, width: width, height: height })));
+    icons.push(("MdEmail".to_owned(), rsx!(Icon { icon: MdEmail, width: width, height: height })));
+    icons.push(("MdForum".to_owned(), rsx!(Icon { icon: MdForum, width: width, height: height })));
+    icons.push(("MdForwardToInbox".to_owned(), rsx!(Icon { icon: MdForwardToInbox, width: width, height: height })));
+    icons.push(("MdHourglassBottom".to_owned(), rsx!(Icon { icon: MdHourglassBottom, width: width, height: height })));
+    icons.push(("MdHourglassTop".to_owned(), rsx!(Icon { icon: MdHourglassTop, width: width, height: height })));
+    icons.push(("MdHub".to_owned(), rsx!(Icon { icon: MdHub, width: width, height: height })));
+    icons.push(("MdImportContacts".to_owned(), rsx!(Icon { icon: MdImportContacts, width: width, height: height })));
+    icons.push(("MdImportExport".to_owned(), rsx!(Icon { icon: MdImportExport, width: width, height: height })));
+    icons.push(("MdInvertColorsOff".to_owned(), rsx!(Icon { icon: MdInvertColorsOff, width: width, height: height })));
+    icons.push(("MdKey".to_owned(), rsx!(Icon { icon: MdKey, width: width, height: height })));
+    icons.push(("MdKeyOff".to_owned(), rsx!(Icon { icon: MdKeyOff, width: width, height: height })));
+    icons.push(("MdListAlt".to_owned(), rsx!(Icon { icon: MdListAlt, width: width, height: height })));
+    icons.push(("MdLiveHelp".to_owned(), rsx!(Icon { icon: MdLiveHelp, width: width, height: height })));
+    icons.push(("MdLocationOff".to_owned(), rsx!(Icon { icon: MdLocationOff, width: width, height: height })));
+    icons.push(("MdLocationOn".to_owned(), rsx!(Icon { icon: MdLocationOn, width: width, height: height })));
+    icons.push(("MdMailLock".to_owned(), rsx!(Icon { icon: MdMailLock, width: width, height: height })));
+    icons.push(("MdMailOutline".to_owned(), rsx!(Icon { icon: MdMailOutline, width: width, height: height })));
+    icons.push(("MdMarkChatRead".to_owned(), rsx!(Icon { icon: MdMarkChatRead, width: width, height: height })));
+    icons.push(("MdMarkChatUnread".to_owned(), rsx!(Icon { icon: MdMarkChatUnread, width: width, height: height })));
+    icons.push(("MdMarkEmailRead".to_owned(), rsx!(Icon { icon: MdMarkEmailRead, width: width, height: height })));
+    icons.push(("MdMarkEmailUnread".to_owned(), rsx!(Icon { icon: MdMarkEmailUnread, width: width, height: height })));
+    icons.push(("MdMarkUnreadChatAlt".to_owned(), rsx!(Icon { icon: MdMarkUnreadChatAlt, width: width, height: height })));
+    icons.push(("MdMessage".to_owned(), rsx!(Icon { icon: MdMessage, width: width, height: height })));
+    icons.push(("MdMobileScreenShare".to_owned(), rsx!(Icon { icon: MdMobileScreenShare, width: width, height: height })));
+    icons.push(("MdMoreTime".to_owned(), rsx!(Icon { icon: MdMoreTime, width: width, height: height })));
+    icons.push(("MdNat".to_owned(), rsx!(Icon { icon: MdNat, width: width, height: height })));
+    icons.push(("MdNoSim".to_owned(), rsx!(Icon { icon: MdNoSim, width: width, height: height })));
+    icons.push(("MdPausePresentation".to_owned(), rsx!(Icon { icon: MdPausePresentation, width: width, height: height })));
+    icons.push(("MdPersonAddDisabled".to_owned(), rsx!(Icon { icon: MdPersonAddDisabled, width: width, height: height })));
+    icons.push(("MdPersonSearch".to_owned(), rsx!(Icon { icon: MdPersonSearch, width: width, height: height })));
+    icons.push(("MdPhone".to_owned(), rsx!(Icon { icon: MdPhone, width: width, height: height })));
+    icons.push(("MdPhoneDisabled".to_owned(), rsx!(Icon { icon: MdPhoneDisabled, width: width, height: height })));
+    icons.push(("MdPhoneEnabled".to_owned(), rsx!(Icon { icon: MdPhoneEnabled, width: width, height: height })));
+    icons.push(("MdPhonelinkErase".to_owned(), rsx!(Icon { icon: MdPhonelinkErase, width: width, height: height })));
+    icons.push(("MdPhonelinkLock".to_owned(), rsx!(Icon { icon: MdPhonelinkLock, width: width, height: height })));
+    icons.push(("MdPhonelinkRing".to_owned(), rsx!(Icon { icon: MdPhonelinkRing, width: width, height: height })));
+    icons.push(("MdPhonelinkSetup".to_owned(), rsx!(Icon { icon: MdPhonelinkSetup, width: width, height: height })));
+    icons.push(("MdPortableWifiOff".to_owned(), rsx!(Icon { icon: MdPortableWifiOff, width: width, height: height })));
+    icons.push(("MdPresentToAll".to_owned(), rsx!(Icon { icon: MdPresentToAll, width: width, height: height })));
+    icons.push(("MdPrintDisabled".to_owned(), rsx!(Icon { icon: MdPrintDisabled, width: width, height: height })));
+    icons.push(("MdQrCode".to_owned(), rsx!(Icon { icon: MdQrCode, width: width, height: height })));
+    icons.push(("MdQrCode2".to_owned(), rsx!(Icon { icon: MdQrCode2, width: width, height: height })));
+    icons.push(("MdQrCodeScanner".to_owned(), rsx!(Icon { icon: MdQrCodeScanner, width: width, height: height })));
+    icons.push(("MdReadMore".to_owned(), rsx!(Icon { icon: MdReadMore, width: width, height: height })));
+    icons.push(("MdRingVolume".to_owned(), rsx!(Icon { icon: MdRingVolume, width: width, height: height })));
+    icons.push(("MdRssFeed".to_owned(), rsx!(Icon { icon: MdRssFeed, width: width, height: height })));
+    icons.push(("MdRtt".to_owned(), rsx!(Icon { icon: MdRtt, width: width, height: height })));
+    icons.push(("MdScreenShare".to_owned(), rsx!(Icon { icon: MdScreenShare, width: width, height: height })));
+    icons.push(("MdSendTimeExtension".to_owned(), rsx!(Icon { icon: MdSendTimeExtension, width: width, height: height })));
+    icons.push(("MdSentimentSatisfiedAlt".to_owned(), rsx!(Icon { icon: MdSentimentSatisfiedAlt, width: width, height: height })));
+    icons.push(("MdSip".to_owned(), rsx!(Icon { icon: MdSip, width: width, height: height })));
+    icons.push(("MdSpeakerPhone".to_owned(), rsx!(Icon { icon: MdSpeakerPhone, width: width, height: height })));
+    icons.push(("MdSpoke".to_owned(), rsx!(Icon { icon: MdSpoke, width: width, height: height })));
+    icons.push(("MdStayCurrentLandscape".to_owned(), rsx!(Icon { icon: MdStayCurrentLandscape, width: width, height: height })));
+    icons.push(("MdStayCurrentPortrait".to_owned(), rsx!(Icon { icon: MdStayCurrentPortrait, width: width, height: height })));
+    icons.push(("MdStayPrimaryLandscape".to_owned(), rsx!(Icon { icon: MdStayPrimaryLandscape, width: width, height: height })));
+    icons.push(("MdStayPrimaryPortrait".to_owned(), rsx!(Icon { icon: MdStayPrimaryPortrait, width: width, height: height })));
+    icons.push(("MdStopScreenShare".to_owned(), rsx!(Icon { icon: MdStopScreenShare, width: width, height: height })));
+    icons.push(("MdSwapCalls".to_owned(), rsx!(Icon { icon: MdSwapCalls, width: width, height: height })));
+    icons.push(("MdTextsms".to_owned(), rsx!(Icon { icon: MdTextsms, width: width, height: height })));
+    icons.push(("MdUnsubscribe".to_owned(), rsx!(Icon { icon: MdUnsubscribe, width: width, height: height })));
+    icons.push(("MdVoicemail".to_owned(), rsx!(Icon { icon: MdVoicemail, width: width, height: height })));
+    icons.push(("MdVpnKey".to_owned(), rsx!(Icon { icon: MdVpnKey, width: width, height: height })));
+    icons.push(("MdVpnKeyOff".to_owned(), rsx!(Icon { icon: MdVpnKeyOff, width: width, height: height })));
+    icons.push(("MdWifiCalling".to_owned(), rsx!(Icon { icon: MdWifiCalling, width: width, height: height })));
+    icons
+}}

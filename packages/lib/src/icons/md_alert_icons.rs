@@ -201,3 +201,21 @@ impl IconShape for MdWarningAmber {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdAddAlert".to_owned(), rsx!(Icon { icon: MdAddAlert, width: width, height: height })));
+    icons.push(("MdAutoDelete".to_owned(), rsx!(Icon { icon: MdAutoDelete, width: width, height: height })));
+    icons.push(("MdError".to_owned(), rsx!(Icon { icon: MdError, width: width, height: height })));
+    icons.push(("MdErrorOutline".to_owned(), rsx!(Icon { icon: MdErrorOutline, width: width, height: height })));
+    icons.push(("MdNotificationImportant".to_owned(), rsx!(Icon { icon: MdNotificationImportant, width: width, height: height })));
+    icons.push(("MdWarning".to_owned(), rsx!(Icon { icon: MdWarning, width: width, height: height })));
+    icons.push(("MdWarningAmber".to_owned(), rsx!(Icon { icon: MdWarningAmber, width: width, height: height })));
+    icons
+}}

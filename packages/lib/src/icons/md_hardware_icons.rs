@@ -2319,3 +2319,97 @@ impl IconShape for MdWatchOff {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdAdfScanner".to_owned(), rsx!(Icon { icon: MdAdfScanner, width: width, height: height })));
+    icons.push(("MdBrowserNotSupported".to_owned(), rsx!(Icon { icon: MdBrowserNotSupported, width: width, height: height })));
+    icons.push(("MdBrowserUpdated".to_owned(), rsx!(Icon { icon: MdBrowserUpdated, width: width, height: height })));
+    icons.push(("MdCast".to_owned(), rsx!(Icon { icon: MdCast, width: width, height: height })));
+    icons.push(("MdCastConnected".to_owned(), rsx!(Icon { icon: MdCastConnected, width: width, height: height })));
+    icons.push(("MdCastForEducation".to_owned(), rsx!(Icon { icon: MdCastForEducation, width: width, height: height })));
+    icons.push(("MdComputer".to_owned(), rsx!(Icon { icon: MdComputer, width: width, height: height })));
+    icons.push(("MdConnectedTv".to_owned(), rsx!(Icon { icon: MdConnectedTv, width: width, height: height })));
+    icons.push(("MdConveyorBelt".to_owned(), rsx!(Icon { icon: MdConveyorBelt, width: width, height: height })));
+    icons.push(("MdDesktopMac".to_owned(), rsx!(Icon { icon: MdDesktopMac, width: width, height: height })));
+    icons.push(("MdDesktopWindows".to_owned(), rsx!(Icon { icon: MdDesktopWindows, width: width, height: height })));
+    icons.push(("MdDeveloperBoard".to_owned(), rsx!(Icon { icon: MdDeveloperBoard, width: width, height: height })));
+    icons.push(("MdDeveloperBoardOff".to_owned(), rsx!(Icon { icon: MdDeveloperBoardOff, width: width, height: height })));
+    icons.push(("MdDeviceHub".to_owned(), rsx!(Icon { icon: MdDeviceHub, width: width, height: height })));
+    icons.push(("MdDeviceUnknown".to_owned(), rsx!(Icon { icon: MdDeviceUnknown, width: width, height: height })));
+    icons.push(("MdDevicesOther".to_owned(), rsx!(Icon { icon: MdDevicesOther, width: width, height: height })));
+    icons.push(("MdDock".to_owned(), rsx!(Icon { icon: MdDock, width: width, height: height })));
+    icons.push(("MdEarbuds".to_owned(), rsx!(Icon { icon: MdEarbuds, width: width, height: height })));
+    icons.push(("MdEarbudsBattery".to_owned(), rsx!(Icon { icon: MdEarbudsBattery, width: width, height: height })));
+    icons.push(("MdForklift".to_owned(), rsx!(Icon { icon: MdForklift, width: width, height: height })));
+    icons.push(("MdFrontLoader".to_owned(), rsx!(Icon { icon: MdFrontLoader, width: width, height: height })));
+    icons.push(("MdGamepad".to_owned(), rsx!(Icon { icon: MdGamepad, width: width, height: height })));
+    icons.push(("MdHeadphones".to_owned(), rsx!(Icon { icon: MdHeadphones, width: width, height: height })));
+    icons.push(("MdHeadphonesBattery".to_owned(), rsx!(Icon { icon: MdHeadphonesBattery, width: width, height: height })));
+    icons.push(("MdHeadset".to_owned(), rsx!(Icon { icon: MdHeadset, width: width, height: height })));
+    icons.push(("MdHeadsetMic".to_owned(), rsx!(Icon { icon: MdHeadsetMic, width: width, height: height })));
+    icons.push(("MdHeadsetOff".to_owned(), rsx!(Icon { icon: MdHeadsetOff, width: width, height: height })));
+    icons.push(("MdHomeMax".to_owned(), rsx!(Icon { icon: MdHomeMax, width: width, height: height })));
+    icons.push(("MdHomeMini".to_owned(), rsx!(Icon { icon: MdHomeMini, width: width, height: height })));
+    icons.push(("MdKeyboard".to_owned(), rsx!(Icon { icon: MdKeyboard, width: width, height: height })));
+    icons.push(("MdKeyboardAlt".to_owned(), rsx!(Icon { icon: MdKeyboardAlt, width: width, height: height })));
+    icons.push(("MdKeyboardArrowDown".to_owned(), rsx!(Icon { icon: MdKeyboardArrowDown, width: width, height: height })));
+    icons.push(("MdKeyboardArrowLeft".to_owned(), rsx!(Icon { icon: MdKeyboardArrowLeft, width: width, height: height })));
+    icons.push(("MdKeyboardArrowRight".to_owned(), rsx!(Icon { icon: MdKeyboardArrowRight, width: width, height: height })));
+    icons.push(("MdKeyboardArrowUp".to_owned(), rsx!(Icon { icon: MdKeyboardArrowUp, width: width, height: height })));
+    icons.push(("MdKeyboardBackspace".to_owned(), rsx!(Icon { icon: MdKeyboardBackspace, width: width, height: height })));
+    icons.push(("MdKeyboardCapslock".to_owned(), rsx!(Icon { icon: MdKeyboardCapslock, width: width, height: height })));
+    icons.push(("MdKeyboardCommandKey".to_owned(), rsx!(Icon { icon: MdKeyboardCommandKey, width: width, height: height })));
+    icons.push(("MdKeyboardControlKey".to_owned(), rsx!(Icon { icon: MdKeyboardControlKey, width: width, height: height })));
+    icons.push(("MdKeyboardDoubleArrowDown".to_owned(), rsx!(Icon { icon: MdKeyboardDoubleArrowDown, width: width, height: height })));
+    icons.push(("MdKeyboardDoubleArrowLeft".to_owned(), rsx!(Icon { icon: MdKeyboardDoubleArrowLeft, width: width, height: height })));
+    icons.push(("MdKeyboardDoubleArrowRight".to_owned(), rsx!(Icon { icon: MdKeyboardDoubleArrowRight, width: width, height: height })));
+    icons.push(("MdKeyboardDoubleArrowUp".to_owned(), rsx!(Icon { icon: MdKeyboardDoubleArrowUp, width: width, height: height })));
+    icons.push(("MdKeyboardHide".to_owned(), rsx!(Icon { icon: MdKeyboardHide, width: width, height: height })));
+    icons.push(("MdKeyboardOptionKey".to_owned(), rsx!(Icon { icon: MdKeyboardOptionKey, width: width, height: height })));
+    icons.push(("MdKeyboardReturn".to_owned(), rsx!(Icon { icon: MdKeyboardReturn, width: width, height: height })));
+    icons.push(("MdKeyboardTab".to_owned(), rsx!(Icon { icon: MdKeyboardTab, width: width, height: height })));
+    icons.push(("MdKeyboardVoice".to_owned(), rsx!(Icon { icon: MdKeyboardVoice, width: width, height: height })));
+    icons.push(("MdLaptop".to_owned(), rsx!(Icon { icon: MdLaptop, width: width, height: height })));
+    icons.push(("MdLaptopChromebook".to_owned(), rsx!(Icon { icon: MdLaptopChromebook, width: width, height: height })));
+    icons.push(("MdLaptopMac".to_owned(), rsx!(Icon { icon: MdLaptopMac, width: width, height: height })));
+    icons.push(("MdLaptopWindows".to_owned(), rsx!(Icon { icon: MdLaptopWindows, width: width, height: height })));
+    icons.push(("MdMemory".to_owned(), rsx!(Icon { icon: MdMemory, width: width, height: height })));
+    icons.push(("MdMonitor".to_owned(), rsx!(Icon { icon: MdMonitor, width: width, height: height })));
+    icons.push(("MdMouse".to_owned(), rsx!(Icon { icon: MdMouse, width: width, height: height })));
+    icons.push(("MdPallet".to_owned(), rsx!(Icon { icon: MdPallet, width: width, height: height })));
+    icons.push(("MdPhoneAndroid".to_owned(), rsx!(Icon { icon: MdPhoneAndroid, width: width, height: height })));
+    icons.push(("MdPhoneIphone".to_owned(), rsx!(Icon { icon: MdPhoneIphone, width: width, height: height })));
+    icons.push(("MdPhonelink".to_owned(), rsx!(Icon { icon: MdPhonelink, width: width, height: height })));
+    icons.push(("MdPhonelinkOff".to_owned(), rsx!(Icon { icon: MdPhonelinkOff, width: width, height: height })));
+    icons.push(("MdPointOfSale".to_owned(), rsx!(Icon { icon: MdPointOfSale, width: width, height: height })));
+    icons.push(("MdPowerInput".to_owned(), rsx!(Icon { icon: MdPowerInput, width: width, height: height })));
+    icons.push(("MdRouter".to_owned(), rsx!(Icon { icon: MdRouter, width: width, height: height })));
+    icons.push(("MdScanner".to_owned(), rsx!(Icon { icon: MdScanner, width: width, height: height })));
+    icons.push(("MdSecurity".to_owned(), rsx!(Icon { icon: MdSecurity, width: width, height: height })));
+    icons.push(("MdSimCard".to_owned(), rsx!(Icon { icon: MdSimCard, width: width, height: height })));
+    icons.push(("MdSmartDisplay".to_owned(), rsx!(Icon { icon: MdSmartDisplay, width: width, height: height })));
+    icons.push(("MdSmartScreen".to_owned(), rsx!(Icon { icon: MdSmartScreen, width: width, height: height })));
+    icons.push(("MdSmartToy".to_owned(), rsx!(Icon { icon: MdSmartToy, width: width, height: height })));
+    icons.push(("MdSmartphone".to_owned(), rsx!(Icon { icon: MdSmartphone, width: width, height: height })));
+    icons.push(("MdSpeaker".to_owned(), rsx!(Icon { icon: MdSpeaker, width: width, height: height })));
+    icons.push(("MdSpeakerGroup".to_owned(), rsx!(Icon { icon: MdSpeakerGroup, width: width, height: height })));
+    icons.push(("MdStart".to_owned(), rsx!(Icon { icon: MdStart, width: width, height: height })));
+    icons.push(("MdTablet".to_owned(), rsx!(Icon { icon: MdTablet, width: width, height: height })));
+    icons.push(("MdTabletAndroid".to_owned(), rsx!(Icon { icon: MdTabletAndroid, width: width, height: height })));
+    icons.push(("MdTabletMac".to_owned(), rsx!(Icon { icon: MdTabletMac, width: width, height: height })));
+    icons.push(("MdToys".to_owned(), rsx!(Icon { icon: MdToys, width: width, height: height })));
+    icons.push(("MdTrolley".to_owned(), rsx!(Icon { icon: MdTrolley, width: width, height: height })));
+    icons.push(("MdTv".to_owned(), rsx!(Icon { icon: MdTv, width: width, height: height })));
+    icons.push(("MdVideogameAsset".to_owned(), rsx!(Icon { icon: MdVideogameAsset, width: width, height: height })));
+    icons.push(("MdVideogameAssetOff".to_owned(), rsx!(Icon { icon: MdVideogameAssetOff, width: width, height: height })));
+    icons.push(("MdWatch".to_owned(), rsx!(Icon { icon: MdWatch, width: width, height: height })));
+    icons.push(("MdWatchOff".to_owned(), rsx!(Icon { icon: MdWatchOff, width: width, height: height })));
+    icons
+}}

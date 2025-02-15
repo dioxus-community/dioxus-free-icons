@@ -24,16 +24,16 @@ fn main() {
         let output_path = format!("{}/fa_{}_icons.rs", OUTPUT_BASE_PATH, icon_type);
         let example_path = format!("{}/fa_{}_icons.rs", EXAMPLE_BASE_PATH, icon_type);
         let names = create_icon_file::create_icon_file(&svg_path, &output_path, "Fa");
-        create_example_file::create_example_file(
-            names,
-            &example_path,
-            "Font Awesome",
-            "https://fontawesome.com/",
-            "CC BY 4.0 License",
-            "https://creativecommons.org/licenses/by/4.0/",
-            "6.1.1",
-            "https://github.com/FortAwesome/Font-Awesome/tree/6.1.1",
-        );
+        // create_example_file::create_example_file(
+        //     names,
+        //     &example_path,
+        //     "Font Awesome",
+        //     "https://fontawesome.com/",
+        //     "CC BY 4.0 License",
+        //     "https://creativecommons.org/licenses/by/4.0/",
+        //     "6.1.1",
+        //     "https://github.com/FortAwesome/Font-Awesome/tree/6.1.1",
+        // );
     }
 
     /*

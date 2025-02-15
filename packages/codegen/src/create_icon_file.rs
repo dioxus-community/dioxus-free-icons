@@ -91,11 +91,22 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) ->
         .collect::<Vec<_>>()
         .join("\n");
 
+
+        icon_file.push_str(
+            "\n\n#[cfg(feature = \"names\")]\nuse crate::Icon;\n");
+            
     icon_file.push_str(
-        "\n\n#[cfg(feature = \"names\")]\npub fn names() -> HashMap<&str, Box<dyn IconShape>> {{\n    let mut icons = HashMap::new();\n}}");
-    let name_section = icons_names
+        "\n\n#[cfg(feature = \"names\")]\npub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{\n    let mut icons:Vec<(String, Element)> = Vec::new();\n");
+
+
+        let name_section = icons_names
         .iter()
-        .map(|name| format!("icons.push(\"{}\", Box::new({}));", name, name))
+        .map(|name| {
+            format!(
+                "    icons.push((\"{}\".to_owned(), rsx!(Icon {{ icon: {}, width: width, height: height }})));",
+                name, name 
+            )
+        })
         .collect::<Vec<_>>()
         .join("\n");
     icon_file.push_str(&name_section);

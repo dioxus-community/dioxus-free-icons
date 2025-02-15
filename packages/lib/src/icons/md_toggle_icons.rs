@@ -352,3 +352,27 @@ impl IconShape for MdToggleOn {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdCheckBox".to_owned(), rsx!(Icon { icon: MdCheckBox, width: width, height: height })));
+    icons.push(("MdCheckBoxOutlineBlank".to_owned(), rsx!(Icon { icon: MdCheckBoxOutlineBlank, width: width, height: height })));
+    icons.push(("MdIndeterminateCheckBox".to_owned(), rsx!(Icon { icon: MdIndeterminateCheckBox, width: width, height: height })));
+    icons.push(("MdRadioButtonChecked".to_owned(), rsx!(Icon { icon: MdRadioButtonChecked, width: width, height: height })));
+    icons.push(("MdRadioButtonUnchecked".to_owned(), rsx!(Icon { icon: MdRadioButtonUnchecked, width: width, height: height })));
+    icons.push(("MdStar".to_owned(), rsx!(Icon { icon: MdStar, width: width, height: height })));
+    icons.push(("MdStarBorder".to_owned(), rsx!(Icon { icon: MdStarBorder, width: width, height: height })));
+    icons.push(("MdStarBorderPurple500".to_owned(), rsx!(Icon { icon: MdStarBorderPurple500, width: width, height: height })));
+    icons.push(("MdStarHalf".to_owned(), rsx!(Icon { icon: MdStarHalf, width: width, height: height })));
+    icons.push(("MdStarOutline".to_owned(), rsx!(Icon { icon: MdStarOutline, width: width, height: height })));
+    icons.push(("MdStarPurple500".to_owned(), rsx!(Icon { icon: MdStarPurple500, width: width, height: height })));
+    icons.push(("MdToggleOff".to_owned(), rsx!(Icon { icon: MdToggleOff, width: width, height: height })));
+    icons.push(("MdToggleOn".to_owned(), rsx!(Icon { icon: MdToggleOn, width: width, height: height })));
+    icons
+}}

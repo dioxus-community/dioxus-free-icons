@@ -2383,3 +2383,96 @@ impl IconShape for MdWhereToVote {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdAdd".to_owned(), rsx!(Icon { icon: MdAdd, width: width, height: height })));
+    icons.push(("MdAddBox".to_owned(), rsx!(Icon { icon: MdAddBox, width: width, height: height })));
+    icons.push(("MdAddCircle".to_owned(), rsx!(Icon { icon: MdAddCircle, width: width, height: height })));
+    icons.push(("MdAddCircleOutline".to_owned(), rsx!(Icon { icon: MdAddCircleOutline, width: width, height: height })));
+    icons.push(("MdAddLink".to_owned(), rsx!(Icon { icon: MdAddLink, width: width, height: height })));
+    icons.push(("MdAmpStories".to_owned(), rsx!(Icon { icon: MdAmpStories, width: width, height: height })));
+    icons.push(("MdArchive".to_owned(), rsx!(Icon { icon: MdArchive, width: width, height: height })));
+    icons.push(("MdAttribution".to_owned(), rsx!(Icon { icon: MdAttribution, width: width, height: height })));
+    icons.push(("MdBackspace".to_owned(), rsx!(Icon { icon: MdBackspace, width: width, height: height })));
+    icons.push(("MdBallot".to_owned(), rsx!(Icon { icon: MdBallot, width: width, height: height })));
+    icons.push(("MdBiotech".to_owned(), rsx!(Icon { icon: MdBiotech, width: width, height: height })));
+    icons.push(("MdBlock".to_owned(), rsx!(Icon { icon: MdBlock, width: width, height: height })));
+    icons.push(("MdBlockFlipped".to_owned(), rsx!(Icon { icon: MdBlockFlipped, width: width, height: height })));
+    icons.push(("MdBolt".to_owned(), rsx!(Icon { icon: MdBolt, width: width, height: height })));
+    icons.push(("MdCalculate".to_owned(), rsx!(Icon { icon: MdCalculate, width: width, height: height })));
+    icons.push(("MdChangeCircle".to_owned(), rsx!(Icon { icon: MdChangeCircle, width: width, height: height })));
+    icons.push(("MdClear".to_owned(), rsx!(Icon { icon: MdClear, width: width, height: height })));
+    icons.push(("MdContentCopy".to_owned(), rsx!(Icon { icon: MdContentCopy, width: width, height: height })));
+    icons.push(("MdContentCut".to_owned(), rsx!(Icon { icon: MdContentCut, width: width, height: height })));
+    icons.push(("MdContentPaste".to_owned(), rsx!(Icon { icon: MdContentPaste, width: width, height: height })));
+    icons.push(("MdContentPasteGo".to_owned(), rsx!(Icon { icon: MdContentPasteGo, width: width, height: height })));
+    icons.push(("MdContentPasteOff".to_owned(), rsx!(Icon { icon: MdContentPasteOff, width: width, height: height })));
+    icons.push(("MdContentPasteSearch".to_owned(), rsx!(Icon { icon: MdContentPasteSearch, width: width, height: height })));
+    icons.push(("MdCopyAll".to_owned(), rsx!(Icon { icon: MdCopyAll, width: width, height: height })));
+    icons.push(("MdCreate".to_owned(), rsx!(Icon { icon: MdCreate, width: width, height: height })));
+    icons.push(("MdDeleteSweep".to_owned(), rsx!(Icon { icon: MdDeleteSweep, width: width, height: height })));
+    icons.push(("MdDeselect".to_owned(), rsx!(Icon { icon: MdDeselect, width: width, height: height })));
+    icons.push(("MdDrafts".to_owned(), rsx!(Icon { icon: MdDrafts, width: width, height: height })));
+    icons.push(("MdDynamicFeed".to_owned(), rsx!(Icon { icon: MdDynamicFeed, width: width, height: height })));
+    icons.push(("MdFileCopy".to_owned(), rsx!(Icon { icon: MdFileCopy, width: width, height: height })));
+    icons.push(("MdFilterList".to_owned(), rsx!(Icon { icon: MdFilterList, width: width, height: height })));
+    icons.push(("MdFilterListOff".to_owned(), rsx!(Icon { icon: MdFilterListOff, width: width, height: height })));
+    icons.push(("MdFlag".to_owned(), rsx!(Icon { icon: MdFlag, width: width, height: height })));
+    icons.push(("MdFlagCircle".to_owned(), rsx!(Icon { icon: MdFlagCircle, width: width, height: height })));
+    icons.push(("MdFontDownload".to_owned(), rsx!(Icon { icon: MdFontDownload, width: width, height: height })));
+    icons.push(("MdFontDownloadOff".to_owned(), rsx!(Icon { icon: MdFontDownloadOff, width: width, height: height })));
+    icons.push(("MdForward".to_owned(), rsx!(Icon { icon: MdForward, width: width, height: height })));
+    icons.push(("MdGesture".to_owned(), rsx!(Icon { icon: MdGesture, width: width, height: height })));
+    icons.push(("MdHowToReg".to_owned(), rsx!(Icon { icon: MdHowToReg, width: width, height: height })));
+    icons.push(("MdHowToVote".to_owned(), rsx!(Icon { icon: MdHowToVote, width: width, height: height })));
+    icons.push(("MdInbox".to_owned(), rsx!(Icon { icon: MdInbox, width: width, height: height })));
+    icons.push(("MdInsights".to_owned(), rsx!(Icon { icon: MdInsights, width: width, height: height })));
+    icons.push(("MdInventory".to_owned(), rsx!(Icon { icon: MdInventory, width: width, height: height })));
+    icons.push(("MdInventory2".to_owned(), rsx!(Icon { icon: MdInventory2, width: width, height: height })));
+    icons.push(("MdLink".to_owned(), rsx!(Icon { icon: MdLink, width: width, height: height })));
+    icons.push(("MdLinkOff".to_owned(), rsx!(Icon { icon: MdLinkOff, width: width, height: height })));
+    icons.push(("MdLowPriority".to_owned(), rsx!(Icon { icon: MdLowPriority, width: width, height: height })));
+    icons.push(("MdMail".to_owned(), rsx!(Icon { icon: MdMail, width: width, height: height })));
+    icons.push(("MdMarkunread".to_owned(), rsx!(Icon { icon: MdMarkunread, width: width, height: height })));
+    icons.push(("MdMoveToInbox".to_owned(), rsx!(Icon { icon: MdMoveToInbox, width: width, height: height })));
+    icons.push(("MdNextWeek".to_owned(), rsx!(Icon { icon: MdNextWeek, width: width, height: height })));
+    icons.push(("MdOutlinedFlag".to_owned(), rsx!(Icon { icon: MdOutlinedFlag, width: width, height: height })));
+    icons.push(("MdPolicy".to_owned(), rsx!(Icon { icon: MdPolicy, width: width, height: height })));
+    icons.push(("MdPushPin".to_owned(), rsx!(Icon { icon: MdPushPin, width: width, height: height })));
+    icons.push(("MdRedo".to_owned(), rsx!(Icon { icon: MdRedo, width: width, height: height })));
+    icons.push(("MdRemove".to_owned(), rsx!(Icon { icon: MdRemove, width: width, height: height })));
+    icons.push(("MdRemoveCircle".to_owned(), rsx!(Icon { icon: MdRemoveCircle, width: width, height: height })));
+    icons.push(("MdRemoveCircleOutline".to_owned(), rsx!(Icon { icon: MdRemoveCircleOutline, width: width, height: height })));
+    icons.push(("MdReply".to_owned(), rsx!(Icon { icon: MdReply, width: width, height: height })));
+    icons.push(("MdReplyAll".to_owned(), rsx!(Icon { icon: MdReplyAll, width: width, height: height })));
+    icons.push(("MdReport".to_owned(), rsx!(Icon { icon: MdReport, width: width, height: height })));
+    icons.push(("MdReportGmailerrorred".to_owned(), rsx!(Icon { icon: MdReportGmailerrorred, width: width, height: height })));
+    icons.push(("MdReportOff".to_owned(), rsx!(Icon { icon: MdReportOff, width: width, height: height })));
+    icons.push(("MdSave".to_owned(), rsx!(Icon { icon: MdSave, width: width, height: height })));
+    icons.push(("MdSaveAlt".to_owned(), rsx!(Icon { icon: MdSaveAlt, width: width, height: height })));
+    icons.push(("MdSaveAs".to_owned(), rsx!(Icon { icon: MdSaveAs, width: width, height: height })));
+    icons.push(("MdSelectAll".to_owned(), rsx!(Icon { icon: MdSelectAll, width: width, height: height })));
+    icons.push(("MdSend".to_owned(), rsx!(Icon { icon: MdSend, width: width, height: height })));
+    icons.push(("MdShield".to_owned(), rsx!(Icon { icon: MdShield, width: width, height: height })));
+    icons.push(("MdSort".to_owned(), rsx!(Icon { icon: MdSort, width: width, height: height })));
+    icons.push(("MdSquareFoot".to_owned(), rsx!(Icon { icon: MdSquareFoot, width: width, height: height })));
+    icons.push(("MdStackedBarChart".to_owned(), rsx!(Icon { icon: MdStackedBarChart, width: width, height: height })));
+    icons.push(("MdStream".to_owned(), rsx!(Icon { icon: MdStream, width: width, height: height })));
+    icons.push(("MdTag".to_owned(), rsx!(Icon { icon: MdTag, width: width, height: height })));
+    icons.push(("MdTextFormat".to_owned(), rsx!(Icon { icon: MdTextFormat, width: width, height: height })));
+    icons.push(("MdUnarchive".to_owned(), rsx!(Icon { icon: MdUnarchive, width: width, height: height })));
+    icons.push(("MdUndo".to_owned(), rsx!(Icon { icon: MdUndo, width: width, height: height })));
+    icons.push(("MdUpcoming".to_owned(), rsx!(Icon { icon: MdUpcoming, width: width, height: height })));
+    icons.push(("MdWaves".to_owned(), rsx!(Icon { icon: MdWaves, width: width, height: height })));
+    icons.push(("MdWebStories".to_owned(), rsx!(Icon { icon: MdWebStories, width: width, height: height })));
+    icons.push(("MdWeekend".to_owned(), rsx!(Icon { icon: MdWeekend, width: width, height: height })));
+    icons.push(("MdWhereToVote".to_owned(), rsx!(Icon { icon: MdWhereToVote, width: width, height: height })));
+    icons
+}}

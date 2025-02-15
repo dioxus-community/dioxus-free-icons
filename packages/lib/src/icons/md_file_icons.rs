@@ -1317,3 +1317,62 @@ impl IconShape for MdWorkspacesOutline {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdApproval".to_owned(), rsx!(Icon { icon: MdApproval, width: width, height: height })));
+    icons.push(("MdAttachEmail".to_owned(), rsx!(Icon { icon: MdAttachEmail, width: width, height: height })));
+    icons.push(("MdAttachment".to_owned(), rsx!(Icon { icon: MdAttachment, width: width, height: height })));
+    icons.push(("MdCloud".to_owned(), rsx!(Icon { icon: MdCloud, width: width, height: height })));
+    icons.push(("MdCloudCircle".to_owned(), rsx!(Icon { icon: MdCloudCircle, width: width, height: height })));
+    icons.push(("MdCloudDone".to_owned(), rsx!(Icon { icon: MdCloudDone, width: width, height: height })));
+    icons.push(("MdCloudDownload".to_owned(), rsx!(Icon { icon: MdCloudDownload, width: width, height: height })));
+    icons.push(("MdCloudOff".to_owned(), rsx!(Icon { icon: MdCloudOff, width: width, height: height })));
+    icons.push(("MdCloudQueue".to_owned(), rsx!(Icon { icon: MdCloudQueue, width: width, height: height })));
+    icons.push(("MdCloudSync".to_owned(), rsx!(Icon { icon: MdCloudSync, width: width, height: height })));
+    icons.push(("MdCloudUpload".to_owned(), rsx!(Icon { icon: MdCloudUpload, width: width, height: height })));
+    icons.push(("MdCreateNewFolder".to_owned(), rsx!(Icon { icon: MdCreateNewFolder, width: width, height: height })));
+    icons.push(("MdDifference".to_owned(), rsx!(Icon { icon: MdDifference, width: width, height: height })));
+    icons.push(("MdDownload".to_owned(), rsx!(Icon { icon: MdDownload, width: width, height: height })));
+    icons.push(("MdDownloadDone".to_owned(), rsx!(Icon { icon: MdDownloadDone, width: width, height: height })));
+    icons.push(("MdDownloadForOffline".to_owned(), rsx!(Icon { icon: MdDownloadForOffline, width: width, height: height })));
+    icons.push(("MdDownloading".to_owned(), rsx!(Icon { icon: MdDownloading, width: width, height: height })));
+    icons.push(("MdDriveFileMove".to_owned(), rsx!(Icon { icon: MdDriveFileMove, width: width, height: height })));
+    icons.push(("MdDriveFileMoveOutline".to_owned(), rsx!(Icon { icon: MdDriveFileMoveOutline, width: width, height: height })));
+    icons.push(("MdDriveFileMoveRtl".to_owned(), rsx!(Icon { icon: MdDriveFileMoveRtl, width: width, height: height })));
+    icons.push(("MdDriveFileRenameOutline".to_owned(), rsx!(Icon { icon: MdDriveFileRenameOutline, width: width, height: height })));
+    icons.push(("MdDriveFolderUpload".to_owned(), rsx!(Icon { icon: MdDriveFolderUpload, width: width, height: height })));
+    icons.push(("MdFileDownload".to_owned(), rsx!(Icon { icon: MdFileDownload, width: width, height: height })));
+    icons.push(("MdFileDownloadDone".to_owned(), rsx!(Icon { icon: MdFileDownloadDone, width: width, height: height })));
+    icons.push(("MdFileDownloadOff".to_owned(), rsx!(Icon { icon: MdFileDownloadOff, width: width, height: height })));
+    icons.push(("MdFileOpen".to_owned(), rsx!(Icon { icon: MdFileOpen, width: width, height: height })));
+    icons.push(("MdFileUpload".to_owned(), rsx!(Icon { icon: MdFileUpload, width: width, height: height })));
+    icons.push(("MdFileUploadOff".to_owned(), rsx!(Icon { icon: MdFileUploadOff, width: width, height: height })));
+    icons.push(("MdFolder".to_owned(), rsx!(Icon { icon: MdFolder, width: width, height: height })));
+    icons.push(("MdFolderCopy".to_owned(), rsx!(Icon { icon: MdFolderCopy, width: width, height: height })));
+    icons.push(("MdFolderDelete".to_owned(), rsx!(Icon { icon: MdFolderDelete, width: width, height: height })));
+    icons.push(("MdFolderOff".to_owned(), rsx!(Icon { icon: MdFolderOff, width: width, height: height })));
+    icons.push(("MdFolderOpen".to_owned(), rsx!(Icon { icon: MdFolderOpen, width: width, height: height })));
+    icons.push(("MdFolderShared".to_owned(), rsx!(Icon { icon: MdFolderShared, width: width, height: height })));
+    icons.push(("MdFolderZip".to_owned(), rsx!(Icon { icon: MdFolderZip, width: width, height: height })));
+    icons.push(("MdFormatOverline".to_owned(), rsx!(Icon { icon: MdFormatOverline, width: width, height: height })));
+    icons.push(("MdGridView".to_owned(), rsx!(Icon { icon: MdGridView, width: width, height: height })));
+    icons.push(("MdNewspaper".to_owned(), rsx!(Icon { icon: MdNewspaper, width: width, height: height })));
+    icons.push(("MdRequestQuote".to_owned(), rsx!(Icon { icon: MdRequestQuote, width: width, height: height })));
+    icons.push(("MdRuleFolder".to_owned(), rsx!(Icon { icon: MdRuleFolder, width: width, height: height })));
+    icons.push(("MdSnippetFolder".to_owned(), rsx!(Icon { icon: MdSnippetFolder, width: width, height: height })));
+    icons.push(("MdTextSnippet".to_owned(), rsx!(Icon { icon: MdTextSnippet, width: width, height: height })));
+    icons.push(("MdTopic".to_owned(), rsx!(Icon { icon: MdTopic, width: width, height: height })));
+    icons.push(("MdUpload".to_owned(), rsx!(Icon { icon: MdUpload, width: width, height: height })));
+    icons.push(("MdUploadFile".to_owned(), rsx!(Icon { icon: MdUploadFile, width: width, height: height })));
+    icons.push(("MdWorkspaces".to_owned(), rsx!(Icon { icon: MdWorkspaces, width: width, height: height })));
+    icons.push(("MdWorkspacesFilled".to_owned(), rsx!(Icon { icon: MdWorkspacesFilled, width: width, height: height })));
+    icons.push(("MdWorkspacesOutline".to_owned(), rsx!(Icon { icon: MdWorkspacesOutline, width: width, height: height })));
+    icons
+}}

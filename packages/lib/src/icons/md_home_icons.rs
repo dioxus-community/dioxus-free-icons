@@ -1019,3 +1019,47 @@ impl IconShape for MdWindPower {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdAutoMode".to_owned(), rsx!(Icon { icon: MdAutoMode, width: width, height: height })));
+    icons.push(("MdBlinds".to_owned(), rsx!(Icon { icon: MdBlinds, width: width, height: height })));
+    icons.push(("MdBlindsClosed".to_owned(), rsx!(Icon { icon: MdBlindsClosed, width: width, height: height })));
+    icons.push(("MdBroadcastOnHome".to_owned(), rsx!(Icon { icon: MdBroadcastOnHome, width: width, height: height })));
+    icons.push(("MdBroadcastOnPersonal".to_owned(), rsx!(Icon { icon: MdBroadcastOnPersonal, width: width, height: height })));
+    icons.push(("MdCloudySnowing".to_owned(), rsx!(Icon { icon: MdCloudySnowing, width: width, height: height })));
+    icons.push(("MdCurtains".to_owned(), rsx!(Icon { icon: MdCurtains, width: width, height: height })));
+    icons.push(("MdCurtainsClosed".to_owned(), rsx!(Icon { icon: MdCurtainsClosed, width: width, height: height })));
+    icons.push(("MdElectricBolt".to_owned(), rsx!(Icon { icon: MdElectricBolt, width: width, height: height })));
+    icons.push(("MdElectricMeter".to_owned(), rsx!(Icon { icon: MdElectricMeter, width: width, height: height })));
+    icons.push(("MdEnergySavingsLeaf".to_owned(), rsx!(Icon { icon: MdEnergySavingsLeaf, width: width, height: height })));
+    icons.push(("MdFoggy".to_owned(), rsx!(Icon { icon: MdFoggy, width: width, height: height })));
+    icons.push(("MdGasMeter".to_owned(), rsx!(Icon { icon: MdGasMeter, width: width, height: height })));
+    icons.push(("MdHeatPump".to_owned(), rsx!(Icon { icon: MdHeatPump, width: width, height: height })));
+    icons.push(("MdModeFanOff".to_owned(), rsx!(Icon { icon: MdModeFanOff, width: width, height: height })));
+    icons.push(("MdNestCamWiredStand".to_owned(), rsx!(Icon { icon: MdNestCamWiredStand, width: width, height: height })));
+    icons.push(("MdOilBarrel".to_owned(), rsx!(Icon { icon: MdOilBarrel, width: width, height: height })));
+    icons.push(("MdPropane".to_owned(), rsx!(Icon { icon: MdPropane, width: width, height: height })));
+    icons.push(("MdPropaneTank".to_owned(), rsx!(Icon { icon: MdPropaneTank, width: width, height: height })));
+    icons.push(("MdRollerShades".to_owned(), rsx!(Icon { icon: MdRollerShades, width: width, height: height })));
+    icons.push(("MdRollerShadesClosed".to_owned(), rsx!(Icon { icon: MdRollerShadesClosed, width: width, height: height })));
+    icons.push(("MdSensorDoor".to_owned(), rsx!(Icon { icon: MdSensorDoor, width: width, height: height })));
+    icons.push(("MdSensorOccupied".to_owned(), rsx!(Icon { icon: MdSensorOccupied, width: width, height: height })));
+    icons.push(("MdSensorWindow".to_owned(), rsx!(Icon { icon: MdSensorWindow, width: width, height: height })));
+    icons.push(("MdShelves".to_owned(), rsx!(Icon { icon: MdShelves, width: width, height: height })));
+    icons.push(("MdShieldMoon".to_owned(), rsx!(Icon { icon: MdShieldMoon, width: width, height: height })));
+    icons.push(("MdSnowing".to_owned(), rsx!(Icon { icon: MdSnowing, width: width, height: height })));
+    icons.push(("MdSolarPower".to_owned(), rsx!(Icon { icon: MdSolarPower, width: width, height: height })));
+    icons.push(("MdSunny".to_owned(), rsx!(Icon { icon: MdSunny, width: width, height: height })));
+    icons.push(("MdSunnySnowing".to_owned(), rsx!(Icon { icon: MdSunnySnowing, width: width, height: height })));
+    icons.push(("MdVerticalShades".to_owned(), rsx!(Icon { icon: MdVerticalShades, width: width, height: height })));
+    icons.push(("MdVerticalShadesClosed".to_owned(), rsx!(Icon { icon: MdVerticalShadesClosed, width: width, height: height })));
+    icons.push(("MdWindPower".to_owned(), rsx!(Icon { icon: MdWindPower, width: width, height: height })));
+    icons
+}}

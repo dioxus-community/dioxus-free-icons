@@ -2286,3 +2286,97 @@ impl IconShape for MdWheelchairPickup {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdAcUnit".to_owned(), rsx!(Icon { icon: MdAcUnit, width: width, height: height })));
+    icons.push(("MdAirportShuttle".to_owned(), rsx!(Icon { icon: MdAirportShuttle, width: width, height: height })));
+    icons.push(("MdAllInclusive".to_owned(), rsx!(Icon { icon: MdAllInclusive, width: width, height: height })));
+    icons.push(("MdApartment".to_owned(), rsx!(Icon { icon: MdApartment, width: width, height: height })));
+    icons.push(("MdBabyChangingStation".to_owned(), rsx!(Icon { icon: MdBabyChangingStation, width: width, height: height })));
+    icons.push(("MdBackpack".to_owned(), rsx!(Icon { icon: MdBackpack, width: width, height: height })));
+    icons.push(("MdBalcony".to_owned(), rsx!(Icon { icon: MdBalcony, width: width, height: height })));
+    icons.push(("MdBathtub".to_owned(), rsx!(Icon { icon: MdBathtub, width: width, height: height })));
+    icons.push(("MdBeachAccess".to_owned(), rsx!(Icon { icon: MdBeachAccess, width: width, height: height })));
+    icons.push(("MdBento".to_owned(), rsx!(Icon { icon: MdBento, width: width, height: height })));
+    icons.push(("MdBungalow".to_owned(), rsx!(Icon { icon: MdBungalow, width: width, height: height })));
+    icons.push(("MdBusinessCenter".to_owned(), rsx!(Icon { icon: MdBusinessCenter, width: width, height: height })));
+    icons.push(("MdCabin".to_owned(), rsx!(Icon { icon: MdCabin, width: width, height: height })));
+    icons.push(("MdCarpenter".to_owned(), rsx!(Icon { icon: MdCarpenter, width: width, height: height })));
+    icons.push(("MdCasino".to_owned(), rsx!(Icon { icon: MdCasino, width: width, height: height })));
+    icons.push(("MdChalet".to_owned(), rsx!(Icon { icon: MdChalet, width: width, height: height })));
+    icons.push(("MdChargingStation".to_owned(), rsx!(Icon { icon: MdChargingStation, width: width, height: height })));
+    icons.push(("MdCheckroom".to_owned(), rsx!(Icon { icon: MdCheckroom, width: width, height: height })));
+    icons.push(("MdChildCare".to_owned(), rsx!(Icon { icon: MdChildCare, width: width, height: height })));
+    icons.push(("MdChildFriendly".to_owned(), rsx!(Icon { icon: MdChildFriendly, width: width, height: height })));
+    icons.push(("MdCorporateFare".to_owned(), rsx!(Icon { icon: MdCorporateFare, width: width, height: height })));
+    icons.push(("MdCottage".to_owned(), rsx!(Icon { icon: MdCottage, width: width, height: height })));
+    icons.push(("MdCountertops".to_owned(), rsx!(Icon { icon: MdCountertops, width: width, height: height })));
+    icons.push(("MdCrib".to_owned(), rsx!(Icon { icon: MdCrib, width: width, height: height })));
+    icons.push(("MdDesk".to_owned(), rsx!(Icon { icon: MdDesk, width: width, height: height })));
+    icons.push(("MdDoNotStep".to_owned(), rsx!(Icon { icon: MdDoNotStep, width: width, height: height })));
+    icons.push(("MdDoNotTouch".to_owned(), rsx!(Icon { icon: MdDoNotTouch, width: width, height: height })));
+    icons.push(("MdDry".to_owned(), rsx!(Icon { icon: MdDry, width: width, height: height })));
+    icons.push(("MdElevator".to_owned(), rsx!(Icon { icon: MdElevator, width: width, height: height })));
+    icons.push(("MdEscalator".to_owned(), rsx!(Icon { icon: MdEscalator, width: width, height: height })));
+    icons.push(("MdEscalatorWarning".to_owned(), rsx!(Icon { icon: MdEscalatorWarning, width: width, height: height })));
+    icons.push(("MdFamilyRestroom".to_owned(), rsx!(Icon { icon: MdFamilyRestroom, width: width, height: height })));
+    icons.push(("MdFence".to_owned(), rsx!(Icon { icon: MdFence, width: width, height: height })));
+    icons.push(("MdFireExtinguisher".to_owned(), rsx!(Icon { icon: MdFireExtinguisher, width: width, height: height })));
+    icons.push(("MdFitnessCenter".to_owned(), rsx!(Icon { icon: MdFitnessCenter, width: width, height: height })));
+    icons.push(("MdFoodBank".to_owned(), rsx!(Icon { icon: MdFoodBank, width: width, height: height })));
+    icons.push(("MdFoundation".to_owned(), rsx!(Icon { icon: MdFoundation, width: width, height: height })));
+    icons.push(("MdFreeBreakfast".to_owned(), rsx!(Icon { icon: MdFreeBreakfast, width: width, height: height })));
+    icons.push(("MdGite".to_owned(), rsx!(Icon { icon: MdGite, width: width, height: height })));
+    icons.push(("MdGolfCourse".to_owned(), rsx!(Icon { icon: MdGolfCourse, width: width, height: height })));
+    icons.push(("MdGrass".to_owned(), rsx!(Icon { icon: MdGrass, width: width, height: height })));
+    icons.push(("MdHolidayVillage".to_owned(), rsx!(Icon { icon: MdHolidayVillage, width: width, height: height })));
+    icons.push(("MdHotTub".to_owned(), rsx!(Icon { icon: MdHotTub, width: width, height: height })));
+    icons.push(("MdHouse".to_owned(), rsx!(Icon { icon: MdHouse, width: width, height: height })));
+    icons.push(("MdHouseSiding".to_owned(), rsx!(Icon { icon: MdHouseSiding, width: width, height: height })));
+    icons.push(("MdHouseboat".to_owned(), rsx!(Icon { icon: MdHouseboat, width: width, height: height })));
+    icons.push(("MdIron".to_owned(), rsx!(Icon { icon: MdIron, width: width, height: height })));
+    icons.push(("MdKitchen".to_owned(), rsx!(Icon { icon: MdKitchen, width: width, height: height })));
+    icons.push(("MdMeetingRoom".to_owned(), rsx!(Icon { icon: MdMeetingRoom, width: width, height: height })));
+    icons.push(("MdMicrowave".to_owned(), rsx!(Icon { icon: MdMicrowave, width: width, height: height })));
+    icons.push(("MdNightShelter".to_owned(), rsx!(Icon { icon: MdNightShelter, width: width, height: height })));
+    icons.push(("MdNoBackpack".to_owned(), rsx!(Icon { icon: MdNoBackpack, width: width, height: height })));
+    icons.push(("MdNoCell".to_owned(), rsx!(Icon { icon: MdNoCell, width: width, height: height })));
+    icons.push(("MdNoDrinks".to_owned(), rsx!(Icon { icon: MdNoDrinks, width: width, height: height })));
+    icons.push(("MdNoFlash".to_owned(), rsx!(Icon { icon: MdNoFlash, width: width, height: height })));
+    icons.push(("MdNoFood".to_owned(), rsx!(Icon { icon: MdNoFood, width: width, height: height })));
+    icons.push(("MdNoMeetingRoom".to_owned(), rsx!(Icon { icon: MdNoMeetingRoom, width: width, height: height })));
+    icons.push(("MdNoPhotography".to_owned(), rsx!(Icon { icon: MdNoPhotography, width: width, height: height })));
+    icons.push(("MdNoStroller".to_owned(), rsx!(Icon { icon: MdNoStroller, width: width, height: height })));
+    icons.push(("MdOtherHouses".to_owned(), rsx!(Icon { icon: MdOtherHouses, width: width, height: height })));
+    icons.push(("MdPool".to_owned(), rsx!(Icon { icon: MdPool, width: width, height: height })));
+    icons.push(("MdRiceBowl".to_owned(), rsx!(Icon { icon: MdRiceBowl, width: width, height: height })));
+    icons.push(("MdRoofing".to_owned(), rsx!(Icon { icon: MdRoofing, width: width, height: height })));
+    icons.push(("MdRoomPreferences".to_owned(), rsx!(Icon { icon: MdRoomPreferences, width: width, height: height })));
+    icons.push(("MdRoomService".to_owned(), rsx!(Icon { icon: MdRoomService, width: width, height: height })));
+    icons.push(("MdRvHookup".to_owned(), rsx!(Icon { icon: MdRvHookup, width: width, height: height })));
+    icons.push(("MdSmokeFree".to_owned(), rsx!(Icon { icon: MdSmokeFree, width: width, height: height })));
+    icons.push(("MdSmokingRooms".to_owned(), rsx!(Icon { icon: MdSmokingRooms, width: width, height: height })));
+    icons.push(("MdSoap".to_owned(), rsx!(Icon { icon: MdSoap, width: width, height: height })));
+    icons.push(("MdSpa".to_owned(), rsx!(Icon { icon: MdSpa, width: width, height: height })));
+    icons.push(("MdSportsBar".to_owned(), rsx!(Icon { icon: MdSportsBar, width: width, height: height })));
+    icons.push(("MdStairs".to_owned(), rsx!(Icon { icon: MdStairs, width: width, height: height })));
+    icons.push(("MdStorefront".to_owned(), rsx!(Icon { icon: MdStorefront, width: width, height: height })));
+    icons.push(("MdStroller".to_owned(), rsx!(Icon { icon: MdStroller, width: width, height: height })));
+    icons.push(("MdTapas".to_owned(), rsx!(Icon { icon: MdTapas, width: width, height: height })));
+    icons.push(("MdTty".to_owned(), rsx!(Icon { icon: MdTty, width: width, height: height })));
+    icons.push(("MdUmbrella".to_owned(), rsx!(Icon { icon: MdUmbrella, width: width, height: height })));
+    icons.push(("MdVapeFree".to_owned(), rsx!(Icon { icon: MdVapeFree, width: width, height: height })));
+    icons.push(("MdVapingRooms".to_owned(), rsx!(Icon { icon: MdVapingRooms, width: width, height: height })));
+    icons.push(("MdVilla".to_owned(), rsx!(Icon { icon: MdVilla, width: width, height: height })));
+    icons.push(("MdWash".to_owned(), rsx!(Icon { icon: MdWash, width: width, height: height })));
+    icons.push(("MdWaterDamage".to_owned(), rsx!(Icon { icon: MdWaterDamage, width: width, height: height })));
+    icons.push(("MdWheelchairPickup".to_owned(), rsx!(Icon { icon: MdWheelchairPickup, width: width, height: height })));
+    icons
+}}

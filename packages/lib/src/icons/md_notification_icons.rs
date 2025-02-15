@@ -1969,3 +1969,85 @@ impl IconShape for MdWifiOff {
         }
     }
 }
+
+
+#[cfg(feature = "names")]
+use crate::Icon;
+
+
+#[cfg(feature = "names")]
+pub fn names(width: u32, height: u32) -> Vec<(String, Element)> {{
+    let mut icons:Vec<(String, Element)> = Vec::new();
+    icons.push(("MdAccountTree".to_owned(), rsx!(Icon { icon: MdAccountTree, width: width, height: height })));
+    icons.push(("MdAdb".to_owned(), rsx!(Icon { icon: MdAdb, width: width, height: height })));
+    icons.push(("MdAddCall".to_owned(), rsx!(Icon { icon: MdAddCall, width: width, height: height })));
+    icons.push(("MdAirlineSeatFlat".to_owned(), rsx!(Icon { icon: MdAirlineSeatFlat, width: width, height: height })));
+    icons.push(("MdAirlineSeatFlatAngled".to_owned(), rsx!(Icon { icon: MdAirlineSeatFlatAngled, width: width, height: height })));
+    icons.push(("MdAirlineSeatIndividualSuite".to_owned(), rsx!(Icon { icon: MdAirlineSeatIndividualSuite, width: width, height: height })));
+    icons.push(("MdAirlineSeatLegroomExtra".to_owned(), rsx!(Icon { icon: MdAirlineSeatLegroomExtra, width: width, height: height })));
+    icons.push(("MdAirlineSeatLegroomNormal".to_owned(), rsx!(Icon { icon: MdAirlineSeatLegroomNormal, width: width, height: height })));
+    icons.push(("MdAirlineSeatLegroomReduced".to_owned(), rsx!(Icon { icon: MdAirlineSeatLegroomReduced, width: width, height: height })));
+    icons.push(("MdAirlineSeatReclineExtra".to_owned(), rsx!(Icon { icon: MdAirlineSeatReclineExtra, width: width, height: height })));
+    icons.push(("MdAirlineSeatReclineNormal".to_owned(), rsx!(Icon { icon: MdAirlineSeatReclineNormal, width: width, height: height })));
+    icons.push(("MdBluetoothAudio".to_owned(), rsx!(Icon { icon: MdBluetoothAudio, width: width, height: height })));
+    icons.push(("MdConfirmationNumber".to_owned(), rsx!(Icon { icon: MdConfirmationNumber, width: width, height: height })));
+    icons.push(("MdDirectionsOff".to_owned(), rsx!(Icon { icon: MdDirectionsOff, width: width, height: height })));
+    icons.push(("MdDiscFull".to_owned(), rsx!(Icon { icon: MdDiscFull, width: width, height: height })));
+    icons.push(("MdDoDisturb".to_owned(), rsx!(Icon { icon: MdDoDisturb, width: width, height: height })));
+    icons.push(("MdDoDisturbAlt".to_owned(), rsx!(Icon { icon: MdDoDisturbAlt, width: width, height: height })));
+    icons.push(("MdDoDisturbOff".to_owned(), rsx!(Icon { icon: MdDoDisturbOff, width: width, height: height })));
+    icons.push(("MdDoDisturbOn".to_owned(), rsx!(Icon { icon: MdDoDisturbOn, width: width, height: height })));
+    icons.push(("MdDoNotDisturb".to_owned(), rsx!(Icon { icon: MdDoNotDisturb, width: width, height: height })));
+    icons.push(("MdDoNotDisturbAlt".to_owned(), rsx!(Icon { icon: MdDoNotDisturbAlt, width: width, height: height })));
+    icons.push(("MdDoNotDisturbOff".to_owned(), rsx!(Icon { icon: MdDoNotDisturbOff, width: width, height: height })));
+    icons.push(("MdDoNotDisturbOn".to_owned(), rsx!(Icon { icon: MdDoNotDisturbOn, width: width, height: height })));
+    icons.push(("MdDriveEta".to_owned(), rsx!(Icon { icon: MdDriveEta, width: width, height: height })));
+    icons.push(("MdEnhancedEncryption".to_owned(), rsx!(Icon { icon: MdEnhancedEncryption, width: width, height: height })));
+    icons.push(("MdEventAvailable".to_owned(), rsx!(Icon { icon: MdEventAvailable, width: width, height: height })));
+    icons.push(("MdEventBusy".to_owned(), rsx!(Icon { icon: MdEventBusy, width: width, height: height })));
+    icons.push(("MdEventNote".to_owned(), rsx!(Icon { icon: MdEventNote, width: width, height: height })));
+    icons.push(("MdFolderSpecial".to_owned(), rsx!(Icon { icon: MdFolderSpecial, width: width, height: height })));
+    icons.push(("MdImagesearchRoller".to_owned(), rsx!(Icon { icon: MdImagesearchRoller, width: width, height: height })));
+    icons.push(("MdLiveTv".to_owned(), rsx!(Icon { icon: MdLiveTv, width: width, height: height })));
+    icons.push(("MdMms".to_owned(), rsx!(Icon { icon: MdMms, width: width, height: height })));
+    icons.push(("MdMore".to_owned(), rsx!(Icon { icon: MdMore, width: width, height: height })));
+    icons.push(("MdNetworkCheck".to_owned(), rsx!(Icon { icon: MdNetworkCheck, width: width, height: height })));
+    icons.push(("MdNetworkLocked".to_owned(), rsx!(Icon { icon: MdNetworkLocked, width: width, height: height })));
+    icons.push(("MdNoEncryption".to_owned(), rsx!(Icon { icon: MdNoEncryption, width: width, height: height })));
+    icons.push(("MdNoEncryptionGmailerrorred".to_owned(), rsx!(Icon { icon: MdNoEncryptionGmailerrorred, width: width, height: height })));
+    icons.push(("MdOndemandVideo".to_owned(), rsx!(Icon { icon: MdOndemandVideo, width: width, height: height })));
+    icons.push(("MdPersonalVideo".to_owned(), rsx!(Icon { icon: MdPersonalVideo, width: width, height: height })));
+    icons.push(("MdPhoneBluetoothSpeaker".to_owned(), rsx!(Icon { icon: MdPhoneBluetoothSpeaker, width: width, height: height })));
+    icons.push(("MdPhoneCallback".to_owned(), rsx!(Icon { icon: MdPhoneCallback, width: width, height: height })));
+    icons.push(("MdPhoneForwarded".to_owned(), rsx!(Icon { icon: MdPhoneForwarded, width: width, height: height })));
+    icons.push(("MdPhoneInTalk".to_owned(), rsx!(Icon { icon: MdPhoneInTalk, width: width, height: height })));
+    icons.push(("MdPhoneLocked".to_owned(), rsx!(Icon { icon: MdPhoneLocked, width: width, height: height })));
+    icons.push(("MdPhoneMissed".to_owned(), rsx!(Icon { icon: MdPhoneMissed, width: width, height: height })));
+    icons.push(("MdPhonePaused".to_owned(), rsx!(Icon { icon: MdPhonePaused, width: width, height: height })));
+    icons.push(("MdPower".to_owned(), rsx!(Icon { icon: MdPower, width: width, height: height })));
+    icons.push(("MdPowerOff".to_owned(), rsx!(Icon { icon: MdPowerOff, width: width, height: height })));
+    icons.push(("MdPriorityHigh".to_owned(), rsx!(Icon { icon: MdPriorityHigh, width: width, height: height })));
+    icons.push(("MdRunningWithErrors".to_owned(), rsx!(Icon { icon: MdRunningWithErrors, width: width, height: height })));
+    icons.push(("MdSdCard".to_owned(), rsx!(Icon { icon: MdSdCard, width: width, height: height })));
+    icons.push(("MdSdCardAlert".to_owned(), rsx!(Icon { icon: MdSdCardAlert, width: width, height: height })));
+    icons.push(("MdSimCardAlert".to_owned(), rsx!(Icon { icon: MdSimCardAlert, width: width, height: height })));
+    icons.push(("MdSms".to_owned(), rsx!(Icon { icon: MdSms, width: width, height: height })));
+    icons.push(("MdSmsFailed".to_owned(), rsx!(Icon { icon: MdSmsFailed, width: width, height: height })));
+    icons.push(("MdSupportAgent".to_owned(), rsx!(Icon { icon: MdSupportAgent, width: width, height: height })));
+    icons.push(("MdSync".to_owned(), rsx!(Icon { icon: MdSync, width: width, height: height })));
+    icons.push(("MdSyncDisabled".to_owned(), rsx!(Icon { icon: MdSyncDisabled, width: width, height: height })));
+    icons.push(("MdSyncLock".to_owned(), rsx!(Icon { icon: MdSyncLock, width: width, height: height })));
+    icons.push(("MdSyncProblem".to_owned(), rsx!(Icon { icon: MdSyncProblem, width: width, height: height })));
+    icons.push(("MdSystemUpdate".to_owned(), rsx!(Icon { icon: MdSystemUpdate, width: width, height: height })));
+    icons.push(("MdTapAndPlay".to_owned(), rsx!(Icon { icon: MdTapAndPlay, width: width, height: height })));
+    icons.push(("MdTimeToLeave".to_owned(), rsx!(Icon { icon: MdTimeToLeave, width: width, height: height })));
+    icons.push(("MdTvOff".to_owned(), rsx!(Icon { icon: MdTvOff, width: width, height: height })));
+    icons.push(("MdVibration".to_owned(), rsx!(Icon { icon: MdVibration, width: width, height: height })));
+    icons.push(("MdVideoChat".to_owned(), rsx!(Icon { icon: MdVideoChat, width: width, height: height })));
+    icons.push(("MdVoiceChat".to_owned(), rsx!(Icon { icon: MdVoiceChat, width: width, height: height })));
+    icons.push(("MdVpnLock".to_owned(), rsx!(Icon { icon: MdVpnLock, width: width, height: height })));
+    icons.push(("MdWc".to_owned(), rsx!(Icon { icon: MdWc, width: width, height: height })));
+    icons.push(("MdWifi".to_owned(), rsx!(Icon { icon: MdWifi, width: width, height: height })));
+    icons.push(("MdWifiOff".to_owned(), rsx!(Icon { icon: MdWifiOff, width: width, height: height })));
+    icons
+}}

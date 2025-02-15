@@ -2,14 +2,11 @@
 # see: https://github.com/rust-lang/cargo/issues/7467#issuecomment-867632379
 [workspace]
 resolver = "2"
-members = [
-    "packages/codegen",
-    "packages/example",
-    "packages/lib",
-]
+members = ["packages/codegen", "packages/example", "packages/lib"]
 
 [workspace.dependencies]
-dioxus = "0.6.0"
+dioxus = "0.6.3"
+indexmap = "2.7.1"
 
 [profile]
 

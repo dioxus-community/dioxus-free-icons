@@ -1,7 +1,28 @@
 use dioxus::prelude::*;
 
+// We implement clone for Box<dyn IconShape> by downcasting the trait object to the concrete type T.
+pub trait IconShapeClone {
+    fn clone_box(&self) -> Box<dyn IconShape>;
+}
+
+impl<T> IconShapeClone for T
+where
+    T: 'static + IconShape + Clone,
+{
+    fn clone_box(&self) -> Box<dyn IconShape> {
+        Box::new(self.clone())
+    }
+}
+
+// We can now implement Clone manually by forwarding to clone_box.
+impl Clone for Box<dyn IconShape> {
+    fn clone(&self) -> Box<dyn IconShape> {
+        self.clone_box()
+    }
+}
+
 /// Icon shape trait
-pub trait IconShape {
+pub trait IconShape: IconShapeClone {
     fn view_box(&self) -> &str;
     fn xmlns(&self) -> &str;
     fn child_elements(&self) -> Element;
@@ -57,9 +78,7 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             stroke_linecap: "{props.icon.stroke_linecap()}",
             stroke_linejoin: "{props.icon.stroke_linejoin()}",
             if let Some(title_text) = props.title {
-                title {
-                    "{title_text}"
-                }
+                title { "{title_text}" }
             }
             {props.icon.child_elements()}
         }
