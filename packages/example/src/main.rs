@@ -5,7 +5,7 @@ use dioxus::prelude::*;
 
 use dioxus_free_icons::icons::fa_brands_icons::FaRust;
 use dioxus_free_icons::Icon;
-use icons::get_icon_sets;
+use icons::{get_icon_sets, IconSet};
 use use_clipboard::copy_to_clipboard;
 
 /// An enum of all of the possible routes in the app.
@@ -75,14 +75,18 @@ fn MainWrapper() -> Element {
                             },
                         }
                     }
-                    for iconset in iconsets() {
+                    for icon_set in iconsets() {
                         li {
                             Link {
                                 class: "mr-5 hover:text-white",
                                 to: Route::Template {
-                                    code: iconset.code.clone(),
+                                    code: icon_set.code.clone(),
                                 },
-                                {iconset.name.clone()}
+                                {icon_set.name.clone()}
+                                "("
+                                {icon_set.icons.len().to_string()}
+                                " icons"
+                                ")"
                             }
                         }
                     }
@@ -98,61 +102,38 @@ fn MainWrapper() -> Element {
 
 #[component]
 fn Index() -> Element {
+    let search_icon = consume_context::<Signal<SearchIcon>>();
+    let icon_sets = consume_context::<Signal<Vec<IconSet>>>();
+
     rsx! {
-        div { class: "lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center",
-            h1 { class: "title-font sm:text-4xl text-3xl mb-4 font-medium text-white",
-                br { class: "hidden lg:inline-block" }
-                "Dioxus Sneak Peek"
-            }
-            p { class: "mb-8 leading-relaxed",
-
-                "Dioxus is a new UI framework that makes it easy and simple to write cross-platform apps using web
-        technologies! It is functional, fast, and portable. Dioxus can run on the web, on the desktop, and
-        on mobile and embedded platforms."
-            }
-            div { class: "flex justify-center",
-                button { class: "inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg",
-                    "Learn more"
+        if (search_icon().0.is_empty()) {
+            div { class: "lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center",
+                h1 { class: "title-font sm:text-4xl text-3xl mb-4 font-medium text-white",
+                    br { class: "hidden lg:inline-block" }
+                    "Dioxus free icons"
                 }
-                button { class: "ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg",
-                    "Build an app"
+                p { class: "mb-8 leading-relaxed",
+                    "Just select an icon set from the left sidebar to navigate the available icon families. Use the search box to filter them."
+                }
+                p { class: "mb-8 leading-relaxed",
+                    "Click on an icon to copy the icon code to use it in your project."
                 }
             }
-        }
-        div { class: "lg:max-w-lg lg:w-full md:w-1/2 w-5/6",
-            img {
-                class: "object-cover object-center rounded",
-                src: "https://i.imgur.com/oK6BLtw.png",
-                referrerpolicy: "no-referrer",
-                alt: "hero",
+        } else {
+            div { class: "lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center",
+                for icon_set in icon_sets() {
+                    h2 { class: "text-2xl font-bold text-gray-900",
+                        {icon_set.name.clone()}
+                        " - "
+                        {icon_set.code.clone()}
+                    }
+                    div { class: "flex flex-wrap",
+                        for icon in icon_set.filter(&search_icon().0).icons {
+                            IconPlaceholder { name: icon.0, icon: icon.1 }
+                        }
+                    }
+                }
             }
-        }
-    }
-}
-
-#[derive(Clone)]
-pub struct IconSet {
-    pub code: String,
-    pub name: String,
-    pub url: String,
-    pub license: String,
-    pub license_url: String,
-    pub version: String,
-    pub source_url: String,
-    pub icons: Vec<(String, Element)>,
-}
-
-impl Default for IconSet {
-    fn default() -> Self {
-        Self {
-            code: "default".to_string(),
-            name: "Default".to_string(),
-            url: "https://example.com".to_string(),
-            license: "MIT".to_string(),
-            license_url: "https://example.com".to_string(),
-            version: "1.0.0".to_string(),
-            source_url: "https://example.com".to_string(),
-            icons: vec![],
         }
     }
 }

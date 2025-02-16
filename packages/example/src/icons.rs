@@ -1,6 +1,51 @@
-use crate::IconSet;
-
+use dioxus::prelude::*;
 use dioxus_free_icons::icons::*;
+
+#[derive(Clone)]
+pub struct IconSet {
+    pub code: String,
+    pub name: String,
+    pub url: String,
+    pub license: String,
+    pub license_url: String,
+    pub version: String,
+    pub source_url: String,
+    pub icons: Vec<(String, Element)>,
+}
+
+impl Default for IconSet {
+    fn default() -> Self {
+        Self {
+            code: "default".to_string(),
+            name: "Default".to_string(),
+            url: "https://example.com".to_string(),
+            license: "MIT".to_string(),
+            license_url: "https://example.com".to_string(),
+            version: "1.0.0".to_string(),
+            source_url: "https://example.com".to_string(),
+            icons: vec![],
+        }
+    }
+}
+
+impl IconSet {
+    pub fn filter(&self, search: &str) -> Self {
+        let icons = self
+            .icons
+            .iter()
+            .filter(|icon| icon.0.to_ascii_lowercase().contains(search))
+            .cloned()
+            .collect();
+        Self {
+            icons,
+            ..self.clone()
+        }
+    }
+
+    pub fn is_empty(&self) -> bool {
+        self.icons.is_empty()
+    }
+}
 
 pub fn get_icon_sets(width: u32, height: u32) -> Vec<IconSet> {
     vec![
@@ -34,5 +79,294 @@ pub fn get_icon_sets(width: u32, height: u32) -> Vec<IconSet> {
             source_url: "https://github.com/FortAwesome/Font-Awesome/tree/6.1.1".to_string(),
             icons: fa_solid_icons::names(width, height),
         },
+        IconSet {
+            code: "boostrap".to_string(),
+            name: "Bootstrap Icons".to_string(),
+            url: "https://icons.getbootstrap.com/".to_string(),
+            license: "MIT".to_string(),
+            license_url: "".to_string(),
+            version: "1.5.0".to_string(),
+            source_url: "".to_string(),
+            icons: bs_icons::names(width, height),
+        },
+        IconSet {
+            code: "feather".to_string(),
+            name: "Feather Icons".to_string(),
+            url: "https://feathericons.com/".to_string(),
+            license: "MIT".to_string(),
+            license_url: "".to_string(),
+            version: "4.28.0".to_string(),
+            source_url: "".to_string(),
+            icons: fi_icons::names(width, height),
+        },
+        // IconSet {
+        //     code: "flag_icons".to_string(),
+        //     name: "Flag Icons".to_string(),
+        //     url: "".to_string(),
+        //     license: "MIT".to_string(),
+        //     license_url: "".to_string(),
+        //     version: "3.5.0".to_string(),
+        //     source_url: "".to_string(),
+        //     icons: fg_icons::names(width, height),
+        // },
+        // IconSet {
+        //     code: "flag_icons_rect".to_string(),
+        //     name: "Flag Icons Rect".to_string(),
+        //     url: "".to_string(),
+        //     license: "MIT".to_string(),
+        //     license_url: "".to_string(),
+        //     version: "3.5.0".to_string(),
+        //     source_url: "".to_string(),
+        //     icons: fg_rect_icons::names(width, height),
+        // },
+        IconSet {
+            code: "octicons".to_string(),
+            name: "Octicons".to_string(),
+            url: "https://primer.style/octicons/".to_string(),
+            license: "MIT".to_string(),
+            license_url: "".to_string(),
+            version: "14.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: go_icons::names(width, height),
+        },
+        IconSet {
+            code: "hero_icons_outline".to_string(),
+            name: "Hero Icons Outline".to_string(),
+            url: "https://heroicons.com/".to_string(),
+            license: "MIT".to_string(),
+            license_url: "".to_string(),
+            version: "1.0.1".to_string(),
+            source_url: "".to_string(),
+            icons: hi_outline_icons::names(width, height),
+        },
+        IconSet {
+            code: "hero_icons_solid".to_string(),
+            name: "Hero Icons Solid".to_string(),
+            url: "https://heroicons.com/".to_string(),
+            license: "MIT".to_string(),
+            license_url: "".to_string(),
+            version: "1.0.1".to_string(),
+            source_url: "".to_string(),
+            icons: hi_solid_icons::names(width, height),
+        },
+        IconSet {
+            code: "ionicons".to_string(),
+            name: "Ionicons".to_string(),
+            url: "https://ionicons.com/".to_string(),
+            license: "MIT".to_string(),
+            license_url: "".to_string(),
+            version: "5.5.3".to_string(),
+            source_url: "".to_string(),
+            icons: io_icons::names(width, height),
+        },
+        IconSet {
+            code: "lucide".to_string(),
+            name: "Lucide".to_string(),
+            url: "https://lucide.dev/".to_string(),
+            license: "MIT".to_string(),
+            license_url: "".to_string(),
+            version: "1.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: ld_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_action".to_string(),
+            name: "Material Design Icons Action".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_action_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_alert".to_string(),
+            name: "Material Design Icons Alert".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_alert_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_av".to_string(),
+            name: "Material Design Icons AV".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_av_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_communication".to_string(),
+            name: "Material Design Icons Communication".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_communication_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_content".to_string(),
+            name: "Material Design Icons Content".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_content_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_device".to_string(),
+            name: "Material Design Icons Device".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_device_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_editor".to_string(),
+            name: "Material Design Icons Editor".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_editor_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_file".to_string(),
+            name: "Material Design Icons File".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_file_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_hardware".to_string(),
+            name: "Material Design Icons Hardware".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_hardware_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_home".to_string(),
+            name: "Material Design Icons Home".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_home_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_image".to_string(),
+            name: "Material Design Icons Image".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_image_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_maps".to_string(),
+            name: "Material Design Icons Maps".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_maps_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_navigation".to_string(),
+            name: "Material Design Icons Navigation".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_navigation_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_notification".to_string(),
+            name: "Material Design Icons Notification".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_notification_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_places".to_string(),
+            name: "Material Design Icons Places".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_places_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_social".to_string(),
+            name: "Material Design Icons Social".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_social_icons::names(width, height),
+        },
+        IconSet {
+            code: "material_design_icons_toggle".to_string(),
+            name: "Material Design Icons Toggle".to_string(),
+            url: "https://fonts.google.com/icons".to_string(),
+            license: "Apache 2.0".to_string(),
+            license_url: "".to_string(),
+            version: "4.0.0".to_string(),
+            source_url: "".to_string(),
+            icons: md_toggle_icons::names(width, height),
+        },
     ]
+    /*
+        "bootstrap",
+        "feather",
+        "flag-icons",
+        "flag-icons-rect",
+        "octicons",
+        "hero-icons-outline",
+        "hero-icons-solid",
+        "ionicons",
+        "lucide",
+        "material-design-icons-action",
+        "material-design-icons-alert",
+        "material-design-icons-av",
+        "material-design-icons-communication",
+        "material-design-icons-content",
+        "material-design-icons-device",
+        "material-design-icons-editor",
+        "material-design-icons-file",
+        "material-design-icons-hardware",
+        "material-design-icons-home",
+        "material-design-icons-image",
+        "material-design-icons-maps",
+        "material-design-icons-navigation",
+        "material-design-icons-notification",
+        "material-design-icons-places",
+        "material-design-icons-social",
+        "material-design-icons-toggle",
+
+    */
 }
