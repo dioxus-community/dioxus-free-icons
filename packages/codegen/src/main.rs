@@ -6,15 +6,15 @@ fn main() {
     const EXAMPLE_BASE_PATH: &str = "../example/src/icons";
 
     // // create flag icons
-    println!("Processing flag Square icons");
-    const FG_SQUARE_SVG_BASE_PATH: &str = "../../icon_resources/flag-icons/flags/1x1";
-    let output_path = format!("{}/fg_icons.rs", OUTPUT_BASE_PATH);
-    create_icon_file::create_icon_file(FG_SQUARE_SVG_BASE_PATH, &output_path, "Fg");
+    // println!("Processing flag Square icons");
+    // const FG_SQUARE_SVG_BASE_PATH: &str = "../../icon_resources/flag-icons/flags/1x1";
+    // let output_path = format!("{}/fg_icons.rs", OUTPUT_BASE_PATH);
+    // create_icon_file::create_icon_file(FG_SQUARE_SVG_BASE_PATH, &output_path, "Fg");
 
-    println!("Processing flag Rect icons");
-    const FG_RECT_SVG_BASE_PATH: &str = "../../icon_resources/flag-icons/flags/4x3";
-    let output_path = format!("{}/fg_rect_icons.rs", OUTPUT_BASE_PATH);
-    create_icon_file::create_icon_file(FG_RECT_SVG_BASE_PATH, &output_path, "FgR");
+    // println!("Processing flag Rect icons");
+    // const FG_RECT_SVG_BASE_PATH: &str = "../../icon_resources/flag-icons/flags/4x3";
+    // let output_path = format!("{}/fg_rect_icons.rs", OUTPUT_BASE_PATH);
+    // create_icon_file::create_icon_file(FG_RECT_SVG_BASE_PATH, &output_path, "FgR");
 
     // create font awesome icons
     println!("Processing font awesome icons");
@@ -80,7 +80,7 @@ fn main() {
     let fi_output_path = format!("{}/fi_icons.rs", OUTPUT_BASE_PATH);
     create_icon_file::create_icon_file(FI_SVG_BASE_PATH, &fi_output_path, "Fi");
 
-    // create feather icons
+    // create lucide icons
     const LD_SVG_BASE_PATH: &str = "../../icon_resources/lucide/icons";
     let ld_output_path = format!("{}/ld_icons.rs", OUTPUT_BASE_PATH);
     create_icon_file::create_icon_file(LD_SVG_BASE_PATH, &ld_output_path, "Ld");
