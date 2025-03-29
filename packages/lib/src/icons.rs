@@ -53,4 +53,4 @@ pub mod md_social_icons;
 #[cfg(feature = "material-design-icons-toggle")]
 pub mod md_toggle_icons;
 #[cfg(feature = "codicons")]
-pub mod vs_icons;
+pub mod vsc_icons;

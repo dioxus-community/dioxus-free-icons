@@ -2,8 +2,8 @@ use super::super::IconShape;
 use dioxus::prelude::*;
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsAccount;
-impl IconShape for VsAccount {
+pub struct VscAccount;
+impl IconShape for VscAccount {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -29,8 +29,8 @@ impl IconShape for VsAccount {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsActivateBreakpoints;
-impl IconShape for VsActivateBreakpoints {
+pub struct VscActivateBreakpoints;
+impl IconShape for VscActivateBreakpoints {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -56,8 +56,8 @@ impl IconShape for VsActivateBreakpoints {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsAdd;
-impl IconShape for VsAdd {
+pub struct VscAdd;
+impl IconShape for VscAdd {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -83,8 +83,8 @@ impl IconShape for VsAdd {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArchive;
-impl IconShape for VsArchive {
+pub struct VscArchive;
+impl IconShape for VscArchive {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -112,8 +112,8 @@ impl IconShape for VsArchive {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowBoth;
-impl IconShape for VsArrowBoth {
+pub struct VscArrowBoth;
+impl IconShape for VscArrowBoth {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -141,8 +141,8 @@ impl IconShape for VsArrowBoth {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowCircleDown;
-impl IconShape for VsArrowCircleDown {
+pub struct VscArrowCircleDown;
+impl IconShape for VscArrowCircleDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -171,8 +171,8 @@ impl IconShape for VsArrowCircleDown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowCircleLeft;
-impl IconShape for VsArrowCircleLeft {
+pub struct VscArrowCircleLeft;
+impl IconShape for VscArrowCircleLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -201,8 +201,8 @@ impl IconShape for VsArrowCircleLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowCircleRight;
-impl IconShape for VsArrowCircleRight {
+pub struct VscArrowCircleRight;
+impl IconShape for VscArrowCircleRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -231,8 +231,8 @@ impl IconShape for VsArrowCircleRight {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowCircleUp;
-impl IconShape for VsArrowCircleUp {
+pub struct VscArrowCircleUp;
+impl IconShape for VscArrowCircleUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -261,8 +261,8 @@ impl IconShape for VsArrowCircleUp {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowDown;
-impl IconShape for VsArrowDown {
+pub struct VscArrowDown;
+impl IconShape for VscArrowDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -290,8 +290,8 @@ impl IconShape for VsArrowDown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowLeft;
-impl IconShape for VsArrowLeft {
+pub struct VscArrowLeft;
+impl IconShape for VscArrowLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -319,8 +319,8 @@ impl IconShape for VsArrowLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowRight;
-impl IconShape for VsArrowRight {
+pub struct VscArrowRight;
+impl IconShape for VscArrowRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -348,8 +348,8 @@ impl IconShape for VsArrowRight {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowSmallDown;
-impl IconShape for VsArrowSmallDown {
+pub struct VscArrowSmallDown;
+impl IconShape for VscArrowSmallDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -375,8 +375,8 @@ impl IconShape for VsArrowSmallDown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowSmallLeft;
-impl IconShape for VsArrowSmallLeft {
+pub struct VscArrowSmallLeft;
+impl IconShape for VscArrowSmallLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -402,8 +402,8 @@ impl IconShape for VsArrowSmallLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowSmallRight;
-impl IconShape for VsArrowSmallRight {
+pub struct VscArrowSmallRight;
+impl IconShape for VscArrowSmallRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -429,8 +429,8 @@ impl IconShape for VsArrowSmallRight {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowSmallUp;
-impl IconShape for VsArrowSmallUp {
+pub struct VscArrowSmallUp;
+impl IconShape for VscArrowSmallUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -456,8 +456,8 @@ impl IconShape for VsArrowSmallUp {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowSwap;
-impl IconShape for VsArrowSwap {
+pub struct VscArrowSwap;
+impl IconShape for VscArrowSwap {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -485,8 +485,8 @@ impl IconShape for VsArrowSwap {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsArrowUp;
-impl IconShape for VsArrowUp {
+pub struct VscArrowUp;
+impl IconShape for VscArrowUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -514,8 +514,8 @@ impl IconShape for VsArrowUp {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsAttach;
-impl IconShape for VsAttach {
+pub struct VscAttach;
+impl IconShape for VscAttach {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -541,8 +541,8 @@ impl IconShape for VsAttach {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsAzureDevops;
-impl IconShape for VsAzureDevops {
+pub struct VscAzureDevops;
+impl IconShape for VscAzureDevops {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -568,8 +568,8 @@ impl IconShape for VsAzureDevops {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsAzure;
-impl IconShape for VsAzure {
+pub struct VscAzure;
+impl IconShape for VscAzure {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -597,8 +597,8 @@ impl IconShape for VsAzure {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBeakerStop;
-impl IconShape for VsBeakerStop {
+pub struct VscBeakerStop;
+impl IconShape for VscBeakerStop {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -626,8 +626,8 @@ impl IconShape for VsBeakerStop {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBeaker;
-impl IconShape for VsBeaker {
+pub struct VscBeaker;
+impl IconShape for VscBeaker {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -653,8 +653,8 @@ impl IconShape for VsBeaker {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBellDot;
-impl IconShape for VsBellDot {
+pub struct VscBellDot;
+impl IconShape for VscBellDot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -685,8 +685,8 @@ impl IconShape for VsBellDot {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBellSlashDot;
-impl IconShape for VsBellSlashDot {
+pub struct VscBellSlashDot;
+impl IconShape for VscBellSlashDot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -722,8 +722,8 @@ impl IconShape for VsBellSlashDot {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBellSlash;
-impl IconShape for VsBellSlash {
+pub struct VscBellSlash;
+impl IconShape for VscBellSlash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -758,8 +758,8 @@ impl IconShape for VsBellSlash {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBell;
-impl IconShape for VsBell {
+pub struct VscBell;
+impl IconShape for VscBell {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -785,8 +785,8 @@ impl IconShape for VsBell {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBlank;
-impl IconShape for VsBlank {
+pub struct VscBlank;
+impl IconShape for VscBlank {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -810,8 +810,8 @@ impl IconShape for VsBlank {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBold;
-impl IconShape for VsBold {
+pub struct VscBold;
+impl IconShape for VscBold {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -837,8 +837,8 @@ impl IconShape for VsBold {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBook;
-impl IconShape for VsBook {
+pub struct VscBook;
+impl IconShape for VscBook {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -866,8 +866,8 @@ impl IconShape for VsBook {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBookmark;
-impl IconShape for VsBookmark {
+pub struct VscBookmark;
+impl IconShape for VscBookmark {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -893,8 +893,8 @@ impl IconShape for VsBookmark {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBracketDot;
-impl IconShape for VsBracketDot {
+pub struct VscBracketDot;
+impl IconShape for VscBracketDot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -925,8 +925,8 @@ impl IconShape for VsBracketDot {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBracketError;
-impl IconShape for VsBracketError {
+pub struct VscBracketError;
+impl IconShape for VscBracketError {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -959,8 +959,8 @@ impl IconShape for VsBracketError {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBriefcase;
-impl IconShape for VsBriefcase {
+pub struct VscBriefcase;
+impl IconShape for VscBriefcase {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -986,8 +986,8 @@ impl IconShape for VsBriefcase {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBroadcast;
-impl IconShape for VsBroadcast {
+pub struct VscBroadcast;
+impl IconShape for VscBroadcast {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1022,8 +1022,8 @@ impl IconShape for VsBroadcast {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBrowser;
-impl IconShape for VsBrowser {
+pub struct VscBrowser;
+impl IconShape for VscBrowser {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1051,8 +1051,8 @@ impl IconShape for VsBrowser {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsBug;
-impl IconShape for VsBug {
+pub struct VscBug;
+impl IconShape for VscBug {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1080,8 +1080,8 @@ impl IconShape for VsBug {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCalendar;
-impl IconShape for VsCalendar {
+pub struct VscCalendar;
+impl IconShape for VscCalendar {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1109,8 +1109,8 @@ impl IconShape for VsCalendar {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCallIncoming;
-impl IconShape for VsCallIncoming {
+pub struct VscCallIncoming;
+impl IconShape for VscCallIncoming {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1138,8 +1138,8 @@ impl IconShape for VsCallIncoming {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCallOutgoing;
-impl IconShape for VsCallOutgoing {
+pub struct VscCallOutgoing;
+impl IconShape for VscCallOutgoing {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1165,8 +1165,8 @@ impl IconShape for VsCallOutgoing {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCaseSensitive;
-impl IconShape for VsCaseSensitive {
+pub struct VscCaseSensitive;
+impl IconShape for VscCaseSensitive {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1195,8 +1195,8 @@ impl IconShape for VsCaseSensitive {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCheckAll;
-impl IconShape for VsCheckAll {
+pub struct VscCheckAll;
+impl IconShape for VscCheckAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1229,8 +1229,8 @@ impl IconShape for VsCheckAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCheck;
-impl IconShape for VsCheck {
+pub struct VscCheck;
+impl IconShape for VscCheck {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1258,8 +1258,8 @@ impl IconShape for VsCheck {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChecklist;
-impl IconShape for VsChecklist {
+pub struct VscChecklist;
+impl IconShape for VscChecklist {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1287,8 +1287,8 @@ impl IconShape for VsChecklist {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChevronDown;
-impl IconShape for VsChevronDown {
+pub struct VscChevronDown;
+impl IconShape for VscChevronDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1316,8 +1316,8 @@ impl IconShape for VsChevronDown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChevronLeft;
-impl IconShape for VsChevronLeft {
+pub struct VscChevronLeft;
+impl IconShape for VscChevronLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1345,8 +1345,8 @@ impl IconShape for VsChevronLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChevronRight;
-impl IconShape for VsChevronRight {
+pub struct VscChevronRight;
+impl IconShape for VscChevronRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1374,8 +1374,8 @@ impl IconShape for VsChevronRight {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChevronUp;
-impl IconShape for VsChevronUp {
+pub struct VscChevronUp;
+impl IconShape for VscChevronUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1403,8 +1403,8 @@ impl IconShape for VsChevronUp {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChip;
-impl IconShape for VsChip {
+pub struct VscChip;
+impl IconShape for VscChip {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1432,8 +1432,8 @@ impl IconShape for VsChip {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChromeClose;
-impl IconShape for VsChromeClose {
+pub struct VscChromeClose;
+impl IconShape for VscChromeClose {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1461,8 +1461,8 @@ impl IconShape for VsChromeClose {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChromeMaximize;
-impl IconShape for VsChromeMaximize {
+pub struct VscChromeMaximize;
+impl IconShape for VscChromeMaximize {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1488,8 +1488,8 @@ impl IconShape for VsChromeMaximize {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChromeMinimize;
-impl IconShape for VsChromeMinimize {
+pub struct VscChromeMinimize;
+impl IconShape for VscChromeMinimize {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1515,8 +1515,8 @@ impl IconShape for VsChromeMinimize {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsChromeRestore;
-impl IconShape for VsChromeRestore {
+pub struct VscChromeRestore;
+impl IconShape for VscChromeRestore {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1547,8 +1547,8 @@ impl IconShape for VsChromeRestore {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCircleFilled;
-impl IconShape for VsCircleFilled {
+pub struct VscCircleFilled;
+impl IconShape for VscCircleFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1574,8 +1574,8 @@ impl IconShape for VsCircleFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCircleLargeFilled;
-impl IconShape for VsCircleLargeFilled {
+pub struct VscCircleLargeFilled;
+impl IconShape for VscCircleLargeFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1601,8 +1601,8 @@ impl IconShape for VsCircleLargeFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCircleLarge;
-impl IconShape for VsCircleLarge {
+pub struct VscCircleLarge;
+impl IconShape for VscCircleLarge {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1630,8 +1630,8 @@ impl IconShape for VsCircleLarge {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCircleSlash;
-impl IconShape for VsCircleSlash {
+pub struct VscCircleSlash;
+impl IconShape for VscCircleSlash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1657,8 +1657,8 @@ impl IconShape for VsCircleSlash {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCircleSmallFilled;
-impl IconShape for VsCircleSmallFilled {
+pub struct VscCircleSmallFilled;
+impl IconShape for VscCircleSmallFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1684,8 +1684,8 @@ impl IconShape for VsCircleSmallFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCircleSmall;
-impl IconShape for VsCircleSmall {
+pub struct VscCircleSmall;
+impl IconShape for VscCircleSmall {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1711,8 +1711,8 @@ impl IconShape for VsCircleSmall {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCircle;
-impl IconShape for VsCircle {
+pub struct VscCircle;
+impl IconShape for VscCircle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1740,8 +1740,8 @@ impl IconShape for VsCircle {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCircuitBoard;
-impl IconShape for VsCircuitBoard {
+pub struct VscCircuitBoard;
+impl IconShape for VscCircuitBoard {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1767,8 +1767,8 @@ impl IconShape for VsCircuitBoard {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsClearAll;
-impl IconShape for VsClearAll {
+pub struct VscClearAll;
+impl IconShape for VscClearAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1794,8 +1794,8 @@ impl IconShape for VsClearAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsClippy;
-impl IconShape for VsClippy {
+pub struct VscClippy;
+impl IconShape for VscClippy {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1823,8 +1823,8 @@ impl IconShape for VsClippy {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCloseAll;
-impl IconShape for VsCloseAll {
+pub struct VscCloseAll;
+impl IconShape for VscCloseAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1857,8 +1857,8 @@ impl IconShape for VsCloseAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsClose;
-impl IconShape for VsClose {
+pub struct VscClose;
+impl IconShape for VscClose {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1886,8 +1886,8 @@ impl IconShape for VsClose {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCloudDownload;
-impl IconShape for VsCloudDownload {
+pub struct VscCloudDownload;
+impl IconShape for VscCloudDownload {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1915,8 +1915,8 @@ impl IconShape for VsCloudDownload {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCloudUpload;
-impl IconShape for VsCloudUpload {
+pub struct VscCloudUpload;
+impl IconShape for VscCloudUpload {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1944,8 +1944,8 @@ impl IconShape for VsCloudUpload {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCloud;
-impl IconShape for VsCloud {
+pub struct VscCloud;
+impl IconShape for VscCloud {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -1973,8 +1973,8 @@ impl IconShape for VsCloud {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCodeOss;
-impl IconShape for VsCodeOss {
+pub struct VscCodeOss;
+impl IconShape for VscCodeOss {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2018,8 +2018,8 @@ impl IconShape for VsCodeOss {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCodeReview;
-impl IconShape for VsCodeReview {
+pub struct VscCodeReview;
+impl IconShape for VscCodeReview {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2048,8 +2048,8 @@ impl IconShape for VsCodeReview {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCode;
-impl IconShape for VsCode {
+pub struct VscCode;
+impl IconShape for VscCode {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2075,8 +2075,8 @@ impl IconShape for VsCode {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCoffee;
-impl IconShape for VsCoffee {
+pub struct VscCoffee;
+impl IconShape for VscCoffee {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2113,8 +2113,8 @@ impl IconShape for VsCoffee {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCollapseAll;
-impl IconShape for VsCollapseAll {
+pub struct VscCollapseAll;
+impl IconShape for VscCollapseAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2145,8 +2145,8 @@ impl IconShape for VsCollapseAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsColorMode;
-impl IconShape for VsColorMode {
+pub struct VscColorMode;
+impl IconShape for VscColorMode {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2172,8 +2172,8 @@ impl IconShape for VsColorMode {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCombine;
-impl IconShape for VsCombine {
+pub struct VscCombine;
+impl IconShape for VscCombine {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2201,8 +2201,8 @@ impl IconShape for VsCombine {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCommentDiscussion;
-impl IconShape for VsCommentDiscussion {
+pub struct VscCommentDiscussion;
+impl IconShape for VscCommentDiscussion {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2230,8 +2230,8 @@ impl IconShape for VsCommentDiscussion {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCommentDraft;
-impl IconShape for VsCommentDraft {
+pub struct VscCommentDraft;
+impl IconShape for VscCommentDraft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2259,8 +2259,8 @@ impl IconShape for VsCommentDraft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCommentUnresolved;
-impl IconShape for VsCommentUnresolved {
+pub struct VscCommentUnresolved;
+impl IconShape for VscCommentUnresolved {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2291,8 +2291,8 @@ impl IconShape for VsCommentUnresolved {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsComment;
-impl IconShape for VsComment {
+pub struct VscComment;
+impl IconShape for VscComment {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2318,8 +2318,8 @@ impl IconShape for VsComment {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCompassActive;
-impl IconShape for VsCompassActive {
+pub struct VscCompassActive;
+impl IconShape for VscCompassActive {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2352,8 +2352,8 @@ impl IconShape for VsCompassActive {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCompassDot;
-impl IconShape for VsCompassDot {
+pub struct VscCompassDot;
+impl IconShape for VscCompassDot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2386,8 +2386,8 @@ impl IconShape for VsCompassDot {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCompass;
-impl IconShape for VsCompass {
+pub struct VscCompass;
+impl IconShape for VscCompass {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2418,8 +2418,8 @@ impl IconShape for VsCompass {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCopilotBlocked;
-impl IconShape for VsCopilotBlocked {
+pub struct VscCopilotBlocked;
+impl IconShape for VscCopilotBlocked {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2452,8 +2452,8 @@ impl IconShape for VsCopilotBlocked {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCopilotLarge;
-impl IconShape for VsCopilotLarge {
+pub struct VscCopilotLarge;
+impl IconShape for VscCopilotLarge {
     fn view_box(&self) -> &str {
         "0 0 48 48"
     }
@@ -2482,8 +2482,8 @@ impl IconShape for VsCopilotLarge {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCopilotNotConnected;
-impl IconShape for VsCopilotNotConnected {
+pub struct VscCopilotNotConnected;
+impl IconShape for VscCopilotNotConnected {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2517,8 +2517,8 @@ impl IconShape for VsCopilotNotConnected {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCopilotWarningLarge;
-impl IconShape for VsCopilotWarningLarge {
+pub struct VscCopilotWarningLarge;
+impl IconShape for VscCopilotWarningLarge {
     fn view_box(&self) -> &str {
         "0 0 47 43"
     }
@@ -2552,8 +2552,8 @@ impl IconShape for VsCopilotWarningLarge {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCopilotWarning;
-impl IconShape for VsCopilotWarning {
+pub struct VscCopilotWarning;
+impl IconShape for VscCopilotWarning {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2582,8 +2582,8 @@ impl IconShape for VsCopilotWarning {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCopilot;
-impl IconShape for VsCopilot {
+pub struct VscCopilot;
+impl IconShape for VscCopilot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2615,8 +2615,8 @@ impl IconShape for VsCopilot {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCopy;
-impl IconShape for VsCopy {
+pub struct VscCopy;
+impl IconShape for VscCopy {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2649,8 +2649,8 @@ impl IconShape for VsCopy {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCoverage;
-impl IconShape for VsCoverage {
+pub struct VscCoverage;
+impl IconShape for VscCoverage {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2686,8 +2686,8 @@ impl IconShape for VsCoverage {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsCreditCard;
-impl IconShape for VsCreditCard {
+pub struct VscCreditCard;
+impl IconShape for VscCreditCard {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2715,8 +2715,8 @@ impl IconShape for VsCreditCard {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDash;
-impl IconShape for VsDash {
+pub struct VscDash;
+impl IconShape for VscDash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2742,8 +2742,8 @@ impl IconShape for VsDash {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDashboard;
-impl IconShape for VsDashboard {
+pub struct VscDashboard;
+impl IconShape for VscDashboard {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2771,8 +2771,8 @@ impl IconShape for VsDashboard {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDatabase;
-impl IconShape for VsDatabase {
+pub struct VscDatabase;
+impl IconShape for VscDatabase {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2798,8 +2798,8 @@ impl IconShape for VsDatabase {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugAll;
-impl IconShape for VsDebugAll {
+pub struct VscDebugAll;
+impl IconShape for VscDebugAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2830,8 +2830,8 @@ impl IconShape for VsDebugAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugAltSmall;
-impl IconShape for VsDebugAltSmall {
+pub struct VscDebugAltSmall;
+impl IconShape for VscDebugAltSmall {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2862,8 +2862,8 @@ impl IconShape for VsDebugAltSmall {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugAlt;
-impl IconShape for VsDebugAlt {
+pub struct VscDebugAlt;
+impl IconShape for VscDebugAlt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -2889,8 +2889,8 @@ impl IconShape for VsDebugAlt {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointConditionalUnverified;
-impl IconShape for VsDebugBreakpointConditionalUnverified {
+pub struct VscDebugBreakpointConditionalUnverified;
+impl IconShape for VscDebugBreakpointConditionalUnverified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2918,8 +2918,8 @@ impl IconShape for VsDebugBreakpointConditionalUnverified {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointConditional;
-impl IconShape for VsDebugBreakpointConditional {
+pub struct VscDebugBreakpointConditional;
+impl IconShape for VscDebugBreakpointConditional {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2947,8 +2947,8 @@ impl IconShape for VsDebugBreakpointConditional {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointDataUnverified;
-impl IconShape for VsDebugBreakpointDataUnverified {
+pub struct VscDebugBreakpointDataUnverified;
+impl IconShape for VscDebugBreakpointDataUnverified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -2974,8 +2974,8 @@ impl IconShape for VsDebugBreakpointDataUnverified {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointData;
-impl IconShape for VsDebugBreakpointData {
+pub struct VscDebugBreakpointData;
+impl IconShape for VscDebugBreakpointData {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3001,8 +3001,8 @@ impl IconShape for VsDebugBreakpointData {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointFunctionUnverified;
-impl IconShape for VsDebugBreakpointFunctionUnverified {
+pub struct VscDebugBreakpointFunctionUnverified;
+impl IconShape for VscDebugBreakpointFunctionUnverified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3030,8 +3030,8 @@ impl IconShape for VsDebugBreakpointFunctionUnverified {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointFunction;
-impl IconShape for VsDebugBreakpointFunction {
+pub struct VscDebugBreakpointFunction;
+impl IconShape for VscDebugBreakpointFunction {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3057,8 +3057,8 @@ impl IconShape for VsDebugBreakpointFunction {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointLogUnverified;
-impl IconShape for VsDebugBreakpointLogUnverified {
+pub struct VscDebugBreakpointLogUnverified;
+impl IconShape for VscDebugBreakpointLogUnverified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3086,8 +3086,8 @@ impl IconShape for VsDebugBreakpointLogUnverified {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointLog;
-impl IconShape for VsDebugBreakpointLog {
+pub struct VscDebugBreakpointLog;
+impl IconShape for VscDebugBreakpointLog {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3113,8 +3113,8 @@ impl IconShape for VsDebugBreakpointLog {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugBreakpointUnsupported;
-impl IconShape for VsDebugBreakpointUnsupported {
+pub struct VscDebugBreakpointUnsupported;
+impl IconShape for VscDebugBreakpointUnsupported {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3142,8 +3142,8 @@ impl IconShape for VsDebugBreakpointUnsupported {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugConsole;
-impl IconShape for VsDebugConsole {
+pub struct VscDebugConsole;
+impl IconShape for VscDebugConsole {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -3171,8 +3171,8 @@ impl IconShape for VsDebugConsole {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugContinueSmall;
-impl IconShape for VsDebugContinueSmall {
+pub struct VscDebugContinueSmall;
+impl IconShape for VscDebugContinueSmall {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3200,8 +3200,8 @@ impl IconShape for VsDebugContinueSmall {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugContinue;
-impl IconShape for VsDebugContinue {
+pub struct VscDebugContinue;
+impl IconShape for VscDebugContinue {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3229,8 +3229,8 @@ impl IconShape for VsDebugContinue {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugCoverage;
-impl IconShape for VsDebugCoverage {
+pub struct VscDebugCoverage;
+impl IconShape for VscDebugCoverage {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3263,8 +3263,8 @@ impl IconShape for VsDebugCoverage {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugDisconnect;
-impl IconShape for VsDebugDisconnect {
+pub struct VscDebugDisconnect;
+impl IconShape for VscDebugDisconnect {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3292,8 +3292,8 @@ impl IconShape for VsDebugDisconnect {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugLineByLine;
-impl IconShape for VsDebugLineByLine {
+pub struct VscDebugLineByLine;
+impl IconShape for VscDebugLineByLine {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3324,8 +3324,8 @@ impl IconShape for VsDebugLineByLine {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugPause;
-impl IconShape for VsDebugPause {
+pub struct VscDebugPause;
+impl IconShape for VscDebugPause {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3351,8 +3351,8 @@ impl IconShape for VsDebugPause {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugRerun;
-impl IconShape for VsDebugRerun {
+pub struct VscDebugRerun;
+impl IconShape for VscDebugRerun {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3385,8 +3385,8 @@ impl IconShape for VsDebugRerun {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugRestartFrame;
-impl IconShape for VsDebugRestartFrame {
+pub struct VscDebugRestartFrame;
+impl IconShape for VscDebugRestartFrame {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3414,8 +3414,8 @@ impl IconShape for VsDebugRestartFrame {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugRestart;
-impl IconShape for VsDebugRestart {
+pub struct VscDebugRestart;
+impl IconShape for VscDebugRestart {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3443,8 +3443,8 @@ impl IconShape for VsDebugRestart {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugReverseContinue;
-impl IconShape for VsDebugReverseContinue {
+pub struct VscDebugReverseContinue;
+impl IconShape for VscDebugReverseContinue {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3472,8 +3472,8 @@ impl IconShape for VsDebugReverseContinue {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugStackframeActive;
-impl IconShape for VsDebugStackframeActive {
+pub struct VscDebugStackframeActive;
+impl IconShape for VscDebugStackframeActive {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3502,8 +3502,8 @@ impl IconShape for VsDebugStackframeActive {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugStackframe;
-impl IconShape for VsDebugStackframe {
+pub struct VscDebugStackframe;
+impl IconShape for VscDebugStackframe {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3529,8 +3529,8 @@ impl IconShape for VsDebugStackframe {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugStart;
-impl IconShape for VsDebugStart {
+pub struct VscDebugStart;
+impl IconShape for VscDebugStart {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3558,8 +3558,8 @@ impl IconShape for VsDebugStart {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugStepBack;
-impl IconShape for VsDebugStepBack {
+pub struct VscDebugStepBack;
+impl IconShape for VscDebugStepBack {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3587,8 +3587,8 @@ impl IconShape for VsDebugStepBack {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugStepInto;
-impl IconShape for VsDebugStepInto {
+pub struct VscDebugStepInto;
+impl IconShape for VscDebugStepInto {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3616,8 +3616,8 @@ impl IconShape for VsDebugStepInto {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugStepOut;
-impl IconShape for VsDebugStepOut {
+pub struct VscDebugStepOut;
+impl IconShape for VscDebugStepOut {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3645,8 +3645,8 @@ impl IconShape for VsDebugStepOut {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugStepOver;
-impl IconShape for VsDebugStepOver {
+pub struct VscDebugStepOver;
+impl IconShape for VscDebugStepOver {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3674,8 +3674,8 @@ impl IconShape for VsDebugStepOver {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebugStop;
-impl IconShape for VsDebugStop {
+pub struct VscDebugStop;
+impl IconShape for VscDebugStop {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3703,8 +3703,8 @@ impl IconShape for VsDebugStop {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDebug;
-impl IconShape for VsDebug {
+pub struct VscDebug;
+impl IconShape for VscDebug {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -3735,8 +3735,8 @@ impl IconShape for VsDebug {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDesktopDownload;
-impl IconShape for VsDesktopDownload {
+pub struct VscDesktopDownload;
+impl IconShape for VscDesktopDownload {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3764,8 +3764,8 @@ impl IconShape for VsDesktopDownload {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDeviceCameraVideo;
-impl IconShape for VsDeviceCameraVideo {
+pub struct VscDeviceCameraVideo;
+impl IconShape for VscDeviceCameraVideo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3791,8 +3791,8 @@ impl IconShape for VsDeviceCameraVideo {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDeviceCamera;
-impl IconShape for VsDeviceCamera {
+pub struct VscDeviceCamera;
+impl IconShape for VscDeviceCamera {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3820,8 +3820,8 @@ impl IconShape for VsDeviceCamera {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDeviceMobile;
-impl IconShape for VsDeviceMobile {
+pub struct VscDeviceMobile;
+impl IconShape for VscDeviceMobile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3849,8 +3849,8 @@ impl IconShape for VsDeviceMobile {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiffAdded;
-impl IconShape for VsDiffAdded {
+pub struct VscDiffAdded;
+impl IconShape for VscDiffAdded {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3883,8 +3883,8 @@ impl IconShape for VsDiffAdded {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiffIgnored;
-impl IconShape for VsDiffIgnored {
+pub struct VscDiffIgnored;
+impl IconShape for VscDiffIgnored {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3912,8 +3912,8 @@ impl IconShape for VsDiffIgnored {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiffModified;
-impl IconShape for VsDiffModified {
+pub struct VscDiffModified;
+impl IconShape for VscDiffModified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3941,8 +3941,8 @@ impl IconShape for VsDiffModified {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiffMultiple;
-impl IconShape for VsDiffMultiple {
+pub struct VscDiffMultiple;
+impl IconShape for VscDiffMultiple {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -3973,8 +3973,8 @@ impl IconShape for VsDiffMultiple {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiffRemoved;
-impl IconShape for VsDiffRemoved {
+pub struct VscDiffRemoved;
+impl IconShape for VscDiffRemoved {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4005,8 +4005,8 @@ impl IconShape for VsDiffRemoved {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiffRenamed;
-impl IconShape for VsDiffRenamed {
+pub struct VscDiffRenamed;
+impl IconShape for VscDiffRenamed {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4034,8 +4034,8 @@ impl IconShape for VsDiffRenamed {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiffSingle;
-impl IconShape for VsDiffSingle {
+pub struct VscDiffSingle;
+impl IconShape for VscDiffSingle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4063,8 +4063,8 @@ impl IconShape for VsDiffSingle {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiff;
-impl IconShape for VsDiff {
+pub struct VscDiff;
+impl IconShape for VscDiff {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4092,8 +4092,8 @@ impl IconShape for VsDiff {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsDiscard;
-impl IconShape for VsDiscard {
+pub struct VscDiscard;
+impl IconShape for VscDiscard {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4121,8 +4121,8 @@ impl IconShape for VsDiscard {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsEditSession;
-impl IconShape for VsEditSession {
+pub struct VscEditSession;
+impl IconShape for VscEditSession {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4160,8 +4160,8 @@ impl IconShape for VsEditSession {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsEdit;
-impl IconShape for VsEdit {
+pub struct VscEdit;
+impl IconShape for VscEdit {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4187,8 +4187,8 @@ impl IconShape for VsEdit {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsEditorLayout;
-impl IconShape for VsEditorLayout {
+pub struct VscEditorLayout;
+impl IconShape for VscEditorLayout {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4214,8 +4214,8 @@ impl IconShape for VsEditorLayout {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsEllipsis;
-impl IconShape for VsEllipsis {
+pub struct VscEllipsis;
+impl IconShape for VscEllipsis {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4241,8 +4241,8 @@ impl IconShape for VsEllipsis {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsEmptyWindow;
-impl IconShape for VsEmptyWindow {
+pub struct VscEmptyWindow;
+impl IconShape for VscEmptyWindow {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4270,8 +4270,8 @@ impl IconShape for VsEmptyWindow {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsErrorSmall;
-impl IconShape for VsErrorSmall {
+pub struct VscErrorSmall;
+impl IconShape for VscErrorSmall {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4300,8 +4300,8 @@ impl IconShape for VsErrorSmall {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsError;
-impl IconShape for VsError {
+pub struct VscError;
+impl IconShape for VscError {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4329,8 +4329,8 @@ impl IconShape for VsError {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsExclude;
-impl IconShape for VsExclude {
+pub struct VscExclude;
+impl IconShape for VscExclude {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4358,8 +4358,8 @@ impl IconShape for VsExclude {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsExpandAll;
-impl IconShape for VsExpandAll {
+pub struct VscExpandAll;
+impl IconShape for VscExpandAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4393,8 +4393,8 @@ impl IconShape for VsExpandAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsExport;
-impl IconShape for VsExport {
+pub struct VscExport;
+impl IconShape for VscExport {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4422,8 +4422,8 @@ impl IconShape for VsExport {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsExtensions;
-impl IconShape for VsExtensions {
+pub struct VscExtensions;
+impl IconShape for VscExtensions {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -4451,8 +4451,8 @@ impl IconShape for VsExtensions {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsEyeClosed;
-impl IconShape for VsEyeClosed {
+pub struct VscEyeClosed;
+impl IconShape for VscEyeClosed {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4478,8 +4478,8 @@ impl IconShape for VsEyeClosed {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsEye;
-impl IconShape for VsEye {
+pub struct VscEye;
+impl IconShape for VscEye {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4505,8 +4505,8 @@ impl IconShape for VsEye {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFeedback;
-impl IconShape for VsFeedback {
+pub struct VscFeedback;
+impl IconShape for VscFeedback {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4537,8 +4537,8 @@ impl IconShape for VsFeedback {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFileBinary;
-impl IconShape for VsFileBinary {
+pub struct VscFileBinary;
+impl IconShape for VscFileBinary {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4566,8 +4566,8 @@ impl IconShape for VsFileBinary {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFileCode;
-impl IconShape for VsFileCode {
+pub struct VscFileCode;
+impl IconShape for VscFileCode {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4595,8 +4595,8 @@ impl IconShape for VsFileCode {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFileMedia;
-impl IconShape for VsFileMedia {
+pub struct VscFileMedia;
+impl IconShape for VscFileMedia {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4624,8 +4624,8 @@ impl IconShape for VsFileMedia {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFilePdf;
-impl IconShape for VsFilePdf {
+pub struct VscFilePdf;
+impl IconShape for VscFilePdf {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4653,8 +4653,8 @@ impl IconShape for VsFilePdf {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFileSubmodule;
-impl IconShape for VsFileSubmodule {
+pub struct VscFileSubmodule;
+impl IconShape for VscFileSubmodule {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4682,8 +4682,8 @@ impl IconShape for VsFileSubmodule {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFileSymlinkDirectory;
-impl IconShape for VsFileSymlinkDirectory {
+pub struct VscFileSymlinkDirectory;
+impl IconShape for VscFileSymlinkDirectory {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4711,8 +4711,8 @@ impl IconShape for VsFileSymlinkDirectory {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFileSymlinkFile;
-impl IconShape for VsFileSymlinkFile {
+pub struct VscFileSymlinkFile;
+impl IconShape for VscFileSymlinkFile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4740,8 +4740,8 @@ impl IconShape for VsFileSymlinkFile {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFileZip;
-impl IconShape for VsFileZip {
+pub struct VscFileZip;
+impl IconShape for VscFileZip {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4769,8 +4769,8 @@ impl IconShape for VsFileZip {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFile;
-impl IconShape for VsFile {
+pub struct VscFile;
+impl IconShape for VscFile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4798,8 +4798,8 @@ impl IconShape for VsFile {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFiles;
-impl IconShape for VsFiles {
+pub struct VscFiles;
+impl IconShape for VscFiles {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -4825,8 +4825,8 @@ impl IconShape for VsFiles {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFilterFilled;
-impl IconShape for VsFilterFilled {
+pub struct VscFilterFilled;
+impl IconShape for VscFilterFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4854,8 +4854,8 @@ impl IconShape for VsFilterFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFilter;
-impl IconShape for VsFilter {
+pub struct VscFilter;
+impl IconShape for VscFilter {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4883,8 +4883,8 @@ impl IconShape for VsFilter {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFlag;
-impl IconShape for VsFlag {
+pub struct VscFlag;
+impl IconShape for VscFlag {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4910,8 +4910,8 @@ impl IconShape for VsFlag {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFlame;
-impl IconShape for VsFlame {
+pub struct VscFlame;
+impl IconShape for VscFlame {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4937,8 +4937,8 @@ impl IconShape for VsFlame {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFoldDown;
-impl IconShape for VsFoldDown {
+pub struct VscFoldDown;
+impl IconShape for VscFoldDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4966,8 +4966,8 @@ impl IconShape for VsFoldDown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFoldUp;
-impl IconShape for VsFoldUp {
+pub struct VscFoldUp;
+impl IconShape for VscFoldUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -4993,8 +4993,8 @@ impl IconShape for VsFoldUp {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFold;
-impl IconShape for VsFold {
+pub struct VscFold;
+impl IconShape for VscFold {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5022,8 +5022,8 @@ impl IconShape for VsFold {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFolderActive;
-impl IconShape for VsFolderActive {
+pub struct VscFolderActive;
+impl IconShape for VscFolderActive {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5056,8 +5056,8 @@ impl IconShape for VsFolderActive {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFolderLibrary;
-impl IconShape for VsFolderLibrary {
+pub struct VscFolderLibrary;
+impl IconShape for VscFolderLibrary {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5104,8 +5104,8 @@ impl IconShape for VsFolderLibrary {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFolderOpened;
-impl IconShape for VsFolderOpened {
+pub struct VscFolderOpened;
+impl IconShape for VscFolderOpened {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5131,8 +5131,8 @@ impl IconShape for VsFolderOpened {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsFolder;
-impl IconShape for VsFolder {
+pub struct VscFolder;
+impl IconShape for VscFolder {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5158,8 +5158,8 @@ impl IconShape for VsFolder {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGame;
-impl IconShape for VsGame {
+pub struct VscGame;
+impl IconShape for VscGame {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5196,8 +5196,8 @@ impl IconShape for VsGame {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGear;
-impl IconShape for VsGear {
+pub struct VscGear;
+impl IconShape for VscGear {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5223,8 +5223,8 @@ impl IconShape for VsGear {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGift;
-impl IconShape for VsGift {
+pub struct VscGift;
+impl IconShape for VscGift {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5250,8 +5250,8 @@ impl IconShape for VsGift {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGistSecret;
-impl IconShape for VsGistSecret {
+pub struct VscGistSecret;
+impl IconShape for VscGistSecret {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5279,8 +5279,8 @@ impl IconShape for VsGistSecret {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGist;
-impl IconShape for VsGist {
+pub struct VscGist;
+impl IconShape for VscGist {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5308,8 +5308,8 @@ impl IconShape for VsGist {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitCommit;
-impl IconShape for VsGitCommit {
+pub struct VscGitCommit;
+impl IconShape for VscGitCommit {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5335,8 +5335,8 @@ impl IconShape for VsGitCommit {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitCompare;
-impl IconShape for VsGitCompare {
+pub struct VscGitCompare;
+impl IconShape for VscGitCompare {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5364,8 +5364,8 @@ impl IconShape for VsGitCompare {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitFetch;
-impl IconShape for VsGitFetch {
+pub struct VscGitFetch;
+impl IconShape for VscGitFetch {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5400,8 +5400,8 @@ impl IconShape for VsGitFetch {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitMerge;
-impl IconShape for VsGitMerge {
+pub struct VscGitMerge;
+impl IconShape for VscGitMerge {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5427,8 +5427,8 @@ impl IconShape for VsGitMerge {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitPullRequestClosed;
-impl IconShape for VsGitPullRequestClosed {
+pub struct VscGitPullRequestClosed;
+impl IconShape for VscGitPullRequestClosed {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5461,8 +5461,8 @@ impl IconShape for VsGitPullRequestClosed {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitPullRequestCreate;
-impl IconShape for VsGitPullRequestCreate {
+pub struct VscGitPullRequestCreate;
+impl IconShape for VscGitPullRequestCreate {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5490,8 +5490,8 @@ impl IconShape for VsGitPullRequestCreate {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitPullRequestDraft;
-impl IconShape for VsGitPullRequestDraft {
+pub struct VscGitPullRequestDraft;
+impl IconShape for VscGitPullRequestDraft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5532,8 +5532,8 @@ impl IconShape for VsGitPullRequestDraft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitPullRequestGoToChanges;
-impl IconShape for VsGitPullRequestGoToChanges {
+pub struct VscGitPullRequestGoToChanges;
+impl IconShape for VscGitPullRequestGoToChanges {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5566,8 +5566,8 @@ impl IconShape for VsGitPullRequestGoToChanges {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitPullRequestNewChanges;
-impl IconShape for VsGitPullRequestNewChanges {
+pub struct VscGitPullRequestNewChanges;
+impl IconShape for VscGitPullRequestNewChanges {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5598,8 +5598,8 @@ impl IconShape for VsGitPullRequestNewChanges {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitPullRequest;
-impl IconShape for VsGitPullRequest {
+pub struct VscGitPullRequest;
+impl IconShape for VscGitPullRequest {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5627,8 +5627,8 @@ impl IconShape for VsGitPullRequest {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitStashApply;
-impl IconShape for VsGitStashApply {
+pub struct VscGitStashApply;
+impl IconShape for VscGitStashApply {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5671,8 +5671,8 @@ impl IconShape for VsGitStashApply {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitStashPop;
-impl IconShape for VsGitStashPop {
+pub struct VscGitStashPop;
+impl IconShape for VscGitStashPop {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5703,8 +5703,8 @@ impl IconShape for VsGitStashPop {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGitStash;
-impl IconShape for VsGitStash {
+pub struct VscGitStash;
+impl IconShape for VscGitStash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5735,8 +5735,8 @@ impl IconShape for VsGitStash {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGithubAction;
-impl IconShape for VsGithubAction {
+pub struct VscGithubAction;
+impl IconShape for VscGithubAction {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5764,8 +5764,8 @@ impl IconShape for VsGithubAction {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGithubAlt;
-impl IconShape for VsGithubAlt {
+pub struct VscGithubAlt;
+impl IconShape for VscGithubAlt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -5791,8 +5791,8 @@ impl IconShape for VsGithubAlt {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGithubInverted;
-impl IconShape for VsGithubInverted {
+pub struct VscGithubInverted;
+impl IconShape for VscGithubInverted {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5820,8 +5820,8 @@ impl IconShape for VsGithubInverted {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGithubProject;
-impl IconShape for VsGithubProject {
+pub struct VscGithubProject;
+impl IconShape for VscGithubProject {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5854,8 +5854,8 @@ impl IconShape for VsGithubProject {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGithub;
-impl IconShape for VsGithub {
+pub struct VscGithub;
+impl IconShape for VscGithub {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -5881,8 +5881,8 @@ impl IconShape for VsGithub {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGlobe;
-impl IconShape for VsGlobe {
+pub struct VscGlobe;
+impl IconShape for VscGlobe {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5910,8 +5910,8 @@ impl IconShape for VsGlobe {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGoToEditingSession;
-impl IconShape for VsGoToEditingSession {
+pub struct VscGoToEditingSession;
+impl IconShape for VscGoToEditingSession {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5946,8 +5946,8 @@ impl IconShape for VsGoToEditingSession {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGoToFile;
-impl IconShape for VsGoToFile {
+pub struct VscGoToFile;
+impl IconShape for VscGoToFile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -5975,8 +5975,8 @@ impl IconShape for VsGoToFile {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGoToSearch;
-impl IconShape for VsGoToSearch {
+pub struct VscGoToSearch;
+impl IconShape for VscGoToSearch {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6008,8 +6008,8 @@ impl IconShape for VsGoToSearch {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGrabber;
-impl IconShape for VsGrabber {
+pub struct VscGrabber;
+impl IconShape for VscGrabber {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6037,8 +6037,8 @@ impl IconShape for VsGrabber {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGraphLeft;
-impl IconShape for VsGraphLeft {
+pub struct VscGraphLeft;
+impl IconShape for VscGraphLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6066,8 +6066,8 @@ impl IconShape for VsGraphLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGraphLine;
-impl IconShape for VsGraphLine {
+pub struct VscGraphLine;
+impl IconShape for VscGraphLine {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6096,8 +6096,8 @@ impl IconShape for VsGraphLine {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGraphScatter;
-impl IconShape for VsGraphScatter {
+pub struct VscGraphScatter;
+impl IconShape for VscGraphScatter {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6153,8 +6153,8 @@ impl IconShape for VsGraphScatter {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGraph;
-impl IconShape for VsGraph {
+pub struct VscGraph;
+impl IconShape for VscGraph {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6182,8 +6182,8 @@ impl IconShape for VsGraph {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGripper;
-impl IconShape for VsGripper {
+pub struct VscGripper;
+impl IconShape for VscGripper {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6209,8 +6209,8 @@ impl IconShape for VsGripper {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsGroupByRefType;
-impl IconShape for VsGroupByRefType {
+pub struct VscGroupByRefType;
+impl IconShape for VscGroupByRefType {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6238,8 +6238,8 @@ impl IconShape for VsGroupByRefType {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsHeartFilled;
-impl IconShape for VsHeartFilled {
+pub struct VscHeartFilled;
+impl IconShape for VscHeartFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6265,8 +6265,8 @@ impl IconShape for VsHeartFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsHeart;
-impl IconShape for VsHeart {
+pub struct VscHeart;
+impl IconShape for VscHeart {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6292,8 +6292,8 @@ impl IconShape for VsHeart {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsHistory;
-impl IconShape for VsHistory {
+pub struct VscHistory;
+impl IconShape for VscHistory {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6321,8 +6321,8 @@ impl IconShape for VsHistory {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsHome;
-impl IconShape for VsHome {
+pub struct VscHome;
+impl IconShape for VscHome {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6350,8 +6350,8 @@ impl IconShape for VsHome {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsHorizontalRule;
-impl IconShape for VsHorizontalRule {
+pub struct VscHorizontalRule;
+impl IconShape for VscHorizontalRule {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6379,8 +6379,8 @@ impl IconShape for VsHorizontalRule {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsHubot;
-impl IconShape for VsHubot {
+pub struct VscHubot;
+impl IconShape for VscHubot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6408,8 +6408,8 @@ impl IconShape for VsHubot {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsInbox;
-impl IconShape for VsInbox {
+pub struct VscInbox;
+impl IconShape for VscInbox {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6437,8 +6437,8 @@ impl IconShape for VsInbox {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsIndent;
-impl IconShape for VsIndent {
+pub struct VscIndent;
+impl IconShape for VscIndent {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6466,8 +6466,8 @@ impl IconShape for VsIndent {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsInfo;
-impl IconShape for VsInfo {
+pub struct VscInfo;
+impl IconShape for VscInfo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6495,8 +6495,8 @@ impl IconShape for VsInfo {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsInsert;
-impl IconShape for VsInsert {
+pub struct VscInsert;
+impl IconShape for VscInsert {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6532,8 +6532,8 @@ impl IconShape for VsInsert {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsInspect;
-impl IconShape for VsInspect {
+pub struct VscInspect;
+impl IconShape for VscInspect {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6561,8 +6561,8 @@ impl IconShape for VsInspect {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsIssueDraft;
-impl IconShape for VsIssueDraft {
+pub struct VscIssueDraft;
+impl IconShape for VscIssueDraft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6590,8 +6590,8 @@ impl IconShape for VsIssueDraft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsIssueReopened;
-impl IconShape for VsIssueReopened {
+pub struct VscIssueReopened;
+impl IconShape for VscIssueReopened {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6624,8 +6624,8 @@ impl IconShape for VsIssueReopened {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsIssues;
-impl IconShape for VsIssues {
+pub struct VscIssues;
+impl IconShape for VscIssues {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6656,8 +6656,8 @@ impl IconShape for VsIssues {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsItalic;
-impl IconShape for VsItalic {
+pub struct VscItalic;
+impl IconShape for VscItalic {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6683,8 +6683,8 @@ impl IconShape for VsItalic {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsJersey;
-impl IconShape for VsJersey {
+pub struct VscJersey;
+impl IconShape for VscJersey {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6710,8 +6710,8 @@ impl IconShape for VsJersey {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsJson;
-impl IconShape for VsJson {
+pub struct VscJson;
+impl IconShape for VscJson {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6739,8 +6739,8 @@ impl IconShape for VsJson {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsKebabVertical;
-impl IconShape for VsKebabVertical {
+pub struct VscKebabVertical;
+impl IconShape for VscKebabVertical {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6768,8 +6768,8 @@ impl IconShape for VsKebabVertical {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsKey;
-impl IconShape for VsKey {
+pub struct VscKey;
+impl IconShape for VscKey {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6797,8 +6797,8 @@ impl IconShape for VsKey {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsKeyboardTab;
-impl IconShape for VsKeyboardTab {
+pub struct VscKeyboardTab;
+impl IconShape for VscKeyboardTab {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6829,8 +6829,8 @@ impl IconShape for VsKeyboardTab {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLaw;
-impl IconShape for VsLaw {
+pub struct VscLaw;
+impl IconShape for VscLaw {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6856,8 +6856,8 @@ impl IconShape for VsLaw {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayersActive;
-impl IconShape for VsLayersActive {
+pub struct VscLayersActive;
+impl IconShape for VscLayersActive {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6890,8 +6890,8 @@ impl IconShape for VsLayersActive {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayersDot;
-impl IconShape for VsLayersDot {
+pub struct VscLayersDot;
+impl IconShape for VscLayersDot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6924,8 +6924,8 @@ impl IconShape for VsLayersDot {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayers;
-impl IconShape for VsLayers {
+pub struct VscLayers;
+impl IconShape for VscLayers {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6953,8 +6953,8 @@ impl IconShape for VsLayers {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutActivitybarLeft;
-impl IconShape for VsLayoutActivitybarLeft {
+pub struct VscLayoutActivitybarLeft;
+impl IconShape for VscLayoutActivitybarLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -6982,8 +6982,8 @@ impl IconShape for VsLayoutActivitybarLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutActivitybarRight;
-impl IconShape for VsLayoutActivitybarRight {
+pub struct VscLayoutActivitybarRight;
+impl IconShape for VscLayoutActivitybarRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7011,8 +7011,8 @@ impl IconShape for VsLayoutActivitybarRight {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutCentered;
-impl IconShape for VsLayoutCentered {
+pub struct VscLayoutCentered;
+impl IconShape for VscLayoutCentered {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7038,8 +7038,8 @@ impl IconShape for VsLayoutCentered {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutMenubar;
-impl IconShape for VsLayoutMenubar {
+pub struct VscLayoutMenubar;
+impl IconShape for VscLayoutMenubar {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7067,8 +7067,8 @@ impl IconShape for VsLayoutMenubar {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutPanelCenter;
-impl IconShape for VsLayoutPanelCenter {
+pub struct VscLayoutPanelCenter;
+impl IconShape for VscLayoutPanelCenter {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7094,8 +7094,8 @@ impl IconShape for VsLayoutPanelCenter {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutPanelJustify;
-impl IconShape for VsLayoutPanelJustify {
+pub struct VscLayoutPanelJustify;
+impl IconShape for VscLayoutPanelJustify {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7121,8 +7121,8 @@ impl IconShape for VsLayoutPanelJustify {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutPanelLeft;
-impl IconShape for VsLayoutPanelLeft {
+pub struct VscLayoutPanelLeft;
+impl IconShape for VscLayoutPanelLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7148,8 +7148,8 @@ impl IconShape for VsLayoutPanelLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutPanelOff;
-impl IconShape for VsLayoutPanelOff {
+pub struct VscLayoutPanelOff;
+impl IconShape for VscLayoutPanelOff {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7175,8 +7175,8 @@ impl IconShape for VsLayoutPanelOff {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutPanelRight;
-impl IconShape for VsLayoutPanelRight {
+pub struct VscLayoutPanelRight;
+impl IconShape for VscLayoutPanelRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7202,8 +7202,8 @@ impl IconShape for VsLayoutPanelRight {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutPanel;
-impl IconShape for VsLayoutPanel {
+pub struct VscLayoutPanel;
+impl IconShape for VscLayoutPanel {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7231,8 +7231,8 @@ impl IconShape for VsLayoutPanel {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutSidebarLeftOff;
-impl IconShape for VsLayoutSidebarLeftOff {
+pub struct VscLayoutSidebarLeftOff;
+impl IconShape for VscLayoutSidebarLeftOff {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7258,8 +7258,8 @@ impl IconShape for VsLayoutSidebarLeftOff {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutSidebarLeft;
-impl IconShape for VsLayoutSidebarLeft {
+pub struct VscLayoutSidebarLeft;
+impl IconShape for VscLayoutSidebarLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7287,8 +7287,8 @@ impl IconShape for VsLayoutSidebarLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutSidebarRightOff;
-impl IconShape for VsLayoutSidebarRightOff {
+pub struct VscLayoutSidebarRightOff;
+impl IconShape for VscLayoutSidebarRightOff {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7314,8 +7314,8 @@ impl IconShape for VsLayoutSidebarRightOff {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutSidebarRight;
-impl IconShape for VsLayoutSidebarRight {
+pub struct VscLayoutSidebarRight;
+impl IconShape for VscLayoutSidebarRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7343,8 +7343,8 @@ impl IconShape for VsLayoutSidebarRight {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayoutStatusbar;
-impl IconShape for VsLayoutStatusbar {
+pub struct VscLayoutStatusbar;
+impl IconShape for VscLayoutStatusbar {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7372,8 +7372,8 @@ impl IconShape for VsLayoutStatusbar {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLayout;
-impl IconShape for VsLayout {
+pub struct VscLayout;
+impl IconShape for VscLayout {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7405,8 +7405,8 @@ impl IconShape for VsLayout {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLibrary;
-impl IconShape for VsLibrary {
+pub struct VscLibrary;
+impl IconShape for VscLibrary {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7434,8 +7434,8 @@ impl IconShape for VsLibrary {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLightbulbAutofix;
-impl IconShape for VsLightbulbAutofix {
+pub struct VscLightbulbAutofix;
+impl IconShape for VscLightbulbAutofix {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7466,8 +7466,8 @@ impl IconShape for VsLightbulbAutofix {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLightbulbEmpty;
-impl IconShape for VsLightbulbEmpty {
+pub struct VscLightbulbEmpty;
+impl IconShape for VscLightbulbEmpty {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7493,8 +7493,8 @@ impl IconShape for VsLightbulbEmpty {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLightbulbSparkle;
-impl IconShape for VsLightbulbSparkle {
+pub struct VscLightbulbSparkle;
+impl IconShape for VscLightbulbSparkle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7531,8 +7531,8 @@ impl IconShape for VsLightbulbSparkle {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLightbulb;
-impl IconShape for VsLightbulb {
+pub struct VscLightbulb;
+impl IconShape for VscLightbulb {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7560,8 +7560,8 @@ impl IconShape for VsLightbulb {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLinkExternal;
-impl IconShape for VsLinkExternal {
+pub struct VscLinkExternal;
+impl IconShape for VscLinkExternal {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7590,8 +7590,8 @@ impl IconShape for VsLinkExternal {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLink;
-impl IconShape for VsLink {
+pub struct VscLink;
+impl IconShape for VscLink {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7619,8 +7619,8 @@ impl IconShape for VsLink {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsListFilter;
-impl IconShape for VsListFilter {
+pub struct VscListFilter;
+impl IconShape for VscListFilter {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7646,8 +7646,8 @@ impl IconShape for VsListFilter {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsListFlat;
-impl IconShape for VsListFlat {
+pub struct VscListFlat;
+impl IconShape for VscListFlat {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7694,8 +7694,8 @@ impl IconShape for VsListFlat {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsListOrdered;
-impl IconShape for VsListOrdered {
+pub struct VscListOrdered;
+impl IconShape for VscListOrdered {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7723,8 +7723,8 @@ impl IconShape for VsListOrdered {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsListSelection;
-impl IconShape for VsListSelection {
+pub struct VscListSelection;
+impl IconShape for VscListSelection {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7750,8 +7750,8 @@ impl IconShape for VsListSelection {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsListTree;
-impl IconShape for VsListTree {
+pub struct VscListTree;
+impl IconShape for VscListTree {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7804,8 +7804,8 @@ impl IconShape for VsListTree {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsListUnordered;
-impl IconShape for VsListUnordered {
+pub struct VscListUnordered;
+impl IconShape for VscListUnordered {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7833,8 +7833,8 @@ impl IconShape for VsListUnordered {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLiveShare;
-impl IconShape for VsLiveShare {
+pub struct VscLiveShare;
+impl IconShape for VscLiveShare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -7862,8 +7862,8 @@ impl IconShape for VsLiveShare {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLoading;
-impl IconShape for VsLoading {
+pub struct VscLoading;
+impl IconShape for VscLoading {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7891,8 +7891,8 @@ impl IconShape for VsLoading {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLocation;
-impl IconShape for VsLocation {
+pub struct VscLocation;
+impl IconShape for VscLocation {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7920,8 +7920,8 @@ impl IconShape for VsLocation {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLockSmall;
-impl IconShape for VsLockSmall {
+pub struct VscLockSmall;
+impl IconShape for VscLockSmall {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7950,8 +7950,8 @@ impl IconShape for VsLockSmall {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsLock;
-impl IconShape for VsLock {
+pub struct VscLock;
+impl IconShape for VscLock {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -7977,8 +7977,8 @@ impl IconShape for VsLock {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMagnet;
-impl IconShape for VsMagnet {
+pub struct VscMagnet;
+impl IconShape for VscMagnet {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8004,8 +8004,8 @@ impl IconShape for VsMagnet {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMailRead;
-impl IconShape for VsMailRead {
+pub struct VscMailRead;
+impl IconShape for VscMailRead {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8031,8 +8031,8 @@ impl IconShape for VsMailRead {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMail;
-impl IconShape for VsMail {
+pub struct VscMail;
+impl IconShape for VscMail {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8060,8 +8060,8 @@ impl IconShape for VsMail {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMapFilled;
-impl IconShape for VsMapFilled {
+pub struct VscMapFilled;
+impl IconShape for VscMapFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8093,8 +8093,8 @@ impl IconShape for VsMapFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMapVerticalFilled;
-impl IconShape for VsMapVerticalFilled {
+pub struct VscMapVerticalFilled;
+impl IconShape for VscMapVerticalFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8126,8 +8126,8 @@ impl IconShape for VsMapVerticalFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMapVertical;
-impl IconShape for VsMapVertical {
+pub struct VscMapVertical;
+impl IconShape for VscMapVertical {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8153,8 +8153,8 @@ impl IconShape for VsMapVertical {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMap;
-impl IconShape for VsMap {
+pub struct VscMap;
+impl IconShape for VscMap {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8180,8 +8180,8 @@ impl IconShape for VsMap {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMarkdown;
-impl IconShape for VsMarkdown {
+pub struct VscMarkdown;
+impl IconShape for VscMarkdown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8207,8 +8207,8 @@ impl IconShape for VsMarkdown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMegaphone;
-impl IconShape for VsMegaphone {
+pub struct VscMegaphone;
+impl IconShape for VscMegaphone {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8236,8 +8236,8 @@ impl IconShape for VsMegaphone {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMention;
-impl IconShape for VsMention {
+pub struct VscMention;
+impl IconShape for VscMention {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8263,8 +8263,8 @@ impl IconShape for VsMention {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMenu;
-impl IconShape for VsMenu {
+pub struct VscMenu;
+impl IconShape for VscMenu {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8290,8 +8290,8 @@ impl IconShape for VsMenu {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMerge;
-impl IconShape for VsMerge {
+pub struct VscMerge;
+impl IconShape for VscMerge {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8319,8 +8319,8 @@ impl IconShape for VsMerge {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMicFilled;
-impl IconShape for VsMicFilled {
+pub struct VscMicFilled;
+impl IconShape for VscMicFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8346,8 +8346,8 @@ impl IconShape for VsMicFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMic;
-impl IconShape for VsMic {
+pub struct VscMic;
+impl IconShape for VscMic {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8373,8 +8373,8 @@ impl IconShape for VsMic {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMilestone;
-impl IconShape for VsMilestone {
+pub struct VscMilestone;
+impl IconShape for VscMilestone {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8402,8 +8402,8 @@ impl IconShape for VsMilestone {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMirror;
-impl IconShape for VsMirror {
+pub struct VscMirror;
+impl IconShape for VscMirror {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8431,8 +8431,8 @@ impl IconShape for VsMirror {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMortarBoard;
-impl IconShape for VsMortarBoard {
+pub struct VscMortarBoard;
+impl IconShape for VscMortarBoard {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8458,8 +8458,8 @@ impl IconShape for VsMortarBoard {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMove;
-impl IconShape for VsMove {
+pub struct VscMove;
+impl IconShape for VscMove {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8487,8 +8487,8 @@ impl IconShape for VsMove {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMultipleWindows;
-impl IconShape for VsMultipleWindows {
+pub struct VscMultipleWindows;
+impl IconShape for VscMultipleWindows {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8516,8 +8516,8 @@ impl IconShape for VsMultipleWindows {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMusic;
-impl IconShape for VsMusic {
+pub struct VscMusic;
+impl IconShape for VscMusic {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8550,8 +8550,8 @@ impl IconShape for VsMusic {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsMute;
-impl IconShape for VsMute {
+pub struct VscMute;
+impl IconShape for VscMute {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8579,8 +8579,8 @@ impl IconShape for VsMute {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsNewFile;
-impl IconShape for VsNewFile {
+pub struct VscNewFile;
+impl IconShape for VscNewFile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8608,8 +8608,8 @@ impl IconShape for VsNewFile {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsNewFolder;
-impl IconShape for VsNewFolder {
+pub struct VscNewFolder;
+impl IconShape for VscNewFolder {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8637,8 +8637,8 @@ impl IconShape for VsNewFolder {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsNewline;
-impl IconShape for VsNewline {
+pub struct VscNewline;
+impl IconShape for VscNewline {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8666,8 +8666,8 @@ impl IconShape for VsNewline {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsNoNewline;
-impl IconShape for VsNoNewline {
+pub struct VscNoNewline;
+impl IconShape for VscNoNewline {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8695,8 +8695,8 @@ impl IconShape for VsNoNewline {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsNote;
-impl IconShape for VsNote {
+pub struct VscNote;
+impl IconShape for VscNote {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8724,8 +8724,8 @@ impl IconShape for VsNote {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsNotebookTemplate;
-impl IconShape for VsNotebookTemplate {
+pub struct VscNotebookTemplate;
+impl IconShape for VscNotebookTemplate {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8759,8 +8759,8 @@ impl IconShape for VsNotebookTemplate {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsNotebook;
-impl IconShape for VsNotebook {
+pub struct VscNotebook;
+impl IconShape for VscNotebook {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8788,8 +8788,8 @@ impl IconShape for VsNotebook {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsOctoface;
-impl IconShape for VsOctoface {
+pub struct VscOctoface;
+impl IconShape for VscOctoface {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8817,8 +8817,8 @@ impl IconShape for VsOctoface {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsOpenPreview;
-impl IconShape for VsOpenPreview {
+pub struct VscOpenPreview;
+impl IconShape for VscOpenPreview {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8846,8 +8846,8 @@ impl IconShape for VsOpenPreview {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsOrganization;
-impl IconShape for VsOrganization {
+pub struct VscOrganization;
+impl IconShape for VscOrganization {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8875,8 +8875,8 @@ impl IconShape for VsOrganization {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsOutput;
-impl IconShape for VsOutput {
+pub struct VscOutput;
+impl IconShape for VscOutput {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -8904,8 +8904,8 @@ impl IconShape for VsOutput {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPackage;
-impl IconShape for VsPackage {
+pub struct VscPackage;
+impl IconShape for VscPackage {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8933,8 +8933,8 @@ impl IconShape for VsPackage {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPaintcan;
-impl IconShape for VsPaintcan {
+pub struct VscPaintcan;
+impl IconShape for VscPaintcan {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8960,8 +8960,8 @@ impl IconShape for VsPaintcan {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPassFilled;
-impl IconShape for VsPassFilled {
+pub struct VscPassFilled;
+impl IconShape for VscPassFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -8989,8 +8989,8 @@ impl IconShape for VsPassFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPass;
-impl IconShape for VsPass {
+pub struct VscPass;
+impl IconShape for VscPass {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9021,8 +9021,8 @@ impl IconShape for VsPass {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPercentage;
-impl IconShape for VsPercentage {
+pub struct VscPercentage;
+impl IconShape for VscPercentage {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9060,8 +9060,8 @@ impl IconShape for VsPercentage {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPersonAdd;
-impl IconShape for VsPersonAdd {
+pub struct VscPersonAdd;
+impl IconShape for VscPersonAdd {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9089,8 +9089,8 @@ impl IconShape for VsPersonAdd {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPerson;
-impl IconShape for VsPerson {
+pub struct VscPerson;
+impl IconShape for VscPerson {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9116,8 +9116,8 @@ impl IconShape for VsPerson {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPiano;
-impl IconShape for VsPiano {
+pub struct VscPiano;
+impl IconShape for VscPiano {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9143,8 +9143,8 @@ impl IconShape for VsPiano {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPieChart;
-impl IconShape for VsPieChart {
+pub struct VscPieChart;
+impl IconShape for VscPieChart {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9172,8 +9172,8 @@ impl IconShape for VsPieChart {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPin;
-impl IconShape for VsPin {
+pub struct VscPin;
+impl IconShape for VscPin {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9199,8 +9199,8 @@ impl IconShape for VsPin {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPinnedDirty;
-impl IconShape for VsPinnedDirty {
+pub struct VscPinnedDirty;
+impl IconShape for VscPinnedDirty {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9228,8 +9228,8 @@ impl IconShape for VsPinnedDirty {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPinned;
-impl IconShape for VsPinned {
+pub struct VscPinned;
+impl IconShape for VscPinned {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9255,8 +9255,8 @@ impl IconShape for VsPinned {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPlayCircle;
-impl IconShape for VsPlayCircle {
+pub struct VscPlayCircle;
+impl IconShape for VscPlayCircle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9289,8 +9289,8 @@ impl IconShape for VsPlayCircle {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPlay;
-impl IconShape for VsPlay {
+pub struct VscPlay;
+impl IconShape for VscPlay {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9316,8 +9316,8 @@ impl IconShape for VsPlay {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPlug;
-impl IconShape for VsPlug {
+pub struct VscPlug;
+impl IconShape for VscPlug {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9345,8 +9345,8 @@ impl IconShape for VsPlug {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPreserveCase;
-impl IconShape for VsPreserveCase {
+pub struct VscPreserveCase;
+impl IconShape for VscPreserveCase {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9375,8 +9375,8 @@ impl IconShape for VsPreserveCase {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPreview;
-impl IconShape for VsPreview {
+pub struct VscPreview;
+impl IconShape for VscPreview {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9404,8 +9404,8 @@ impl IconShape for VsPreview {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPrimitiveSquare;
-impl IconShape for VsPrimitiveSquare {
+pub struct VscPrimitiveSquare;
+impl IconShape for VscPrimitiveSquare {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9433,8 +9433,8 @@ impl IconShape for VsPrimitiveSquare {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsProject;
-impl IconShape for VsProject {
+pub struct VscProject;
+impl IconShape for VscProject {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9462,8 +9462,8 @@ impl IconShape for VsProject {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPulse;
-impl IconShape for VsPulse {
+pub struct VscPulse;
+impl IconShape for VscPulse {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9489,8 +9489,8 @@ impl IconShape for VsPulse {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsPython;
-impl IconShape for VsPython {
+pub struct VscPython;
+impl IconShape for VscPython {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9519,8 +9519,8 @@ impl IconShape for VsPython {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsQuestion;
-impl IconShape for VsQuestion {
+pub struct VscQuestion;
+impl IconShape for VscQuestion {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9548,8 +9548,8 @@ impl IconShape for VsQuestion {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsQuote;
-impl IconShape for VsQuote {
+pub struct VscQuote;
+impl IconShape for VscQuote {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9577,8 +9577,8 @@ impl IconShape for VsQuote {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRadioTower;
-impl IconShape for VsRadioTower {
+pub struct VscRadioTower;
+impl IconShape for VscRadioTower {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9606,8 +9606,8 @@ impl IconShape for VsRadioTower {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsReactions;
-impl IconShape for VsReactions {
+pub struct VscReactions;
+impl IconShape for VscReactions {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9635,8 +9635,8 @@ impl IconShape for VsReactions {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRecordKeys;
-impl IconShape for VsRecordKeys {
+pub struct VscRecordKeys;
+impl IconShape for VscRecordKeys {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9664,8 +9664,8 @@ impl IconShape for VsRecordKeys {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRecordSmall;
-impl IconShape for VsRecordSmall {
+pub struct VscRecordSmall;
+impl IconShape for VscRecordSmall {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9694,8 +9694,8 @@ impl IconShape for VsRecordSmall {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRecord;
-impl IconShape for VsRecord {
+pub struct VscRecord;
+impl IconShape for VscRecord {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9726,8 +9726,8 @@ impl IconShape for VsRecord {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRedo;
-impl IconShape for VsRedo {
+pub struct VscRedo;
+impl IconShape for VscRedo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9755,8 +9755,8 @@ impl IconShape for VsRedo {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsReferences;
-impl IconShape for VsReferences {
+pub struct VscReferences;
+impl IconShape for VscReferences {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -9784,8 +9784,8 @@ impl IconShape for VsReferences {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRefresh;
-impl IconShape for VsRefresh {
+pub struct VscRefresh;
+impl IconShape for VscRefresh {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9813,8 +9813,8 @@ impl IconShape for VsRefresh {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRegex;
-impl IconShape for VsRegex {
+pub struct VscRegex;
+impl IconShape for VscRegex {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9842,8 +9842,8 @@ impl IconShape for VsRegex {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRemoteExplorer;
-impl IconShape for VsRemoteExplorer {
+pub struct VscRemoteExplorer;
+impl IconShape for VscRemoteExplorer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -9871,8 +9871,8 @@ impl IconShape for VsRemoteExplorer {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRemote;
-impl IconShape for VsRemote {
+pub struct VscRemote;
+impl IconShape for VscRemote {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9900,8 +9900,8 @@ impl IconShape for VsRemote {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRemove;
-impl IconShape for VsRemove {
+pub struct VscRemove;
+impl IconShape for VscRemove {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9927,8 +9927,8 @@ impl IconShape for VsRemove {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsReplaceAll;
-impl IconShape for VsReplaceAll {
+pub struct VscReplaceAll;
+impl IconShape for VscReplaceAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9956,8 +9956,8 @@ impl IconShape for VsReplaceAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsReplace;
-impl IconShape for VsReplace {
+pub struct VscReplace;
+impl IconShape for VscReplace {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -9985,8 +9985,8 @@ impl IconShape for VsReplace {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsReply;
-impl IconShape for VsReply {
+pub struct VscReply;
+impl IconShape for VscReply {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10014,8 +10014,8 @@ impl IconShape for VsReply {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRepoClone;
-impl IconShape for VsRepoClone {
+pub struct VscRepoClone;
+impl IconShape for VscRepoClone {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10043,8 +10043,8 @@ impl IconShape for VsRepoClone {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRepoFetch;
-impl IconShape for VsRepoFetch {
+pub struct VscRepoFetch;
+impl IconShape for VscRepoFetch {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10104,8 +10104,8 @@ impl IconShape for VsRepoFetch {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRepoForcePush;
-impl IconShape for VsRepoForcePush {
+pub struct VscRepoForcePush;
+impl IconShape for VscRepoForcePush {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10143,8 +10143,8 @@ impl IconShape for VsRepoForcePush {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRepoForked;
-impl IconShape for VsRepoForked {
+pub struct VscRepoForked;
+impl IconShape for VscRepoForked {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10170,8 +10170,8 @@ impl IconShape for VsRepoForked {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRepoPull;
-impl IconShape for VsRepoPull {
+pub struct VscRepoPull;
+impl IconShape for VscRepoPull {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10204,8 +10204,8 @@ impl IconShape for VsRepoPull {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRepoPush;
-impl IconShape for VsRepoPush {
+pub struct VscRepoPush;
+impl IconShape for VscRepoPush {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10238,8 +10238,8 @@ impl IconShape for VsRepoPush {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRepo;
-impl IconShape for VsRepo {
+pub struct VscRepo;
+impl IconShape for VscRepo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10267,8 +10267,8 @@ impl IconShape for VsRepo {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsReport;
-impl IconShape for VsReport {
+pub struct VscReport;
+impl IconShape for VscReport {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10296,8 +10296,8 @@ impl IconShape for VsReport {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRequestChanges;
-impl IconShape for VsRequestChanges {
+pub struct VscRequestChanges;
+impl IconShape for VscRequestChanges {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10325,8 +10325,8 @@ impl IconShape for VsRequestChanges {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRobot;
-impl IconShape for VsRobot {
+pub struct VscRobot;
+impl IconShape for VscRobot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10369,8 +10369,8 @@ impl IconShape for VsRobot {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRocket;
-impl IconShape for VsRocket {
+pub struct VscRocket;
+impl IconShape for VscRocket {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10398,8 +10398,8 @@ impl IconShape for VsRocket {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRootFolderOpened;
-impl IconShape for VsRootFolderOpened {
+pub struct VscRootFolderOpened;
+impl IconShape for VscRootFolderOpened {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10435,8 +10435,8 @@ impl IconShape for VsRootFolderOpened {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRootFolder;
-impl IconShape for VsRootFolder {
+pub struct VscRootFolder;
+impl IconShape for VscRootFolder {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10472,8 +10472,8 @@ impl IconShape for VsRootFolder {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRss;
-impl IconShape for VsRss {
+pub struct VscRss;
+impl IconShape for VscRss {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10501,8 +10501,8 @@ impl IconShape for VsRss {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRuby;
-impl IconShape for VsRuby {
+pub struct VscRuby;
+impl IconShape for VscRuby {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10530,8 +10530,8 @@ impl IconShape for VsRuby {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRunAbove;
-impl IconShape for VsRunAbove {
+pub struct VscRunAbove;
+impl IconShape for VscRunAbove {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10557,8 +10557,8 @@ impl IconShape for VsRunAbove {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRunAllCoverage;
-impl IconShape for VsRunAllCoverage {
+pub struct VscRunAllCoverage;
+impl IconShape for VscRunAllCoverage {
     fn view_box(&self) -> &str {
         "0 0 17 16"
     }
@@ -10592,8 +10592,8 @@ impl IconShape for VsRunAllCoverage {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRunAll;
-impl IconShape for VsRunAll {
+pub struct VscRunAll;
+impl IconShape for VscRunAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10624,8 +10624,8 @@ impl IconShape for VsRunAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRunBelow;
-impl IconShape for VsRunBelow {
+pub struct VscRunBelow;
+impl IconShape for VscRunBelow {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10651,8 +10651,8 @@ impl IconShape for VsRunBelow {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRunCoverage;
-impl IconShape for VsRunCoverage {
+pub struct VscRunCoverage;
+impl IconShape for VscRunCoverage {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10685,8 +10685,8 @@ impl IconShape for VsRunCoverage {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsRunErrors;
-impl IconShape for VsRunErrors {
+pub struct VscRunErrors;
+impl IconShape for VscRunErrors {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10719,8 +10719,8 @@ impl IconShape for VsRunErrors {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSaveAll;
-impl IconShape for VsSaveAll {
+pub struct VscSaveAll;
+impl IconShape for VscSaveAll {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10746,8 +10746,8 @@ impl IconShape for VsSaveAll {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSaveAs;
-impl IconShape for VsSaveAs {
+pub struct VscSaveAs;
+impl IconShape for VscSaveAs {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10775,8 +10775,8 @@ impl IconShape for VsSaveAs {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSave;
-impl IconShape for VsSave {
+pub struct VscSave;
+impl IconShape for VscSave {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10804,8 +10804,8 @@ impl IconShape for VsSave {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsScreenFull;
-impl IconShape for VsScreenFull {
+pub struct VscScreenFull;
+impl IconShape for VscScreenFull {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10831,8 +10831,8 @@ impl IconShape for VsScreenFull {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsScreenNormal;
-impl IconShape for VsScreenNormal {
+pub struct VscScreenNormal;
+impl IconShape for VscScreenNormal {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10858,8 +10858,8 @@ impl IconShape for VsScreenNormal {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSearchFuzzy;
-impl IconShape for VsSearchFuzzy {
+pub struct VscSearchFuzzy;
+impl IconShape for VscSearchFuzzy {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10888,8 +10888,8 @@ impl IconShape for VsSearchFuzzy {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSearchStop;
-impl IconShape for VsSearchStop {
+pub struct VscSearchStop;
+impl IconShape for VscSearchStop {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10917,8 +10917,8 @@ impl IconShape for VsSearchStop {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSearch;
-impl IconShape for VsSearch {
+pub struct VscSearch;
+impl IconShape for VscSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -10944,8 +10944,8 @@ impl IconShape for VsSearch {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSend;
-impl IconShape for VsSend {
+pub struct VscSend;
+impl IconShape for VscSend {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10971,8 +10971,8 @@ impl IconShape for VsSend {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsServerEnvironment;
-impl IconShape for VsServerEnvironment {
+pub struct VscServerEnvironment;
+impl IconShape for VscServerEnvironment {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -10998,8 +10998,8 @@ impl IconShape for VsServerEnvironment {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsServerProcess;
-impl IconShape for VsServerProcess {
+pub struct VscServerProcess;
+impl IconShape for VscServerProcess {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11027,8 +11027,8 @@ impl IconShape for VsServerProcess {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsServer;
-impl IconShape for VsServer {
+pub struct VscServer;
+impl IconShape for VscServer {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11056,8 +11056,8 @@ impl IconShape for VsServer {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSettingsGear;
-impl IconShape for VsSettingsGear {
+pub struct VscSettingsGear;
+impl IconShape for VscSettingsGear {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -11085,8 +11085,8 @@ impl IconShape for VsSettingsGear {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSettings;
-impl IconShape for VsSettings {
+pub struct VscSettings;
+impl IconShape for VscSettings {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11112,8 +11112,8 @@ impl IconShape for VsSettings {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsShare;
-impl IconShape for VsShare {
+pub struct VscShare;
+impl IconShape for VscShare {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11150,8 +11150,8 @@ impl IconShape for VsShare {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsShield;
-impl IconShape for VsShield {
+pub struct VscShield;
+impl IconShape for VscShield {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11179,8 +11179,8 @@ impl IconShape for VsShield {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSignIn;
-impl IconShape for VsSignIn {
+pub struct VscSignIn;
+impl IconShape for VscSignIn {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11208,8 +11208,8 @@ impl IconShape for VsSignIn {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSignOut;
-impl IconShape for VsSignOut {
+pub struct VscSignOut;
+impl IconShape for VscSignOut {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11237,8 +11237,8 @@ impl IconShape for VsSignOut {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSmiley;
-impl IconShape for VsSmiley {
+pub struct VscSmiley;
+impl IconShape for VscSmiley {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11266,8 +11266,8 @@ impl IconShape for VsSmiley {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSnake;
-impl IconShape for VsSnake {
+pub struct VscSnake;
+impl IconShape for VscSnake {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11298,8 +11298,8 @@ impl IconShape for VsSnake {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSortPrecedence;
-impl IconShape for VsSortPrecedence {
+pub struct VscSortPrecedence;
+impl IconShape for VscSortPrecedence {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11327,8 +11327,8 @@ impl IconShape for VsSortPrecedence {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSourceControl;
-impl IconShape for VsSourceControl {
+pub struct VscSourceControl;
+impl IconShape for VscSourceControl {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -11354,8 +11354,8 @@ impl IconShape for VsSourceControl {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSparkleFilled;
-impl IconShape for VsSparkleFilled {
+pub struct VscSparkleFilled;
+impl IconShape for VscSparkleFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11381,8 +11381,8 @@ impl IconShape for VsSparkleFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSparkle;
-impl IconShape for VsSparkle {
+pub struct VscSparkle;
+impl IconShape for VscSparkle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11408,8 +11408,8 @@ impl IconShape for VsSparkle {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSplitHorizontal;
-impl IconShape for VsSplitHorizontal {
+pub struct VscSplitHorizontal;
+impl IconShape for VscSplitHorizontal {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11435,8 +11435,8 @@ impl IconShape for VsSplitHorizontal {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSplitVertical;
-impl IconShape for VsSplitVertical {
+pub struct VscSplitVertical;
+impl IconShape for VscSplitVertical {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11462,8 +11462,8 @@ impl IconShape for VsSplitVertical {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSquirrel;
-impl IconShape for VsSquirrel {
+pub struct VscSquirrel;
+impl IconShape for VscSquirrel {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11491,8 +11491,8 @@ impl IconShape for VsSquirrel {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsStarEmpty;
-impl IconShape for VsStarEmpty {
+pub struct VscStarEmpty;
+impl IconShape for VscStarEmpty {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11518,8 +11518,8 @@ impl IconShape for VsStarEmpty {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsStarFull;
-impl IconShape for VsStarFull {
+pub struct VscStarFull;
+impl IconShape for VscStarFull {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11545,8 +11545,8 @@ impl IconShape for VsStarFull {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsStarHalf;
-impl IconShape for VsStarHalf {
+pub struct VscStarHalf;
+impl IconShape for VscStarHalf {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11572,8 +11572,8 @@ impl IconShape for VsStarHalf {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsStopCircle;
-impl IconShape for VsStopCircle {
+pub struct VscStopCircle;
+impl IconShape for VscStopCircle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11604,8 +11604,8 @@ impl IconShape for VsStopCircle {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSurroundWith;
-impl IconShape for VsSurroundWith {
+pub struct VscSurroundWith;
+impl IconShape for VscSurroundWith {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11633,8 +11633,8 @@ impl IconShape for VsSurroundWith {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolArray;
-impl IconShape for VsSymbolArray {
+pub struct VscSymbolArray;
+impl IconShape for VscSymbolArray {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11662,8 +11662,8 @@ impl IconShape for VsSymbolArray {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolBoolean;
-impl IconShape for VsSymbolBoolean {
+pub struct VscSymbolBoolean;
+impl IconShape for VscSymbolBoolean {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11691,8 +11691,8 @@ impl IconShape for VsSymbolBoolean {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolClass;
-impl IconShape for VsSymbolClass {
+pub struct VscSymbolClass;
+impl IconShape for VscSymbolClass {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11718,8 +11718,8 @@ impl IconShape for VsSymbolClass {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolColor;
-impl IconShape for VsSymbolColor {
+pub struct VscSymbolColor;
+impl IconShape for VscSymbolColor {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11747,8 +11747,8 @@ impl IconShape for VsSymbolColor {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolConstant;
-impl IconShape for VsSymbolConstant {
+pub struct VscSymbolConstant;
+impl IconShape for VscSymbolConstant {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11781,8 +11781,8 @@ impl IconShape for VsSymbolConstant {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolEnumMember;
-impl IconShape for VsSymbolEnumMember {
+pub struct VscSymbolEnumMember;
+impl IconShape for VscSymbolEnumMember {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11810,8 +11810,8 @@ impl IconShape for VsSymbolEnumMember {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolEnum;
-impl IconShape for VsSymbolEnum {
+pub struct VscSymbolEnum;
+impl IconShape for VscSymbolEnum {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11839,8 +11839,8 @@ impl IconShape for VsSymbolEnum {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolEvent;
-impl IconShape for VsSymbolEvent {
+pub struct VscSymbolEvent;
+impl IconShape for VscSymbolEvent {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11868,8 +11868,8 @@ impl IconShape for VsSymbolEvent {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolField;
-impl IconShape for VsSymbolField {
+pub struct VscSymbolField;
+impl IconShape for VscSymbolField {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11895,8 +11895,8 @@ impl IconShape for VsSymbolField {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolFile;
-impl IconShape for VsSymbolFile {
+pub struct VscSymbolFile;
+impl IconShape for VscSymbolFile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11922,8 +11922,8 @@ impl IconShape for VsSymbolFile {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolInterface;
-impl IconShape for VsSymbolInterface {
+pub struct VscSymbolInterface;
+impl IconShape for VscSymbolInterface {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11949,8 +11949,8 @@ impl IconShape for VsSymbolInterface {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolKey;
-impl IconShape for VsSymbolKey {
+pub struct VscSymbolKey;
+impl IconShape for VscSymbolKey {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -11978,8 +11978,8 @@ impl IconShape for VsSymbolKey {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolKeyword;
-impl IconShape for VsSymbolKeyword {
+pub struct VscSymbolKeyword;
+impl IconShape for VscSymbolKeyword {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12005,8 +12005,8 @@ impl IconShape for VsSymbolKeyword {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolMethodArrow;
-impl IconShape for VsSymbolMethodArrow {
+pub struct VscSymbolMethodArrow;
+impl IconShape for VscSymbolMethodArrow {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12037,8 +12037,8 @@ impl IconShape for VsSymbolMethodArrow {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolMethod;
-impl IconShape for VsSymbolMethod {
+pub struct VscSymbolMethod;
+impl IconShape for VscSymbolMethod {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12064,8 +12064,8 @@ impl IconShape for VsSymbolMethod {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolMisc;
-impl IconShape for VsSymbolMisc {
+pub struct VscSymbolMisc;
+impl IconShape for VscSymbolMisc {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12093,8 +12093,8 @@ impl IconShape for VsSymbolMisc {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolNamespace;
-impl IconShape for VsSymbolNamespace {
+pub struct VscSymbolNamespace;
+impl IconShape for VscSymbolNamespace {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12122,8 +12122,8 @@ impl IconShape for VsSymbolNamespace {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolNumeric;
-impl IconShape for VsSymbolNumeric {
+pub struct VscSymbolNumeric;
+impl IconShape for VscSymbolNumeric {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12151,8 +12151,8 @@ impl IconShape for VsSymbolNumeric {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolOperator;
-impl IconShape for VsSymbolOperator {
+pub struct VscSymbolOperator;
+impl IconShape for VscSymbolOperator {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12180,8 +12180,8 @@ impl IconShape for VsSymbolOperator {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolParameter;
-impl IconShape for VsSymbolParameter {
+pub struct VscSymbolParameter;
+impl IconShape for VscSymbolParameter {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12209,8 +12209,8 @@ impl IconShape for VsSymbolParameter {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolProperty;
-impl IconShape for VsSymbolProperty {
+pub struct VscSymbolProperty;
+impl IconShape for VscSymbolProperty {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12236,8 +12236,8 @@ impl IconShape for VsSymbolProperty {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolRuler;
-impl IconShape for VsSymbolRuler {
+pub struct VscSymbolRuler;
+impl IconShape for VscSymbolRuler {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12265,8 +12265,8 @@ impl IconShape for VsSymbolRuler {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolSnippet;
-impl IconShape for VsSymbolSnippet {
+pub struct VscSymbolSnippet;
+impl IconShape for VscSymbolSnippet {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12294,8 +12294,8 @@ impl IconShape for VsSymbolSnippet {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolString;
-impl IconShape for VsSymbolString {
+pub struct VscSymbolString;
+impl IconShape for VscSymbolString {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12323,8 +12323,8 @@ impl IconShape for VsSymbolString {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolStructure;
-impl IconShape for VsSymbolStructure {
+pub struct VscSymbolStructure;
+impl IconShape for VscSymbolStructure {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12352,8 +12352,8 @@ impl IconShape for VsSymbolStructure {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSymbolVariable;
-impl IconShape for VsSymbolVariable {
+pub struct VscSymbolVariable;
+impl IconShape for VscSymbolVariable {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12381,8 +12381,8 @@ impl IconShape for VsSymbolVariable {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSyncIgnored;
-impl IconShape for VsSyncIgnored {
+pub struct VscSyncIgnored;
+impl IconShape for VscSyncIgnored {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12413,8 +12413,8 @@ impl IconShape for VsSyncIgnored {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsSync;
-impl IconShape for VsSync {
+pub struct VscSync;
+impl IconShape for VscSync {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12442,8 +12442,8 @@ impl IconShape for VsSync {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTable;
-impl IconShape for VsTable {
+pub struct VscTable;
+impl IconShape for VscTable {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12469,8 +12469,8 @@ impl IconShape for VsTable {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTag;
-impl IconShape for VsTag {
+pub struct VscTag;
+impl IconShape for VscTag {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12498,8 +12498,8 @@ impl IconShape for VsTag {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTarget;
-impl IconShape for VsTarget {
+pub struct VscTarget;
+impl IconShape for VscTarget {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12531,8 +12531,8 @@ impl IconShape for VsTarget {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTasklist;
-impl IconShape for VsTasklist {
+pub struct VscTasklist;
+impl IconShape for VscTasklist {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12560,8 +12560,8 @@ impl IconShape for VsTasklist {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTelescope;
-impl IconShape for VsTelescope {
+pub struct VscTelescope;
+impl IconShape for VscTelescope {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12589,8 +12589,8 @@ impl IconShape for VsTelescope {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTerminalBash;
-impl IconShape for VsTerminalBash {
+pub struct VscTerminalBash;
+impl IconShape for VscTerminalBash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12616,8 +12616,8 @@ impl IconShape for VsTerminalBash {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTerminalCmd;
-impl IconShape for VsTerminalCmd {
+pub struct VscTerminalCmd;
+impl IconShape for VscTerminalCmd {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12646,8 +12646,8 @@ impl IconShape for VsTerminalCmd {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTerminalDebian;
-impl IconShape for VsTerminalDebian {
+pub struct VscTerminalDebian;
+impl IconShape for VscTerminalDebian {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12675,8 +12675,8 @@ impl IconShape for VsTerminalDebian {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTerminalLinux;
-impl IconShape for VsTerminalLinux {
+pub struct VscTerminalLinux;
+impl IconShape for VscTerminalLinux {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12702,8 +12702,8 @@ impl IconShape for VsTerminalLinux {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTerminalPowershell;
-impl IconShape for VsTerminalPowershell {
+pub struct VscTerminalPowershell;
+impl IconShape for VscTerminalPowershell {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12731,8 +12731,8 @@ impl IconShape for VsTerminalPowershell {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTerminalTmux;
-impl IconShape for VsTerminalTmux {
+pub struct VscTerminalTmux;
+impl IconShape for VscTerminalTmux {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12760,8 +12760,8 @@ impl IconShape for VsTerminalTmux {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTerminalUbuntu;
-impl IconShape for VsTerminalUbuntu {
+pub struct VscTerminalUbuntu;
+impl IconShape for VscTerminalUbuntu {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12802,8 +12802,8 @@ impl IconShape for VsTerminalUbuntu {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTerminal;
-impl IconShape for VsTerminal {
+pub struct VscTerminal;
+impl IconShape for VscTerminal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -12840,8 +12840,8 @@ impl IconShape for VsTerminal {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTextSize;
-impl IconShape for VsTextSize {
+pub struct VscTextSize;
+impl IconShape for VscTextSize {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12867,8 +12867,8 @@ impl IconShape for VsTextSize {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsThreeBars;
-impl IconShape for VsThreeBars {
+pub struct VscThreeBars;
+impl IconShape for VscThreeBars {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12896,8 +12896,8 @@ impl IconShape for VsThreeBars {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsThumbsdownFilled;
-impl IconShape for VsThumbsdownFilled {
+pub struct VscThumbsdownFilled;
+impl IconShape for VscThumbsdownFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12923,8 +12923,8 @@ impl IconShape for VsThumbsdownFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsThumbsdown;
-impl IconShape for VsThumbsdown {
+pub struct VscThumbsdown;
+impl IconShape for VscThumbsdown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12950,8 +12950,8 @@ impl IconShape for VsThumbsdown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsThumbsupFilled;
-impl IconShape for VsThumbsupFilled {
+pub struct VscThumbsupFilled;
+impl IconShape for VscThumbsupFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -12977,8 +12977,8 @@ impl IconShape for VsThumbsupFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsThumbsup;
-impl IconShape for VsThumbsup {
+pub struct VscThumbsup;
+impl IconShape for VscThumbsup {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13004,8 +13004,8 @@ impl IconShape for VsThumbsup {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTools;
-impl IconShape for VsTools {
+pub struct VscTools;
+impl IconShape for VscTools {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13033,8 +13033,8 @@ impl IconShape for VsTools {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTrash;
-impl IconShape for VsTrash {
+pub struct VscTrash;
+impl IconShape for VscTrash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13062,8 +13062,8 @@ impl IconShape for VsTrash {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTriangleDown;
-impl IconShape for VsTriangleDown {
+pub struct VscTriangleDown;
+impl IconShape for VscTriangleDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13089,8 +13089,8 @@ impl IconShape for VsTriangleDown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTriangleLeft;
-impl IconShape for VsTriangleLeft {
+pub struct VscTriangleLeft;
+impl IconShape for VscTriangleLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13116,8 +13116,8 @@ impl IconShape for VsTriangleLeft {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTriangleRight;
-impl IconShape for VsTriangleRight {
+pub struct VscTriangleRight;
+impl IconShape for VscTriangleRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13143,8 +13143,8 @@ impl IconShape for VsTriangleRight {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTriangleUp;
-impl IconShape for VsTriangleUp {
+pub struct VscTriangleUp;
+impl IconShape for VscTriangleUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13170,8 +13170,8 @@ impl IconShape for VsTriangleUp {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTwitter;
-impl IconShape for VsTwitter {
+pub struct VscTwitter;
+impl IconShape for VscTwitter {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13197,8 +13197,8 @@ impl IconShape for VsTwitter {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTypeHierarchySub;
-impl IconShape for VsTypeHierarchySub {
+pub struct VscTypeHierarchySub;
+impl IconShape for VscTypeHierarchySub {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13224,8 +13224,8 @@ impl IconShape for VsTypeHierarchySub {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTypeHierarchySuper;
-impl IconShape for VsTypeHierarchySuper {
+pub struct VscTypeHierarchySuper;
+impl IconShape for VscTypeHierarchySuper {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13251,8 +13251,8 @@ impl IconShape for VsTypeHierarchySuper {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsTypeHierarchy;
-impl IconShape for VsTypeHierarchy {
+pub struct VscTypeHierarchy;
+impl IconShape for VscTypeHierarchy {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13278,8 +13278,8 @@ impl IconShape for VsTypeHierarchy {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsUnfold;
-impl IconShape for VsUnfold {
+pub struct VscUnfold;
+impl IconShape for VscUnfold {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13307,8 +13307,8 @@ impl IconShape for VsUnfold {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsUngroupByRefType;
-impl IconShape for VsUngroupByRefType {
+pub struct VscUngroupByRefType;
+impl IconShape for VscUngroupByRefType {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13336,8 +13336,8 @@ impl IconShape for VsUngroupByRefType {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsUnlock;
-impl IconShape for VsUnlock {
+pub struct VscUnlock;
+impl IconShape for VscUnlock {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13365,8 +13365,8 @@ impl IconShape for VsUnlock {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsUnmute;
-impl IconShape for VsUnmute {
+pub struct VscUnmute;
+impl IconShape for VscUnmute {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13394,8 +13394,8 @@ impl IconShape for VsUnmute {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsUnverified;
-impl IconShape for VsUnverified {
+pub struct VscUnverified;
+impl IconShape for VscUnverified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13423,8 +13423,8 @@ impl IconShape for VsUnverified {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVariableGroup;
-impl IconShape for VsVariableGroup {
+pub struct VscVariableGroup;
+impl IconShape for VscVariableGroup {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13453,8 +13453,8 @@ impl IconShape for VsVariableGroup {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVerifiedFilled;
-impl IconShape for VsVerifiedFilled {
+pub struct VscVerifiedFilled;
+impl IconShape for VscVerifiedFilled {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13480,8 +13480,8 @@ impl IconShape for VsVerifiedFilled {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVerified;
-impl IconShape for VsVerified {
+pub struct VscVerified;
+impl IconShape for VscVerified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13509,8 +13509,8 @@ impl IconShape for VsVerified {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVersions;
-impl IconShape for VsVersions {
+pub struct VscVersions;
+impl IconShape for VscVersions {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13538,8 +13538,8 @@ impl IconShape for VsVersions {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVmActive;
-impl IconShape for VsVmActive {
+pub struct VscVmActive;
+impl IconShape for VscVmActive {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13572,8 +13572,8 @@ impl IconShape for VsVmActive {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVmConnect;
-impl IconShape for VsVmConnect {
+pub struct VscVmConnect;
+impl IconShape for VscVmConnect {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13609,8 +13609,8 @@ impl IconShape for VsVmConnect {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVmOutline;
-impl IconShape for VsVmOutline {
+pub struct VscVmOutline;
+impl IconShape for VscVmOutline {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13641,8 +13641,8 @@ impl IconShape for VsVmOutline {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVmRunning;
-impl IconShape for VsVmRunning {
+pub struct VscVmRunning;
+impl IconShape for VscVmRunning {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13673,8 +13673,8 @@ impl IconShape for VsVmRunning {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVm;
-impl IconShape for VsVm {
+pub struct VscVm;
+impl IconShape for VscVm {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13702,8 +13702,8 @@ impl IconShape for VsVm {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVr;
-impl IconShape for VsVr {
+pub struct VscVr;
+impl IconShape for VscVr {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13743,8 +13743,8 @@ impl IconShape for VsVr {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVscodeInsiders;
-impl IconShape for VsVscodeInsiders {
+pub struct VscVscodeInsiders;
+impl IconShape for VscVscodeInsiders {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13779,8 +13779,8 @@ impl IconShape for VsVscodeInsiders {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsVscode;
-impl IconShape for VsVscode {
+pub struct VscVscode;
+impl IconShape for VscVscode {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13806,8 +13806,8 @@ impl IconShape for VsVscode {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWand;
-impl IconShape for VsWand {
+pub struct VscWand;
+impl IconShape for VscWand {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13833,8 +13833,8 @@ impl IconShape for VsWand {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWarning;
-impl IconShape for VsWarning {
+pub struct VscWarning;
+impl IconShape for VscWarning {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13862,8 +13862,8 @@ impl IconShape for VsWarning {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWatch;
-impl IconShape for VsWatch {
+pub struct VscWatch;
+impl IconShape for VscWatch {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13894,8 +13894,8 @@ impl IconShape for VsWatch {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWhitespace;
-impl IconShape for VsWhitespace {
+pub struct VscWhitespace;
+impl IconShape for VscWhitespace {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13921,8 +13921,8 @@ impl IconShape for VsWhitespace {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWholeWord;
-impl IconShape for VsWholeWord {
+pub struct VscWholeWord;
+impl IconShape for VscWholeWord {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13956,8 +13956,8 @@ impl IconShape for VsWholeWord {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWindow;
-impl IconShape for VsWindow {
+pub struct VscWindow;
+impl IconShape for VscWindow {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -13983,8 +13983,8 @@ impl IconShape for VsWindow {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWordWrap;
-impl IconShape for VsWordWrap {
+pub struct VscWordWrap;
+impl IconShape for VscWordWrap {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -14012,8 +14012,8 @@ impl IconShape for VsWordWrap {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWorkspaceTrusted;
-impl IconShape for VsWorkspaceTrusted {
+pub struct VscWorkspaceTrusted;
+impl IconShape for VscWorkspaceTrusted {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -14044,8 +14044,8 @@ impl IconShape for VsWorkspaceTrusted {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWorkspaceUnknown;
-impl IconShape for VsWorkspaceUnknown {
+pub struct VscWorkspaceUnknown;
+impl IconShape for VscWorkspaceUnknown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -14076,8 +14076,8 @@ impl IconShape for VsWorkspaceUnknown {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsWorkspaceUntrusted;
-impl IconShape for VsWorkspaceUntrusted {
+pub struct VscWorkspaceUntrusted;
+impl IconShape for VscWorkspaceUntrusted {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -14106,8 +14106,8 @@ impl IconShape for VsWorkspaceUntrusted {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsZoomIn;
-impl IconShape for VsZoomIn {
+pub struct VscZoomIn;
+impl IconShape for VscZoomIn {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
@@ -14135,8 +14135,8 @@ impl IconShape for VsZoomIn {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct VsZoomOut;
-impl IconShape for VsZoomOut {
+pub struct VscZoomOut;
+impl IconShape for VscZoomOut {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
