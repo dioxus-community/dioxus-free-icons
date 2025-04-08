@@ -47,6 +47,7 @@ The following features are available. Please see [react-icons site](https://reac
 - [material-design-icons-places](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_places_icons/index.html)
 - [material-design-icons-social](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_social_icons/index.html)
 - [material-design-icons-toggle](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_toggle_icons/index.html)
+- [simple-icons](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/si_icons/index.html)
 
 ## Example
 
@@ -85,6 +86,7 @@ Icon Library|License|Version
 [Lucide](https://lucide.dev)|[ISC License](https://github.com/lucide-icons/lucide/blob/main/LICENSE)| [0.265.0](https://github.com/lucide-icons/lucide/tree/v0.265.0)
 [Material Design icons](https://developers.google.com/fonts/docs/material_icons)|[Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)| [4.0.0](https://github.com/google/material-design-icons/tree/4.0.0)
 [Octicons](https://primer.style/octicons/)|[MIT License](https://github.com/primer/octicons/blob/main/LICENSE)| [17.3.0](https://github.com/primer/octicons/tree/v17.3.0)
+[Simple Icons](https://simpleicons.org/)| [CC0 1.0](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md)| [14.12.1](https://github.com/simple-icons/simple-icons/tree/14.12.1)
 
 ## Contribution
 

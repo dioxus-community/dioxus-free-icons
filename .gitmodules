@@ -22,3 +22,6 @@
 [submodule "icon_resources/material-design-icons"]
 	path = icon_resources/material-design-icons
 	url = https://github.com/google/material-design-icons
+[submodule "icon_resources/simple-icons"]
+	path = icon_resources/simple-icons
+	url = https://github.com/simple-icons/simple-icons

@@ -71,4 +71,8 @@ fn main() {
         let output_path = format!("{}/md_{}_icons.rs", OUTPUT_BASE_PATH, icon_type);
         create_icon_file::create_icon_file(&svg_path, &output_path, "Md");
     }
+
+    const SI_SVG_BASE_PATH: &str = "../../icon_resources/simple-icons/icons";
+    let ld_output_path = format!("{}/si_icons.rs", OUTPUT_BASE_PATH);
+    create_icon_file::create_icon_file(SI_SVG_BASE_PATH, &ld_output_path, "Si");
 }
