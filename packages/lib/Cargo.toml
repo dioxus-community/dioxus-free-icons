@@ -39,6 +39,7 @@ material-design-icons-notification = []
 material-design-icons-places = []
 material-design-icons-social = []
 material-design-icons-toggle = []
+simple-icons = []
 
 [package.metadata.docs.rs]
 all-features = true

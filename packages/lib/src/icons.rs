@@ -52,3 +52,6 @@ pub mod md_places_icons;
 pub mod md_social_icons;
 #[cfg(feature = "material-design-icons-toggle")]
 pub mod md_toggle_icons;
+
+#[cfg(feature = "simple-icons")]
+pub mod si_icons;
