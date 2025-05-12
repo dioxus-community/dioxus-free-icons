@@ -21,12 +21,12 @@ pub trait IconShape {
 pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     /// The icon shape to use.
     pub icon: T,
-    /// The height of the `<svg>` element. Defaults to 20.
-    #[props(default = 20)]
-    pub height: u32,
-    /// The width of the `<svg>` element. Defaults to 20.
-    #[props(default = 20)]
-    pub width: u32,
+    /// The height of the `<svg>` element. Defaults to 20. Pass None to omit.
+    #[props(default = Some(20))]
+    pub height: Option<u32>,
+    /// The width of the `<svg>` element. Defaults to 20. Pass None to omit.
+    #[props(default = Some(20))]
+    pub width: Option<u32>,
     /// The color to use for filling the icon. Defaults to "currentColor".
     #[props(default = "currentColor".to_string())]
     pub fill: String,
@@ -47,8 +47,8 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
         svg {
             class: "{props.class}",
             style: props.style,
-            height: "{props.height}",
-            width: "{props.width}",
+            height: props.height.map(|height| height.to_string()),
+            width: props.width.map(|width| width.to_string()),
             view_box: "{props.icon.view_box()}",
             xmlns: "{props.icon.xmlns()}",
             fill,
@@ -57,9 +57,7 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             stroke_linecap: "{props.icon.stroke_linecap()}",
             stroke_linejoin: "{props.icon.stroke_linejoin()}",
             if let Some(title_text) = props.title {
-                title {
-                    "{title_text}"
-                }
+                title { "{title_text}" }
             }
             {props.icon.child_elements()}
         }
