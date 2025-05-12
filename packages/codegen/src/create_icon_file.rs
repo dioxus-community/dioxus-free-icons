@@ -12,7 +12,7 @@ use scraper::ElementRef;
 use scraper::Html;
 use walkdir::WalkDir;
 
-const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug, PartialEq)]
+const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct {ICON_NAME};
 impl IconShape for {ICON_NAME} {
     fn view_box(&self) -> &str {

@@ -1,7 +1,7 @@
 use super::super::IconShape;
 use dioxus::prelude::*;
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAccessibilityOutline;
 impl IconShape for IoAccessibilityOutline {
     fn view_box(&self) -> &str {
@@ -39,7 +39,7 @@ impl IconShape for IoAccessibilityOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAccessibilitySharp;
 impl IconShape for IoAccessibilitySharp {
     fn view_box(&self) -> &str {
@@ -69,7 +69,7 @@ impl IconShape for IoAccessibilitySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAccessibility;
 impl IconShape for IoAccessibility {
     fn view_box(&self) -> &str {
@@ -99,7 +99,7 @@ impl IconShape for IoAccessibility {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAddCircleOutline;
 impl IconShape for IoAddCircleOutline {
     fn view_box(&self) -> &str {
@@ -141,7 +141,7 @@ impl IconShape for IoAddCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAddCircleSharp;
 impl IconShape for IoAddCircleSharp {
     fn view_box(&self) -> &str {
@@ -168,7 +168,7 @@ impl IconShape for IoAddCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAddCircle;
 impl IconShape for IoAddCircle {
     fn view_box(&self) -> &str {
@@ -195,7 +195,7 @@ impl IconShape for IoAddCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAddOutline;
 impl IconShape for IoAddOutline {
     fn view_box(&self) -> &str {
@@ -233,7 +233,7 @@ impl IconShape for IoAddOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAddSharp;
 impl IconShape for IoAddSharp {
     fn view_box(&self) -> &str {
@@ -271,7 +271,7 @@ impl IconShape for IoAddSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAdd;
 impl IconShape for IoAdd {
     fn view_box(&self) -> &str {
@@ -309,7 +309,7 @@ impl IconShape for IoAdd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAirplaneOutline;
 impl IconShape for IoAirplaneOutline {
     fn view_box(&self) -> &str {
@@ -337,7 +337,7 @@ impl IconShape for IoAirplaneOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAirplaneSharp;
 impl IconShape for IoAirplaneSharp {
     fn view_box(&self) -> &str {
@@ -364,7 +364,7 @@ impl IconShape for IoAirplaneSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAirplane;
 impl IconShape for IoAirplane {
     fn view_box(&self) -> &str {
@@ -391,7 +391,7 @@ impl IconShape for IoAirplane {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlarmOutline;
 impl IconShape for IoAlarmOutline {
     fn view_box(&self) -> &str {
@@ -445,7 +445,7 @@ impl IconShape for IoAlarmOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlarmSharp;
 impl IconShape for IoAlarmSharp {
     fn view_box(&self) -> &str {
@@ -478,7 +478,7 @@ impl IconShape for IoAlarmSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlarm;
 impl IconShape for IoAlarm {
     fn view_box(&self) -> &str {
@@ -511,7 +511,7 @@ impl IconShape for IoAlarm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlbumsOutline;
 impl IconShape for IoAlbumsOutline {
     fn view_box(&self) -> &str {
@@ -558,7 +558,7 @@ impl IconShape for IoAlbumsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlbumsSharp;
 impl IconShape for IoAlbumsSharp {
     fn view_box(&self) -> &str {
@@ -597,7 +597,7 @@ impl IconShape for IoAlbumsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlbums;
 impl IconShape for IoAlbums {
     fn view_box(&self) -> &str {
@@ -630,7 +630,7 @@ impl IconShape for IoAlbums {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlertCircleOutline;
 impl IconShape for IoAlertCircleOutline {
     fn view_box(&self) -> &str {
@@ -665,7 +665,7 @@ impl IconShape for IoAlertCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlertCircleSharp;
 impl IconShape for IoAlertCircleSharp {
     fn view_box(&self) -> &str {
@@ -696,7 +696,7 @@ impl IconShape for IoAlertCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlertCircle;
 impl IconShape for IoAlertCircle {
     fn view_box(&self) -> &str {
@@ -723,7 +723,7 @@ impl IconShape for IoAlertCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlertOutline;
 impl IconShape for IoAlertOutline {
     fn view_box(&self) -> &str {
@@ -757,7 +757,7 @@ impl IconShape for IoAlertOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlertSharp;
 impl IconShape for IoAlertSharp {
     fn view_box(&self) -> &str {
@@ -792,7 +792,7 @@ impl IconShape for IoAlertSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAlert;
 impl IconShape for IoAlert {
     fn view_box(&self) -> &str {
@@ -826,7 +826,7 @@ impl IconShape for IoAlert {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAmericanFootballOutline;
 impl IconShape for IoAmericanFootballOutline {
     fn view_box(&self) -> &str {
@@ -900,7 +900,7 @@ impl IconShape for IoAmericanFootballOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAmericanFootballSharp;
 impl IconShape for IoAmericanFootballSharp {
     fn view_box(&self) -> &str {
@@ -933,7 +933,7 @@ impl IconShape for IoAmericanFootballSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAmericanFootball;
 impl IconShape for IoAmericanFootball {
     fn view_box(&self) -> &str {
@@ -966,7 +966,7 @@ impl IconShape for IoAmericanFootball {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAnalyticsOutline;
 impl IconShape for IoAnalyticsOutline {
     fn view_box(&self) -> &str {
@@ -1035,7 +1035,7 @@ impl IconShape for IoAnalyticsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAnalyticsSharp;
 impl IconShape for IoAnalyticsSharp {
     fn view_box(&self) -> &str {
@@ -1062,7 +1062,7 @@ impl IconShape for IoAnalyticsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAnalytics;
 impl IconShape for IoAnalytics {
     fn view_box(&self) -> &str {
@@ -1089,7 +1089,7 @@ impl IconShape for IoAnalytics {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoApertureOutline;
 impl IconShape for IoApertureOutline {
     fn view_box(&self) -> &str {
@@ -1173,7 +1173,7 @@ impl IconShape for IoApertureOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoApertureSharp;
 impl IconShape for IoApertureSharp {
     fn view_box(&self) -> &str {
@@ -1224,7 +1224,7 @@ impl IconShape for IoApertureSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAperture;
 impl IconShape for IoAperture {
     fn view_box(&self) -> &str {
@@ -1275,7 +1275,7 @@ impl IconShape for IoAperture {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAppsOutline;
 impl IconShape for IoAppsOutline {
     fn view_box(&self) -> &str {
@@ -1380,7 +1380,7 @@ impl IconShape for IoAppsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAppsSharp;
 impl IconShape for IoAppsSharp {
     fn view_box(&self) -> &str {
@@ -1476,7 +1476,7 @@ impl IconShape for IoAppsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoApps;
 impl IconShape for IoApps {
     fn view_box(&self) -> &str {
@@ -1527,7 +1527,7 @@ impl IconShape for IoApps {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArchiveOutline;
 impl IconShape for IoArchiveOutline {
     fn view_box(&self) -> &str {
@@ -1575,7 +1575,7 @@ impl IconShape for IoArchiveOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArchiveSharp;
 impl IconShape for IoArchiveSharp {
     fn view_box(&self) -> &str {
@@ -1610,7 +1610,7 @@ impl IconShape for IoArchiveSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArchive;
 impl IconShape for IoArchive {
     fn view_box(&self) -> &str {
@@ -1645,7 +1645,7 @@ impl IconShape for IoArchive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowBackCircleOutline;
 impl IconShape for IoArrowBackCircleOutline {
     fn view_box(&self) -> &str {
@@ -1684,7 +1684,7 @@ impl IconShape for IoArrowBackCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowBackCircleSharp;
 impl IconShape for IoArrowBackCircleSharp {
     fn view_box(&self) -> &str {
@@ -1711,7 +1711,7 @@ impl IconShape for IoArrowBackCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowBackCircle;
 impl IconShape for IoArrowBackCircle {
     fn view_box(&self) -> &str {
@@ -1738,7 +1738,7 @@ impl IconShape for IoArrowBackCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowBackOutline;
 impl IconShape for IoArrowBackOutline {
     fn view_box(&self) -> &str {
@@ -1773,7 +1773,7 @@ impl IconShape for IoArrowBackOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowBackSharp;
 impl IconShape for IoArrowBackSharp {
     fn view_box(&self) -> &str {
@@ -1808,7 +1808,7 @@ impl IconShape for IoArrowBackSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowBack;
 impl IconShape for IoArrowBack {
     fn view_box(&self) -> &str {
@@ -1843,7 +1843,7 @@ impl IconShape for IoArrowBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowDownCircleOutline;
 impl IconShape for IoArrowDownCircleOutline {
     fn view_box(&self) -> &str {
@@ -1882,7 +1882,7 @@ impl IconShape for IoArrowDownCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowDownCircleSharp;
 impl IconShape for IoArrowDownCircleSharp {
     fn view_box(&self) -> &str {
@@ -1909,7 +1909,7 @@ impl IconShape for IoArrowDownCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowDownCircle;
 impl IconShape for IoArrowDownCircle {
     fn view_box(&self) -> &str {
@@ -1936,7 +1936,110 @@ impl IconShape for IoArrowDownCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowDownLeftBoxOutline;
+impl IconShape for IoArrowDownLeftBoxOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M123.636 269.236L123.636 90.5454C123.636 79.2617 128.119 68.4401 136.098 60.4613C144.076 52.4824 154.898 48 166.182 48L421.455 48C432.738 48 443.56 52.4824 451.539 60.4613C459.518 68.4401 464 79.2617 464 90.5454L464 345.818C464 357.102 459.518 367.924 451.539 375.902C443.56 383.881 432.738 388.364 421.455 388.364L242.764 388.364",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M48 331.636L48 464L180.364 464",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M296 216L48 464",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowDownLeftBoxSharp;
+impl IconShape for IoArrowDownLeftBoxSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M32 480L32 315.636L64 315.636L64 425.373L107.636 381.736L107.636 404.364L130.264 404.364L86.6275 448L196.364 448L196.364 480L32 480ZM318.628 216L130.264 404.364L480 404.364L480 32L107.636 31.9999L107.636 381.736L296 193.373L318.628 216Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowDownLeftBox;
+impl IconShape for IoArrowDownLeftBox {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M180.364 480L48 480C43.7565 480 39.6869 478.314 36.6863 475.314C33.6857 472.313 32 468.244 32 464V331.636C32 322.8 39.1635 315.636 48 315.636C56.8365 315.636 64 322.8 64 331.636V425.373L115.128 374.245C117.747 378.961 121.028 383.333 124.911 387.216C128.749 391.054 133.065 394.304 137.719 396.908L86.6274 448L180.364 448C189.2 448 196.364 455.163 196.364 464C196.364 472.837 189.2 480 180.364 480ZM137.719 396.908C146.379 401.754 156.21 404.364 166.309 404.364L421.455 404.364C436.982 404.364 451.873 398.195 462.852 387.216C473.832 376.237 480 361.345 480 345.818L480 90.5454C480 75.0182 473.832 60.1269 462.852 49.1475C451.873 38.1681 436.982 32 421.455 32L166.182 32C150.655 32 135.763 38.1681 124.784 49.1475C113.805 60.1269 107.636 75.0182 107.636 90.5454L107.636 345.818C107.636 346.626 107.696 347.42 107.812 348.196C108.185 357.394 110.72 366.307 115.128 374.245L284.686 204.686C290.935 198.438 301.065 198.438 307.314 204.686C313.562 210.935 313.562 221.065 307.314 227.314L137.719 396.908Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowDownOutline;
 impl IconShape for IoArrowDownOutline {
     fn view_box(&self) -> &str {
@@ -1971,7 +2074,110 @@ impl IconShape for IoArrowDownOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowDownRightBoxOutline;
+impl IconShape for IoArrowDownRightBoxOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M269.236 388.364L90.5454 388.364C79.2617 388.364 68.4401 383.881 60.4612 375.902C52.4824 367.924 48 357.102 48 345.818L48 90.5454C48 79.2617 52.4824 68.4401 60.4613 60.4613C68.4401 52.4824 79.2617 48 90.5454 48L345.818 48C357.102 48 367.924 52.4825 375.902 60.4613C383.881 68.4401 388.364 79.2617 388.364 90.5455L388.364 269.236",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M331.636 464L464 464L464 331.636",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M216 216L464 464",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowDownRightBoxSharp;
+impl IconShape for IoArrowDownRightBoxSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M480 480L315.636 480V448L425.373 448L381.736 404.364H404.364V381.736L448 425.372L448 315.636H480L480 480ZM216 193.372L404.364 381.736L404.364 31.9999L32.0001 31.9999V404.364H381.736L193.373 216L216 193.372Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowDownRightBox;
+impl IconShape for IoArrowDownRightBox {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M480 331.636L480 464C480 468.243 478.314 472.313 475.314 475.314C472.313 478.314 468.243 480 464 480H331.636C322.8 480 315.636 472.837 315.636 464C315.636 455.163 322.8 448 331.636 448H425.373L374.245 396.872C378.961 394.253 383.333 390.972 387.216 387.089C391.054 383.251 394.304 378.935 396.908 374.281L448 425.373L448 331.636C448 322.8 455.163 315.636 464 315.636C472.837 315.636 480 322.8 480 331.636ZM396.908 374.281C401.754 365.621 404.364 355.79 404.364 345.691V90.5455C404.364 75.0182 398.195 60.127 387.216 49.1476C376.237 38.1682 361.345 32 345.818 32L90.5454 32C75.0182 32 60.1269 38.1682 49.1475 49.1476C38.1681 60.127 31.9999 75.0182 31.9999 90.5455V345.818C31.9999 361.345 38.1681 376.237 49.1475 387.216C60.1269 398.195 75.0182 404.364 90.5454 404.364H345.818C346.626 404.364 347.42 404.304 348.196 404.188C357.394 403.815 366.307 401.28 374.245 396.872L204.686 227.314C198.438 221.065 198.438 210.935 204.686 204.686C210.935 198.438 221.065 198.438 227.314 204.686L396.908 374.281Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowDownSharp;
 impl IconShape for IoArrowDownSharp {
     fn view_box(&self) -> &str {
@@ -2006,7 +2212,7 @@ impl IconShape for IoArrowDownSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowDown;
 impl IconShape for IoArrowDown {
     fn view_box(&self) -> &str {
@@ -2041,7 +2247,7 @@ impl IconShape for IoArrowDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowForwardCircleOutline;
 impl IconShape for IoArrowForwardCircleOutline {
     fn view_box(&self) -> &str {
@@ -2080,7 +2286,7 @@ impl IconShape for IoArrowForwardCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowForwardCircleSharp;
 impl IconShape for IoArrowForwardCircleSharp {
     fn view_box(&self) -> &str {
@@ -2107,7 +2313,7 @@ impl IconShape for IoArrowForwardCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowForwardCircle;
 impl IconShape for IoArrowForwardCircle {
     fn view_box(&self) -> &str {
@@ -2134,7 +2340,7 @@ impl IconShape for IoArrowForwardCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowForwardOutline;
 impl IconShape for IoArrowForwardOutline {
     fn view_box(&self) -> &str {
@@ -2169,7 +2375,7 @@ impl IconShape for IoArrowForwardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowForwardSharp;
 impl IconShape for IoArrowForwardSharp {
     fn view_box(&self) -> &str {
@@ -2204,7 +2410,7 @@ impl IconShape for IoArrowForwardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowForward;
 impl IconShape for IoArrowForward {
     fn view_box(&self) -> &str {
@@ -2239,7 +2445,7 @@ impl IconShape for IoArrowForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowRedoCircleOutline;
 impl IconShape for IoArrowRedoCircleOutline {
     fn view_box(&self) -> &str {
@@ -2270,7 +2476,7 @@ impl IconShape for IoArrowRedoCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowRedoCircleSharp;
 impl IconShape for IoArrowRedoCircleSharp {
     fn view_box(&self) -> &str {
@@ -2297,7 +2503,7 @@ impl IconShape for IoArrowRedoCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowRedoCircle;
 impl IconShape for IoArrowRedoCircle {
     fn view_box(&self) -> &str {
@@ -2324,7 +2530,7 @@ impl IconShape for IoArrowRedoCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowRedoOutline;
 impl IconShape for IoArrowRedoOutline {
     fn view_box(&self) -> &str {
@@ -2352,7 +2558,7 @@ impl IconShape for IoArrowRedoOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowRedoSharp;
 impl IconShape for IoArrowRedoSharp {
     fn view_box(&self) -> &str {
@@ -2379,7 +2585,7 @@ impl IconShape for IoArrowRedoSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowRedo;
 impl IconShape for IoArrowRedo {
     fn view_box(&self) -> &str {
@@ -2406,7 +2612,7 @@ impl IconShape for IoArrowRedo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUndoCircleOutline;
 impl IconShape for IoArrowUndoCircleOutline {
     fn view_box(&self) -> &str {
@@ -2437,7 +2643,7 @@ impl IconShape for IoArrowUndoCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUndoCircleSharp;
 impl IconShape for IoArrowUndoCircleSharp {
     fn view_box(&self) -> &str {
@@ -2464,7 +2670,7 @@ impl IconShape for IoArrowUndoCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUndoCircle;
 impl IconShape for IoArrowUndoCircle {
     fn view_box(&self) -> &str {
@@ -2491,7 +2697,7 @@ impl IconShape for IoArrowUndoCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUndoOutline;
 impl IconShape for IoArrowUndoOutline {
     fn view_box(&self) -> &str {
@@ -2519,7 +2725,7 @@ impl IconShape for IoArrowUndoOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUndoSharp;
 impl IconShape for IoArrowUndoSharp {
     fn view_box(&self) -> &str {
@@ -2546,7 +2752,7 @@ impl IconShape for IoArrowUndoSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUndo;
 impl IconShape for IoArrowUndo {
     fn view_box(&self) -> &str {
@@ -2573,7 +2779,7 @@ impl IconShape for IoArrowUndo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUpCircleOutline;
 impl IconShape for IoArrowUpCircleOutline {
     fn view_box(&self) -> &str {
@@ -2612,7 +2818,7 @@ impl IconShape for IoArrowUpCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUpCircleSharp;
 impl IconShape for IoArrowUpCircleSharp {
     fn view_box(&self) -> &str {
@@ -2639,7 +2845,7 @@ impl IconShape for IoArrowUpCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUpCircle;
 impl IconShape for IoArrowUpCircle {
     fn view_box(&self) -> &str {
@@ -2666,7 +2872,110 @@ impl IconShape for IoArrowUpCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowUpLeftBoxOutline;
+impl IconShape for IoArrowUpLeftBoxOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M242.764 123.636L421.455 123.636C432.738 123.636 443.56 128.119 451.539 136.098C459.518 144.076 464 154.898 464 166.182L464 421.455C464 432.738 459.518 443.56 451.539 451.539C443.56 459.518 432.738 464 421.455 464L166.182 464C154.898 464 144.076 459.518 136.098 451.539C128.119 443.56 123.636 432.738 123.636 421.455L123.636 242.764",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M180.364 48L47.9999 48L48 180.364",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M296 296L48 48",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowUpLeftBoxSharp;
+impl IconShape for IoArrowUpLeftBoxSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M32.0001 31.9999L196.364 32L196.364 64L86.6274 63.9999L130.264 107.636H107.636V130.264L64.0001 86.6275L64.0001 196.364H32.0001L32.0001 31.9999ZM296 318.627L107.636 130.264L107.636 480L480 480L480 107.636L130.264 107.636L318.628 296L296 318.627Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowUpLeftBox;
+impl IconShape for IoArrowUpLeftBox {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M32 180.364L32 48C32 43.7565 33.6857 39.6869 36.6862 36.6863C39.6868 33.6857 43.7565 32 48 32H180.364C189.2 32 196.364 39.1635 196.364 48C196.364 56.8365 189.2 64 180.364 64H86.6274L137.755 115.128C133.039 117.747 128.667 121.028 124.784 124.911C120.946 128.749 117.696 133.065 115.092 137.719L64 86.6274L64 180.364C64 189.2 56.8365 196.364 48 196.364C39.1634 196.364 32 189.2 32 180.364ZM115.092 137.719C110.246 146.379 107.636 156.21 107.636 166.309L107.636 421.455C107.636 436.982 113.805 451.873 124.784 462.852C135.763 473.832 150.655 480 166.182 480H421.455C436.982 480 451.873 473.832 462.852 462.852C473.832 451.873 480 436.982 480 421.455V166.182C480 150.655 473.832 135.763 462.852 124.784C451.873 113.805 436.982 107.636 421.455 107.636H166.182C165.374 107.636 164.58 107.696 163.804 107.812C154.606 108.185 145.693 110.72 137.755 115.128L307.314 284.686C313.562 290.935 313.562 301.065 307.314 307.314C301.065 313.562 290.935 313.562 284.686 307.314L115.092 137.719Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUpOutline;
 impl IconShape for IoArrowUpOutline {
     fn view_box(&self) -> &str {
@@ -2701,7 +3010,110 @@ impl IconShape for IoArrowUpOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowUpRightBoxOutline;
+impl IconShape for IoArrowUpRightBoxOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M388.364 242.764V421.455C388.364 432.738 383.881 443.56 375.902 451.539C367.924 459.518 357.102 464 345.818 464H90.5455C79.2617 464 68.4401 459.518 60.4613 451.539C52.4825 443.56 48 432.738 48 421.455V166.182C48 154.898 52.4825 144.076 60.4613 136.098C68.4401 128.119 79.2617 123.636 90.5455 123.636H269.236",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M464 180.364L464 48L331.636 48",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M216 296L464 48",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowUpRightBoxSharp;
+impl IconShape for IoArrowUpRightBoxSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M480 31.9999L480 196.364H448L448 86.6273L404.364 130.264V107.636H381.736L425.373 63.9999L315.636 64V32L480 31.9999ZM193.373 296L381.736 107.636L32 107.636L32 480H404.364V130.264L216 318.627L193.373 296Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoArrowUpRightBox;
+impl IconShape for IoArrowUpRightBox {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M331.636 32L464 32C468.243 32 472.313 33.6857 475.314 36.6863C478.314 39.6868 480 43.7565 480 48V180.364C480 189.2 472.837 196.364 464 196.364C455.163 196.364 448 189.2 448 180.364V86.6274L396.872 137.755C394.253 133.039 390.972 128.667 387.089 124.784C383.251 120.946 378.935 117.696 374.281 115.092L425.373 64L331.636 64C322.8 64 315.636 56.8365 315.636 48C315.636 39.1634 322.8 32 331.636 32ZM374.281 115.092C365.621 110.246 355.79 107.636 345.691 107.636H90.5455C75.0182 107.636 60.127 113.805 49.1476 124.784C38.1682 135.763 32 150.655 32 166.182V421.455C32 436.982 38.1682 451.873 49.1476 462.852C60.127 473.832 75.0182 480 90.5455 480H345.818C361.345 480 376.237 473.832 387.216 462.852C398.195 451.873 404.364 436.982 404.364 421.455V166.182C404.364 165.374 404.304 164.58 404.188 163.804C403.815 154.606 401.28 145.693 396.872 137.755L227.314 307.314C221.065 313.562 210.935 313.562 204.686 307.314C198.438 301.065 198.438 290.935 204.686 284.686L374.281 115.092Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUpSharp;
 impl IconShape for IoArrowUpSharp {
     fn view_box(&self) -> &str {
@@ -2736,7 +3148,7 @@ impl IconShape for IoArrowUpSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoArrowUp;
 impl IconShape for IoArrowUp {
     fn view_box(&self) -> &str {
@@ -2771,7 +3183,7 @@ impl IconShape for IoArrowUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAtCircleOutline;
 impl IconShape for IoAtCircleOutline {
     fn view_box(&self) -> &str {
@@ -2803,7 +3215,7 @@ impl IconShape for IoAtCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAtCircleSharp;
 impl IconShape for IoAtCircleSharp {
     fn view_box(&self) -> &str {
@@ -2833,7 +3245,7 @@ impl IconShape for IoAtCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAtCircle;
 impl IconShape for IoAtCircle {
     fn view_box(&self) -> &str {
@@ -2863,7 +3275,7 @@ impl IconShape for IoAtCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAtOutline;
 impl IconShape for IoAtOutline {
     fn view_box(&self) -> &str {
@@ -2895,7 +3307,7 @@ impl IconShape for IoAtOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAtSharp;
 impl IconShape for IoAtSharp {
     fn view_box(&self) -> &str {
@@ -2922,7 +3334,7 @@ impl IconShape for IoAtSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAt;
 impl IconShape for IoAt {
     fn view_box(&self) -> &str {
@@ -2954,7 +3366,7 @@ impl IconShape for IoAt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAttachOutline;
 impl IconShape for IoAttachOutline {
     fn view_box(&self) -> &str {
@@ -2982,7 +3394,7 @@ impl IconShape for IoAttachOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAttachSharp;
 impl IconShape for IoAttachSharp {
     fn view_box(&self) -> &str {
@@ -3010,7 +3422,7 @@ impl IconShape for IoAttachSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoAttach;
 impl IconShape for IoAttach {
     fn view_box(&self) -> &str {
@@ -3038,7 +3450,7 @@ impl IconShape for IoAttach {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBackspaceOutline;
 impl IconShape for IoBackspaceOutline {
     fn view_box(&self) -> &str {
@@ -3094,7 +3506,7 @@ impl IconShape for IoBackspaceOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBackspaceSharp;
 impl IconShape for IoBackspaceSharp {
     fn view_box(&self) -> &str {
@@ -3121,7 +3533,7 @@ impl IconShape for IoBackspaceSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBackspace;
 impl IconShape for IoBackspace {
     fn view_box(&self) -> &str {
@@ -3148,7 +3560,7 @@ impl IconShape for IoBackspace {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagAddOutline;
 impl IconShape for IoBagAddOutline {
     fn view_box(&self) -> &str {
@@ -3208,7 +3620,7 @@ impl IconShape for IoBagAddOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagAddSharp;
 impl IconShape for IoBagAddSharp {
     fn view_box(&self) -> &str {
@@ -3235,7 +3647,7 @@ impl IconShape for IoBagAddSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagAdd;
 impl IconShape for IoBagAdd {
     fn view_box(&self) -> &str {
@@ -3262,7 +3674,7 @@ impl IconShape for IoBagAdd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagCheckOutline;
 impl IconShape for IoBagCheckOutline {
     fn view_box(&self) -> &str {
@@ -3309,7 +3721,7 @@ impl IconShape for IoBagCheckOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagCheckSharp;
 impl IconShape for IoBagCheckSharp {
     fn view_box(&self) -> &str {
@@ -3336,7 +3748,7 @@ impl IconShape for IoBagCheckSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagCheck;
 impl IconShape for IoBagCheck {
     fn view_box(&self) -> &str {
@@ -3363,7 +3775,7 @@ impl IconShape for IoBagCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagHandleOutline;
 impl IconShape for IoBagHandleOutline {
     fn view_box(&self) -> &str {
@@ -3408,7 +3820,7 @@ impl IconShape for IoBagHandleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagHandleSharp;
 impl IconShape for IoBagHandleSharp {
     fn view_box(&self) -> &str {
@@ -3435,7 +3847,7 @@ impl IconShape for IoBagHandleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagHandle;
 impl IconShape for IoBagHandle {
     fn view_box(&self) -> &str {
@@ -3462,7 +3874,7 @@ impl IconShape for IoBagHandle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagOutline;
 impl IconShape for IoBagOutline {
     fn view_box(&self) -> &str {
@@ -3502,7 +3914,7 @@ impl IconShape for IoBagOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagRemoveOutline;
 impl IconShape for IoBagRemoveOutline {
     fn view_box(&self) -> &str {
@@ -3552,7 +3964,7 @@ impl IconShape for IoBagRemoveOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagRemoveSharp;
 impl IconShape for IoBagRemoveSharp {
     fn view_box(&self) -> &str {
@@ -3579,7 +3991,7 @@ impl IconShape for IoBagRemoveSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagRemove;
 impl IconShape for IoBagRemove {
     fn view_box(&self) -> &str {
@@ -3606,7 +4018,7 @@ impl IconShape for IoBagRemove {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBagSharp;
 impl IconShape for IoBagSharp {
     fn view_box(&self) -> &str {
@@ -3633,7 +4045,7 @@ impl IconShape for IoBagSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBag;
 impl IconShape for IoBag {
     fn view_box(&self) -> &str {
@@ -3660,7 +4072,7 @@ impl IconShape for IoBag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBalloonOutline;
 impl IconShape for IoBalloonOutline {
     fn view_box(&self) -> &str {
@@ -3711,7 +4123,7 @@ impl IconShape for IoBalloonOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBalloonSharp;
 impl IconShape for IoBalloonSharp {
     fn view_box(&self) -> &str {
@@ -3738,7 +4150,7 @@ impl IconShape for IoBalloonSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBalloon;
 impl IconShape for IoBalloon {
     fn view_box(&self) -> &str {
@@ -3765,7 +4177,7 @@ impl IconShape for IoBalloon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBanOutline;
 impl IconShape for IoBanOutline {
     fn view_box(&self) -> &str {
@@ -3806,7 +4218,7 @@ impl IconShape for IoBanOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBanSharp;
 impl IconShape for IoBanSharp {
     fn view_box(&self) -> &str {
@@ -3833,7 +4245,7 @@ impl IconShape for IoBanSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBan;
 impl IconShape for IoBan {
     fn view_box(&self) -> &str {
@@ -3874,7 +4286,7 @@ impl IconShape for IoBan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBandageOutline;
 impl IconShape for IoBandageOutline {
     fn view_box(&self) -> &str {
@@ -3938,7 +4350,7 @@ impl IconShape for IoBandageOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBandageSharp;
 impl IconShape for IoBandageSharp {
     fn view_box(&self) -> &str {
@@ -3971,7 +4383,7 @@ impl IconShape for IoBandageSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBandage;
 impl IconShape for IoBandage {
     fn view_box(&self) -> &str {
@@ -4016,7 +4428,7 @@ impl IconShape for IoBandage {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarChartOutline;
 impl IconShape for IoBarChartOutline {
     fn view_box(&self) -> &str {
@@ -4071,7 +4483,7 @@ impl IconShape for IoBarChartOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarChartSharp;
 impl IconShape for IoBarChartSharp {
     fn view_box(&self) -> &str {
@@ -4107,7 +4519,7 @@ impl IconShape for IoBarChartSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarChart;
 impl IconShape for IoBarChart {
     fn view_box(&self) -> &str {
@@ -4143,7 +4555,7 @@ impl IconShape for IoBarChart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarbellOutline;
 impl IconShape for IoBarbellOutline {
     fn view_box(&self) -> &str {
@@ -4210,7 +4622,7 @@ impl IconShape for IoBarbellOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarbellSharp;
 impl IconShape for IoBarbellSharp {
     fn view_box(&self) -> &str {
@@ -4237,7 +4649,7 @@ impl IconShape for IoBarbellSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarbell;
 impl IconShape for IoBarbell {
     fn view_box(&self) -> &str {
@@ -4264,7 +4676,7 @@ impl IconShape for IoBarbell {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarcodeOutline;
 impl IconShape for IoBarcodeOutline {
     fn view_box(&self) -> &str {
@@ -4331,7 +4743,7 @@ impl IconShape for IoBarcodeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarcodeSharp;
 impl IconShape for IoBarcodeSharp {
     fn view_box(&self) -> &str {
@@ -4398,7 +4810,7 @@ impl IconShape for IoBarcodeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBarcode;
 impl IconShape for IoBarcode {
     fn view_box(&self) -> &str {
@@ -4425,7 +4837,7 @@ impl IconShape for IoBarcode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBaseballOutline;
 impl IconShape for IoBaseballOutline {
     fn view_box(&self) -> &str {
@@ -4519,7 +4931,7 @@ impl IconShape for IoBaseballOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBaseballSharp;
 impl IconShape for IoBaseballSharp {
     fn view_box(&self) -> &str {
@@ -4552,7 +4964,7 @@ impl IconShape for IoBaseballSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBaseball;
 impl IconShape for IoBaseball {
     fn view_box(&self) -> &str {
@@ -4585,7 +4997,7 @@ impl IconShape for IoBaseball {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBasketOutline;
 impl IconShape for IoBasketOutline {
     fn view_box(&self) -> &str {
@@ -4617,7 +5029,7 @@ impl IconShape for IoBasketOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBasketSharp;
 impl IconShape for IoBasketSharp {
     fn view_box(&self) -> &str {
@@ -4647,7 +5059,7 @@ impl IconShape for IoBasketSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBasket;
 impl IconShape for IoBasket {
     fn view_box(&self) -> &str {
@@ -4674,7 +5086,7 @@ impl IconShape for IoBasket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBasketballOutline;
 impl IconShape for IoBasketballOutline {
     fn view_box(&self) -> &str {
@@ -4726,7 +5138,7 @@ impl IconShape for IoBasketballOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBasketballSharp;
 impl IconShape for IoBasketballSharp {
     fn view_box(&self) -> &str {
@@ -4774,7 +5186,7 @@ impl IconShape for IoBasketballSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBasketball;
 impl IconShape for IoBasketball {
     fn view_box(&self) -> &str {
@@ -4822,7 +5234,7 @@ impl IconShape for IoBasketball {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryChargingOutline;
 impl IconShape for IoBatteryChargingOutline {
     fn view_box(&self) -> &str {
@@ -4864,7 +5276,7 @@ impl IconShape for IoBatteryChargingOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryChargingSharp;
 impl IconShape for IoBatteryChargingSharp {
     fn view_box(&self) -> &str {
@@ -4909,7 +5321,7 @@ impl IconShape for IoBatteryChargingSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryCharging;
 impl IconShape for IoBatteryCharging {
     fn view_box(&self) -> &str {
@@ -4951,7 +5363,7 @@ impl IconShape for IoBatteryCharging {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryDeadOutline;
 impl IconShape for IoBatteryDeadOutline {
     fn view_box(&self) -> &str {
@@ -4991,7 +5403,7 @@ impl IconShape for IoBatteryDeadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryDeadSharp;
 impl IconShape for IoBatteryDeadSharp {
     fn view_box(&self) -> &str {
@@ -5029,7 +5441,7 @@ impl IconShape for IoBatteryDeadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryDead;
 impl IconShape for IoBatteryDead {
     fn view_box(&self) -> &str {
@@ -5069,7 +5481,7 @@ impl IconShape for IoBatteryDead {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryFullOutline;
 impl IconShape for IoBatteryFullOutline {
     fn view_box(&self) -> &str {
@@ -5118,7 +5530,7 @@ impl IconShape for IoBatteryFullOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryFullSharp;
 impl IconShape for IoBatteryFullSharp {
     fn view_box(&self) -> &str {
@@ -5157,7 +5569,7 @@ impl IconShape for IoBatteryFullSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryFull;
 impl IconShape for IoBatteryFull {
     fn view_box(&self) -> &str {
@@ -5206,7 +5618,7 @@ impl IconShape for IoBatteryFull {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryHalfOutline;
 impl IconShape for IoBatteryHalfOutline {
     fn view_box(&self) -> &str {
@@ -5255,7 +5667,7 @@ impl IconShape for IoBatteryHalfOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryHalfSharp;
 impl IconShape for IoBatteryHalfSharp {
     fn view_box(&self) -> &str {
@@ -5294,7 +5706,7 @@ impl IconShape for IoBatteryHalfSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBatteryHalf;
 impl IconShape for IoBatteryHalf {
     fn view_box(&self) -> &str {
@@ -5343,7 +5755,7 @@ impl IconShape for IoBatteryHalf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBeakerOutline;
 impl IconShape for IoBeakerOutline {
     fn view_box(&self) -> &str {
@@ -5378,7 +5790,7 @@ impl IconShape for IoBeakerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBeakerSharp;
 impl IconShape for IoBeakerSharp {
     fn view_box(&self) -> &str {
@@ -5405,7 +5817,7 @@ impl IconShape for IoBeakerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBeaker;
 impl IconShape for IoBeaker {
     fn view_box(&self) -> &str {
@@ -5432,7 +5844,7 @@ impl IconShape for IoBeaker {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBedOutline;
 impl IconShape for IoBedOutline {
     fn view_box(&self) -> &str {
@@ -5476,7 +5888,7 @@ impl IconShape for IoBedOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBedSharp;
 impl IconShape for IoBedSharp {
     fn view_box(&self) -> &str {
@@ -5503,7 +5915,7 @@ impl IconShape for IoBedSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBed;
 impl IconShape for IoBed {
     fn view_box(&self) -> &str {
@@ -5533,7 +5945,7 @@ impl IconShape for IoBed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBeerOutline;
 impl IconShape for IoBeerOutline {
     fn view_box(&self) -> &str {
@@ -5598,7 +6010,7 @@ impl IconShape for IoBeerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBeerSharp;
 impl IconShape for IoBeerSharp {
     fn view_box(&self) -> &str {
@@ -5625,7 +6037,7 @@ impl IconShape for IoBeerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBeer;
 impl IconShape for IoBeer {
     fn view_box(&self) -> &str {
@@ -5652,7 +6064,7 @@ impl IconShape for IoBeer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBicycleOutline;
 impl IconShape for IoBicycleOutline {
     fn view_box(&self) -> &str {
@@ -5691,7 +6103,7 @@ impl IconShape for IoBicycleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBicycleSharp;
 impl IconShape for IoBicycleSharp {
     fn view_box(&self) -> &str {
@@ -5727,7 +6139,7 @@ impl IconShape for IoBicycleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBicycle;
 impl IconShape for IoBicycle {
     fn view_box(&self) -> &str {
@@ -5763,7 +6175,135 @@ impl IconShape for IoBicycle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoBinocularsOutline;
+impl IconShape for IoBinocularsOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            circle {
+                cx: "392",
+                cy: "344",
+                r: "88",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            circle {
+                cx: "120",
+                cy: "344",
+                r: "88",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M208 344V128C208 101.5 192 80 164 80C129 80 117.5 101.5 107 128C107 128 58.5 255.833 36 317.5",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M208 184C208 184 224.5 176 256 176C287.5 176 304 184 304 184",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M208 272C208 272 224.5 264 256 264C287.5 264 304 272 304 272",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M304 344V128C304 101.5 320 80 348 80C383 80 394.5 101.5 405 128C405 128 453.5 255.833 476 317.5",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoBinocularsSharp;
+impl IconShape for IoBinocularsSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M164 64C142.711 64 126.817 70.7578 114.917 82.8311C103.846 94.0643 97.3707 108.867 92.1251 122.106L23.2827 305.692C22.6101 307.388 21.5537 310.277 20.9692 312.016C20.7194 312.701 20.5192 313.392 20.3669 314.084C17.5262 323.559 16 333.601 16 344C16 401.438 62.5624 448 120 448C177.438 448 224 401.438 224 344V283.539L224.04 283.529L288 283.539V343.886L288 344C288 401.438 334.562 448 392 448C449.438 448 496 401.438 496 344C496 333.601 494.474 323.559 491.633 314.085C491.308 313 488.718 305.693 488.718 305.693L420.511 123.778L419.875 122.106C414.629 108.867 408.155 94.0643 397.083 82.8311C385.183 70.7578 369.289 64 348 64C329.564 64 314.066 71.239 303.389 83.6068C292.943 95.7067 288 111.638 288 128V162.809L224 162.809V128C224 111.638 219.057 95.7067 208.611 83.6068C197.934 71.239 182.436 64 164 64ZM56 344C56 308.654 84.6538 280 120 280C155.346 280 184 308.654 184 344C184 379.346 155.346 408 120 408C84.6538 408 56 379.346 56 344ZM328 344C328 308.654 356.654 280 392 280C427.346 280 456 308.654 456 344C456 379.346 427.346 408 392 408C356.654 408 328 379.346 328 344Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoBinoculars;
+impl IconShape for IoBinoculars {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M114.917 82.8311C126.817 70.7578 142.711 64 164 64C182.436 64 197.934 71.239 208.611 83.6068C219.057 95.7067 224 111.638 224 128V162.809C232.45 161.226 243.147 160 256 160C268.853 160 279.55 161.226 288 162.809V128C288 111.638 292.943 95.7067 303.389 83.6068C314.066 71.239 329.564 64 348 64C369.289 64 385.183 70.7578 397.083 82.8311C408.155 94.0643 414.629 108.867 419.875 122.106L420.511 123.778L488.718 305.693C488.718 305.693 491.308 313 491.633 314.085C494.474 323.559 496 333.601 496 344C496 401.438 449.438 448 392 448C334.562 448 288 401.438 288 344C288 343.962 288 343.924 288 343.886V283.539C287.987 283.536 287.974 283.533 287.96 283.529C281.089 281.825 270.382 280 256 280C241.618 280 230.911 281.825 224.04 283.529L224 283.539V344C224 401.438 177.438 448 120 448C62.5624 448 16 401.438 16 344C16 333.601 17.5262 323.559 20.3669 314.084C20.5192 313.392 20.7194 312.701 20.9692 312.016C21.5537 310.277 22.6101 307.388 23.2827 305.692L92.1251 122.106C97.3707 108.867 103.846 94.0643 114.917 82.8311ZM320 343.905C320.051 304.184 352.267 272 392 272C422.372 272 448.352 290.806 458.93 317.408C459.392 318.668 459.845 319.905 460.288 321.118C462.696 328.307 464 336.001 464 344C464 383.764 431.764 416 392 416C352.249 416 320.022 383.786 320 344.04C320 344.027 320 344.013 320 344M120 272C89.6287 272 63.6495 290.805 53.0706 317.406C52.6085 318.667 52.1552 319.906 51.7115 321.12C49.3042 328.308 48 336.002 48 344C48 383.764 80.2355 416 120 416C159.764 416 192 383.764 192 344C192 304.236 159.764 272 120 272Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBluetoothOutline;
 impl IconShape for IoBluetoothOutline {
     fn view_box(&self) -> &str {
@@ -5791,7 +6331,7 @@ impl IconShape for IoBluetoothOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBluetoothSharp;
 impl IconShape for IoBluetoothSharp {
     fn view_box(&self) -> &str {
@@ -5818,7 +6358,7 @@ impl IconShape for IoBluetoothSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBluetooth;
 impl IconShape for IoBluetooth {
     fn view_box(&self) -> &str {
@@ -5845,7 +6385,7 @@ impl IconShape for IoBluetooth {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBoatOutline;
 impl IconShape for IoBoatOutline {
     fn view_box(&self) -> &str {
@@ -5891,7 +6431,7 @@ impl IconShape for IoBoatOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBoatSharp;
 impl IconShape for IoBoatSharp {
     fn view_box(&self) -> &str {
@@ -5921,7 +6461,7 @@ impl IconShape for IoBoatSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBoat;
 impl IconShape for IoBoat {
     fn view_box(&self) -> &str {
@@ -5951,7 +6491,7 @@ impl IconShape for IoBoat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBodyOutline;
 impl IconShape for IoBodyOutline {
     fn view_box(&self) -> &str {
@@ -5989,7 +6529,7 @@ impl IconShape for IoBodyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBodySharp;
 impl IconShape for IoBodySharp {
     fn view_box(&self) -> &str {
@@ -6021,7 +6561,7 @@ impl IconShape for IoBodySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBody;
 impl IconShape for IoBody {
     fn view_box(&self) -> &str {
@@ -6053,7 +6593,7 @@ impl IconShape for IoBody {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBonfireOutline;
 impl IconShape for IoBonfireOutline {
     fn view_box(&self) -> &str {
@@ -6104,7 +6644,7 @@ impl IconShape for IoBonfireOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBonfireSharp;
 impl IconShape for IoBonfireSharp {
     fn view_box(&self) -> &str {
@@ -6152,7 +6692,7 @@ impl IconShape for IoBonfireSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBonfire;
 impl IconShape for IoBonfire {
     fn view_box(&self) -> &str {
@@ -6200,7 +6740,7 @@ impl IconShape for IoBonfire {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBookOutline;
 impl IconShape for IoBookOutline {
     fn view_box(&self) -> &str {
@@ -6235,7 +6775,7 @@ impl IconShape for IoBookOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBookSharp;
 impl IconShape for IoBookSharp {
     fn view_box(&self) -> &str {
@@ -6265,7 +6805,7 @@ impl IconShape for IoBookSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBook;
 impl IconShape for IoBook {
     fn view_box(&self) -> &str {
@@ -6295,7 +6835,7 @@ impl IconShape for IoBook {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBookmarkOutline;
 impl IconShape for IoBookmarkOutline {
     fn view_box(&self) -> &str {
@@ -6323,7 +6863,7 @@ impl IconShape for IoBookmarkOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBookmarkSharp;
 impl IconShape for IoBookmarkSharp {
     fn view_box(&self) -> &str {
@@ -6350,7 +6890,7 @@ impl IconShape for IoBookmarkSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBookmark;
 impl IconShape for IoBookmark {
     fn view_box(&self) -> &str {
@@ -6377,7 +6917,7 @@ impl IconShape for IoBookmark {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBookmarksOutline;
 impl IconShape for IoBookmarksOutline {
     fn view_box(&self) -> &str {
@@ -6409,7 +6949,7 @@ impl IconShape for IoBookmarksOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBookmarksSharp;
 impl IconShape for IoBookmarksSharp {
     fn view_box(&self) -> &str {
@@ -6439,7 +6979,7 @@ impl IconShape for IoBookmarksSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBookmarks;
 impl IconShape for IoBookmarks {
     fn view_box(&self) -> &str {
@@ -6469,7 +7009,7 @@ impl IconShape for IoBookmarks {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBowlingBallOutline;
 impl IconShape for IoBowlingBallOutline {
     fn view_box(&self) -> &str {
@@ -6516,7 +7056,7 @@ impl IconShape for IoBowlingBallOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBowlingBallSharp;
 impl IconShape for IoBowlingBallSharp {
     fn view_box(&self) -> &str {
@@ -6543,7 +7083,7 @@ impl IconShape for IoBowlingBallSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBowlingBall;
 impl IconShape for IoBowlingBall {
     fn view_box(&self) -> &str {
@@ -6570,7 +7110,7 @@ impl IconShape for IoBowlingBall {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBriefcaseOutline;
 impl IconShape for IoBriefcaseOutline {
     fn view_box(&self) -> &str {
@@ -6618,7 +7158,7 @@ impl IconShape for IoBriefcaseOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBriefcaseSharp;
 impl IconShape for IoBriefcaseSharp {
     fn view_box(&self) -> &str {
@@ -6648,7 +7188,7 @@ impl IconShape for IoBriefcaseSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBriefcase;
 impl IconShape for IoBriefcase {
     fn view_box(&self) -> &str {
@@ -6682,7 +7222,7 @@ impl IconShape for IoBriefcase {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBrowsersOutline;
 impl IconShape for IoBrowsersOutline {
     fn view_box(&self) -> &str {
@@ -6718,7 +7258,7 @@ impl IconShape for IoBrowsersOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBrowsersSharp;
 impl IconShape for IoBrowsersSharp {
     fn view_box(&self) -> &str {
@@ -6745,7 +7285,7 @@ impl IconShape for IoBrowsersSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBrowsers;
 impl IconShape for IoBrowsers {
     fn view_box(&self) -> &str {
@@ -6772,7 +7312,7 @@ impl IconShape for IoBrowsers {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBrushOutline;
 impl IconShape for IoBrushOutline {
     fn view_box(&self) -> &str {
@@ -6804,7 +7344,7 @@ impl IconShape for IoBrushOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBrushSharp;
 impl IconShape for IoBrushSharp {
     fn view_box(&self) -> &str {
@@ -6834,7 +7374,7 @@ impl IconShape for IoBrushSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBrush;
 impl IconShape for IoBrush {
     fn view_box(&self) -> &str {
@@ -6864,7 +7404,7 @@ impl IconShape for IoBrush {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBugOutline;
 impl IconShape for IoBugOutline {
     fn view_box(&self) -> &str {
@@ -6933,7 +7473,7 @@ impl IconShape for IoBugOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBugSharp;
 impl IconShape for IoBugSharp {
     fn view_box(&self) -> &str {
@@ -6963,7 +7503,7 @@ impl IconShape for IoBugSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBug;
 impl IconShape for IoBug {
     fn view_box(&self) -> &str {
@@ -6993,7 +7533,7 @@ impl IconShape for IoBug {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBuildOutline;
 impl IconShape for IoBuildOutline {
     fn view_box(&self) -> &str {
@@ -7026,7 +7566,7 @@ impl IconShape for IoBuildOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBuildSharp;
 impl IconShape for IoBuildSharp {
     fn view_box(&self) -> &str {
@@ -7053,7 +7593,7 @@ impl IconShape for IoBuildSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBuild;
 impl IconShape for IoBuild {
     fn view_box(&self) -> &str {
@@ -7080,7 +7620,7 @@ impl IconShape for IoBuild {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBulbOutline;
 impl IconShape for IoBulbOutline {
     fn view_box(&self) -> &str {
@@ -7133,7 +7673,7 @@ impl IconShape for IoBulbOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBulbSharp;
 impl IconShape for IoBulbSharp {
     fn view_box(&self) -> &str {
@@ -7172,7 +7712,7 @@ impl IconShape for IoBulbSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBulb;
 impl IconShape for IoBulb {
     fn view_box(&self) -> &str {
@@ -7205,7 +7745,7 @@ impl IconShape for IoBulb {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBusOutline;
 impl IconShape for IoBusOutline {
     fn view_box(&self) -> &str {
@@ -7292,7 +7832,7 @@ impl IconShape for IoBusOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBusSharp;
 impl IconShape for IoBusSharp {
     fn view_box(&self) -> &str {
@@ -7323,7 +7863,7 @@ impl IconShape for IoBusSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBus;
 impl IconShape for IoBus {
     fn view_box(&self) -> &str {
@@ -7350,7 +7890,7 @@ impl IconShape for IoBus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBusinessOutline;
 impl IconShape for IoBusinessOutline {
     fn view_box(&self) -> &str {
@@ -7453,7 +7993,7 @@ impl IconShape for IoBusinessOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBusinessSharp;
 impl IconShape for IoBusinessSharp {
     fn view_box(&self) -> &str {
@@ -7498,7 +8038,7 @@ impl IconShape for IoBusinessSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoBusiness;
 impl IconShape for IoBusiness {
     fn view_box(&self) -> &str {
@@ -7543,7 +8083,7 @@ impl IconShape for IoBusiness {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCafeOutline;
 impl IconShape for IoCafeOutline {
     fn view_box(&self) -> &str {
@@ -7582,7 +8122,7 @@ impl IconShape for IoCafeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCafeSharp;
 impl IconShape for IoCafeSharp {
     fn view_box(&self) -> &str {
@@ -7615,7 +8155,7 @@ impl IconShape for IoCafeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCafe;
 impl IconShape for IoCafe {
     fn view_box(&self) -> &str {
@@ -7645,7 +8185,7 @@ impl IconShape for IoCafe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalculatorOutline;
 impl IconShape for IoCalculatorOutline {
     fn view_box(&self) -> &str {
@@ -7728,7 +8268,7 @@ impl IconShape for IoCalculatorOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalculatorSharp;
 impl IconShape for IoCalculatorSharp {
     fn view_box(&self) -> &str {
@@ -7755,7 +8295,7 @@ impl IconShape for IoCalculatorSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalculator;
 impl IconShape for IoCalculator {
     fn view_box(&self) -> &str {
@@ -7782,7 +8322,7 @@ impl IconShape for IoCalculator {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendarClearOutline;
 impl IconShape for IoCalendarClearOutline {
     fn view_box(&self) -> &str {
@@ -7846,7 +8386,7 @@ impl IconShape for IoCalendarClearOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendarClearSharp;
 impl IconShape for IoCalendarClearSharp {
     fn view_box(&self) -> &str {
@@ -7876,7 +8416,7 @@ impl IconShape for IoCalendarClearSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendarClear;
 impl IconShape for IoCalendarClear {
     fn view_box(&self) -> &str {
@@ -7906,7 +8446,7 @@ impl IconShape for IoCalendarClear {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendarNumberOutline;
 impl IconShape for IoCalendarNumberOutline {
     fn view_box(&self) -> &str {
@@ -7991,7 +8531,7 @@ impl IconShape for IoCalendarNumberOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendarNumberSharp;
 impl IconShape for IoCalendarNumberSharp {
     fn view_box(&self) -> &str {
@@ -8021,7 +8561,7 @@ impl IconShape for IoCalendarNumberSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendarNumber;
 impl IconShape for IoCalendarNumber {
     fn view_box(&self) -> &str {
@@ -8051,7 +8591,7 @@ impl IconShape for IoCalendarNumber {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendarOutline;
 impl IconShape for IoCalendarOutline {
     fn view_box(&self) -> &str {
@@ -8159,7 +8699,7 @@ impl IconShape for IoCalendarOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendarSharp;
 impl IconShape for IoCalendarSharp {
     fn view_box(&self) -> &str {
@@ -8189,7 +8729,7 @@ impl IconShape for IoCalendarSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCalendar;
 impl IconShape for IoCalendar {
     fn view_box(&self) -> &str {
@@ -8219,7 +8759,7 @@ impl IconShape for IoCalendar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCallOutline;
 impl IconShape for IoCallOutline {
     fn view_box(&self) -> &str {
@@ -8247,7 +8787,7 @@ impl IconShape for IoCallOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCallSharp;
 impl IconShape for IoCallSharp {
     fn view_box(&self) -> &str {
@@ -8274,7 +8814,7 @@ impl IconShape for IoCallSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCall;
 impl IconShape for IoCall {
     fn view_box(&self) -> &str {
@@ -8301,7 +8841,7 @@ impl IconShape for IoCall {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCameraOutline;
 impl IconShape for IoCameraOutline {
     fn view_box(&self) -> &str {
@@ -8339,7 +8879,7 @@ impl IconShape for IoCameraOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCameraReverseOutline;
 impl IconShape for IoCameraReverseOutline {
     fn view_box(&self) -> &str {
@@ -8383,7 +8923,7 @@ impl IconShape for IoCameraReverseOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCameraReverseSharp;
 impl IconShape for IoCameraReverseSharp {
     fn view_box(&self) -> &str {
@@ -8410,7 +8950,7 @@ impl IconShape for IoCameraReverseSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCameraReverse;
 impl IconShape for IoCameraReverse {
     fn view_box(&self) -> &str {
@@ -8437,7 +8977,7 @@ impl IconShape for IoCameraReverse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCameraSharp;
 impl IconShape for IoCameraSharp {
     fn view_box(&self) -> &str {
@@ -8469,7 +9009,7 @@ impl IconShape for IoCameraSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCamera;
 impl IconShape for IoCamera {
     fn view_box(&self) -> &str {
@@ -8501,7 +9041,7 @@ impl IconShape for IoCamera {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCarOutline;
 impl IconShape for IoCarOutline {
     fn view_box(&self) -> &str {
@@ -8556,7 +9096,7 @@ impl IconShape for IoCarOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCarSharp;
 impl IconShape for IoCarSharp {
     fn view_box(&self) -> &str {
@@ -8583,7 +9123,7 @@ impl IconShape for IoCarSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCarSportOutline;
 impl IconShape for IoCarSportOutline {
     fn view_box(&self) -> &str {
@@ -8652,7 +9192,7 @@ impl IconShape for IoCarSportOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCarSportSharp;
 impl IconShape for IoCarSportSharp {
     fn view_box(&self) -> &str {
@@ -8679,7 +9219,7 @@ impl IconShape for IoCarSportSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCarSport;
 impl IconShape for IoCarSport {
     fn view_box(&self) -> &str {
@@ -8706,7 +9246,7 @@ impl IconShape for IoCarSport {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCar;
 impl IconShape for IoCar {
     fn view_box(&self) -> &str {
@@ -8733,7 +9273,7 @@ impl IconShape for IoCar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCardOutline;
 impl IconShape for IoCardOutline {
     fn view_box(&self) -> &str {
@@ -8780,7 +9320,7 @@ impl IconShape for IoCardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCardSharp;
 impl IconShape for IoCardSharp {
     fn view_box(&self) -> &str {
@@ -8810,7 +9350,7 @@ impl IconShape for IoCardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCard;
 impl IconShape for IoCard {
     fn view_box(&self) -> &str {
@@ -8840,7 +9380,7 @@ impl IconShape for IoCard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretBackCircleOutline;
 impl IconShape for IoCaretBackCircleOutline {
     fn view_box(&self) -> &str {
@@ -8871,7 +9411,7 @@ impl IconShape for IoCaretBackCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretBackCircleSharp;
 impl IconShape for IoCaretBackCircleSharp {
     fn view_box(&self) -> &str {
@@ -8898,7 +9438,7 @@ impl IconShape for IoCaretBackCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretBackCircle;
 impl IconShape for IoCaretBackCircle {
     fn view_box(&self) -> &str {
@@ -8925,7 +9465,7 @@ impl IconShape for IoCaretBackCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretBackOutline;
 impl IconShape for IoCaretBackOutline {
     fn view_box(&self) -> &str {
@@ -8952,7 +9492,7 @@ impl IconShape for IoCaretBackOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretBackSharp;
 impl IconShape for IoCaretBackSharp {
     fn view_box(&self) -> &str {
@@ -8979,7 +9519,7 @@ impl IconShape for IoCaretBackSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretBack;
 impl IconShape for IoCaretBack {
     fn view_box(&self) -> &str {
@@ -9006,7 +9546,7 @@ impl IconShape for IoCaretBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretDownCircleOutline;
 impl IconShape for IoCaretDownCircleOutline {
     fn view_box(&self) -> &str {
@@ -9037,7 +9577,7 @@ impl IconShape for IoCaretDownCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretDownCircleSharp;
 impl IconShape for IoCaretDownCircleSharp {
     fn view_box(&self) -> &str {
@@ -9064,7 +9604,7 @@ impl IconShape for IoCaretDownCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretDownCircle;
 impl IconShape for IoCaretDownCircle {
     fn view_box(&self) -> &str {
@@ -9091,7 +9631,7 @@ impl IconShape for IoCaretDownCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretDownOutline;
 impl IconShape for IoCaretDownOutline {
     fn view_box(&self) -> &str {
@@ -9118,7 +9658,7 @@ impl IconShape for IoCaretDownOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretDownSharp;
 impl IconShape for IoCaretDownSharp {
     fn view_box(&self) -> &str {
@@ -9145,7 +9685,7 @@ impl IconShape for IoCaretDownSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretDown;
 impl IconShape for IoCaretDown {
     fn view_box(&self) -> &str {
@@ -9172,7 +9712,7 @@ impl IconShape for IoCaretDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretForwardCircleOutline;
 impl IconShape for IoCaretForwardCircleOutline {
     fn view_box(&self) -> &str {
@@ -9203,7 +9743,7 @@ impl IconShape for IoCaretForwardCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretForwardCircleSharp;
 impl IconShape for IoCaretForwardCircleSharp {
     fn view_box(&self) -> &str {
@@ -9230,7 +9770,7 @@ impl IconShape for IoCaretForwardCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretForwardCircle;
 impl IconShape for IoCaretForwardCircle {
     fn view_box(&self) -> &str {
@@ -9257,7 +9797,7 @@ impl IconShape for IoCaretForwardCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretForwardOutline;
 impl IconShape for IoCaretForwardOutline {
     fn view_box(&self) -> &str {
@@ -9284,7 +9824,7 @@ impl IconShape for IoCaretForwardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretForwardSharp;
 impl IconShape for IoCaretForwardSharp {
     fn view_box(&self) -> &str {
@@ -9311,7 +9851,7 @@ impl IconShape for IoCaretForwardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretForward;
 impl IconShape for IoCaretForward {
     fn view_box(&self) -> &str {
@@ -9338,7 +9878,7 @@ impl IconShape for IoCaretForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretUpCircleOutline;
 impl IconShape for IoCaretUpCircleOutline {
     fn view_box(&self) -> &str {
@@ -9369,7 +9909,7 @@ impl IconShape for IoCaretUpCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretUpCircleSharp;
 impl IconShape for IoCaretUpCircleSharp {
     fn view_box(&self) -> &str {
@@ -9396,7 +9936,7 @@ impl IconShape for IoCaretUpCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretUpCircle;
 impl IconShape for IoCaretUpCircle {
     fn view_box(&self) -> &str {
@@ -9423,7 +9963,7 @@ impl IconShape for IoCaretUpCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretUpOutline;
 impl IconShape for IoCaretUpOutline {
     fn view_box(&self) -> &str {
@@ -9450,7 +9990,7 @@ impl IconShape for IoCaretUpOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretUpSharp;
 impl IconShape for IoCaretUpSharp {
     fn view_box(&self) -> &str {
@@ -9477,7 +10017,7 @@ impl IconShape for IoCaretUpSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCaretUp;
 impl IconShape for IoCaretUp {
     fn view_box(&self) -> &str {
@@ -9504,7 +10044,7 @@ impl IconShape for IoCaretUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCartOutline;
 impl IconShape for IoCartOutline {
     fn view_box(&self) -> &str {
@@ -9548,7 +10088,7 @@ impl IconShape for IoCartOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCartSharp;
 impl IconShape for IoCartSharp {
     fn view_box(&self) -> &str {
@@ -9585,7 +10125,7 @@ impl IconShape for IoCartSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCart;
 impl IconShape for IoCart {
     fn view_box(&self) -> &str {
@@ -9622,7 +10162,7 @@ impl IconShape for IoCart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCashOutline;
 impl IconShape for IoCashOutline {
     fn view_box(&self) -> &str {
@@ -9692,7 +10232,7 @@ impl IconShape for IoCashOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCashSharp;
 impl IconShape for IoCashSharp {
     fn view_box(&self) -> &str {
@@ -9748,7 +10288,7 @@ impl IconShape for IoCashSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCash;
 impl IconShape for IoCash {
     fn view_box(&self) -> &str {
@@ -9798,7 +10338,7 @@ impl IconShape for IoCash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCellularOutline;
 impl IconShape for IoCellularOutline {
     fn view_box(&self) -> &str {
@@ -9858,7 +10398,7 @@ impl IconShape for IoCellularOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCellularSharp;
 impl IconShape for IoCellularSharp {
     fn view_box(&self) -> &str {
@@ -9894,7 +10434,7 @@ impl IconShape for IoCellularSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCellular;
 impl IconShape for IoCellular {
     fn view_box(&self) -> &str {
@@ -9930,7 +10470,7 @@ impl IconShape for IoCellular {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatboxEllipsesOutline;
 impl IconShape for IoChatboxEllipsesOutline {
     fn view_box(&self) -> &str {
@@ -9973,7 +10513,7 @@ impl IconShape for IoChatboxEllipsesOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatboxEllipsesSharp;
 impl IconShape for IoChatboxEllipsesSharp {
     fn view_box(&self) -> &str {
@@ -10000,7 +10540,7 @@ impl IconShape for IoChatboxEllipsesSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatboxEllipses;
 impl IconShape for IoChatboxEllipses {
     fn view_box(&self) -> &str {
@@ -10027,7 +10567,7 @@ impl IconShape for IoChatboxEllipses {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatboxOutline;
 impl IconShape for IoChatboxOutline {
     fn view_box(&self) -> &str {
@@ -10055,7 +10595,7 @@ impl IconShape for IoChatboxOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatboxSharp;
 impl IconShape for IoChatboxSharp {
     fn view_box(&self) -> &str {
@@ -10082,7 +10622,7 @@ impl IconShape for IoChatboxSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbox;
 impl IconShape for IoChatbox {
     fn view_box(&self) -> &str {
@@ -10109,7 +10649,7 @@ impl IconShape for IoChatbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubbleEllipsesOutline;
 impl IconShape for IoChatbubbleEllipsesOutline {
     fn view_box(&self) -> &str {
@@ -10152,7 +10692,7 @@ impl IconShape for IoChatbubbleEllipsesOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubbleEllipsesSharp;
 impl IconShape for IoChatbubbleEllipsesSharp {
     fn view_box(&self) -> &str {
@@ -10179,7 +10719,7 @@ impl IconShape for IoChatbubbleEllipsesSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubbleEllipses;
 impl IconShape for IoChatbubbleEllipses {
     fn view_box(&self) -> &str {
@@ -10206,7 +10746,7 @@ impl IconShape for IoChatbubbleEllipses {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubbleOutline;
 impl IconShape for IoChatbubbleOutline {
     fn view_box(&self) -> &str {
@@ -10234,7 +10774,7 @@ impl IconShape for IoChatbubbleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubbleSharp;
 impl IconShape for IoChatbubbleSharp {
     fn view_box(&self) -> &str {
@@ -10261,7 +10801,7 @@ impl IconShape for IoChatbubbleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubble;
 impl IconShape for IoChatbubble {
     fn view_box(&self) -> &str {
@@ -10288,7 +10828,7 @@ impl IconShape for IoChatbubble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubblesOutline;
 impl IconShape for IoChatbubblesOutline {
     fn view_box(&self) -> &str {
@@ -10320,7 +10860,7 @@ impl IconShape for IoChatbubblesOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubblesSharp;
 impl IconShape for IoChatbubblesSharp {
     fn view_box(&self) -> &str {
@@ -10350,7 +10890,7 @@ impl IconShape for IoChatbubblesSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChatbubbles;
 impl IconShape for IoChatbubbles {
     fn view_box(&self) -> &str {
@@ -10383,7 +10923,7 @@ impl IconShape for IoChatbubbles {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckboxOutline;
 impl IconShape for IoCheckboxOutline {
     fn view_box(&self) -> &str {
@@ -10420,7 +10960,7 @@ impl IconShape for IoCheckboxOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckboxSharp;
 impl IconShape for IoCheckboxSharp {
     fn view_box(&self) -> &str {
@@ -10447,7 +10987,7 @@ impl IconShape for IoCheckboxSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckbox;
 impl IconShape for IoCheckbox {
     fn view_box(&self) -> &str {
@@ -10474,7 +11014,7 @@ impl IconShape for IoCheckbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkCircleOutline;
 impl IconShape for IoCheckmarkCircleOutline {
     fn view_box(&self) -> &str {
@@ -10506,7 +11046,7 @@ impl IconShape for IoCheckmarkCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkCircleSharp;
 impl IconShape for IoCheckmarkCircleSharp {
     fn view_box(&self) -> &str {
@@ -10533,7 +11073,7 @@ impl IconShape for IoCheckmarkCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkCircle;
 impl IconShape for IoCheckmarkCircle {
     fn view_box(&self) -> &str {
@@ -10560,7 +11100,7 @@ impl IconShape for IoCheckmarkCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkDoneCircleOutline;
 impl IconShape for IoCheckmarkDoneCircleOutline {
     fn view_box(&self) -> &str {
@@ -10606,7 +11146,7 @@ impl IconShape for IoCheckmarkDoneCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkDoneCircleSharp;
 impl IconShape for IoCheckmarkDoneCircleSharp {
     fn view_box(&self) -> &str {
@@ -10633,7 +11173,7 @@ impl IconShape for IoCheckmarkDoneCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkDoneCircle;
 impl IconShape for IoCheckmarkDoneCircle {
     fn view_box(&self) -> &str {
@@ -10660,7 +11200,7 @@ impl IconShape for IoCheckmarkDoneCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkDoneOutline;
 impl IconShape for IoCheckmarkDoneOutline {
     fn view_box(&self) -> &str {
@@ -10702,7 +11242,7 @@ impl IconShape for IoCheckmarkDoneOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkDoneSharp;
 impl IconShape for IoCheckmarkDoneSharp {
     fn view_box(&self) -> &str {
@@ -10744,7 +11284,7 @@ impl IconShape for IoCheckmarkDoneSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkDone;
 impl IconShape for IoCheckmarkDone {
     fn view_box(&self) -> &str {
@@ -10786,7 +11326,7 @@ impl IconShape for IoCheckmarkDone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkOutline;
 impl IconShape for IoCheckmarkOutline {
     fn view_box(&self) -> &str {
@@ -10814,7 +11354,7 @@ impl IconShape for IoCheckmarkOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmarkSharp;
 impl IconShape for IoCheckmarkSharp {
     fn view_box(&self) -> &str {
@@ -10842,7 +11382,7 @@ impl IconShape for IoCheckmarkSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCheckmark;
 impl IconShape for IoCheckmark {
     fn view_box(&self) -> &str {
@@ -10870,7 +11410,7 @@ impl IconShape for IoCheckmark {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronBackCircleOutline;
 impl IconShape for IoChevronBackCircleOutline {
     fn view_box(&self) -> &str {
@@ -10902,7 +11442,7 @@ impl IconShape for IoChevronBackCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronBackCircleSharp;
 impl IconShape for IoChevronBackCircleSharp {
     fn view_box(&self) -> &str {
@@ -10929,7 +11469,7 @@ impl IconShape for IoChevronBackCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronBackCircle;
 impl IconShape for IoChevronBackCircle {
     fn view_box(&self) -> &str {
@@ -10956,7 +11496,7 @@ impl IconShape for IoChevronBackCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronBackOutline;
 impl IconShape for IoChevronBackOutline {
     fn view_box(&self) -> &str {
@@ -10984,7 +11524,7 @@ impl IconShape for IoChevronBackOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronBackSharp;
 impl IconShape for IoChevronBackSharp {
     fn view_box(&self) -> &str {
@@ -11012,7 +11552,7 @@ impl IconShape for IoChevronBackSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronBack;
 impl IconShape for IoChevronBack {
     fn view_box(&self) -> &str {
@@ -11040,7 +11580,99 @@ impl IconShape for IoChevronBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoChevronCollapseOutline;
+impl IconShape for IoChevronCollapseOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136 104L256 208L376 104",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M136 408L256 304L376 408",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoChevronCollapseSharp;
+impl IconShape for IoChevronCollapseSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M102.145 108.514L256 241.855l153.855-133.341-31.437-36.273L256 178.337 133.582 72.241l-31.437 36.273zm0 294.972L256 270.145l153.855 133.341-31.437 36.273L256 333.663 133.582 439.759l-31.437-36.273z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoChevronCollapse;
+impl IconShape for IoChevronCollapse {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M117.863 88.282c-8.681 10.017-7.598 25.174 2.419 33.855l120 104c9.02 7.818 22.416 7.818 31.436 0l120-104c10.017-8.681 11.1-23.838 2.419-33.855s-23.839-11.099-33.855-2.418L256 176.241 151.718 85.864c-10.016-8.681-25.174-7.598-33.855 2.418zm0 335.436c-8.681-10.017-7.598-25.174 2.419-33.855l120-104c9.02-7.818 22.416-7.818 31.436 0l120 104c10.017 8.681 11.1 23.838 2.419 33.855s-23.839 11.099-33.855 2.418L256 335.759l-104.282 90.377c-10.016 8.681-25.174 7.598-33.855-2.418z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronDownCircleOutline;
 impl IconShape for IoChevronDownCircleOutline {
     fn view_box(&self) -> &str {
@@ -11072,7 +11704,7 @@ impl IconShape for IoChevronDownCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronDownCircleSharp;
 impl IconShape for IoChevronDownCircleSharp {
     fn view_box(&self) -> &str {
@@ -11099,7 +11731,7 @@ impl IconShape for IoChevronDownCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronDownCircle;
 impl IconShape for IoChevronDownCircle {
     fn view_box(&self) -> &str {
@@ -11126,7 +11758,7 @@ impl IconShape for IoChevronDownCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronDownOutline;
 impl IconShape for IoChevronDownOutline {
     fn view_box(&self) -> &str {
@@ -11154,7 +11786,7 @@ impl IconShape for IoChevronDownOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronDownSharp;
 impl IconShape for IoChevronDownSharp {
     fn view_box(&self) -> &str {
@@ -11182,7 +11814,7 @@ impl IconShape for IoChevronDownSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronDown;
 impl IconShape for IoChevronDown {
     fn view_box(&self) -> &str {
@@ -11210,7 +11842,119 @@ impl IconShape for IoChevronDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoChevronExpandOutline;
+impl IconShape for IoChevronExpandOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136 208L256 104L376 208",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M136 304L256 408L376 304",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoChevronExpandSharp;
+impl IconShape for IoChevronExpandSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136 208L256 104L376 208",
+                stroke: "currentColor",
+                stroke_linecap: "square",
+                stroke_width: "48",
+            }
+            path {
+                d: "M136 304L256 408L376 304",
+                stroke: "currentColor",
+                stroke_linecap: "square",
+                stroke_width: "48",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoChevronExpand;
+impl IconShape for IoChevronExpand {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136 208L256 104L376 208",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "48",
+            }
+            path {
+                d: "M136 304L256 408L376 304",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "48",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronForwardCircleOutline;
 impl IconShape for IoChevronForwardCircleOutline {
     fn view_box(&self) -> &str {
@@ -11242,7 +11986,7 @@ impl IconShape for IoChevronForwardCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronForwardCircleSharp;
 impl IconShape for IoChevronForwardCircleSharp {
     fn view_box(&self) -> &str {
@@ -11269,7 +12013,7 @@ impl IconShape for IoChevronForwardCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronForwardCircle;
 impl IconShape for IoChevronForwardCircle {
     fn view_box(&self) -> &str {
@@ -11296,7 +12040,7 @@ impl IconShape for IoChevronForwardCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronForwardOutline;
 impl IconShape for IoChevronForwardOutline {
     fn view_box(&self) -> &str {
@@ -11324,7 +12068,7 @@ impl IconShape for IoChevronForwardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronForwardSharp;
 impl IconShape for IoChevronForwardSharp {
     fn view_box(&self) -> &str {
@@ -11352,7 +12096,7 @@ impl IconShape for IoChevronForwardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronForward;
 impl IconShape for IoChevronForward {
     fn view_box(&self) -> &str {
@@ -11380,7 +12124,7 @@ impl IconShape for IoChevronForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronUpCircleOutline;
 impl IconShape for IoChevronUpCircleOutline {
     fn view_box(&self) -> &str {
@@ -11412,7 +12156,7 @@ impl IconShape for IoChevronUpCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronUpCircleSharp;
 impl IconShape for IoChevronUpCircleSharp {
     fn view_box(&self) -> &str {
@@ -11439,7 +12183,7 @@ impl IconShape for IoChevronUpCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronUpCircle;
 impl IconShape for IoChevronUpCircle {
     fn view_box(&self) -> &str {
@@ -11466,7 +12210,7 @@ impl IconShape for IoChevronUpCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronUpOutline;
 impl IconShape for IoChevronUpOutline {
     fn view_box(&self) -> &str {
@@ -11494,7 +12238,7 @@ impl IconShape for IoChevronUpOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronUpSharp;
 impl IconShape for IoChevronUpSharp {
     fn view_box(&self) -> &str {
@@ -11522,7 +12266,7 @@ impl IconShape for IoChevronUpSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoChevronUp;
 impl IconShape for IoChevronUp {
     fn view_box(&self) -> &str {
@@ -11550,7 +12294,7 @@ impl IconShape for IoChevronUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoClipboardOutline;
 impl IconShape for IoClipboardOutline {
     fn view_box(&self) -> &str {
@@ -11587,7 +12331,7 @@ impl IconShape for IoClipboardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoClipboardSharp;
 impl IconShape for IoClipboardSharp {
     fn view_box(&self) -> &str {
@@ -11614,7 +12358,7 @@ impl IconShape for IoClipboardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoClipboard;
 impl IconShape for IoClipboard {
     fn view_box(&self) -> &str {
@@ -11641,7 +12385,7 @@ impl IconShape for IoClipboard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloseCircleOutline;
 impl IconShape for IoCloseCircleOutline {
     fn view_box(&self) -> &str {
@@ -11683,7 +12427,7 @@ impl IconShape for IoCloseCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloseCircleSharp;
 impl IconShape for IoCloseCircleSharp {
     fn view_box(&self) -> &str {
@@ -11710,7 +12454,7 @@ impl IconShape for IoCloseCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloseCircle;
 impl IconShape for IoCloseCircle {
     fn view_box(&self) -> &str {
@@ -11737,7 +12481,7 @@ impl IconShape for IoCloseCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloseOutline;
 impl IconShape for IoCloseOutline {
     fn view_box(&self) -> &str {
@@ -11775,7 +12519,7 @@ impl IconShape for IoCloseOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloseSharp;
 impl IconShape for IoCloseSharp {
     fn view_box(&self) -> &str {
@@ -11802,7 +12546,7 @@ impl IconShape for IoCloseSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoClose;
 impl IconShape for IoClose {
     fn view_box(&self) -> &str {
@@ -11829,7 +12573,7 @@ impl IconShape for IoClose {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudCircleOutline;
 impl IconShape for IoCloudCircleOutline {
     fn view_box(&self) -> &str {
@@ -11860,7 +12604,7 @@ impl IconShape for IoCloudCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudCircleSharp;
 impl IconShape for IoCloudCircleSharp {
     fn view_box(&self) -> &str {
@@ -11887,7 +12631,7 @@ impl IconShape for IoCloudCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudCircle;
 impl IconShape for IoCloudCircle {
     fn view_box(&self) -> &str {
@@ -11914,7 +12658,7 @@ impl IconShape for IoCloudCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudDoneOutline;
 impl IconShape for IoCloudDoneOutline {
     fn view_box(&self) -> &str {
@@ -11946,7 +12690,7 @@ impl IconShape for IoCloudDoneOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudDoneSharp;
 impl IconShape for IoCloudDoneSharp {
     fn view_box(&self) -> &str {
@@ -11973,7 +12717,7 @@ impl IconShape for IoCloudDoneSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudDone;
 impl IconShape for IoCloudDone {
     fn view_box(&self) -> &str {
@@ -12000,7 +12744,7 @@ impl IconShape for IoCloudDone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudDownloadOutline;
 impl IconShape for IoCloudDownloadOutline {
     fn view_box(&self) -> &str {
@@ -12039,7 +12783,7 @@ impl IconShape for IoCloudDownloadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudDownloadSharp;
 impl IconShape for IoCloudDownloadSharp {
     fn view_box(&self) -> &str {
@@ -12069,7 +12813,7 @@ impl IconShape for IoCloudDownloadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudDownload;
 impl IconShape for IoCloudDownload {
     fn view_box(&self) -> &str {
@@ -12099,7 +12843,7 @@ impl IconShape for IoCloudDownload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudOfflineOutline;
 impl IconShape for IoCloudOfflineOutline {
     fn view_box(&self) -> &str {
@@ -12138,7 +12882,7 @@ impl IconShape for IoCloudOfflineOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudOfflineSharp;
 impl IconShape for IoCloudOfflineSharp {
     fn view_box(&self) -> &str {
@@ -12175,7 +12919,7 @@ impl IconShape for IoCloudOfflineSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudOffline;
 impl IconShape for IoCloudOffline {
     fn view_box(&self) -> &str {
@@ -12208,7 +12952,7 @@ impl IconShape for IoCloudOffline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudOutline;
 impl IconShape for IoCloudOutline {
     fn view_box(&self) -> &str {
@@ -12236,7 +12980,7 @@ impl IconShape for IoCloudOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudSharp;
 impl IconShape for IoCloudSharp {
     fn view_box(&self) -> &str {
@@ -12263,7 +13007,7 @@ impl IconShape for IoCloudSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudUploadOutline;
 impl IconShape for IoCloudUploadOutline {
     fn view_box(&self) -> &str {
@@ -12302,7 +13046,7 @@ impl IconShape for IoCloudUploadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudUploadSharp;
 impl IconShape for IoCloudUploadSharp {
     fn view_box(&self) -> &str {
@@ -12335,7 +13079,7 @@ impl IconShape for IoCloudUploadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudUpload;
 impl IconShape for IoCloudUpload {
     fn view_box(&self) -> &str {
@@ -12365,7 +13109,7 @@ impl IconShape for IoCloudUpload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloud;
 impl IconShape for IoCloud {
     fn view_box(&self) -> &str {
@@ -12392,7 +13136,7 @@ impl IconShape for IoCloud {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudyNightOutline;
 impl IconShape for IoCloudyNightOutline {
     fn view_box(&self) -> &str {
@@ -12424,7 +13168,7 @@ impl IconShape for IoCloudyNightOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudyNightSharp;
 impl IconShape for IoCloudyNightSharp {
     fn view_box(&self) -> &str {
@@ -12454,7 +13198,7 @@ impl IconShape for IoCloudyNightSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudyNight;
 impl IconShape for IoCloudyNight {
     fn view_box(&self) -> &str {
@@ -12484,7 +13228,7 @@ impl IconShape for IoCloudyNight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudyOutline;
 impl IconShape for IoCloudyOutline {
     fn view_box(&self) -> &str {
@@ -12512,7 +13256,7 @@ impl IconShape for IoCloudyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudySharp;
 impl IconShape for IoCloudySharp {
     fn view_box(&self) -> &str {
@@ -12539,7 +13283,7 @@ impl IconShape for IoCloudySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCloudy;
 impl IconShape for IoCloudy {
     fn view_box(&self) -> &str {
@@ -12566,7 +13310,7 @@ impl IconShape for IoCloudy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeDownloadOutline;
 impl IconShape for IoCodeDownloadOutline {
     fn view_box(&self) -> &str {
@@ -12609,7 +13353,7 @@ impl IconShape for IoCodeDownloadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeDownloadSharp;
 impl IconShape for IoCodeDownloadSharp {
     fn view_box(&self) -> &str {
@@ -12652,7 +13396,7 @@ impl IconShape for IoCodeDownloadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeDownload;
 impl IconShape for IoCodeDownload {
     fn view_box(&self) -> &str {
@@ -12695,7 +13439,7 @@ impl IconShape for IoCodeDownload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeOutline;
 impl IconShape for IoCodeOutline {
     fn view_box(&self) -> &str {
@@ -12727,7 +13471,7 @@ impl IconShape for IoCodeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeSharp;
 impl IconShape for IoCodeSharp {
     fn view_box(&self) -> &str {
@@ -12757,7 +13501,7 @@ impl IconShape for IoCodeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeSlashOutline;
 impl IconShape for IoCodeSlashOutline {
     fn view_box(&self) -> &str {
@@ -12796,7 +13540,7 @@ impl IconShape for IoCodeSlashOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeSlashSharp;
 impl IconShape for IoCodeSlashSharp {
     fn view_box(&self) -> &str {
@@ -12829,7 +13573,7 @@ impl IconShape for IoCodeSlashSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeSlash;
 impl IconShape for IoCodeSlash {
     fn view_box(&self) -> &str {
@@ -12862,7 +13606,7 @@ impl IconShape for IoCodeSlash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeWorkingOutline;
 impl IconShape for IoCodeWorkingOutline {
     fn view_box(&self) -> &str {
@@ -12909,7 +13653,7 @@ impl IconShape for IoCodeWorkingOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeWorkingSharp;
 impl IconShape for IoCodeWorkingSharp {
     fn view_box(&self) -> &str {
@@ -12959,7 +13703,7 @@ impl IconShape for IoCodeWorkingSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCodeWorking;
 impl IconShape for IoCodeWorking {
     fn view_box(&self) -> &str {
@@ -13009,7 +13753,7 @@ impl IconShape for IoCodeWorking {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCode;
 impl IconShape for IoCode {
     fn view_box(&self) -> &str {
@@ -13039,7 +13783,7 @@ impl IconShape for IoCode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCogOutline;
 impl IconShape for IoCogOutline {
     fn view_box(&self) -> &str {
@@ -13066,7 +13810,7 @@ impl IconShape for IoCogOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCogSharp;
 impl IconShape for IoCogSharp {
     fn view_box(&self) -> &str {
@@ -13093,7 +13837,7 @@ impl IconShape for IoCogSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCog;
 impl IconShape for IoCog {
     fn view_box(&self) -> &str {
@@ -13120,7 +13864,7 @@ impl IconShape for IoCog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorFillOutline;
 impl IconShape for IoColorFillOutline {
     fn view_box(&self) -> &str {
@@ -13152,7 +13896,7 @@ impl IconShape for IoColorFillOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorFillSharp;
 impl IconShape for IoColorFillSharp {
     fn view_box(&self) -> &str {
@@ -13182,7 +13926,7 @@ impl IconShape for IoColorFillSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorFill;
 impl IconShape for IoColorFill {
     fn view_box(&self) -> &str {
@@ -13212,7 +13956,7 @@ impl IconShape for IoColorFill {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorFilterOutline;
 impl IconShape for IoColorFilterOutline {
     fn view_box(&self) -> &str {
@@ -13254,7 +13998,7 @@ impl IconShape for IoColorFilterOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorFilterSharp;
 impl IconShape for IoColorFilterSharp {
     fn view_box(&self) -> &str {
@@ -13299,7 +14043,7 @@ impl IconShape for IoColorFilterSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorFilter;
 impl IconShape for IoColorFilter {
     fn view_box(&self) -> &str {
@@ -13344,7 +14088,7 @@ impl IconShape for IoColorFilter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorPaletteOutline;
 impl IconShape for IoColorPaletteOutline {
     fn view_box(&self) -> &str {
@@ -13397,7 +14141,7 @@ impl IconShape for IoColorPaletteOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorPaletteSharp;
 impl IconShape for IoColorPaletteSharp {
     fn view_box(&self) -> &str {
@@ -13424,7 +14168,7 @@ impl IconShape for IoColorPaletteSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorPalette;
 impl IconShape for IoColorPalette {
     fn view_box(&self) -> &str {
@@ -13451,7 +14195,7 @@ impl IconShape for IoColorPalette {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorWandOutline;
 impl IconShape for IoColorWandOutline {
     fn view_box(&self) -> &str {
@@ -13539,7 +14283,7 @@ impl IconShape for IoColorWandOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorWandSharp;
 impl IconShape for IoColorWandSharp {
     fn view_box(&self) -> &str {
@@ -13606,7 +14350,7 @@ impl IconShape for IoColorWandSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoColorWand;
 impl IconShape for IoColorWand {
     fn view_box(&self) -> &str {
@@ -13631,32 +14375,32 @@ impl IconShape for IoColorWand {
             }
             path {
                 d: "M124.1,140.1c-4.2,0-8.3-1.7-11.3-4.7l-33.9-33.9c-6.2-6.2-6.2-16.4,0-22.6s16.4-6.2,22.6,0l33.9,33.9
-        c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
+	c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
             }
             path {
                 d: "M192,112c-8.8,0-16-7.2-16-16V48c0-8.8,7.2-16,16-16s16,7.2,16,16v48C208,104.8,200.8,112,192,112z",
             }
             path {
                 d: "M259.9,140.1c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0c6.2,6.2,6.2,16.4,0,22.6
-        l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
+	l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
             }
             path {
                 d: "M90.2,309.8c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0s6.2,16.4,0,22.6l-33.9,33.9
-        C98.5,308.1,94.4,309.8,90.2,309.8z",
+	C98.5,308.1,94.4,309.8,90.2,309.8z",
             }
             path {
                 d: "M234.2,167c-18.4-18.7-48.5-19-67.2-0.7s-19,48.5-0.7,67.2c0.2,0.2,0.5,0.5,0.7,0.7l39.5,39.5c3.1,3.1,8.2,3.1,11.3,0
-        l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
+	l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
             }
             path {
                 d: "M457,389.8L307.6,240.4c-3.1-3.1-8.2-3.1-11.3,0l-55.9,55.9c-3.1,3.1-3.1,8.2,0,11.3L389.8,457c18.4,18.7,48.5,19,67.2,0.7
-        c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
+	c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCompassOutline;
 impl IconShape for IoCompassOutline {
     fn view_box(&self) -> &str {
@@ -13687,7 +14431,7 @@ impl IconShape for IoCompassOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCompassSharp;
 impl IconShape for IoCompassSharp {
     fn view_box(&self) -> &str {
@@ -13719,7 +14463,7 @@ impl IconShape for IoCompassSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCompass;
 impl IconShape for IoCompass {
     fn view_box(&self) -> &str {
@@ -13751,7 +14495,7 @@ impl IconShape for IoCompass {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoConstructOutline;
 impl IconShape for IoConstructOutline {
     fn view_box(&self) -> &str {
@@ -13791,7 +14535,7 @@ impl IconShape for IoConstructOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoConstructSharp;
 impl IconShape for IoConstructSharp {
     fn view_box(&self) -> &str {
@@ -13824,7 +14568,7 @@ impl IconShape for IoConstructSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoConstruct;
 impl IconShape for IoConstruct {
     fn view_box(&self) -> &str {
@@ -13857,7 +14601,7 @@ impl IconShape for IoConstruct {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoContractOutline;
 impl IconShape for IoContractOutline {
     fn view_box(&self) -> &str {
@@ -13925,7 +14669,7 @@ impl IconShape for IoContractOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoContractSharp;
 impl IconShape for IoContractSharp {
     fn view_box(&self) -> &str {
@@ -13993,7 +14737,7 @@ impl IconShape for IoContractSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoContract;
 impl IconShape for IoContract {
     fn view_box(&self) -> &str {
@@ -14061,7 +14805,7 @@ impl IconShape for IoContract {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoContrastOutline;
 impl IconShape for IoContrastOutline {
     fn view_box(&self) -> &str {
@@ -14094,7 +14838,7 @@ impl IconShape for IoContrastOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoContrastSharp;
 impl IconShape for IoContrastSharp {
     fn view_box(&self) -> &str {
@@ -14121,7 +14865,7 @@ impl IconShape for IoContrastSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoContrast;
 impl IconShape for IoContrast {
     fn view_box(&self) -> &str {
@@ -14148,7 +14892,7 @@ impl IconShape for IoContrast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCopyOutline;
 impl IconShape for IoCopyOutline {
     fn view_box(&self) -> &str {
@@ -14185,7 +14929,7 @@ impl IconShape for IoCopyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCopySharp;
 impl IconShape for IoCopySharp {
     fn view_box(&self) -> &str {
@@ -14215,7 +14959,7 @@ impl IconShape for IoCopySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCopy;
 impl IconShape for IoCopy {
     fn view_box(&self) -> &str {
@@ -14245,7 +14989,7 @@ impl IconShape for IoCopy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCreateOutline;
 impl IconShape for IoCreateOutline {
     fn view_box(&self) -> &str {
@@ -14279,7 +15023,7 @@ impl IconShape for IoCreateOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCreateSharp;
 impl IconShape for IoCreateSharp {
     fn view_box(&self) -> &str {
@@ -14315,7 +15059,7 @@ impl IconShape for IoCreateSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCreate;
 impl IconShape for IoCreate {
     fn view_box(&self) -> &str {
@@ -14348,7 +15092,7 @@ impl IconShape for IoCreate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCropOutline;
 impl IconShape for IoCropOutline {
     fn view_box(&self) -> &str {
@@ -14394,7 +15138,7 @@ impl IconShape for IoCropOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCropSharp;
 impl IconShape for IoCropSharp {
     fn view_box(&self) -> &str {
@@ -14424,7 +15168,7 @@ impl IconShape for IoCropSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCrop;
 impl IconShape for IoCrop {
     fn view_box(&self) -> &str {
@@ -14454,7 +15198,7 @@ impl IconShape for IoCrop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCubeOutline;
 impl IconShape for IoCubeOutline {
     fn view_box(&self) -> &str {
@@ -14493,7 +15237,7 @@ impl IconShape for IoCubeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCubeSharp;
 impl IconShape for IoCubeSharp {
     fn view_box(&self) -> &str {
@@ -14526,7 +15270,7 @@ impl IconShape for IoCubeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCube;
 impl IconShape for IoCube {
     fn view_box(&self) -> &str {
@@ -14559,7 +15303,7 @@ impl IconShape for IoCube {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCutOutline;
 impl IconShape for IoCutOutline {
     fn view_box(&self) -> &str {
@@ -14613,7 +15357,7 @@ impl IconShape for IoCutOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCutSharp;
 impl IconShape for IoCutSharp {
     fn view_box(&self) -> &str {
@@ -14643,7 +15387,7 @@ impl IconShape for IoCutSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoCut;
 impl IconShape for IoCut {
     fn view_box(&self) -> &str {
@@ -14676,7 +15420,7 @@ impl IconShape for IoCut {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDesktopOutline;
 impl IconShape for IoDesktopOutline {
     fn view_box(&self) -> &str {
@@ -14723,7 +15467,7 @@ impl IconShape for IoDesktopOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDesktopSharp;
 impl IconShape for IoDesktopSharp {
     fn view_box(&self) -> &str {
@@ -14750,7 +15494,7 @@ impl IconShape for IoDesktopSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDesktop;
 impl IconShape for IoDesktop {
     fn view_box(&self) -> &str {
@@ -14780,7 +15524,7 @@ impl IconShape for IoDesktop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDiamondOutline;
 impl IconShape for IoDiamondOutline {
     fn view_box(&self) -> &str {
@@ -14855,7 +15599,7 @@ impl IconShape for IoDiamondOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDiamondSharp;
 impl IconShape for IoDiamondSharp {
     fn view_box(&self) -> &str {
@@ -14903,7 +15647,7 @@ impl IconShape for IoDiamondSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDiamond;
 impl IconShape for IoDiamond {
     fn view_box(&self) -> &str {
@@ -14948,7 +15692,7 @@ impl IconShape for IoDiamond {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDiceOutline;
 impl IconShape for IoDiceOutline {
     fn view_box(&self) -> &str {
@@ -15038,7 +15782,7 @@ impl IconShape for IoDiceOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDiceSharp;
 impl IconShape for IoDiceSharp {
     fn view_box(&self) -> &str {
@@ -15071,7 +15815,7 @@ impl IconShape for IoDiceSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDice;
 impl IconShape for IoDice {
     fn view_box(&self) -> &str {
@@ -15104,7 +15848,7 @@ impl IconShape for IoDice {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDiscOutline;
 impl IconShape for IoDiscOutline {
     fn view_box(&self) -> &str {
@@ -15145,7 +15889,7 @@ impl IconShape for IoDiscOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDiscSharp;
 impl IconShape for IoDiscSharp {
     fn view_box(&self) -> &str {
@@ -15177,7 +15921,7 @@ impl IconShape for IoDiscSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDisc;
 impl IconShape for IoDisc {
     fn view_box(&self) -> &str {
@@ -15207,7 +15951,7 @@ impl IconShape for IoDisc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentAttachOutline;
 impl IconShape for IoDocumentAttachOutline {
     fn view_box(&self) -> &str {
@@ -15243,7 +15987,7 @@ impl IconShape for IoDocumentAttachOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentAttachSharp;
 impl IconShape for IoDocumentAttachSharp {
     fn view_box(&self) -> &str {
@@ -15273,7 +16017,7 @@ impl IconShape for IoDocumentAttachSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentAttach;
 impl IconShape for IoDocumentAttach {
     fn view_box(&self) -> &str {
@@ -15303,7 +16047,7 @@ impl IconShape for IoDocumentAttach {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentLockOutline;
 impl IconShape for IoDocumentLockOutline {
     fn view_box(&self) -> &str {
@@ -15350,7 +16094,7 @@ impl IconShape for IoDocumentLockOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentLockSharp;
 impl IconShape for IoDocumentLockSharp {
     fn view_box(&self) -> &str {
@@ -15383,7 +16127,7 @@ impl IconShape for IoDocumentLockSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentLock;
 impl IconShape for IoDocumentLock {
     fn view_box(&self) -> &str {
@@ -15416,7 +16160,7 @@ impl IconShape for IoDocumentLock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentOutline;
 impl IconShape for IoDocumentOutline {
     fn view_box(&self) -> &str {
@@ -15448,7 +16192,7 @@ impl IconShape for IoDocumentOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentSharp;
 impl IconShape for IoDocumentSharp {
     fn view_box(&self) -> &str {
@@ -15478,7 +16222,7 @@ impl IconShape for IoDocumentSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentTextOutline;
 impl IconShape for IoDocumentTextOutline {
     fn view_box(&self) -> &str {
@@ -15524,7 +16268,7 @@ impl IconShape for IoDocumentTextOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentTextSharp;
 impl IconShape for IoDocumentTextSharp {
     fn view_box(&self) -> &str {
@@ -15554,7 +16298,7 @@ impl IconShape for IoDocumentTextSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentText;
 impl IconShape for IoDocumentText {
     fn view_box(&self) -> &str {
@@ -15584,7 +16328,7 @@ impl IconShape for IoDocumentText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocument;
 impl IconShape for IoDocument {
     fn view_box(&self) -> &str {
@@ -15614,7 +16358,7 @@ impl IconShape for IoDocument {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentsOutline;
 impl IconShape for IoDocumentsOutline {
     fn view_box(&self) -> &str {
@@ -15654,7 +16398,7 @@ impl IconShape for IoDocumentsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocumentsSharp;
 impl IconShape for IoDocumentsSharp {
     fn view_box(&self) -> &str {
@@ -15690,7 +16434,7 @@ impl IconShape for IoDocumentsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDocuments;
 impl IconShape for IoDocuments {
     fn view_box(&self) -> &str {
@@ -15726,7 +16470,7 @@ impl IconShape for IoDocuments {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDownloadOutline;
 impl IconShape for IoDownloadOutline {
     fn view_box(&self) -> &str {
@@ -15765,7 +16509,7 @@ impl IconShape for IoDownloadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDownloadSharp;
 impl IconShape for IoDownloadSharp {
     fn view_box(&self) -> &str {
@@ -15798,7 +16542,7 @@ impl IconShape for IoDownloadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDownload;
 impl IconShape for IoDownload {
     fn view_box(&self) -> &str {
@@ -15828,7 +16572,7 @@ impl IconShape for IoDownload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDuplicateOutline;
 impl IconShape for IoDuplicateOutline {
     fn view_box(&self) -> &str {
@@ -15879,7 +16623,7 @@ impl IconShape for IoDuplicateOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDuplicateSharp;
 impl IconShape for IoDuplicateSharp {
     fn view_box(&self) -> &str {
@@ -15909,7 +16653,7 @@ impl IconShape for IoDuplicateSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoDuplicate;
 impl IconShape for IoDuplicate {
     fn view_box(&self) -> &str {
@@ -15939,7 +16683,7 @@ impl IconShape for IoDuplicate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEarOutline;
 impl IconShape for IoEarOutline {
     fn view_box(&self) -> &str {
@@ -15975,7 +16719,7 @@ impl IconShape for IoEarOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEarSharp;
 impl IconShape for IoEarSharp {
     fn view_box(&self) -> &str {
@@ -16002,7 +16746,7 @@ impl IconShape for IoEarSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEar;
 impl IconShape for IoEar {
     fn view_box(&self) -> &str {
@@ -16029,7 +16773,7 @@ impl IconShape for IoEar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEarthOutline;
 impl IconShape for IoEarthOutline {
     fn view_box(&self) -> &str {
@@ -16072,7 +16816,7 @@ impl IconShape for IoEarthOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEarthSharp;
 impl IconShape for IoEarthSharp {
     fn view_box(&self) -> &str {
@@ -16117,7 +16861,7 @@ impl IconShape for IoEarthSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEarth;
 impl IconShape for IoEarth {
     fn view_box(&self) -> &str {
@@ -16144,7 +16888,7 @@ impl IconShape for IoEarth {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEaselOutline;
 impl IconShape for IoEaselOutline {
     fn view_box(&self) -> &str {
@@ -16205,7 +16949,7 @@ impl IconShape for IoEaselOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEaselSharp;
 impl IconShape for IoEaselSharp {
     fn view_box(&self) -> &str {
@@ -16238,7 +16982,7 @@ impl IconShape for IoEaselSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEasel;
 impl IconShape for IoEasel {
     fn view_box(&self) -> &str {
@@ -16273,7 +17017,7 @@ impl IconShape for IoEasel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEggOutline;
 impl IconShape for IoEggOutline {
     fn view_box(&self) -> &str {
@@ -16301,7 +17045,7 @@ impl IconShape for IoEggOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEggSharp;
 impl IconShape for IoEggSharp {
     fn view_box(&self) -> &str {
@@ -16328,7 +17072,7 @@ impl IconShape for IoEggSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEgg;
 impl IconShape for IoEgg {
     fn view_box(&self) -> &str {
@@ -16355,7 +17099,7 @@ impl IconShape for IoEgg {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipseOutline;
 impl IconShape for IoEllipseOutline {
     fn view_box(&self) -> &str {
@@ -16385,7 +17129,7 @@ impl IconShape for IoEllipseOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipseSharp;
 impl IconShape for IoEllipseSharp {
     fn view_box(&self) -> &str {
@@ -16412,7 +17156,7 @@ impl IconShape for IoEllipseSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipse;
 impl IconShape for IoEllipse {
     fn view_box(&self) -> &str {
@@ -16439,7 +17183,7 @@ impl IconShape for IoEllipse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisHorizontalCircleOutline;
 impl IconShape for IoEllipsisHorizontalCircleOutline {
     fn view_box(&self) -> &str {
@@ -16482,7 +17226,7 @@ impl IconShape for IoEllipsisHorizontalCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisHorizontalCircleSharp;
 impl IconShape for IoEllipsisHorizontalCircleSharp {
     fn view_box(&self) -> &str {
@@ -16509,7 +17253,7 @@ impl IconShape for IoEllipsisHorizontalCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisHorizontalCircle;
 impl IconShape for IoEllipsisHorizontalCircle {
     fn view_box(&self) -> &str {
@@ -16529,30 +17273,14 @@ impl IconShape for IoEllipsisHorizontalCircle {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            circle {
-                cx: "256",
-                cy: "256",
-                r: "26",
-            }
-            circle {
-                cx: "346",
-                cy: "256",
-                r: "26",
-            }
-            circle {
-                cx: "166",
-                cy: "256",
-                r: "26",
-            }
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
-                style: "stroke-miterlimit:10;stroke-width:32px",
+                d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48ZM166,282a26,26,0,1,1,26-26A26,26,0,0,1,166,282Zm90,0a26,26,0,1,1,26-26A26,26,0,0,1,256,282Zm90,0a26,26,0,1,1,26-26A26,26,0,0,1,346,282Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisHorizontalOutline;
 impl IconShape for IoEllipsisHorizontalOutline {
     fn view_box(&self) -> &str {
@@ -16594,7 +17322,7 @@ impl IconShape for IoEllipsisHorizontalOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisHorizontalSharp;
 impl IconShape for IoEllipsisHorizontalSharp {
     fn view_box(&self) -> &str {
@@ -16633,7 +17361,7 @@ impl IconShape for IoEllipsisHorizontalSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisHorizontal;
 impl IconShape for IoEllipsisHorizontal {
     fn view_box(&self) -> &str {
@@ -16672,7 +17400,7 @@ impl IconShape for IoEllipsisHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisVerticalCircleOutline;
 impl IconShape for IoEllipsisVerticalCircleOutline {
     fn view_box(&self) -> &str {
@@ -16715,7 +17443,7 @@ impl IconShape for IoEllipsisVerticalCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisVerticalCircleSharp;
 impl IconShape for IoEllipsisVerticalCircleSharp {
     fn view_box(&self) -> &str {
@@ -16742,7 +17470,7 @@ impl IconShape for IoEllipsisVerticalCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisVerticalCircle;
 impl IconShape for IoEllipsisVerticalCircle {
     fn view_box(&self) -> &str {
@@ -16762,30 +17490,14 @@ impl IconShape for IoEllipsisVerticalCircle {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            circle {
-                cx: "256",
-                cy: "256",
-                r: "26",
-            }
-            circle {
-                cx: "256",
-                cy: "346",
-                r: "26",
-            }
-            circle {
-                cx: "256",
-                cy: "166",
-                r: "26",
-            }
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
-                style: "stroke-miterlimit:10;stroke-width:32px",
+                d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM230,166a26,26,0,1,1,26,26A26,26,0,0,1,230,166Zm0,90a26,26,0,1,1,26,26A26,26,0,0,1,230,256Zm0,90a26,26,0,1,1,26,26A26,26,0,0,1,230,346Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisVerticalOutline;
 impl IconShape for IoEllipsisVerticalOutline {
     fn view_box(&self) -> &str {
@@ -16827,7 +17539,7 @@ impl IconShape for IoEllipsisVerticalOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisVerticalSharp;
 impl IconShape for IoEllipsisVerticalSharp {
     fn view_box(&self) -> &str {
@@ -16866,7 +17578,7 @@ impl IconShape for IoEllipsisVerticalSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEllipsisVertical;
 impl IconShape for IoEllipsisVertical {
     fn view_box(&self) -> &str {
@@ -16905,7 +17617,7 @@ impl IconShape for IoEllipsisVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEnterOutline;
 impl IconShape for IoEnterOutline {
     fn view_box(&self) -> &str {
@@ -16944,7 +17656,7 @@ impl IconShape for IoEnterOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEnterSharp;
 impl IconShape for IoEnterSharp {
     fn view_box(&self) -> &str {
@@ -16977,7 +17689,7 @@ impl IconShape for IoEnterSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEnter;
 impl IconShape for IoEnter {
     fn view_box(&self) -> &str {
@@ -17007,7 +17719,7 @@ impl IconShape for IoEnter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExitOutline;
 impl IconShape for IoExitOutline {
     fn view_box(&self) -> &str {
@@ -17046,7 +17758,7 @@ impl IconShape for IoExitOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExitSharp;
 impl IconShape for IoExitSharp {
     fn view_box(&self) -> &str {
@@ -17076,7 +17788,7 @@ impl IconShape for IoExitSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExit;
 impl IconShape for IoExit {
     fn view_box(&self) -> &str {
@@ -17106,7 +17818,7 @@ impl IconShape for IoExit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExpandOutline;
 impl IconShape for IoExpandOutline {
     fn view_box(&self) -> &str {
@@ -17174,7 +17886,7 @@ impl IconShape for IoExpandOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExpandSharp;
 impl IconShape for IoExpandSharp {
     fn view_box(&self) -> &str {
@@ -17242,7 +17954,7 @@ impl IconShape for IoExpandSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExpand;
 impl IconShape for IoExpand {
     fn view_box(&self) -> &str {
@@ -17310,7 +18022,7 @@ impl IconShape for IoExpand {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExtensionPuzzleOutline;
 impl IconShape for IoExtensionPuzzleOutline {
     fn view_box(&self) -> &str {
@@ -17341,7 +18053,7 @@ impl IconShape for IoExtensionPuzzleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExtensionPuzzleSharp;
 impl IconShape for IoExtensionPuzzleSharp {
     fn view_box(&self) -> &str {
@@ -17368,7 +18080,7 @@ impl IconShape for IoExtensionPuzzleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoExtensionPuzzle;
 impl IconShape for IoExtensionPuzzle {
     fn view_box(&self) -> &str {
@@ -17395,7 +18107,7 @@ impl IconShape for IoExtensionPuzzle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEyeOffOutline;
 impl IconShape for IoEyeOffOutline {
     fn view_box(&self) -> &str {
@@ -17434,7 +18146,7 @@ impl IconShape for IoEyeOffOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEyeOffSharp;
 impl IconShape for IoEyeOffSharp {
     fn view_box(&self) -> &str {
@@ -17477,7 +18189,7 @@ impl IconShape for IoEyeOffSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEyeOff;
 impl IconShape for IoEyeOff {
     fn view_box(&self) -> &str {
@@ -17516,7 +18228,7 @@ impl IconShape for IoEyeOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEyeOutline;
 impl IconShape for IoEyeOutline {
     fn view_box(&self) -> &str {
@@ -17550,7 +18262,7 @@ impl IconShape for IoEyeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEyeSharp;
 impl IconShape for IoEyeSharp {
     fn view_box(&self) -> &str {
@@ -17582,7 +18294,7 @@ impl IconShape for IoEyeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEye;
 impl IconShape for IoEye {
     fn view_box(&self) -> &str {
@@ -17614,7 +18326,7 @@ impl IconShape for IoEye {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEyedropOutline;
 impl IconShape for IoEyedropOutline {
     fn view_box(&self) -> &str {
@@ -17660,7 +18372,7 @@ impl IconShape for IoEyedropOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEyedropSharp;
 impl IconShape for IoEyedropSharp {
     fn view_box(&self) -> &str {
@@ -17687,7 +18399,7 @@ impl IconShape for IoEyedropSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoEyedrop;
 impl IconShape for IoEyedrop {
     fn view_box(&self) -> &str {
@@ -17714,7 +18426,7 @@ impl IconShape for IoEyedrop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFastFoodOutline;
 impl IconShape for IoFastFoodOutline {
     fn view_box(&self) -> &str {
@@ -17776,7 +18488,7 @@ impl IconShape for IoFastFoodOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFastFoodSharp;
 impl IconShape for IoFastFoodSharp {
     fn view_box(&self) -> &str {
@@ -17809,7 +18521,7 @@ impl IconShape for IoFastFoodSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFastFood;
 impl IconShape for IoFastFood {
     fn view_box(&self) -> &str {
@@ -17845,7 +18557,7 @@ impl IconShape for IoFastFood {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFemaleOutline;
 impl IconShape for IoFemaleOutline {
     fn view_box(&self) -> &str {
@@ -17898,7 +18610,7 @@ impl IconShape for IoFemaleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFemaleSharp;
 impl IconShape for IoFemaleSharp {
     fn view_box(&self) -> &str {
@@ -17925,7 +18637,7 @@ impl IconShape for IoFemaleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFemale;
 impl IconShape for IoFemale {
     fn view_box(&self) -> &str {
@@ -17952,7 +18664,7 @@ impl IconShape for IoFemale {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTrayFullOutline;
 impl IconShape for IoFileTrayFullOutline {
     fn view_box(&self) -> &str {
@@ -18012,7 +18724,7 @@ impl IconShape for IoFileTrayFullOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTrayFullSharp;
 impl IconShape for IoFileTrayFullSharp {
     fn view_box(&self) -> &str {
@@ -18051,7 +18763,7 @@ impl IconShape for IoFileTrayFullSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTrayFull;
 impl IconShape for IoFileTrayFull {
     fn view_box(&self) -> &str {
@@ -18084,7 +18796,7 @@ impl IconShape for IoFileTrayFull {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTrayOutline;
 impl IconShape for IoFileTrayOutline {
     fn view_box(&self) -> &str {
@@ -18130,7 +18842,7 @@ impl IconShape for IoFileTrayOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTraySharp;
 impl IconShape for IoFileTraySharp {
     fn view_box(&self) -> &str {
@@ -18157,7 +18869,7 @@ impl IconShape for IoFileTraySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTrayStackedOutline;
 impl IconShape for IoFileTrayStackedOutline {
     fn view_box(&self) -> &str {
@@ -18225,7 +18937,7 @@ impl IconShape for IoFileTrayStackedOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTrayStackedSharp;
 impl IconShape for IoFileTrayStackedSharp {
     fn view_box(&self) -> &str {
@@ -18255,7 +18967,7 @@ impl IconShape for IoFileTrayStackedSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTrayStacked;
 impl IconShape for IoFileTrayStacked {
     fn view_box(&self) -> &str {
@@ -18285,7 +18997,7 @@ impl IconShape for IoFileTrayStacked {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFileTray;
 impl IconShape for IoFileTray {
     fn view_box(&self) -> &str {
@@ -18312,7 +19024,7 @@ impl IconShape for IoFileTray {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilmOutline;
 impl IconShape for IoFilmOutline {
     fn view_box(&self) -> &str {
@@ -18435,7 +19147,7 @@ impl IconShape for IoFilmOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilmSharp;
 impl IconShape for IoFilmSharp {
     fn view_box(&self) -> &str {
@@ -18462,7 +19174,7 @@ impl IconShape for IoFilmSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilm;
 impl IconShape for IoFilm {
     fn view_box(&self) -> &str {
@@ -18489,7 +19201,7 @@ impl IconShape for IoFilm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilterCircleOutline;
 impl IconShape for IoFilterCircleOutline {
     fn view_box(&self) -> &str {
@@ -18549,7 +19261,7 @@ impl IconShape for IoFilterCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilterCircleSharp;
 impl IconShape for IoFilterCircleSharp {
     fn view_box(&self) -> &str {
@@ -18576,7 +19288,7 @@ impl IconShape for IoFilterCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilterCircle;
 impl IconShape for IoFilterCircle {
     fn view_box(&self) -> &str {
@@ -18603,7 +19315,7 @@ impl IconShape for IoFilterCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilterOutline;
 impl IconShape for IoFilterOutline {
     fn view_box(&self) -> &str {
@@ -18648,7 +19360,7 @@ impl IconShape for IoFilterOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilterSharp;
 impl IconShape for IoFilterSharp {
     fn view_box(&self) -> &str {
@@ -18690,7 +19402,7 @@ impl IconShape for IoFilterSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFilter;
 impl IconShape for IoFilter {
     fn view_box(&self) -> &str {
@@ -18723,7 +19435,7 @@ impl IconShape for IoFilter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFingerPrintOutline;
 impl IconShape for IoFingerPrintOutline {
     fn view_box(&self) -> &str {
@@ -18750,7 +19462,7 @@ impl IconShape for IoFingerPrintOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFingerPrintSharp;
 impl IconShape for IoFingerPrintSharp {
     fn view_box(&self) -> &str {
@@ -18789,7 +19501,7 @@ impl IconShape for IoFingerPrintSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFingerPrint;
 impl IconShape for IoFingerPrint {
     fn view_box(&self) -> &str {
@@ -18828,7 +19540,7 @@ impl IconShape for IoFingerPrint {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFishOutline;
 impl IconShape for IoFishOutline {
     fn view_box(&self) -> &str {
@@ -18870,7 +19582,7 @@ impl IconShape for IoFishOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFishSharp;
 impl IconShape for IoFishSharp {
     fn view_box(&self) -> &str {
@@ -18900,7 +19612,7 @@ impl IconShape for IoFishSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFish;
 impl IconShape for IoFish {
     fn view_box(&self) -> &str {
@@ -18930,7 +19642,7 @@ impl IconShape for IoFish {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFitnessOutline;
 impl IconShape for IoFitnessOutline {
     fn view_box(&self) -> &str {
@@ -18962,7 +19674,7 @@ impl IconShape for IoFitnessOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFitnessSharp;
 impl IconShape for IoFitnessSharp {
     fn view_box(&self) -> &str {
@@ -18998,7 +19710,7 @@ impl IconShape for IoFitnessSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFitness;
 impl IconShape for IoFitness {
     fn view_box(&self) -> &str {
@@ -19034,7 +19746,7 @@ impl IconShape for IoFitness {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlagOutline;
 impl IconShape for IoFlagOutline {
     fn view_box(&self) -> &str {
@@ -19062,7 +19774,7 @@ impl IconShape for IoFlagOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlagSharp;
 impl IconShape for IoFlagSharp {
     fn view_box(&self) -> &str {
@@ -19089,7 +19801,7 @@ impl IconShape for IoFlagSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlag;
 impl IconShape for IoFlag {
     fn view_box(&self) -> &str {
@@ -19116,7 +19828,7 @@ impl IconShape for IoFlag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlameOutline;
 impl IconShape for IoFlameOutline {
     fn view_box(&self) -> &str {
@@ -19148,7 +19860,7 @@ impl IconShape for IoFlameOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlameSharp;
 impl IconShape for IoFlameSharp {
     fn view_box(&self) -> &str {
@@ -19175,7 +19887,7 @@ impl IconShape for IoFlameSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlame;
 impl IconShape for IoFlame {
     fn view_box(&self) -> &str {
@@ -19202,7 +19914,7 @@ impl IconShape for IoFlame {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlashOffOutline;
 impl IconShape for IoFlashOffOutline {
     fn view_box(&self) -> &str {
@@ -19235,7 +19947,7 @@ impl IconShape for IoFlashOffOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlashOffSharp;
 impl IconShape for IoFlashOffSharp {
     fn view_box(&self) -> &str {
@@ -19272,7 +19984,7 @@ impl IconShape for IoFlashOffSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlashOff;
 impl IconShape for IoFlashOff {
     fn view_box(&self) -> &str {
@@ -19305,7 +20017,7 @@ impl IconShape for IoFlashOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlashOutline;
 impl IconShape for IoFlashOutline {
     fn view_box(&self) -> &str {
@@ -19333,7 +20045,7 @@ impl IconShape for IoFlashOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlashSharp;
 impl IconShape for IoFlashSharp {
     fn view_box(&self) -> &str {
@@ -19360,7 +20072,7 @@ impl IconShape for IoFlashSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlash;
 impl IconShape for IoFlash {
     fn view_box(&self) -> &str {
@@ -19387,7 +20099,7 @@ impl IconShape for IoFlash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlashlightOutline;
 impl IconShape for IoFlashlightOutline {
     fn view_box(&self) -> &str {
@@ -19427,7 +20139,7 @@ impl IconShape for IoFlashlightOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlashlightSharp;
 impl IconShape for IoFlashlightSharp {
     fn view_box(&self) -> &str {
@@ -19464,7 +20176,7 @@ impl IconShape for IoFlashlightSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlashlight;
 impl IconShape for IoFlashlight {
     fn view_box(&self) -> &str {
@@ -19494,7 +20206,7 @@ impl IconShape for IoFlashlight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlaskOutline;
 impl IconShape for IoFlaskOutline {
     fn view_box(&self) -> &str {
@@ -19536,7 +20248,7 @@ impl IconShape for IoFlaskOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlaskSharp;
 impl IconShape for IoFlaskSharp {
     fn view_box(&self) -> &str {
@@ -19563,7 +20275,7 @@ impl IconShape for IoFlaskSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlask;
 impl IconShape for IoFlask {
     fn view_box(&self) -> &str {
@@ -19590,7 +20302,7 @@ impl IconShape for IoFlask {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlowerOutline;
 impl IconShape for IoFlowerOutline {
     fn view_box(&self) -> &str {
@@ -19652,7 +20364,7 @@ impl IconShape for IoFlowerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlowerSharp;
 impl IconShape for IoFlowerSharp {
     fn view_box(&self) -> &str {
@@ -19684,7 +20396,7 @@ impl IconShape for IoFlowerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFlower;
 impl IconShape for IoFlower {
     fn view_box(&self) -> &str {
@@ -19716,7 +20428,7 @@ impl IconShape for IoFlower {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFolderOpenOutline;
 impl IconShape for IoFolderOpenOutline {
     fn view_box(&self) -> &str {
@@ -19748,7 +20460,7 @@ impl IconShape for IoFolderOpenOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFolderOpenSharp;
 impl IconShape for IoFolderOpenSharp {
     fn view_box(&self) -> &str {
@@ -19778,7 +20490,7 @@ impl IconShape for IoFolderOpenSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFolderOpen;
 impl IconShape for IoFolderOpen {
     fn view_box(&self) -> &str {
@@ -19808,7 +20520,7 @@ impl IconShape for IoFolderOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFolderOutline;
 impl IconShape for IoFolderOutline {
     fn view_box(&self) -> &str {
@@ -19843,7 +20555,7 @@ impl IconShape for IoFolderOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFolderSharp;
 impl IconShape for IoFolderSharp {
     fn view_box(&self) -> &str {
@@ -19873,7 +20585,7 @@ impl IconShape for IoFolderSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFolder;
 impl IconShape for IoFolder {
     fn view_box(&self) -> &str {
@@ -19903,7 +20615,7 @@ impl IconShape for IoFolder {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFootballOutline;
 impl IconShape for IoFootballOutline {
     fn view_box(&self) -> &str {
@@ -19992,7 +20704,7 @@ impl IconShape for IoFootballOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFootballSharp;
 impl IconShape for IoFootballSharp {
     fn view_box(&self) -> &str {
@@ -20019,7 +20731,7 @@ impl IconShape for IoFootballSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFootball;
 impl IconShape for IoFootball {
     fn view_box(&self) -> &str {
@@ -20046,7 +20758,7 @@ impl IconShape for IoFootball {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFootstepsOutline;
 impl IconShape for IoFootstepsOutline {
     fn view_box(&self) -> &str {
@@ -20094,7 +20806,7 @@ impl IconShape for IoFootstepsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFootstepsSharp;
 impl IconShape for IoFootstepsSharp {
     fn view_box(&self) -> &str {
@@ -20130,7 +20842,7 @@ impl IconShape for IoFootstepsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFootsteps;
 impl IconShape for IoFootsteps {
     fn view_box(&self) -> &str {
@@ -20166,7 +20878,7 @@ impl IconShape for IoFootsteps {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFunnelOutline;
 impl IconShape for IoFunnelOutline {
     fn view_box(&self) -> &str {
@@ -20194,7 +20906,7 @@ impl IconShape for IoFunnelOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFunnelSharp;
 impl IconShape for IoFunnelSharp {
     fn view_box(&self) -> &str {
@@ -20221,7 +20933,7 @@ impl IconShape for IoFunnelSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoFunnel;
 impl IconShape for IoFunnel {
     fn view_box(&self) -> &str {
@@ -20248,7 +20960,7 @@ impl IconShape for IoFunnel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGameControllerOutline;
 impl IconShape for IoGameControllerOutline {
     fn view_box(&self) -> &str {
@@ -20308,7 +21020,7 @@ impl IconShape for IoGameControllerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGameControllerSharp;
 impl IconShape for IoGameControllerSharp {
     fn view_box(&self) -> &str {
@@ -20335,7 +21047,7 @@ impl IconShape for IoGameControllerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGameController;
 impl IconShape for IoGameController {
     fn view_box(&self) -> &str {
@@ -20362,7 +21074,7 @@ impl IconShape for IoGameController {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGiftOutline;
 impl IconShape for IoGiftOutline {
     fn view_box(&self) -> &str {
@@ -20414,7 +21126,7 @@ impl IconShape for IoGiftOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGiftSharp;
 impl IconShape for IoGiftSharp {
     fn view_box(&self) -> &str {
@@ -20455,7 +21167,7 @@ impl IconShape for IoGiftSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGift;
 impl IconShape for IoGift {
     fn view_box(&self) -> &str {
@@ -20496,7 +21208,7 @@ impl IconShape for IoGift {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitBranchOutline;
 impl IconShape for IoGitBranchOutline {
     fn view_box(&self) -> &str {
@@ -20549,7 +21261,7 @@ impl IconShape for IoGitBranchOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitBranchSharp;
 impl IconShape for IoGitBranchSharp {
     fn view_box(&self) -> &str {
@@ -20576,7 +21288,7 @@ impl IconShape for IoGitBranchSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitBranch;
 impl IconShape for IoGitBranch {
     fn view_box(&self) -> &str {
@@ -20603,7 +21315,7 @@ impl IconShape for IoGitBranch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitCommitOutline;
 impl IconShape for IoGitCommitOutline {
     fn view_box(&self) -> &str {
@@ -20647,7 +21359,7 @@ impl IconShape for IoGitCommitOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitCommitSharp;
 impl IconShape for IoGitCommitSharp {
     fn view_box(&self) -> &str {
@@ -20674,7 +21386,7 @@ impl IconShape for IoGitCommitSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitCommit;
 impl IconShape for IoGitCommit {
     fn view_box(&self) -> &str {
@@ -20701,7 +21413,7 @@ impl IconShape for IoGitCommit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitCompareOutline;
 impl IconShape for IoGitCompareOutline {
     fn view_box(&self) -> &str {
@@ -20753,7 +21465,7 @@ impl IconShape for IoGitCompareOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitCompareSharp;
 impl IconShape for IoGitCompareSharp {
     fn view_box(&self) -> &str {
@@ -20783,7 +21495,7 @@ impl IconShape for IoGitCompareSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitCompare;
 impl IconShape for IoGitCompare {
     fn view_box(&self) -> &str {
@@ -20813,7 +21525,7 @@ impl IconShape for IoGitCompare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitMergeOutline;
 impl IconShape for IoGitMergeOutline {
     fn view_box(&self) -> &str {
@@ -20866,7 +21578,7 @@ impl IconShape for IoGitMergeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitMergeSharp;
 impl IconShape for IoGitMergeSharp {
     fn view_box(&self) -> &str {
@@ -20893,7 +21605,7 @@ impl IconShape for IoGitMergeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitMerge;
 impl IconShape for IoGitMerge {
     fn view_box(&self) -> &str {
@@ -20920,7 +21632,7 @@ impl IconShape for IoGitMerge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitNetworkOutline;
 impl IconShape for IoGitNetworkOutline {
     fn view_box(&self) -> &str {
@@ -20977,7 +21689,7 @@ impl IconShape for IoGitNetworkOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitNetworkSharp;
 impl IconShape for IoGitNetworkSharp {
     fn view_box(&self) -> &str {
@@ -21004,7 +21716,7 @@ impl IconShape for IoGitNetworkSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitNetwork;
 impl IconShape for IoGitNetwork {
     fn view_box(&self) -> &str {
@@ -21031,7 +21743,7 @@ impl IconShape for IoGitNetwork {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitPullRequestOutline;
 impl IconShape for IoGitPullRequestOutline {
     fn view_box(&self) -> &str {
@@ -21088,7 +21800,7 @@ impl IconShape for IoGitPullRequestOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitPullRequestSharp;
 impl IconShape for IoGitPullRequestSharp {
     fn view_box(&self) -> &str {
@@ -21118,7 +21830,7 @@ impl IconShape for IoGitPullRequestSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGitPullRequest;
 impl IconShape for IoGitPullRequest {
     fn view_box(&self) -> &str {
@@ -21148,7 +21860,7 @@ impl IconShape for IoGitPullRequest {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGlassesOutline;
 impl IconShape for IoGlassesOutline {
     fn view_box(&self) -> &str {
@@ -21198,7 +21910,7 @@ impl IconShape for IoGlassesOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGlassesSharp;
 impl IconShape for IoGlassesSharp {
     fn view_box(&self) -> &str {
@@ -21225,7 +21937,7 @@ impl IconShape for IoGlassesSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGlasses;
 impl IconShape for IoGlasses {
     fn view_box(&self) -> &str {
@@ -21252,7 +21964,7 @@ impl IconShape for IoGlasses {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGlobeOutline;
 impl IconShape for IoGlobeOutline {
     fn view_box(&self) -> &str {
@@ -21306,7 +22018,7 @@ impl IconShape for IoGlobeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGlobeSharp;
 impl IconShape for IoGlobeSharp {
     fn view_box(&self) -> &str {
@@ -21360,7 +22072,7 @@ impl IconShape for IoGlobeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGlobe;
 impl IconShape for IoGlobe {
     fn view_box(&self) -> &str {
@@ -21411,7 +22123,7 @@ impl IconShape for IoGlobe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGolfOutline;
 impl IconShape for IoGolfOutline {
     fn view_box(&self) -> &str {
@@ -21443,7 +22155,7 @@ impl IconShape for IoGolfOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGolfSharp;
 impl IconShape for IoGolfSharp {
     fn view_box(&self) -> &str {
@@ -21473,7 +22185,7 @@ impl IconShape for IoGolfSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGolf;
 impl IconShape for IoGolf {
     fn view_box(&self) -> &str {
@@ -21503,7 +22215,7 @@ impl IconShape for IoGolf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGridOutline;
 impl IconShape for IoGridOutline {
     fn view_box(&self) -> &str {
@@ -21563,7 +22275,7 @@ impl IconShape for IoGridOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGridSharp;
 impl IconShape for IoGridSharp {
     fn view_box(&self) -> &str {
@@ -21599,7 +22311,7 @@ impl IconShape for IoGridSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoGrid;
 impl IconShape for IoGrid {
     fn view_box(&self) -> &str {
@@ -21635,7 +22347,7 @@ impl IconShape for IoGrid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHammerOutline;
 impl IconShape for IoHammerOutline {
     fn view_box(&self) -> &str {
@@ -21667,7 +22379,7 @@ impl IconShape for IoHammerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHammerSharp;
 impl IconShape for IoHammerSharp {
     fn view_box(&self) -> &str {
@@ -21697,7 +22409,7 @@ impl IconShape for IoHammerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHammer;
 impl IconShape for IoHammer {
     fn view_box(&self) -> &str {
@@ -21727,7 +22439,7 @@ impl IconShape for IoHammer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHandLeftOutline;
 impl IconShape for IoHandLeftOutline {
     fn view_box(&self) -> &str {
@@ -21771,7 +22483,7 @@ impl IconShape for IoHandLeftOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHandLeftSharp;
 impl IconShape for IoHandLeftSharp {
     fn view_box(&self) -> &str {
@@ -21798,7 +22510,7 @@ impl IconShape for IoHandLeftSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHandLeft;
 impl IconShape for IoHandLeft {
     fn view_box(&self) -> &str {
@@ -21825,7 +22537,7 @@ impl IconShape for IoHandLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHandRightOutline;
 impl IconShape for IoHandRightOutline {
     fn view_box(&self) -> &str {
@@ -21869,7 +22581,7 @@ impl IconShape for IoHandRightOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHandRightSharp;
 impl IconShape for IoHandRightSharp {
     fn view_box(&self) -> &str {
@@ -21896,7 +22608,7 @@ impl IconShape for IoHandRightSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHandRight;
 impl IconShape for IoHandRight {
     fn view_box(&self) -> &str {
@@ -21923,7 +22635,7 @@ impl IconShape for IoHandRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHappyOutline;
 impl IconShape for IoHappyOutline {
     fn view_box(&self) -> &str {
@@ -21966,7 +22678,7 @@ impl IconShape for IoHappyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHappySharp;
 impl IconShape for IoHappySharp {
     fn view_box(&self) -> &str {
@@ -21993,7 +22705,7 @@ impl IconShape for IoHappySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHappy;
 impl IconShape for IoHappy {
     fn view_box(&self) -> &str {
@@ -22020,7 +22732,7 @@ impl IconShape for IoHappy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHardwareChipOutline;
 impl IconShape for IoHardwareChipOutline {
     fn view_box(&self) -> &str {
@@ -22146,7 +22858,7 @@ impl IconShape for IoHardwareChipOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHardwareChipSharp;
 impl IconShape for IoHardwareChipSharp {
     fn view_box(&self) -> &str {
@@ -22179,7 +22891,7 @@ impl IconShape for IoHardwareChipSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHardwareChip;
 impl IconShape for IoHardwareChip {
     fn view_box(&self) -> &str {
@@ -22218,7 +22930,7 @@ impl IconShape for IoHardwareChip {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeadsetOutline;
 impl IconShape for IoHeadsetOutline {
     fn view_box(&self) -> &str {
@@ -22254,7 +22966,7 @@ impl IconShape for IoHeadsetOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeadsetSharp;
 impl IconShape for IoHeadsetSharp {
     fn view_box(&self) -> &str {
@@ -22281,7 +22993,7 @@ impl IconShape for IoHeadsetSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeadset;
 impl IconShape for IoHeadset {
     fn view_box(&self) -> &str {
@@ -22308,7 +23020,7 @@ impl IconShape for IoHeadset {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartCircleOutline;
 impl IconShape for IoHeartCircleOutline {
     fn view_box(&self) -> &str {
@@ -22339,7 +23051,7 @@ impl IconShape for IoHeartCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartCircleSharp;
 impl IconShape for IoHeartCircleSharp {
     fn view_box(&self) -> &str {
@@ -22366,7 +23078,7 @@ impl IconShape for IoHeartCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartCircle;
 impl IconShape for IoHeartCircle {
     fn view_box(&self) -> &str {
@@ -22393,7 +23105,7 @@ impl IconShape for IoHeartCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartDislikeCircleOutline;
 impl IconShape for IoHeartDislikeCircleOutline {
     fn view_box(&self) -> &str {
@@ -22430,7 +23142,7 @@ impl IconShape for IoHeartDislikeCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartDislikeCircleSharp;
 impl IconShape for IoHeartDislikeCircleSharp {
     fn view_box(&self) -> &str {
@@ -22457,7 +23169,7 @@ impl IconShape for IoHeartDislikeCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartDislikeCircle;
 impl IconShape for IoHeartDislikeCircle {
     fn view_box(&self) -> &str {
@@ -22484,7 +23196,7 @@ impl IconShape for IoHeartDislikeCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartDislikeOutline;
 impl IconShape for IoHeartDislikeOutline {
     fn view_box(&self) -> &str {
@@ -22517,7 +23229,7 @@ impl IconShape for IoHeartDislikeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartDislikeSharp;
 impl IconShape for IoHeartDislikeSharp {
     fn view_box(&self) -> &str {
@@ -22550,7 +23262,7 @@ impl IconShape for IoHeartDislikeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartDislike;
 impl IconShape for IoHeartDislike {
     fn view_box(&self) -> &str {
@@ -22583,7 +23295,7 @@ impl IconShape for IoHeartDislike {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartHalfOutline;
 impl IconShape for IoHeartHalfOutline {
     fn view_box(&self) -> &str {
@@ -22610,7 +23322,7 @@ impl IconShape for IoHeartHalfOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartHalfSharp;
 impl IconShape for IoHeartHalfSharp {
     fn view_box(&self) -> &str {
@@ -22637,7 +23349,7 @@ impl IconShape for IoHeartHalfSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartHalf;
 impl IconShape for IoHeartHalf {
     fn view_box(&self) -> &str {
@@ -22664,7 +23376,7 @@ impl IconShape for IoHeartHalf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartOutline;
 impl IconShape for IoHeartOutline {
     fn view_box(&self) -> &str {
@@ -22692,7 +23404,7 @@ impl IconShape for IoHeartOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeartSharp;
 impl IconShape for IoHeartSharp {
     fn view_box(&self) -> &str {
@@ -22719,7 +23431,7 @@ impl IconShape for IoHeartSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHeart;
 impl IconShape for IoHeart {
     fn view_box(&self) -> &str {
@@ -22746,7 +23458,7 @@ impl IconShape for IoHeart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelpBuoyOutline;
 impl IconShape for IoHelpBuoyOutline {
     fn view_box(&self) -> &str {
@@ -22838,7 +23550,7 @@ impl IconShape for IoHelpBuoyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelpBuoySharp;
 impl IconShape for IoHelpBuoySharp {
     fn view_box(&self) -> &str {
@@ -22865,7 +23577,7 @@ impl IconShape for IoHelpBuoySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelpBuoy;
 impl IconShape for IoHelpBuoy {
     fn view_box(&self) -> &str {
@@ -22892,7 +23604,7 @@ impl IconShape for IoHelpBuoy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelpCircleOutline;
 impl IconShape for IoHelpCircleOutline {
     fn view_box(&self) -> &str {
@@ -22929,7 +23641,7 @@ impl IconShape for IoHelpCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelpCircleSharp;
 impl IconShape for IoHelpCircleSharp {
     fn view_box(&self) -> &str {
@@ -22960,7 +23672,7 @@ impl IconShape for IoHelpCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelpCircle;
 impl IconShape for IoHelpCircle {
     fn view_box(&self) -> &str {
@@ -22987,7 +23699,7 @@ impl IconShape for IoHelpCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelpOutline;
 impl IconShape for IoHelpOutline {
     fn view_box(&self) -> &str {
@@ -23020,7 +23732,7 @@ impl IconShape for IoHelpOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelpSharp;
 impl IconShape for IoHelpSharp {
     fn view_box(&self) -> &str {
@@ -23056,7 +23768,7 @@ impl IconShape for IoHelpSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHelp;
 impl IconShape for IoHelp {
     fn view_box(&self) -> &str {
@@ -23089,7 +23801,7 @@ impl IconShape for IoHelp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHomeOutline;
 impl IconShape for IoHomeOutline {
     fn view_box(&self) -> &str {
@@ -23125,7 +23837,7 @@ impl IconShape for IoHomeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHomeSharp;
 impl IconShape for IoHomeSharp {
     fn view_box(&self) -> &str {
@@ -23152,7 +23864,7 @@ impl IconShape for IoHomeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHome;
 impl IconShape for IoHome {
     fn view_box(&self) -> &str {
@@ -23182,7 +23894,7 @@ impl IconShape for IoHome {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHourglassOutline;
 impl IconShape for IoHourglassOutline {
     fn view_box(&self) -> &str {
@@ -23213,7 +23925,7 @@ impl IconShape for IoHourglassOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHourglassSharp;
 impl IconShape for IoHourglassSharp {
     fn view_box(&self) -> &str {
@@ -23240,7 +23952,7 @@ impl IconShape for IoHourglassSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoHourglass;
 impl IconShape for IoHourglass {
     fn view_box(&self) -> &str {
@@ -23267,7 +23979,7 @@ impl IconShape for IoHourglass {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoIceCreamOutline;
 impl IconShape for IoIceCreamOutline {
     fn view_box(&self) -> &str {
@@ -23299,7 +24011,7 @@ impl IconShape for IoIceCreamOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoIceCreamSharp;
 impl IconShape for IoIceCreamSharp {
     fn view_box(&self) -> &str {
@@ -23329,7 +24041,7 @@ impl IconShape for IoIceCreamSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoIceCream;
 impl IconShape for IoIceCream {
     fn view_box(&self) -> &str {
@@ -23359,7 +24071,7 @@ impl IconShape for IoIceCream {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoIdCardOutline;
 impl IconShape for IoIdCardOutline {
     fn view_box(&self) -> &str {
@@ -23409,7 +24121,7 @@ impl IconShape for IoIdCardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoIdCardSharp;
 impl IconShape for IoIdCardSharp {
     fn view_box(&self) -> &str {
@@ -23436,7 +24148,7 @@ impl IconShape for IoIdCardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoIdCard;
 impl IconShape for IoIdCard {
     fn view_box(&self) -> &str {
@@ -23463,7 +24175,7 @@ impl IconShape for IoIdCard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoImageOutline;
 impl IconShape for IoImageOutline {
     fn view_box(&self) -> &str {
@@ -23510,7 +24222,7 @@ impl IconShape for IoImageOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoImageSharp;
 impl IconShape for IoImageSharp {
     fn view_box(&self) -> &str {
@@ -23537,7 +24249,7 @@ impl IconShape for IoImageSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoImage;
 impl IconShape for IoImage {
     fn view_box(&self) -> &str {
@@ -23564,7 +24276,7 @@ impl IconShape for IoImage {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoImagesOutline;
 impl IconShape for IoImagesOutline {
     fn view_box(&self) -> &str {
@@ -23616,7 +24328,7 @@ impl IconShape for IoImagesOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoImagesSharp;
 impl IconShape for IoImagesSharp {
     fn view_box(&self) -> &str {
@@ -23653,7 +24365,7 @@ impl IconShape for IoImagesSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoImages;
 impl IconShape for IoImages {
     fn view_box(&self) -> &str {
@@ -23683,7 +24395,7 @@ impl IconShape for IoImages {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInfiniteOutline;
 impl IconShape for IoInfiniteOutline {
     fn view_box(&self) -> &str {
@@ -23715,7 +24427,7 @@ impl IconShape for IoInfiniteOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInfiniteSharp;
 impl IconShape for IoInfiniteSharp {
     fn view_box(&self) -> &str {
@@ -23742,7 +24454,7 @@ impl IconShape for IoInfiniteSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInfinite;
 impl IconShape for IoInfinite {
     fn view_box(&self) -> &str {
@@ -23774,7 +24486,7 @@ impl IconShape for IoInfinite {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInformationCircleOutline;
 impl IconShape for IoInformationCircleOutline {
     fn view_box(&self) -> &str {
@@ -23816,7 +24528,7 @@ impl IconShape for IoInformationCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInformationCircleSharp;
 impl IconShape for IoInformationCircleSharp {
     fn view_box(&self) -> &str {
@@ -23843,7 +24555,7 @@ impl IconShape for IoInformationCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInformationCircle;
 impl IconShape for IoInformationCircle {
     fn view_box(&self) -> &str {
@@ -23870,7 +24582,7 @@ impl IconShape for IoInformationCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInformationOutline;
 impl IconShape for IoInformationOutline {
     fn view_box(&self) -> &str {
@@ -23908,7 +24620,7 @@ impl IconShape for IoInformationOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInformationSharp;
 impl IconShape for IoInformationSharp {
     fn view_box(&self) -> &str {
@@ -23946,7 +24658,7 @@ impl IconShape for IoInformationSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInformation;
 impl IconShape for IoInformation {
     fn view_box(&self) -> &str {
@@ -23984,7 +24696,7 @@ impl IconShape for IoInformation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInvertModeOutline;
 impl IconShape for IoInvertModeOutline {
     fn view_box(&self) -> &str {
@@ -24022,7 +24734,7 @@ impl IconShape for IoInvertModeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInvertModeSharp;
 impl IconShape for IoInvertModeSharp {
     fn view_box(&self) -> &str {
@@ -24052,7 +24764,7 @@ impl IconShape for IoInvertModeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoInvertMode;
 impl IconShape for IoInvertMode {
     fn view_box(&self) -> &str {
@@ -24090,7 +24802,7 @@ impl IconShape for IoInvertMode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoJournalOutline;
 impl IconShape for IoJournalOutline {
     fn view_box(&self) -> &str {
@@ -24130,7 +24842,7 @@ impl IconShape for IoJournalOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoJournalSharp;
 impl IconShape for IoJournalSharp {
     fn view_box(&self) -> &str {
@@ -24160,7 +24872,7 @@ impl IconShape for IoJournalSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoJournal;
 impl IconShape for IoJournal {
     fn view_box(&self) -> &str {
@@ -24190,7 +24902,7 @@ impl IconShape for IoJournal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoKeyOutline;
 impl IconShape for IoKeyOutline {
     fn view_box(&self) -> &str {
@@ -24218,7 +24930,7 @@ impl IconShape for IoKeyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoKeySharp;
 impl IconShape for IoKeySharp {
     fn view_box(&self) -> &str {
@@ -24245,7 +24957,7 @@ impl IconShape for IoKeySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoKey;
 impl IconShape for IoKey {
     fn view_box(&self) -> &str {
@@ -24272,7 +24984,7 @@ impl IconShape for IoKey {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoKeypadOutline;
 impl IconShape for IoKeypadOutline {
     fn view_box(&self) -> &str {
@@ -24354,7 +25066,7 @@ impl IconShape for IoKeypadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoKeypadSharp;
 impl IconShape for IoKeypadSharp {
     fn view_box(&self) -> &str {
@@ -24458,7 +25170,7 @@ impl IconShape for IoKeypadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoKeypad;
 impl IconShape for IoKeypad {
     fn view_box(&self) -> &str {
@@ -24512,7 +25224,7 @@ impl IconShape for IoKeypad {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLanguageOutline;
 impl IconShape for IoLanguageOutline {
     fn view_box(&self) -> &str {
@@ -24569,7 +25281,7 @@ impl IconShape for IoLanguageOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLanguageSharp;
 impl IconShape for IoLanguageSharp {
     fn view_box(&self) -> &str {
@@ -24599,7 +25311,7 @@ impl IconShape for IoLanguageSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLanguage;
 impl IconShape for IoLanguage {
     fn view_box(&self) -> &str {
@@ -24629,7 +25341,7 @@ impl IconShape for IoLanguage {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLaptopOutline;
 impl IconShape for IoLaptopOutline {
     fn view_box(&self) -> &str {
@@ -24669,7 +25381,7 @@ impl IconShape for IoLaptopOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLaptopSharp;
 impl IconShape for IoLaptopSharp {
     fn view_box(&self) -> &str {
@@ -24696,7 +25408,7 @@ impl IconShape for IoLaptopSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLaptop;
 impl IconShape for IoLaptop {
     fn view_box(&self) -> &str {
@@ -24723,7 +25435,7 @@ impl IconShape for IoLaptop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLayersOutline;
 impl IconShape for IoLayersOutline {
     fn view_box(&self) -> &str {
@@ -24759,7 +25471,7 @@ impl IconShape for IoLayersOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLayersSharp;
 impl IconShape for IoLayersSharp {
     fn view_box(&self) -> &str {
@@ -24792,7 +25504,7 @@ impl IconShape for IoLayersSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLayers;
 impl IconShape for IoLayers {
     fn view_box(&self) -> &str {
@@ -24825,7 +25537,7 @@ impl IconShape for IoLayers {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLeafOutline;
 impl IconShape for IoLeafOutline {
     fn view_box(&self) -> &str {
@@ -24857,7 +25569,7 @@ impl IconShape for IoLeafOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLeafSharp;
 impl IconShape for IoLeafSharp {
     fn view_box(&self) -> &str {
@@ -24887,7 +25599,7 @@ impl IconShape for IoLeafSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLeaf;
 impl IconShape for IoLeaf {
     fn view_box(&self) -> &str {
@@ -24917,7 +25629,7 @@ impl IconShape for IoLeaf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLibraryOutline;
 impl IconShape for IoLibraryOutline {
     fn view_box(&self) -> &str {
@@ -24986,7 +25698,7 @@ impl IconShape for IoLibraryOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLibrarySharp;
 impl IconShape for IoLibrarySharp {
     fn view_box(&self) -> &str {
@@ -25031,7 +25743,7 @@ impl IconShape for IoLibrarySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLibrary;
 impl IconShape for IoLibrary {
     fn view_box(&self) -> &str {
@@ -25078,7 +25790,7 @@ impl IconShape for IoLibrary {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLinkOutline;
 impl IconShape for IoLinkOutline {
     fn view_box(&self) -> &str {
@@ -25117,7 +25829,7 @@ impl IconShape for IoLinkOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLinkSharp;
 impl IconShape for IoLinkSharp {
     fn view_box(&self) -> &str {
@@ -25156,7 +25868,7 @@ impl IconShape for IoLinkSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLink;
 impl IconShape for IoLink {
     fn view_box(&self) -> &str {
@@ -25195,7 +25907,7 @@ impl IconShape for IoLink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoListCircleOutline;
 impl IconShape for IoListCircleOutline {
     fn view_box(&self) -> &str {
@@ -25262,7 +25974,7 @@ impl IconShape for IoListCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoListCircleSharp;
 impl IconShape for IoListCircleSharp {
     fn view_box(&self) -> &str {
@@ -25289,7 +26001,7 @@ impl IconShape for IoListCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoListCircle;
 impl IconShape for IoListCircle {
     fn view_box(&self) -> &str {
@@ -25316,7 +26028,7 @@ impl IconShape for IoListCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoListOutline;
 impl IconShape for IoListOutline {
     fn view_box(&self) -> &str {
@@ -25379,7 +26091,7 @@ impl IconShape for IoListOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoListSharp;
 impl IconShape for IoListSharp {
     fn view_box(&self) -> &str {
@@ -25445,7 +26157,7 @@ impl IconShape for IoListSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoList;
 impl IconShape for IoList {
     fn view_box(&self) -> &str {
@@ -25508,7 +26220,7 @@ impl IconShape for IoList {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLocateOutline;
 impl IconShape for IoLocateOutline {
     fn view_box(&self) -> &str {
@@ -25564,7 +26276,7 @@ impl IconShape for IoLocateOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLocateSharp;
 impl IconShape for IoLocateSharp {
     fn view_box(&self) -> &str {
@@ -25620,7 +26332,7 @@ impl IconShape for IoLocateSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLocate;
 impl IconShape for IoLocate {
     fn view_box(&self) -> &str {
@@ -25676,7 +26388,7 @@ impl IconShape for IoLocate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLocationOutline;
 impl IconShape for IoLocationOutline {
     fn view_box(&self) -> &str {
@@ -25710,7 +26422,7 @@ impl IconShape for IoLocationOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLocationSharp;
 impl IconShape for IoLocationSharp {
     fn view_box(&self) -> &str {
@@ -25737,7 +26449,7 @@ impl IconShape for IoLocationSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLocation;
 impl IconShape for IoLocation {
     fn view_box(&self) -> &str {
@@ -25769,7 +26481,7 @@ impl IconShape for IoLocation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLockClosedOutline;
 impl IconShape for IoLockClosedOutline {
     fn view_box(&self) -> &str {
@@ -25806,7 +26518,7 @@ impl IconShape for IoLockClosedOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLockClosedSharp;
 impl IconShape for IoLockClosedSharp {
     fn view_box(&self) -> &str {
@@ -25833,7 +26545,7 @@ impl IconShape for IoLockClosedSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLockClosed;
 impl IconShape for IoLockClosed {
     fn view_box(&self) -> &str {
@@ -25860,7 +26572,7 @@ impl IconShape for IoLockClosed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLockOpenOutline;
 impl IconShape for IoLockOpenOutline {
     fn view_box(&self) -> &str {
@@ -25897,7 +26609,7 @@ impl IconShape for IoLockOpenOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLockOpenSharp;
 impl IconShape for IoLockOpenSharp {
     fn view_box(&self) -> &str {
@@ -25924,7 +26636,7 @@ impl IconShape for IoLockOpenSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLockOpen;
 impl IconShape for IoLockOpen {
     fn view_box(&self) -> &str {
@@ -25951,7 +26663,7 @@ impl IconShape for IoLockOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogInOutline;
 impl IconShape for IoLogInOutline {
     fn view_box(&self) -> &str {
@@ -25990,7 +26702,7 @@ impl IconShape for IoLogInOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogInSharp;
 impl IconShape for IoLogInSharp {
     fn view_box(&self) -> &str {
@@ -26023,7 +26735,7 @@ impl IconShape for IoLogInSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogIn;
 impl IconShape for IoLogIn {
     fn view_box(&self) -> &str {
@@ -26053,7 +26765,7 @@ impl IconShape for IoLogIn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogOutOutline;
 impl IconShape for IoLogOutOutline {
     fn view_box(&self) -> &str {
@@ -26092,7 +26804,7 @@ impl IconShape for IoLogOutOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogOutSharp;
 impl IconShape for IoLogOutSharp {
     fn view_box(&self) -> &str {
@@ -26122,7 +26834,7 @@ impl IconShape for IoLogOutSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogOut;
 impl IconShape for IoLogOut {
     fn view_box(&self) -> &str {
@@ -26152,7 +26864,7 @@ impl IconShape for IoLogOut {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoAlipay;
 impl IconShape for IoLogoAlipay {
     fn view_box(&self) -> &str {
@@ -26179,7 +26891,7 @@ impl IconShape for IoLogoAlipay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoAmazon;
 impl IconShape for IoLogoAmazon {
     fn view_box(&self) -> &str {
@@ -26212,7 +26924,7 @@ impl IconShape for IoLogoAmazon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoAmplify;
 impl IconShape for IoLogoAmplify {
     fn view_box(&self) -> &str {
@@ -26240,7 +26952,7 @@ impl IconShape for IoLogoAmplify {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoAndroid;
 impl IconShape for IoLogoAndroid {
     fn view_box(&self) -> &str {
@@ -26268,7 +26980,7 @@ impl IconShape for IoLogoAndroid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoAngular;
 impl IconShape for IoLogoAngular {
     fn view_box(&self) -> &str {
@@ -26298,7 +27010,37 @@ impl IconShape for IoLogoAngular {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoLogoAppflow;
+impl IconShape for IoLogoAppflow {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M198.626 28.4235L8.00006 484.424H122.376L256 164.779L389.624 484.424H504L313.374 28.4235H198.626Z",
+            }
+            path {
+                d: "M312 346.039C312 376.967 286.928 402.039 256 402.039C225.072 402.039 200 376.967 200 346.039C200 315.111 225.072 290.039 256 290.039C286.928 290.039 312 315.111 312 346.039Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoAppleAppstore;
 impl IconShape for IoLogoAppleAppstore {
     fn view_box(&self) -> &str {
@@ -26325,7 +27067,7 @@ impl IconShape for IoLogoAppleAppstore {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoAppleAr;
 impl IconShape for IoLogoAppleAr {
     fn view_box(&self) -> &str {
@@ -26468,7 +27210,7 @@ impl IconShape for IoLogoAppleAr {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoApple;
 impl IconShape for IoLogoApple {
     fn view_box(&self) -> &str {
@@ -26498,7 +27240,7 @@ impl IconShape for IoLogoApple {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoBehance;
 impl IconShape for IoLogoBehance {
     fn view_box(&self) -> &str {
@@ -26534,7 +27276,7 @@ impl IconShape for IoLogoBehance {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoBitbucket;
 impl IconShape for IoLogoBitbucket {
     fn view_box(&self) -> &str {
@@ -26561,7 +27303,7 @@ impl IconShape for IoLogoBitbucket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoBitcoin;
 impl IconShape for IoLogoBitcoin {
     fn view_box(&self) -> &str {
@@ -26588,7 +27330,7 @@ impl IconShape for IoLogoBitcoin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoBuffer;
 impl IconShape for IoLogoBuffer {
     fn view_box(&self) -> &str {
@@ -26621,7 +27363,7 @@ impl IconShape for IoLogoBuffer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoCapacitor;
 impl IconShape for IoLogoCapacitor {
     fn view_box(&self) -> &str {
@@ -26651,7 +27393,7 @@ impl IconShape for IoLogoCapacitor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoChrome;
 impl IconShape for IoLogoChrome {
     fn view_box(&self) -> &str {
@@ -26687,7 +27429,7 @@ impl IconShape for IoLogoChrome {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoClosedCaptioning;
 impl IconShape for IoLogoClosedCaptioning {
     fn view_box(&self) -> &str {
@@ -26720,7 +27462,7 @@ impl IconShape for IoLogoClosedCaptioning {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoCodepen;
 impl IconShape for IoLogoCodepen {
     fn view_box(&self) -> &str {
@@ -26768,7 +27510,7 @@ impl IconShape for IoLogoCodepen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoCss3;
 impl IconShape for IoLogoCss3 {
     fn view_box(&self) -> &str {
@@ -26795,7 +27537,7 @@ impl IconShape for IoLogoCss3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoDesignernews;
 impl IconShape for IoLogoDesignernews {
     fn view_box(&self) -> &str {
@@ -26828,7 +27570,7 @@ impl IconShape for IoLogoDesignernews {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoDeviantart;
 impl IconShape for IoLogoDeviantart {
     fn view_box(&self) -> &str {
@@ -26855,7 +27597,7 @@ impl IconShape for IoLogoDeviantart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoDiscord;
 impl IconShape for IoLogoDiscord {
     fn view_box(&self) -> &str {
@@ -26888,7 +27630,7 @@ impl IconShape for IoLogoDiscord {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoDocker;
 impl IconShape for IoLogoDocker {
     fn view_box(&self) -> &str {
@@ -26942,7 +27684,7 @@ impl IconShape for IoLogoDocker {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoDribbble;
 impl IconShape for IoLogoDribbble {
     fn view_box(&self) -> &str {
@@ -26969,7 +27711,7 @@ impl IconShape for IoLogoDribbble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoDropbox;
 impl IconShape for IoLogoDropbox {
     fn view_box(&self) -> &str {
@@ -26996,7 +27738,7 @@ impl IconShape for IoLogoDropbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoEdge;
 impl IconShape for IoLogoEdge {
     fn view_box(&self) -> &str {
@@ -27023,7 +27765,7 @@ impl IconShape for IoLogoEdge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoElectron;
 impl IconShape for IoLogoElectron {
     fn view_box(&self) -> &str {
@@ -27068,7 +27810,7 @@ impl IconShape for IoLogoElectron {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoEuro;
 impl IconShape for IoLogoEuro {
     fn view_box(&self) -> &str {
@@ -27095,7 +27837,7 @@ impl IconShape for IoLogoEuro {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoFacebook;
 impl IconShape for IoLogoFacebook {
     fn view_box(&self) -> &str {
@@ -27123,7 +27865,7 @@ impl IconShape for IoLogoFacebook {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoFigma;
 impl IconShape for IoLogoFigma {
     fn view_box(&self) -> &str {
@@ -27155,7 +27897,7 @@ impl IconShape for IoLogoFigma {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoFirebase;
 impl IconShape for IoLogoFirebase {
     fn view_box(&self) -> &str {
@@ -27183,7 +27925,7 @@ impl IconShape for IoLogoFirebase {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoFirefox;
 impl IconShape for IoLogoFirefox {
     fn view_box(&self) -> &str {
@@ -27210,7 +27952,7 @@ impl IconShape for IoLogoFirefox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoFlickr;
 impl IconShape for IoLogoFlickr {
     fn view_box(&self) -> &str {
@@ -27237,7 +27979,7 @@ impl IconShape for IoLogoFlickr {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoFoursquare;
 impl IconShape for IoLogoFoursquare {
     fn view_box(&self) -> &str {
@@ -27264,7 +28006,7 @@ impl IconShape for IoLogoFoursquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoGithub;
 impl IconShape for IoLogoGithub {
     fn view_box(&self) -> &str {
@@ -27291,7 +28033,7 @@ impl IconShape for IoLogoGithub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoGitlab;
 impl IconShape for IoLogoGitlab {
     fn view_box(&self) -> &str {
@@ -27312,13 +28054,13 @@ impl IconShape for IoLogoGitlab {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M494.07,281.6l-25.18-78.08a11,11,0,0,0-.61-2.1L417.78,44.48a20.08,20.08,0,0,0-19.17-13.82A19.77,19.77,0,0,0,379.66,44.6L331.52,194.15h-152L131.34,44.59a19.76,19.76,0,0,0-18.86-13.94h-.11a20.15,20.15,0,0,0-19.12,14L42.7,201.73c0,.14-.11.26-.16.4L16.91,281.61a29.15,29.15,0,0,0,10.44,32.46L248.79,476.48a11.25,11.25,0,0,0,13.38-.07L483.65,314.07a29.13,29.13,0,0,0,10.42-32.47m-331-64.51L224.8,408.85,76.63,217.09m209.64,191.8,59.19-183.84,2.55-8h86.52L300.47,390.44M398.8,59.31l43.37,134.83H355.35M324.16,217l-43,133.58L255.5,430.14,186.94,217M112.27,59.31l43.46,134.83H69M40.68,295.58a6.19,6.19,0,0,1-2.21-6.9l19-59L197.08,410.27M470.34,295.58,313.92,410.22l.52-.69L453.5,229.64l19,59a6.2,6.2,0,0,1-2.19,6.92",
+                d: "M488.028 207.68L487.354 205.949L422.019 34.7949C420.69 31.4404 418.336 28.5947 415.296 26.6663C412.254 24.7705 408.705 23.8575 405.129 24.0504C401.554 24.2433 398.123 25.5329 395.301 27.7451C392.51 30.0207 390.485 33.1043 389.502 36.5762L345.388 172.054H166.756L122.641 36.5762C121.685 33.0854 119.655 29.9864 116.843 27.72C114.02 25.5078 110.59 24.2182 107.014 24.0253C103.438 23.8324 99.8898 24.7454 96.8475 26.6412C93.8139 28.5774 91.4622 31.4206 90.1241 34.7698L24.6648 205.848L24.015 207.579C14.6098 232.246 13.4489 259.314 20.7073 284.701C27.9656 310.089 43.2498 332.419 64.2553 348.326L64.4803 348.501L65.0801 348.928L164.606 423.742L213.844 461.149L243.837 483.879C247.345 486.553 251.629 488 256.034 488C260.439 488 264.723 486.553 268.231 483.879L298.224 461.149L347.462 423.742L447.588 348.476L447.838 348.276C468.796 332.366 484.045 310.059 491.292 284.706C498.54 259.353 497.394 232.323 488.028 207.68Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoGooglePlaystore;
 impl IconShape for IoLogoGooglePlaystore {
     fn view_box(&self) -> &str {
@@ -27354,7 +28096,7 @@ impl IconShape for IoLogoGooglePlaystore {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoGoogle;
 impl IconShape for IoLogoGoogle {
     fn view_box(&self) -> &str {
@@ -27381,7 +28123,7 @@ impl IconShape for IoLogoGoogle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoHackernews;
 impl IconShape for IoLogoHackernews {
     fn view_box(&self) -> &str {
@@ -27408,7 +28150,7 @@ impl IconShape for IoLogoHackernews {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoHtml5;
 impl IconShape for IoLogoHtml5 {
     fn view_box(&self) -> &str {
@@ -27435,7 +28177,7 @@ impl IconShape for IoLogoHtml5 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoInstagram;
 impl IconShape for IoLogoInstagram {
     fn view_box(&self) -> &str {
@@ -27468,7 +28210,7 @@ impl IconShape for IoLogoInstagram {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoIonic;
 impl IconShape for IoLogoIonic {
     fn view_box(&self) -> &str {
@@ -27489,21 +28231,22 @@ impl IconShape for IoLogoIonic {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M256,153.9A102.1,102.1,0,1,0,358.1,256,102.23,102.23,0,0,0,256,153.9Z",
-            }
-            circle {
-                cx: "402.59",
-                cy: "116.45",
-                r: "46.52",
+                d: "M73.5999 256C73.5999 155.263 155.263 73.6 256 73.6C296.552 73.6 333.992 86.8115 364.286 109.203C372.232 90.5013 388.244 76.0537 407.956 70.227C366.589 36.3569 313.656 16 256 16C123.451 16 16 123.452 16 256C16 388.548 123.451 496 256 496C388.548 496 495.999 388.548 495.999 256C495.999 228.259 491.281 201.573 482.592 176.731C470.768 192.716 452.164 203.38 431.028 204.473C435.823 220.792 438.399 238.078 438.399 256C438.399 356.737 356.736 438.4 256 438.4C155.263 438.4 73.5999 356.737 73.5999 256Z",
             }
             path {
-                d: "M459.86,163.2l-1.95-4.28-3.11,3.52a70,70,0,0,1-28.06,19.32l-3,1.1,1.22,2.93A181.43,181.43,0,0,1,439,256c0,100.92-82.1,183-183,183S73,356.92,73,256,155.08,73,256,73a180.94,180.94,0,0,1,78.43,17.7L337.3,92l1.25-2.92A70.19,70.19,0,0,1,359.21,62l3.67-2.93L358.71,57A221.61,221.61,0,0,0,256,32C132.49,32,32,132.49,32,256S132.49,480,256,480,480,379.51,480,256A222.19,222.19,0,0,0,459.86,163.2Z",
+                d: "M491.065 207.374C488.908 196.899 486.068 186.667 482.592 176.731C470.769 192.715 452.164 203.38 431.028 204.473C434.42 216.016 436.702 228.043 437.747 240.437C460.006 237.7 479.247 225.211 491.065 207.374Z",
+            }
+            path {
+                d: "M256 361.001C313.853 361.001 361 313.944 361 256.001C361 198.147 313.943 151.001 256 151.001C198.057 151.001 151 198.147 151 256.001C151 313.854 198.147 361.001 256 361.001Z",
+            }
+            path {
+                d: "M413.5 166C442.495 166 466 142.495 466 113.5C466 84.5055 442.495 61.0004 413.5 61.0004C384.505 61.0004 361 84.5055 361 113.5C361 142.495 384.505 166 413.5 166Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoIonitron;
 impl IconShape for IoLogoIonitron {
     fn view_box(&self) -> &str {
@@ -27533,7 +28276,7 @@ impl IconShape for IoLogoIonitron {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoJavascript;
 impl IconShape for IoLogoJavascript {
     fn view_box(&self) -> &str {
@@ -27560,7 +28303,7 @@ impl IconShape for IoLogoJavascript {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoLaravel;
 impl IconShape for IoLogoLaravel {
     fn view_box(&self) -> &str {
@@ -27587,7 +28330,7 @@ impl IconShape for IoLogoLaravel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoLinkedin;
 impl IconShape for IoLogoLinkedin {
     fn view_box(&self) -> &str {
@@ -27614,7 +28357,7 @@ impl IconShape for IoLogoLinkedin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoMarkdown;
 impl IconShape for IoLogoMarkdown {
     fn view_box(&self) -> &str {
@@ -27641,7 +28384,7 @@ impl IconShape for IoLogoMarkdown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoMastodon;
 impl IconShape for IoLogoMastodon {
     fn view_box(&self) -> &str {
@@ -27668,7 +28411,7 @@ impl IconShape for IoLogoMastodon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoMedium;
 impl IconShape for IoLogoMedium {
     fn view_box(&self) -> &str {
@@ -27705,7 +28448,7 @@ impl IconShape for IoLogoMedium {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoMicrosoft;
 impl IconShape for IoLogoMicrosoft {
     fn view_box(&self) -> &str {
@@ -27741,7 +28484,7 @@ impl IconShape for IoLogoMicrosoft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoNoSmoking;
 impl IconShape for IoLogoNoSmoking {
     fn view_box(&self) -> &str {
@@ -27792,7 +28535,7 @@ impl IconShape for IoLogoNoSmoking {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoNodejs;
 impl IconShape for IoLogoNodejs {
     fn view_box(&self) -> &str {
@@ -27822,7 +28565,7 @@ impl IconShape for IoLogoNodejs {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoNpm;
 impl IconShape for IoLogoNpm {
     fn view_box(&self) -> &str {
@@ -27855,7 +28598,7 @@ impl IconShape for IoLogoNpm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoOctocat;
 impl IconShape for IoLogoOctocat {
     fn view_box(&self) -> &str {
@@ -27888,7 +28631,7 @@ impl IconShape for IoLogoOctocat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoPaypal;
 impl IconShape for IoLogoPaypal {
     fn view_box(&self) -> &str {
@@ -27918,7 +28661,7 @@ impl IconShape for IoLogoPaypal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoPinterest;
 impl IconShape for IoLogoPinterest {
     fn view_box(&self) -> &str {
@@ -27945,7 +28688,7 @@ impl IconShape for IoLogoPinterest {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoPlaystation;
 impl IconShape for IoLogoPlaystation {
     fn view_box(&self) -> &str {
@@ -27978,7 +28721,7 @@ impl IconShape for IoLogoPlaystation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoPwa;
 impl IconShape for IoLogoPwa {
     fn view_box(&self) -> &str {
@@ -28008,7 +28751,7 @@ impl IconShape for IoLogoPwa {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoPython;
 impl IconShape for IoLogoPython {
     fn view_box(&self) -> &str {
@@ -28038,7 +28781,7 @@ impl IconShape for IoLogoPython {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoReact;
 impl IconShape for IoLogoReact {
     fn view_box(&self) -> &str {
@@ -28068,7 +28811,7 @@ impl IconShape for IoLogoReact {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoReddit;
 impl IconShape for IoLogoReddit {
     fn view_box(&self) -> &str {
@@ -28107,7 +28850,7 @@ impl IconShape for IoLogoReddit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoRss;
 impl IconShape for IoLogoRss {
     fn view_box(&self) -> &str {
@@ -28140,7 +28883,7 @@ impl IconShape for IoLogoRss {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoSass;
 impl IconShape for IoLogoSass {
     fn view_box(&self) -> &str {
@@ -28167,7 +28910,7 @@ impl IconShape for IoLogoSass {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoSkype;
 impl IconShape for IoLogoSkype {
     fn view_box(&self) -> &str {
@@ -28194,7 +28937,7 @@ impl IconShape for IoLogoSkype {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoSlack;
 impl IconShape for IoLogoSlack {
     fn view_box(&self) -> &str {
@@ -28242,7 +28985,7 @@ impl IconShape for IoLogoSlack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoSnapchat;
 impl IconShape for IoLogoSnapchat {
     fn view_box(&self) -> &str {
@@ -28269,7 +29012,7 @@ impl IconShape for IoLogoSnapchat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoSoundcloud;
 impl IconShape for IoLogoSoundcloud {
     fn view_box(&self) -> &str {
@@ -28335,7 +29078,7 @@ impl IconShape for IoLogoSoundcloud {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoStackoverflow;
 impl IconShape for IoLogoStackoverflow {
     fn view_box(&self) -> &str {
@@ -28365,7 +29108,7 @@ impl IconShape for IoLogoStackoverflow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoSteam;
 impl IconShape for IoLogoSteam {
     fn view_box(&self) -> &str {
@@ -28392,7 +29135,7 @@ impl IconShape for IoLogoSteam {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoStencil;
 impl IconShape for IoLogoStencil {
     fn view_box(&self) -> &str {
@@ -28425,7 +29168,7 @@ impl IconShape for IoLogoStencil {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoTableau;
 impl IconShape for IoLogoTableau {
     fn view_box(&self) -> &str {
@@ -28474,7 +29217,7 @@ impl IconShape for IoLogoTableau {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoTiktok;
 impl IconShape for IoLogoTiktok {
     fn view_box(&self) -> &str {
@@ -28501,7 +29244,34 @@ impl IconShape for IoLogoTiktok {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoLogoTrapeze;
+impl IconShape for IoLogoTrapeze {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M311.05 189.26C311.069 189.229 311.087 189.198 311.105 189.167L376.085 78.5494L257.923 8L192.943 118.617C192.911 118.672 192.879 118.726 192.847 118.781L8 433.451L126.162 504L212.11 357.688C226.722 375.306 244.503 390.762 265.218 403.13L434.022 503.915L504 384.789L335.197 284.004C302.598 264.541 291.801 222.142 311.05 189.26Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoTumblr;
 impl IconShape for IoLogoTumblr {
     fn view_box(&self) -> &str {
@@ -28528,7 +29298,7 @@ impl IconShape for IoLogoTumblr {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoTux;
 impl IconShape for IoLogoTux {
     fn view_box(&self) -> &str {
@@ -28555,7 +29325,7 @@ impl IconShape for IoLogoTux {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoTwitch;
 impl IconShape for IoLogoTwitch {
     fn view_box(&self) -> &str {
@@ -28594,7 +29364,7 @@ impl IconShape for IoLogoTwitch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoTwitter;
 impl IconShape for IoLogoTwitter {
     fn view_box(&self) -> &str {
@@ -28621,7 +29391,7 @@ impl IconShape for IoLogoTwitter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoUsd;
 impl IconShape for IoLogoUsd {
     fn view_box(&self) -> &str {
@@ -28648,7 +29418,7 @@ impl IconShape for IoLogoUsd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoVenmo;
 impl IconShape for IoLogoVenmo {
     fn view_box(&self) -> &str {
@@ -28675,7 +29445,7 @@ impl IconShape for IoLogoVenmo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoVercel;
 impl IconShape for IoLogoVercel {
     fn view_box(&self) -> &str {
@@ -28703,7 +29473,7 @@ impl IconShape for IoLogoVercel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoVimeo;
 impl IconShape for IoLogoVimeo {
     fn view_box(&self) -> &str {
@@ -28730,7 +29500,7 @@ impl IconShape for IoLogoVimeo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoVk;
 impl IconShape for IoLogoVk {
     fn view_box(&self) -> &str {
@@ -28758,7 +29528,7 @@ impl IconShape for IoLogoVk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoVue;
 impl IconShape for IoLogoVue {
     fn view_box(&self) -> &str {
@@ -28788,7 +29558,7 @@ impl IconShape for IoLogoVue {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoWebComponent;
 impl IconShape for IoLogoWebComponent {
     fn view_box(&self) -> &str {
@@ -28830,7 +29600,7 @@ impl IconShape for IoLogoWebComponent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoWechat;
 impl IconShape for IoLogoWechat {
     fn view_box(&self) -> &str {
@@ -28862,7 +29632,7 @@ impl IconShape for IoLogoWechat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoWhatsapp;
 impl IconShape for IoLogoWhatsapp {
     fn view_box(&self) -> &str {
@@ -28890,7 +29660,7 @@ impl IconShape for IoLogoWhatsapp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoWindows;
 impl IconShape for IoLogoWindows {
     fn view_box(&self) -> &str {
@@ -28926,7 +29696,7 @@ impl IconShape for IoLogoWindows {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoWordpress;
 impl IconShape for IoLogoWordpress {
     fn view_box(&self) -> &str {
@@ -28962,7 +29732,34 @@ impl IconShape for IoLogoWordpress {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct IoLogoX;
+impl IconShape for IoLogoX {
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M9.33349 6.92867L14.5459 1H13.3109L8.78291 6.14671L5.16908 1H1L6.46604 8.78342L1 15H2.235L7.01369 9.56363L10.8309 15H15L9.33349 6.92867ZM7.64142 8.85175L7.08675 8.07621L2.68037 1.91103H4.57759L8.13472 6.88838L8.68705 7.66391L13.3103 14.1334H11.4131L7.64142 8.85175Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoXbox;
 impl IconShape for IoLogoXbox {
     fn view_box(&self) -> &str {
@@ -28998,7 +29795,7 @@ impl IconShape for IoLogoXbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoXing;
 impl IconShape for IoLogoXing {
     fn view_box(&self) -> &str {
@@ -29028,7 +29825,7 @@ impl IconShape for IoLogoXing {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoYahoo;
 impl IconShape for IoLogoYahoo {
     fn view_box(&self) -> &str {
@@ -29049,13 +29846,13 @@ impl IconShape for IoLogoYahoo {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M410.32,37.13c-13.56,0-27-.93-39.12-5.13L256,218.67,140.8,32c-12.12,4.2-24.84,5.13-38.4,5.13C89.08,37.13,75.88,36.08,64,32L217.6,280.15V480c12-4.08,25-5.13,38.4-5.13s26.4,1.05,38.4,5.13V280.5L448,32C436.12,36,423.64,37.13,410.32,37.13Z",
+                d: "M0 139.009H97.6482L154.508 284.738L212.108 139.009H307.174L164.022 484H68.3374L107.526 392.583L0.00302391 139.009H0ZM417.5 256H311L405.907 28L512 28.0045L417.5 256ZM339.292 277.221C371.964 277.221 398.448 303.754 398.448 336.479C398.448 369.206 371.964 395.739 339.292 395.739C306.625 395.739 280.146 369.206 280.146 336.479C280.146 303.754 306.629 277.221 339.292 277.221Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoYen;
 impl IconShape for IoLogoYen {
     fn view_box(&self) -> &str {
@@ -29082,7 +29879,7 @@ impl IconShape for IoLogoYen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoLogoYoutube;
 impl IconShape for IoLogoYoutube {
     fn view_box(&self) -> &str {
@@ -29109,7 +29906,7 @@ impl IconShape for IoLogoYoutube {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMagnetOutline;
 impl IconShape for IoMagnetOutline {
     fn view_box(&self) -> &str {
@@ -29184,7 +29981,7 @@ impl IconShape for IoMagnetOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMagnetSharp;
 impl IconShape for IoMagnetSharp {
     fn view_box(&self) -> &str {
@@ -29246,7 +30043,7 @@ impl IconShape for IoMagnetSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMagnet;
 impl IconShape for IoMagnet {
     fn view_box(&self) -> &str {
@@ -29300,7 +30097,7 @@ impl IconShape for IoMagnet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMailOpenOutline;
 impl IconShape for IoMailOpenOutline {
     fn view_box(&self) -> &str {
@@ -29346,7 +30143,7 @@ impl IconShape for IoMailOpenOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMailOpenSharp;
 impl IconShape for IoMailOpenSharp {
     fn view_box(&self) -> &str {
@@ -29373,7 +30170,7 @@ impl IconShape for IoMailOpenSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMailOpen;
 impl IconShape for IoMailOpen {
     fn view_box(&self) -> &str {
@@ -29400,7 +30197,7 @@ impl IconShape for IoMailOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMailOutline;
 impl IconShape for IoMailOutline {
     fn view_box(&self) -> &str {
@@ -29437,7 +30234,7 @@ impl IconShape for IoMailOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMailSharp;
 impl IconShape for IoMailSharp {
     fn view_box(&self) -> &str {
@@ -29464,7 +30261,7 @@ impl IconShape for IoMailSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMailUnreadOutline;
 impl IconShape for IoMailUnreadOutline {
     fn view_box(&self) -> &str {
@@ -29504,7 +30301,7 @@ impl IconShape for IoMailUnreadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMailUnreadSharp;
 impl IconShape for IoMailUnreadSharp {
     fn view_box(&self) -> &str {
@@ -29534,7 +30331,7 @@ impl IconShape for IoMailUnreadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMailUnread;
 impl IconShape for IoMailUnread {
     fn view_box(&self) -> &str {
@@ -29564,7 +30361,7 @@ impl IconShape for IoMailUnread {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMail;
 impl IconShape for IoMail {
     fn view_box(&self) -> &str {
@@ -29591,7 +30388,7 @@ impl IconShape for IoMail {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMaleFemaleOutline;
 impl IconShape for IoMaleFemaleOutline {
     fn view_box(&self) -> &str {
@@ -29646,7 +30443,7 @@ impl IconShape for IoMaleFemaleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMaleFemaleSharp;
 impl IconShape for IoMaleFemaleSharp {
     fn view_box(&self) -> &str {
@@ -29673,7 +30470,7 @@ impl IconShape for IoMaleFemaleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMaleFemale;
 impl IconShape for IoMaleFemale {
     fn view_box(&self) -> &str {
@@ -29700,7 +30497,7 @@ impl IconShape for IoMaleFemale {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMaleOutline;
 impl IconShape for IoMaleOutline {
     fn view_box(&self) -> &str {
@@ -29750,7 +30547,7 @@ impl IconShape for IoMaleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMaleSharp;
 impl IconShape for IoMaleSharp {
     fn view_box(&self) -> &str {
@@ -29777,7 +30574,7 @@ impl IconShape for IoMaleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMale;
 impl IconShape for IoMale {
     fn view_box(&self) -> &str {
@@ -29804,7 +30601,7 @@ impl IconShape for IoMale {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoManOutline;
 impl IconShape for IoManOutline {
     fn view_box(&self) -> &str {
@@ -29846,7 +30643,7 @@ impl IconShape for IoManOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoManSharp;
 impl IconShape for IoManSharp {
     fn view_box(&self) -> &str {
@@ -29878,7 +30675,7 @@ impl IconShape for IoManSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMan;
 impl IconShape for IoMan {
     fn view_box(&self) -> &str {
@@ -29910,7 +30707,7 @@ impl IconShape for IoMan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMapOutline;
 impl IconShape for IoMapOutline {
     fn view_box(&self) -> &str {
@@ -29952,7 +30749,7 @@ impl IconShape for IoMapOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMapSharp;
 impl IconShape for IoMapSharp {
     fn view_box(&self) -> &str {
@@ -29979,7 +30776,7 @@ impl IconShape for IoMapSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMap;
 impl IconShape for IoMap {
     fn view_box(&self) -> &str {
@@ -30012,7 +30809,7 @@ impl IconShape for IoMap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedalOutline;
 impl IconShape for IoMedalOutline {
     fn view_box(&self) -> &str {
@@ -30073,7 +30870,7 @@ impl IconShape for IoMedalOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedalSharp;
 impl IconShape for IoMedalSharp {
     fn view_box(&self) -> &str {
@@ -30108,7 +30905,7 @@ impl IconShape for IoMedalSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedal;
 impl IconShape for IoMedal {
     fn view_box(&self) -> &str {
@@ -30143,7 +30940,7 @@ impl IconShape for IoMedal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedicalOutline;
 impl IconShape for IoMedicalOutline {
     fn view_box(&self) -> &str {
@@ -30171,7 +30968,7 @@ impl IconShape for IoMedicalOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedicalSharp;
 impl IconShape for IoMedicalSharp {
     fn view_box(&self) -> &str {
@@ -30198,7 +30995,7 @@ impl IconShape for IoMedicalSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedical;
 impl IconShape for IoMedical {
     fn view_box(&self) -> &str {
@@ -30225,7 +31022,7 @@ impl IconShape for IoMedical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedkitOutline;
 impl IconShape for IoMedkitOutline {
     fn view_box(&self) -> &str {
@@ -30276,7 +31073,7 @@ impl IconShape for IoMedkitOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedkitSharp;
 impl IconShape for IoMedkitSharp {
     fn view_box(&self) -> &str {
@@ -30310,7 +31107,7 @@ impl IconShape for IoMedkitSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMedkit;
 impl IconShape for IoMedkit {
     fn view_box(&self) -> &str {
@@ -30341,7 +31138,7 @@ impl IconShape for IoMedkit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMegaphoneOutline;
 impl IconShape for IoMegaphoneOutline {
     fn view_box(&self) -> &str {
@@ -30395,7 +31192,7 @@ impl IconShape for IoMegaphoneOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMegaphoneSharp;
 impl IconShape for IoMegaphoneSharp {
     fn view_box(&self) -> &str {
@@ -30428,7 +31225,7 @@ impl IconShape for IoMegaphoneSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMegaphone;
 impl IconShape for IoMegaphone {
     fn view_box(&self) -> &str {
@@ -30461,7 +31258,7 @@ impl IconShape for IoMegaphone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMenuOutline;
 impl IconShape for IoMenuOutline {
     fn view_box(&self) -> &str {
@@ -30506,7 +31303,7 @@ impl IconShape for IoMenuOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMenuSharp;
 impl IconShape for IoMenuSharp {
     fn view_box(&self) -> &str {
@@ -30533,7 +31330,7 @@ impl IconShape for IoMenuSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMenu;
 impl IconShape for IoMenu {
     fn view_box(&self) -> &str {
@@ -30578,7 +31375,7 @@ impl IconShape for IoMenu {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicCircleOutline;
 impl IconShape for IoMicCircleOutline {
     fn view_box(&self) -> &str {
@@ -30632,7 +31429,7 @@ impl IconShape for IoMicCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicCircleSharp;
 impl IconShape for IoMicCircleSharp {
     fn view_box(&self) -> &str {
@@ -30659,7 +31456,7 @@ impl IconShape for IoMicCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicCircle;
 impl IconShape for IoMicCircle {
     fn view_box(&self) -> &str {
@@ -30686,7 +31483,7 @@ impl IconShape for IoMicCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicOffCircleOutline;
 impl IconShape for IoMicOffCircleOutline {
     fn view_box(&self) -> &str {
@@ -30728,7 +31525,7 @@ impl IconShape for IoMicOffCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicOffCircleSharp;
 impl IconShape for IoMicOffCircleSharp {
     fn view_box(&self) -> &str {
@@ -30755,7 +31552,7 @@ impl IconShape for IoMicOffCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicOffCircle;
 impl IconShape for IoMicOffCircle {
     fn view_box(&self) -> &str {
@@ -30782,7 +31579,7 @@ impl IconShape for IoMicOffCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicOffOutline;
 impl IconShape for IoMicOffOutline {
     fn view_box(&self) -> &str {
@@ -30825,7 +31622,7 @@ impl IconShape for IoMicOffOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicOffSharp;
 impl IconShape for IoMicOffSharp {
     fn view_box(&self) -> &str {
@@ -30868,7 +31665,7 @@ impl IconShape for IoMicOffSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicOff;
 impl IconShape for IoMicOff {
     fn view_box(&self) -> &str {
@@ -30911,7 +31708,7 @@ impl IconShape for IoMicOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicOutline;
 impl IconShape for IoMicOutline {
     fn view_box(&self) -> &str {
@@ -30957,7 +31754,7 @@ impl IconShape for IoMicOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMicSharp;
 impl IconShape for IoMicSharp {
     fn view_box(&self) -> &str {
@@ -31002,7 +31799,7 @@ impl IconShape for IoMicSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMic;
 impl IconShape for IoMic {
     fn view_box(&self) -> &str {
@@ -31047,7 +31844,7 @@ impl IconShape for IoMic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMoonOutline;
 impl IconShape for IoMoonOutline {
     fn view_box(&self) -> &str {
@@ -31075,7 +31872,7 @@ impl IconShape for IoMoonOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMoonSharp;
 impl IconShape for IoMoonSharp {
     fn view_box(&self) -> &str {
@@ -31102,7 +31899,7 @@ impl IconShape for IoMoonSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMoon;
 impl IconShape for IoMoon {
     fn view_box(&self) -> &str {
@@ -31129,7 +31926,7 @@ impl IconShape for IoMoon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMoveOutline;
 impl IconShape for IoMoveOutline {
     fn view_box(&self) -> &str {
@@ -31183,7 +31980,7 @@ impl IconShape for IoMoveOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMoveSharp;
 impl IconShape for IoMoveSharp {
     fn view_box(&self) -> &str {
@@ -31237,7 +32034,7 @@ impl IconShape for IoMoveSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMove;
 impl IconShape for IoMove {
     fn view_box(&self) -> &str {
@@ -31291,7 +32088,7 @@ impl IconShape for IoMove {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMusicalNoteOutline;
 impl IconShape for IoMusicalNoteOutline {
     fn view_box(&self) -> &str {
@@ -31319,7 +32116,7 @@ impl IconShape for IoMusicalNoteOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMusicalNoteSharp;
 impl IconShape for IoMusicalNoteSharp {
     fn view_box(&self) -> &str {
@@ -31346,7 +32143,7 @@ impl IconShape for IoMusicalNoteSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMusicalNote;
 impl IconShape for IoMusicalNote {
     fn view_box(&self) -> &str {
@@ -31373,7 +32170,7 @@ impl IconShape for IoMusicalNote {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMusicalNotesOutline;
 impl IconShape for IoMusicalNotesOutline {
     fn view_box(&self) -> &str {
@@ -31405,7 +32202,7 @@ impl IconShape for IoMusicalNotesOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMusicalNotesSharp;
 impl IconShape for IoMusicalNotesSharp {
     fn view_box(&self) -> &str {
@@ -31432,7 +32229,7 @@ impl IconShape for IoMusicalNotesSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoMusicalNotes;
 impl IconShape for IoMusicalNotes {
     fn view_box(&self) -> &str {
@@ -31459,7 +32256,7 @@ impl IconShape for IoMusicalNotes {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNavigateCircleOutline;
 impl IconShape for IoNavigateCircleOutline {
     fn view_box(&self) -> &str {
@@ -31490,7 +32287,7 @@ impl IconShape for IoNavigateCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNavigateCircleSharp;
 impl IconShape for IoNavigateCircleSharp {
     fn view_box(&self) -> &str {
@@ -31517,7 +32314,7 @@ impl IconShape for IoNavigateCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNavigateCircle;
 impl IconShape for IoNavigateCircle {
     fn view_box(&self) -> &str {
@@ -31544,7 +32341,7 @@ impl IconShape for IoNavigateCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNavigateOutline;
 impl IconShape for IoNavigateOutline {
     fn view_box(&self) -> &str {
@@ -31572,7 +32369,7 @@ impl IconShape for IoNavigateOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNavigateSharp;
 impl IconShape for IoNavigateSharp {
     fn view_box(&self) -> &str {
@@ -31599,7 +32396,7 @@ impl IconShape for IoNavigateSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNavigate;
 impl IconShape for IoNavigate {
     fn view_box(&self) -> &str {
@@ -31626,7 +32423,7 @@ impl IconShape for IoNavigate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNewspaperOutline;
 impl IconShape for IoNewspaperOutline {
     fn view_box(&self) -> &str {
@@ -31696,7 +32493,7 @@ impl IconShape for IoNewspaperOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNewspaperSharp;
 impl IconShape for IoNewspaperSharp {
     fn view_box(&self) -> &str {
@@ -31735,7 +32532,7 @@ impl IconShape for IoNewspaperSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNewspaper;
 impl IconShape for IoNewspaper {
     fn view_box(&self) -> &str {
@@ -31765,7 +32562,7 @@ impl IconShape for IoNewspaper {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsCircleOutline;
 impl IconShape for IoNotificationsCircleOutline {
     fn view_box(&self) -> &str {
@@ -31799,7 +32596,7 @@ impl IconShape for IoNotificationsCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsCircleSharp;
 impl IconShape for IoNotificationsCircleSharp {
     fn view_box(&self) -> &str {
@@ -31837,7 +32634,7 @@ impl IconShape for IoNotificationsCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsCircle;
 impl IconShape for IoNotificationsCircle {
     fn view_box(&self) -> &str {
@@ -31864,7 +32661,7 @@ impl IconShape for IoNotificationsCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsOffCircleOutline;
 impl IconShape for IoNotificationsOffCircleOutline {
     fn view_box(&self) -> &str {
@@ -31904,7 +32701,7 @@ impl IconShape for IoNotificationsOffCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsOffCircleSharp;
 impl IconShape for IoNotificationsOffCircleSharp {
     fn view_box(&self) -> &str {
@@ -31931,7 +32728,7 @@ impl IconShape for IoNotificationsOffCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsOffCircle;
 impl IconShape for IoNotificationsOffCircle {
     fn view_box(&self) -> &str {
@@ -31958,7 +32755,7 @@ impl IconShape for IoNotificationsOffCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsOffOutline;
 impl IconShape for IoNotificationsOffOutline {
     fn view_box(&self) -> &str {
@@ -32001,7 +32798,7 @@ impl IconShape for IoNotificationsOffOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsOffSharp;
 impl IconShape for IoNotificationsOffSharp {
     fn view_box(&self) -> &str {
@@ -32041,7 +32838,7 @@ impl IconShape for IoNotificationsOffSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsOff;
 impl IconShape for IoNotificationsOff {
     fn view_box(&self) -> &str {
@@ -32077,7 +32874,7 @@ impl IconShape for IoNotificationsOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsOutline;
 impl IconShape for IoNotificationsOutline {
     fn view_box(&self) -> &str {
@@ -32109,7 +32906,7 @@ impl IconShape for IoNotificationsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotificationsSharp;
 impl IconShape for IoNotificationsSharp {
     fn view_box(&self) -> &str {
@@ -32139,7 +32936,7 @@ impl IconShape for IoNotificationsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNotifications;
 impl IconShape for IoNotifications {
     fn view_box(&self) -> &str {
@@ -32169,7 +32966,7 @@ impl IconShape for IoNotifications {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNuclearOutline;
 impl IconShape for IoNuclearOutline {
     fn view_box(&self) -> &str {
@@ -32247,7 +33044,7 @@ impl IconShape for IoNuclearOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNuclearSharp;
 impl IconShape for IoNuclearSharp {
     fn view_box(&self) -> &str {
@@ -32283,7 +33080,7 @@ impl IconShape for IoNuclearSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNuclear;
 impl IconShape for IoNuclear {
     fn view_box(&self) -> &str {
@@ -32310,7 +33107,7 @@ impl IconShape for IoNuclear {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNutritionOutline;
 impl IconShape for IoNutritionOutline {
     fn view_box(&self) -> &str {
@@ -32353,7 +33150,7 @@ impl IconShape for IoNutritionOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNutritionSharp;
 impl IconShape for IoNutritionSharp {
     fn view_box(&self) -> &str {
@@ -32383,7 +33180,7 @@ impl IconShape for IoNutritionSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoNutrition;
 impl IconShape for IoNutrition {
     fn view_box(&self) -> &str {
@@ -32413,7 +33210,7 @@ impl IconShape for IoNutrition {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoOpenOutline;
 impl IconShape for IoOpenOutline {
     fn view_box(&self) -> &str {
@@ -32452,7 +33249,7 @@ impl IconShape for IoOpenOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoOpenSharp;
 impl IconShape for IoOpenSharp {
     fn view_box(&self) -> &str {
@@ -32482,7 +33279,7 @@ impl IconShape for IoOpenSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoOpen;
 impl IconShape for IoOpen {
     fn view_box(&self) -> &str {
@@ -32512,7 +33309,7 @@ impl IconShape for IoOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoOptionsOutline;
 impl IconShape for IoOptionsOutline {
     fn view_box(&self) -> &str {
@@ -32596,7 +33393,7 @@ impl IconShape for IoOptionsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoOptionsSharp;
 impl IconShape for IoOptionsSharp {
     fn view_box(&self) -> &str {
@@ -32629,7 +33426,7 @@ impl IconShape for IoOptionsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoOptions;
 impl IconShape for IoOptions {
     fn view_box(&self) -> &str {
@@ -32662,7 +33459,7 @@ impl IconShape for IoOptions {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPaperPlaneOutline;
 impl IconShape for IoPaperPlaneOutline {
     fn view_box(&self) -> &str {
@@ -32697,7 +33494,7 @@ impl IconShape for IoPaperPlaneOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPaperPlaneSharp;
 impl IconShape for IoPaperPlaneSharp {
     fn view_box(&self) -> &str {
@@ -32724,7 +33521,7 @@ impl IconShape for IoPaperPlaneSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPaperPlane;
 impl IconShape for IoPaperPlane {
     fn view_box(&self) -> &str {
@@ -32751,7 +33548,7 @@ impl IconShape for IoPaperPlane {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPartlySunnyOutline;
 impl IconShape for IoPartlySunnyOutline {
     fn view_box(&self) -> &str {
@@ -32811,7 +33608,7 @@ impl IconShape for IoPartlySunnyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPartlySunnySharp;
 impl IconShape for IoPartlySunnySharp {
     fn view_box(&self) -> &str {
@@ -32863,7 +33660,7 @@ impl IconShape for IoPartlySunnySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPartlySunny;
 impl IconShape for IoPartlySunny {
     fn view_box(&self) -> &str {
@@ -32905,7 +33702,7 @@ impl IconShape for IoPartlySunny {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPauseCircleOutline;
 impl IconShape for IoPauseCircleOutline {
     fn view_box(&self) -> &str {
@@ -32947,7 +33744,7 @@ impl IconShape for IoPauseCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPauseCircleSharp;
 impl IconShape for IoPauseCircleSharp {
     fn view_box(&self) -> &str {
@@ -32974,7 +33771,7 @@ impl IconShape for IoPauseCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPauseCircle;
 impl IconShape for IoPauseCircle {
     fn view_box(&self) -> &str {
@@ -33001,7 +33798,7 @@ impl IconShape for IoPauseCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPauseOutline;
 impl IconShape for IoPauseOutline {
     fn view_box(&self) -> &str {
@@ -33039,7 +33836,7 @@ impl IconShape for IoPauseOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPauseSharp;
 impl IconShape for IoPauseSharp {
     fn view_box(&self) -> &str {
@@ -33069,7 +33866,7 @@ impl IconShape for IoPauseSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPause;
 impl IconShape for IoPause {
     fn view_box(&self) -> &str {
@@ -33099,7 +33896,7 @@ impl IconShape for IoPause {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPawOutline;
 impl IconShape for IoPawOutline {
     fn view_box(&self) -> &str {
@@ -33143,7 +33940,7 @@ impl IconShape for IoPawOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPawSharp;
 impl IconShape for IoPawSharp {
     fn view_box(&self) -> &str {
@@ -33194,7 +33991,7 @@ impl IconShape for IoPawSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPaw;
 impl IconShape for IoPaw {
     fn view_box(&self) -> &str {
@@ -33233,7 +34030,7 @@ impl IconShape for IoPaw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPencilOutline;
 impl IconShape for IoPencilOutline {
     fn view_box(&self) -> &str {
@@ -33265,7 +34062,7 @@ impl IconShape for IoPencilOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPencilSharp;
 impl IconShape for IoPencilSharp {
     fn view_box(&self) -> &str {
@@ -33295,7 +34092,7 @@ impl IconShape for IoPencilSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPencil;
 impl IconShape for IoPencil {
     fn view_box(&self) -> &str {
@@ -33327,7 +34124,7 @@ impl IconShape for IoPencil {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPeopleCircleOutline;
 impl IconShape for IoPeopleCircleOutline {
     fn view_box(&self) -> &str {
@@ -33366,7 +34163,7 @@ impl IconShape for IoPeopleCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPeopleCircleSharp;
 impl IconShape for IoPeopleCircleSharp {
     fn view_box(&self) -> &str {
@@ -33393,7 +34190,7 @@ impl IconShape for IoPeopleCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPeopleCircle;
 impl IconShape for IoPeopleCircle {
     fn view_box(&self) -> &str {
@@ -33480,7 +34277,7 @@ impl IconShape for IoPeopleCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPeopleOutline;
 impl IconShape for IoPeopleOutline {
     fn view_box(&self) -> &str {
@@ -33520,7 +34317,7 @@ impl IconShape for IoPeopleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPeopleSharp;
 impl IconShape for IoPeopleSharp {
     fn view_box(&self) -> &str {
@@ -33560,7 +34357,7 @@ impl IconShape for IoPeopleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPeople;
 impl IconShape for IoPeople {
     fn view_box(&self) -> &str {
@@ -33596,7 +34393,7 @@ impl IconShape for IoPeople {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonAddOutline;
 impl IconShape for IoPersonAddOutline {
     fn view_box(&self) -> &str {
@@ -33642,7 +34439,7 @@ impl IconShape for IoPersonAddOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonAddSharp;
 impl IconShape for IoPersonAddSharp {
     fn view_box(&self) -> &str {
@@ -33677,7 +34474,7 @@ impl IconShape for IoPersonAddSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonAdd;
 impl IconShape for IoPersonAdd {
     fn view_box(&self) -> &str {
@@ -33710,7 +34507,7 @@ impl IconShape for IoPersonAdd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonCircleOutline;
 impl IconShape for IoPersonCircleOutline {
     fn view_box(&self) -> &str {
@@ -33740,7 +34537,7 @@ impl IconShape for IoPersonCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonCircleSharp;
 impl IconShape for IoPersonCircleSharp {
     fn view_box(&self) -> &str {
@@ -33767,7 +34564,7 @@ impl IconShape for IoPersonCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonCircle;
 impl IconShape for IoPersonCircle {
     fn view_box(&self) -> &str {
@@ -33794,7 +34591,7 @@ impl IconShape for IoPersonCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonOutline;
 impl IconShape for IoPersonOutline {
     fn view_box(&self) -> &str {
@@ -33826,7 +34623,7 @@ impl IconShape for IoPersonOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonRemoveOutline;
 impl IconShape for IoPersonRemoveOutline {
     fn view_box(&self) -> &str {
@@ -33865,7 +34662,7 @@ impl IconShape for IoPersonRemoveOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonRemoveSharp;
 impl IconShape for IoPersonRemoveSharp {
     fn view_box(&self) -> &str {
@@ -33903,7 +34700,7 @@ impl IconShape for IoPersonRemoveSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonRemove;
 impl IconShape for IoPersonRemove {
     fn view_box(&self) -> &str {
@@ -33936,7 +34733,7 @@ impl IconShape for IoPersonRemove {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPersonSharp;
 impl IconShape for IoPersonSharp {
     fn view_box(&self) -> &str {
@@ -33963,7 +34760,7 @@ impl IconShape for IoPersonSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPerson;
 impl IconShape for IoPerson {
     fn view_box(&self) -> &str {
@@ -33993,7 +34790,7 @@ impl IconShape for IoPerson {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPhoneLandscapeOutline;
 impl IconShape for IoPhoneLandscapeOutline {
     fn view_box(&self) -> &str {
@@ -34031,7 +34828,7 @@ impl IconShape for IoPhoneLandscapeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPhoneLandscapeSharp;
 impl IconShape for IoPhoneLandscapeSharp {
     fn view_box(&self) -> &str {
@@ -34058,7 +34855,7 @@ impl IconShape for IoPhoneLandscapeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPhoneLandscape;
 impl IconShape for IoPhoneLandscape {
     fn view_box(&self) -> &str {
@@ -34091,7 +34888,7 @@ impl IconShape for IoPhoneLandscape {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPhonePortraitOutline;
 impl IconShape for IoPhonePortraitOutline {
     fn view_box(&self) -> &str {
@@ -34128,7 +34925,7 @@ impl IconShape for IoPhonePortraitOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPhonePortraitSharp;
 impl IconShape for IoPhonePortraitSharp {
     fn view_box(&self) -> &str {
@@ -34155,7 +34952,7 @@ impl IconShape for IoPhonePortraitSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPhonePortrait;
 impl IconShape for IoPhonePortrait {
     fn view_box(&self) -> &str {
@@ -34188,7 +34985,7 @@ impl IconShape for IoPhonePortrait {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPieChartOutline;
 impl IconShape for IoPieChartOutline {
     fn view_box(&self) -> &str {
@@ -34220,7 +35017,7 @@ impl IconShape for IoPieChartOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPieChartSharp;
 impl IconShape for IoPieChartSharp {
     fn view_box(&self) -> &str {
@@ -34250,7 +35047,7 @@ impl IconShape for IoPieChartSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPieChart;
 impl IconShape for IoPieChart {
     fn view_box(&self) -> &str {
@@ -34280,7 +35077,7 @@ impl IconShape for IoPieChart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPinOutline;
 impl IconShape for IoPinOutline {
     fn view_box(&self) -> &str {
@@ -34318,7 +35115,7 @@ impl IconShape for IoPinOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPinSharp;
 impl IconShape for IoPinSharp {
     fn view_box(&self) -> &str {
@@ -34345,7 +35142,7 @@ impl IconShape for IoPinSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPin;
 impl IconShape for IoPin {
     fn view_box(&self) -> &str {
@@ -34372,7 +35169,7 @@ impl IconShape for IoPin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPintOutline;
 impl IconShape for IoPintOutline {
     fn view_box(&self) -> &str {
@@ -34407,7 +35204,7 @@ impl IconShape for IoPintOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPintSharp;
 impl IconShape for IoPintSharp {
     fn view_box(&self) -> &str {
@@ -34434,7 +35231,7 @@ impl IconShape for IoPintSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPint;
 impl IconShape for IoPint {
     fn view_box(&self) -> &str {
@@ -34461,7 +35258,7 @@ impl IconShape for IoPint {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPizzaOutline;
 impl IconShape for IoPizzaOutline {
     fn view_box(&self) -> &str {
@@ -34508,7 +35305,7 @@ impl IconShape for IoPizzaOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPizzaSharp;
 impl IconShape for IoPizzaSharp {
     fn view_box(&self) -> &str {
@@ -34562,7 +35359,7 @@ impl IconShape for IoPizzaSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPizza;
 impl IconShape for IoPizza {
     fn view_box(&self) -> &str {
@@ -34592,7 +35389,7 @@ impl IconShape for IoPizza {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlanetOutline;
 impl IconShape for IoPlanetOutline {
     fn view_box(&self) -> &str {
@@ -34626,7 +35423,7 @@ impl IconShape for IoPlanetOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlanetSharp;
 impl IconShape for IoPlanetSharp {
     fn view_box(&self) -> &str {
@@ -34656,7 +35453,7 @@ impl IconShape for IoPlanetSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlanet;
 impl IconShape for IoPlanet {
     fn view_box(&self) -> &str {
@@ -34686,7 +35483,7 @@ impl IconShape for IoPlanet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayBackCircleOutline;
 impl IconShape for IoPlayBackCircleOutline {
     fn view_box(&self) -> &str {
@@ -34717,7 +35514,7 @@ impl IconShape for IoPlayBackCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayBackCircleSharp;
 impl IconShape for IoPlayBackCircleSharp {
     fn view_box(&self) -> &str {
@@ -34744,7 +35541,7 @@ impl IconShape for IoPlayBackCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayBackCircle;
 impl IconShape for IoPlayBackCircle {
     fn view_box(&self) -> &str {
@@ -34771,7 +35568,7 @@ impl IconShape for IoPlayBackCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayBackOutline;
 impl IconShape for IoPlayBackOutline {
     fn view_box(&self) -> &str {
@@ -34803,7 +35600,7 @@ impl IconShape for IoPlayBackOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayBackSharp;
 impl IconShape for IoPlayBackSharp {
     fn view_box(&self) -> &str {
@@ -34833,7 +35630,7 @@ impl IconShape for IoPlayBackSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayBack;
 impl IconShape for IoPlayBack {
     fn view_box(&self) -> &str {
@@ -34860,7 +35657,7 @@ impl IconShape for IoPlayBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayCircleOutline;
 impl IconShape for IoPlayCircleOutline {
     fn view_box(&self) -> &str {
@@ -34891,7 +35688,7 @@ impl IconShape for IoPlayCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayCircleSharp;
 impl IconShape for IoPlayCircleSharp {
     fn view_box(&self) -> &str {
@@ -34918,7 +35715,7 @@ impl IconShape for IoPlayCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayCircle;
 impl IconShape for IoPlayCircle {
     fn view_box(&self) -> &str {
@@ -34945,7 +35742,7 @@ impl IconShape for IoPlayCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayForwardCircleOutline;
 impl IconShape for IoPlayForwardCircleOutline {
     fn view_box(&self) -> &str {
@@ -34976,7 +35773,7 @@ impl IconShape for IoPlayForwardCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayForwardCircleSharp;
 impl IconShape for IoPlayForwardCircleSharp {
     fn view_box(&self) -> &str {
@@ -35003,7 +35800,7 @@ impl IconShape for IoPlayForwardCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayForwardCircle;
 impl IconShape for IoPlayForwardCircle {
     fn view_box(&self) -> &str {
@@ -35030,7 +35827,7 @@ impl IconShape for IoPlayForwardCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayForwardOutline;
 impl IconShape for IoPlayForwardOutline {
     fn view_box(&self) -> &str {
@@ -35062,7 +35859,7 @@ impl IconShape for IoPlayForwardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayForwardSharp;
 impl IconShape for IoPlayForwardSharp {
     fn view_box(&self) -> &str {
@@ -35092,7 +35889,7 @@ impl IconShape for IoPlayForwardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayForward;
 impl IconShape for IoPlayForward {
     fn view_box(&self) -> &str {
@@ -35119,7 +35916,7 @@ impl IconShape for IoPlayForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlayOutline;
 impl IconShape for IoPlayOutline {
     fn view_box(&self) -> &str {
@@ -35147,7 +35944,7 @@ impl IconShape for IoPlayOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySharp;
 impl IconShape for IoPlaySharp {
     fn view_box(&self) -> &str {
@@ -35174,7 +35971,7 @@ impl IconShape for IoPlaySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipBackCircleOutline;
 impl IconShape for IoPlaySkipBackCircleOutline {
     fn view_box(&self) -> &str {
@@ -35205,7 +36002,7 @@ impl IconShape for IoPlaySkipBackCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipBackCircleSharp;
 impl IconShape for IoPlaySkipBackCircleSharp {
     fn view_box(&self) -> &str {
@@ -35232,7 +36029,7 @@ impl IconShape for IoPlaySkipBackCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipBackCircle;
 impl IconShape for IoPlaySkipBackCircle {
     fn view_box(&self) -> &str {
@@ -35259,7 +36056,7 @@ impl IconShape for IoPlaySkipBackCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipBackOutline;
 impl IconShape for IoPlaySkipBackOutline {
     fn view_box(&self) -> &str {
@@ -35294,7 +36091,7 @@ impl IconShape for IoPlaySkipBackOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipBackSharp;
 impl IconShape for IoPlaySkipBackSharp {
     fn view_box(&self) -> &str {
@@ -35321,7 +36118,7 @@ impl IconShape for IoPlaySkipBackSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipBack;
 impl IconShape for IoPlaySkipBack {
     fn view_box(&self) -> &str {
@@ -35348,7 +36145,7 @@ impl IconShape for IoPlaySkipBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipForwardCircleOutline;
 impl IconShape for IoPlaySkipForwardCircleOutline {
     fn view_box(&self) -> &str {
@@ -35379,7 +36176,7 @@ impl IconShape for IoPlaySkipForwardCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipForwardCircleSharp;
 impl IconShape for IoPlaySkipForwardCircleSharp {
     fn view_box(&self) -> &str {
@@ -35406,7 +36203,7 @@ impl IconShape for IoPlaySkipForwardCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipForwardCircle;
 impl IconShape for IoPlaySkipForwardCircle {
     fn view_box(&self) -> &str {
@@ -35433,7 +36230,7 @@ impl IconShape for IoPlaySkipForwardCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipForwardOutline;
 impl IconShape for IoPlaySkipForwardOutline {
     fn view_box(&self) -> &str {
@@ -35468,7 +36265,7 @@ impl IconShape for IoPlaySkipForwardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipForwardSharp;
 impl IconShape for IoPlaySkipForwardSharp {
     fn view_box(&self) -> &str {
@@ -35495,7 +36292,7 @@ impl IconShape for IoPlaySkipForwardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlaySkipForward;
 impl IconShape for IoPlaySkipForward {
     fn view_box(&self) -> &str {
@@ -35522,7 +36319,7 @@ impl IconShape for IoPlaySkipForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPlay;
 impl IconShape for IoPlay {
     fn view_box(&self) -> &str {
@@ -35549,7 +36346,7 @@ impl IconShape for IoPlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPodiumOutline;
 impl IconShape for IoPodiumOutline {
     fn view_box(&self) -> &str {
@@ -35585,7 +36382,7 @@ impl IconShape for IoPodiumOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPodiumSharp;
 impl IconShape for IoPodiumSharp {
     fn view_box(&self) -> &str {
@@ -35627,7 +36424,7 @@ impl IconShape for IoPodiumSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPodium;
 impl IconShape for IoPodium {
     fn view_box(&self) -> &str {
@@ -35660,7 +36457,7 @@ impl IconShape for IoPodium {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPowerOutline;
 impl IconShape for IoPowerOutline {
     fn view_box(&self) -> &str {
@@ -35695,7 +36492,7 @@ impl IconShape for IoPowerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPowerSharp;
 impl IconShape for IoPowerSharp {
     fn view_box(&self) -> &str {
@@ -35728,7 +36525,7 @@ impl IconShape for IoPowerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPower;
 impl IconShape for IoPower {
     fn view_box(&self) -> &str {
@@ -35758,7 +36555,7 @@ impl IconShape for IoPower {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPricetagOutline;
 impl IconShape for IoPricetagOutline {
     fn view_box(&self) -> &str {
@@ -35789,7 +36586,7 @@ impl IconShape for IoPricetagOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPricetagSharp;
 impl IconShape for IoPricetagSharp {
     fn view_box(&self) -> &str {
@@ -35816,7 +36613,7 @@ impl IconShape for IoPricetagSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPricetag;
 impl IconShape for IoPricetag {
     fn view_box(&self) -> &str {
@@ -35843,7 +36640,7 @@ impl IconShape for IoPricetag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPricetagsOutline;
 impl IconShape for IoPricetagsOutline {
     fn view_box(&self) -> &str {
@@ -35878,7 +36675,7 @@ impl IconShape for IoPricetagsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPricetagsSharp;
 impl IconShape for IoPricetagsSharp {
     fn view_box(&self) -> &str {
@@ -35908,7 +36705,7 @@ impl IconShape for IoPricetagsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPricetags;
 impl IconShape for IoPricetags {
     fn view_box(&self) -> &str {
@@ -35938,7 +36735,7 @@ impl IconShape for IoPricetags {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPrintOutline;
 impl IconShape for IoPrintOutline {
     fn view_box(&self) -> &str {
@@ -35984,7 +36781,7 @@ impl IconShape for IoPrintOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPrintSharp;
 impl IconShape for IoPrintSharp {
     fn view_box(&self) -> &str {
@@ -36032,7 +36829,7 @@ impl IconShape for IoPrintSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPrint;
 impl IconShape for IoPrint {
     fn view_box(&self) -> &str {
@@ -36062,7 +36859,7 @@ impl IconShape for IoPrint {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPrismOutline;
 impl IconShape for IoPrismOutline {
     fn view_box(&self) -> &str {
@@ -36103,7 +36900,7 @@ impl IconShape for IoPrismOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPrismSharp;
 impl IconShape for IoPrismSharp {
     fn view_box(&self) -> &str {
@@ -36130,7 +36927,7 @@ impl IconShape for IoPrismSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPrism;
 impl IconShape for IoPrism {
     fn view_box(&self) -> &str {
@@ -36157,7 +36954,7 @@ impl IconShape for IoPrism {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPulseOutline;
 impl IconShape for IoPulseOutline {
     fn view_box(&self) -> &str {
@@ -36191,7 +36988,7 @@ impl IconShape for IoPulseOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPulseSharp;
 impl IconShape for IoPulseSharp {
     fn view_box(&self) -> &str {
@@ -36218,7 +37015,7 @@ impl IconShape for IoPulseSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPulse;
 impl IconShape for IoPulse {
     fn view_box(&self) -> &str {
@@ -36245,7 +37042,7 @@ impl IconShape for IoPulse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPushOutline;
 impl IconShape for IoPushOutline {
     fn view_box(&self) -> &str {
@@ -36284,7 +37081,7 @@ impl IconShape for IoPushOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPushSharp;
 impl IconShape for IoPushSharp {
     fn view_box(&self) -> &str {
@@ -36317,7 +37114,7 @@ impl IconShape for IoPushSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoPush;
 impl IconShape for IoPush {
     fn view_box(&self) -> &str {
@@ -36347,7 +37144,7 @@ impl IconShape for IoPush {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoQrCodeOutline;
 impl IconShape for IoQrCodeOutline {
     fn view_box(&self) -> &str {
@@ -36462,7 +37259,7 @@ impl IconShape for IoQrCodeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoQrCodeSharp;
 impl IconShape for IoQrCodeSharp {
     fn view_box(&self) -> &str {
@@ -36543,7 +37340,7 @@ impl IconShape for IoQrCodeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoQrCode;
 impl IconShape for IoQrCode {
     fn view_box(&self) -> &str {
@@ -36616,7 +37413,7 @@ impl IconShape for IoQrCode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadioButtonOffOutline;
 impl IconShape for IoRadioButtonOffOutline {
     fn view_box(&self) -> &str {
@@ -36644,7 +37441,7 @@ impl IconShape for IoRadioButtonOffOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadioButtonOffSharp;
 impl IconShape for IoRadioButtonOffSharp {
     fn view_box(&self) -> &str {
@@ -36672,7 +37469,7 @@ impl IconShape for IoRadioButtonOffSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadioButtonOff;
 impl IconShape for IoRadioButtonOff {
     fn view_box(&self) -> &str {
@@ -36700,7 +37497,7 @@ impl IconShape for IoRadioButtonOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadioButtonOnOutline;
 impl IconShape for IoRadioButtonOnOutline {
     fn view_box(&self) -> &str {
@@ -36733,7 +37530,7 @@ impl IconShape for IoRadioButtonOnOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadioButtonOnSharp;
 impl IconShape for IoRadioButtonOnSharp {
     fn view_box(&self) -> &str {
@@ -36766,7 +37563,7 @@ impl IconShape for IoRadioButtonOnSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadioButtonOn;
 impl IconShape for IoRadioButtonOn {
     fn view_box(&self) -> &str {
@@ -36799,7 +37596,7 @@ impl IconShape for IoRadioButtonOn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadioOutline;
 impl IconShape for IoRadioOutline {
     fn view_box(&self) -> &str {
@@ -36852,7 +37649,7 @@ impl IconShape for IoRadioOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadioSharp;
 impl IconShape for IoRadioSharp {
     fn view_box(&self) -> &str {
@@ -36900,7 +37697,7 @@ impl IconShape for IoRadioSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRadio;
 impl IconShape for IoRadio {
     fn view_box(&self) -> &str {
@@ -36947,7 +37744,7 @@ impl IconShape for IoRadio {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRainyOutline;
 impl IconShape for IoRainyOutline {
     fn view_box(&self) -> &str {
@@ -37003,7 +37800,7 @@ impl IconShape for IoRainyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRainySharp;
 impl IconShape for IoRainySharp {
     fn view_box(&self) -> &str {
@@ -37058,7 +37855,7 @@ impl IconShape for IoRainySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRainy;
 impl IconShape for IoRainy {
     fn view_box(&self) -> &str {
@@ -37097,7 +37894,7 @@ impl IconShape for IoRainy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReaderOutline;
 impl IconShape for IoReaderOutline {
     fn view_box(&self) -> &str {
@@ -37151,7 +37948,7 @@ impl IconShape for IoReaderOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReaderSharp;
 impl IconShape for IoReaderSharp {
     fn view_box(&self) -> &str {
@@ -37178,7 +37975,7 @@ impl IconShape for IoReaderSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReader;
 impl IconShape for IoReader {
     fn view_box(&self) -> &str {
@@ -37205,7 +38002,7 @@ impl IconShape for IoReader {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReceiptOutline;
 impl IconShape for IoReceiptOutline {
     fn view_box(&self) -> &str {
@@ -37251,7 +38048,7 @@ impl IconShape for IoReceiptOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReceiptSharp;
 impl IconShape for IoReceiptSharp {
     fn view_box(&self) -> &str {
@@ -37281,7 +38078,7 @@ impl IconShape for IoReceiptSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReceipt;
 impl IconShape for IoReceipt {
     fn view_box(&self) -> &str {
@@ -37311,7 +38108,7 @@ impl IconShape for IoReceipt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRecordingOutline;
 impl IconShape for IoRecordingOutline {
     fn view_box(&self) -> &str {
@@ -37354,7 +38151,7 @@ impl IconShape for IoRecordingOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRecordingSharp;
 impl IconShape for IoRecordingSharp {
     fn view_box(&self) -> &str {
@@ -37381,7 +38178,7 @@ impl IconShape for IoRecordingSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRecording;
 impl IconShape for IoRecording {
     fn view_box(&self) -> &str {
@@ -37408,7 +38205,7 @@ impl IconShape for IoRecording {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRefreshCircleOutline;
 impl IconShape for IoRefreshCircleOutline {
     fn view_box(&self) -> &str {
@@ -37444,7 +38241,7 @@ impl IconShape for IoRefreshCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRefreshCircleSharp;
 impl IconShape for IoRefreshCircleSharp {
     fn view_box(&self) -> &str {
@@ -37471,7 +38268,7 @@ impl IconShape for IoRefreshCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRefreshCircle;
 impl IconShape for IoRefreshCircle {
     fn view_box(&self) -> &str {
@@ -37498,7 +38295,7 @@ impl IconShape for IoRefreshCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRefreshOutline;
 impl IconShape for IoRefreshOutline {
     fn view_box(&self) -> &str {
@@ -37530,7 +38327,7 @@ impl IconShape for IoRefreshOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRefreshSharp;
 impl IconShape for IoRefreshSharp {
     fn view_box(&self) -> &str {
@@ -37562,7 +38359,7 @@ impl IconShape for IoRefreshSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRefresh;
 impl IconShape for IoRefresh {
     fn view_box(&self) -> &str {
@@ -37594,7 +38391,7 @@ impl IconShape for IoRefresh {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReloadCircleOutline;
 impl IconShape for IoReloadCircleOutline {
     fn view_box(&self) -> &str {
@@ -37629,7 +38426,7 @@ impl IconShape for IoReloadCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReloadCircleSharp;
 impl IconShape for IoReloadCircleSharp {
     fn view_box(&self) -> &str {
@@ -37656,7 +38453,7 @@ impl IconShape for IoReloadCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReloadCircle;
 impl IconShape for IoReloadCircle {
     fn view_box(&self) -> &str {
@@ -37683,7 +38480,7 @@ impl IconShape for IoReloadCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReloadOutline;
 impl IconShape for IoReloadOutline {
     fn view_box(&self) -> &str {
@@ -37714,7 +38511,7 @@ impl IconShape for IoReloadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReloadSharp;
 impl IconShape for IoReloadSharp {
     fn view_box(&self) -> &str {
@@ -37745,7 +38542,7 @@ impl IconShape for IoReloadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReload;
 impl IconShape for IoReload {
     fn view_box(&self) -> &str {
@@ -37776,7 +38573,7 @@ impl IconShape for IoReload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRemoveCircleOutline;
 impl IconShape for IoRemoveCircleOutline {
     fn view_box(&self) -> &str {
@@ -37811,7 +38608,7 @@ impl IconShape for IoRemoveCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRemoveCircleSharp;
 impl IconShape for IoRemoveCircleSharp {
     fn view_box(&self) -> &str {
@@ -37838,7 +38635,7 @@ impl IconShape for IoRemoveCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRemoveCircle;
 impl IconShape for IoRemoveCircle {
     fn view_box(&self) -> &str {
@@ -37865,7 +38662,7 @@ impl IconShape for IoRemoveCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRemoveOutline;
 impl IconShape for IoRemoveOutline {
     fn view_box(&self) -> &str {
@@ -37896,7 +38693,7 @@ impl IconShape for IoRemoveOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRemoveSharp;
 impl IconShape for IoRemoveSharp {
     fn view_box(&self) -> &str {
@@ -37927,7 +38724,7 @@ impl IconShape for IoRemoveSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRemove;
 impl IconShape for IoRemove {
     fn view_box(&self) -> &str {
@@ -37958,7 +38755,7 @@ impl IconShape for IoRemove {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderFourOutline;
 impl IconShape for IoReorderFourOutline {
     fn view_box(&self) -> &str {
@@ -38010,7 +38807,7 @@ impl IconShape for IoReorderFourOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderFourSharp;
 impl IconShape for IoReorderFourSharp {
     fn view_box(&self) -> &str {
@@ -38062,7 +38859,7 @@ impl IconShape for IoReorderFourSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderFour;
 impl IconShape for IoReorderFour {
     fn view_box(&self) -> &str {
@@ -38114,7 +38911,7 @@ impl IconShape for IoReorderFour {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderThreeOutline;
 impl IconShape for IoReorderThreeOutline {
     fn view_box(&self) -> &str {
@@ -38159,7 +38956,7 @@ impl IconShape for IoReorderThreeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderThreeSharp;
 impl IconShape for IoReorderThreeSharp {
     fn view_box(&self) -> &str {
@@ -38204,7 +39001,7 @@ impl IconShape for IoReorderThreeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderThree;
 impl IconShape for IoReorderThree {
     fn view_box(&self) -> &str {
@@ -38249,7 +39046,7 @@ impl IconShape for IoReorderThree {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderTwoOutline;
 impl IconShape for IoReorderTwoOutline {
     fn view_box(&self) -> &str {
@@ -38287,7 +39084,7 @@ impl IconShape for IoReorderTwoOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderTwoSharp;
 impl IconShape for IoReorderTwoSharp {
     fn view_box(&self) -> &str {
@@ -38325,7 +39122,7 @@ impl IconShape for IoReorderTwoSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReorderTwo;
 impl IconShape for IoReorderTwo {
     fn view_box(&self) -> &str {
@@ -38363,7 +39160,7 @@ impl IconShape for IoReorderTwo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRepeatOutline;
 impl IconShape for IoRepeatOutline {
     fn view_box(&self) -> &str {
@@ -38403,7 +39200,7 @@ impl IconShape for IoRepeatOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRepeatSharp;
 impl IconShape for IoRepeatSharp {
     fn view_box(&self) -> &str {
@@ -38443,7 +39240,7 @@ impl IconShape for IoRepeatSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRepeat;
 impl IconShape for IoRepeat {
     fn view_box(&self) -> &str {
@@ -38483,7 +39280,7 @@ impl IconShape for IoRepeat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoResizeOutline;
 impl IconShape for IoResizeOutline {
     fn view_box(&self) -> &str {
@@ -38522,7 +39319,7 @@ impl IconShape for IoResizeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoResizeSharp;
 impl IconShape for IoResizeSharp {
     fn view_box(&self) -> &str {
@@ -38561,7 +39358,7 @@ impl IconShape for IoResizeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoResize;
 impl IconShape for IoResize {
     fn view_box(&self) -> &str {
@@ -38600,7 +39397,7 @@ impl IconShape for IoResize {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRestaurantOutline;
 impl IconShape for IoRestaurantOutline {
     fn view_box(&self) -> &str {
@@ -38647,7 +39444,7 @@ impl IconShape for IoRestaurantOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRestaurantSharp;
 impl IconShape for IoRestaurantSharp {
     fn view_box(&self) -> &str {
@@ -38677,7 +39474,7 @@ impl IconShape for IoRestaurantSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRestaurant;
 impl IconShape for IoRestaurant {
     fn view_box(&self) -> &str {
@@ -38707,7 +39504,7 @@ impl IconShape for IoRestaurant {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnDownBackOutline;
 impl IconShape for IoReturnDownBackOutline {
     fn view_box(&self) -> &str {
@@ -38739,7 +39536,7 @@ impl IconShape for IoReturnDownBackOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnDownBackSharp;
 impl IconShape for IoReturnDownBackSharp {
     fn view_box(&self) -> &str {
@@ -38771,7 +39568,7 @@ impl IconShape for IoReturnDownBackSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnDownBack;
 impl IconShape for IoReturnDownBack {
     fn view_box(&self) -> &str {
@@ -38803,7 +39600,7 @@ impl IconShape for IoReturnDownBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnDownForwardOutline;
 impl IconShape for IoReturnDownForwardOutline {
     fn view_box(&self) -> &str {
@@ -38835,7 +39632,7 @@ impl IconShape for IoReturnDownForwardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnDownForwardSharp;
 impl IconShape for IoReturnDownForwardSharp {
     fn view_box(&self) -> &str {
@@ -38867,7 +39664,7 @@ impl IconShape for IoReturnDownForwardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnDownForward;
 impl IconShape for IoReturnDownForward {
     fn view_box(&self) -> &str {
@@ -38899,7 +39696,7 @@ impl IconShape for IoReturnDownForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnUpBackOutline;
 impl IconShape for IoReturnUpBackOutline {
     fn view_box(&self) -> &str {
@@ -38931,7 +39728,7 @@ impl IconShape for IoReturnUpBackOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnUpBackSharp;
 impl IconShape for IoReturnUpBackSharp {
     fn view_box(&self) -> &str {
@@ -38963,7 +39760,7 @@ impl IconShape for IoReturnUpBackSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnUpBack;
 impl IconShape for IoReturnUpBack {
     fn view_box(&self) -> &str {
@@ -38995,7 +39792,7 @@ impl IconShape for IoReturnUpBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnUpForwardOutline;
 impl IconShape for IoReturnUpForwardOutline {
     fn view_box(&self) -> &str {
@@ -39027,7 +39824,7 @@ impl IconShape for IoReturnUpForwardOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnUpForwardSharp;
 impl IconShape for IoReturnUpForwardSharp {
     fn view_box(&self) -> &str {
@@ -39059,7 +39856,7 @@ impl IconShape for IoReturnUpForwardSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoReturnUpForward;
 impl IconShape for IoReturnUpForward {
     fn view_box(&self) -> &str {
@@ -39091,7 +39888,7 @@ impl IconShape for IoReturnUpForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRibbonOutline;
 impl IconShape for IoRibbonOutline {
     fn view_box(&self) -> &str {
@@ -39135,7 +39932,7 @@ impl IconShape for IoRibbonOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRibbonSharp;
 impl IconShape for IoRibbonSharp {
     fn view_box(&self) -> &str {
@@ -39173,7 +39970,7 @@ impl IconShape for IoRibbonSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRibbon;
 impl IconShape for IoRibbon {
     fn view_box(&self) -> &str {
@@ -39212,7 +40009,7 @@ impl IconShape for IoRibbon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRocketOutline;
 impl IconShape for IoRocketOutline {
     fn view_box(&self) -> &str {
@@ -39244,7 +40041,7 @@ impl IconShape for IoRocketOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRocketSharp;
 impl IconShape for IoRocketSharp {
     fn view_box(&self) -> &str {
@@ -39274,7 +40071,7 @@ impl IconShape for IoRocketSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRocket;
 impl IconShape for IoRocket {
     fn view_box(&self) -> &str {
@@ -39307,7 +40104,7 @@ impl IconShape for IoRocket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRoseOutline;
 impl IconShape for IoRoseOutline {
     fn view_box(&self) -> &str {
@@ -39347,7 +40144,7 @@ impl IconShape for IoRoseOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRoseSharp;
 impl IconShape for IoRoseSharp {
     fn view_box(&self) -> &str {
@@ -39383,7 +40180,7 @@ impl IconShape for IoRoseSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoRose;
 impl IconShape for IoRose {
     fn view_box(&self) -> &str {
@@ -39419,7 +40216,7 @@ impl IconShape for IoRose {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSadOutline;
 impl IconShape for IoSadOutline {
     fn view_box(&self) -> &str {
@@ -39462,7 +40259,7 @@ impl IconShape for IoSadOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSadSharp;
 impl IconShape for IoSadSharp {
     fn view_box(&self) -> &str {
@@ -39489,7 +40286,7 @@ impl IconShape for IoSadSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSad;
 impl IconShape for IoSad {
     fn view_box(&self) -> &str {
@@ -39516,7 +40313,7 @@ impl IconShape for IoSad {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSaveOutline;
 impl IconShape for IoSaveOutline {
     fn view_box(&self) -> &str {
@@ -39544,7 +40341,7 @@ impl IconShape for IoSaveOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSaveSharp;
 impl IconShape for IoSaveSharp {
     fn view_box(&self) -> &str {
@@ -39571,7 +40368,7 @@ impl IconShape for IoSaveSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSave;
 impl IconShape for IoSave {
     fn view_box(&self) -> &str {
@@ -39603,7 +40400,7 @@ impl IconShape for IoSave {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScaleOutline;
 impl IconShape for IoScaleOutline {
     fn view_box(&self) -> &str {
@@ -39643,7 +40440,7 @@ impl IconShape for IoScaleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScaleSharp;
 impl IconShape for IoScaleSharp {
     fn view_box(&self) -> &str {
@@ -39670,7 +40467,7 @@ impl IconShape for IoScaleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScale;
 impl IconShape for IoScale {
     fn view_box(&self) -> &str {
@@ -39697,7 +40494,7 @@ impl IconShape for IoScale {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScanCircleOutline;
 impl IconShape for IoScanCircleOutline {
     fn view_box(&self) -> &str {
@@ -39741,7 +40538,7 @@ impl IconShape for IoScanCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScanCircleSharp;
 impl IconShape for IoScanCircleSharp {
     fn view_box(&self) -> &str {
@@ -39768,7 +40565,7 @@ impl IconShape for IoScanCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScanCircle;
 impl IconShape for IoScanCircle {
     fn view_box(&self) -> &str {
@@ -39795,7 +40592,7 @@ impl IconShape for IoScanCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScanOutline;
 impl IconShape for IoScanOutline {
     fn view_box(&self) -> &str {
@@ -39835,7 +40632,7 @@ impl IconShape for IoScanOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScanSharp;
 impl IconShape for IoScanSharp {
     fn view_box(&self) -> &str {
@@ -39871,7 +40668,7 @@ impl IconShape for IoScanSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoScan;
 impl IconShape for IoScan {
     fn view_box(&self) -> &str {
@@ -39911,7 +40708,7 @@ impl IconShape for IoScan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSchoolOutline;
 impl IconShape for IoSchoolOutline {
     fn view_box(&self) -> &str {
@@ -39957,7 +40754,7 @@ impl IconShape for IoSchoolOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSchoolSharp;
 impl IconShape for IoSchoolSharp {
     fn view_box(&self) -> &str {
@@ -39987,7 +40784,7 @@ impl IconShape for IoSchoolSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSchool;
 impl IconShape for IoSchool {
     fn view_box(&self) -> &str {
@@ -40017,7 +40814,7 @@ impl IconShape for IoSchool {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSearchCircleOutline;
 impl IconShape for IoSearchCircleOutline {
     fn view_box(&self) -> &str {
@@ -40056,7 +40853,7 @@ impl IconShape for IoSearchCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSearchCircleSharp;
 impl IconShape for IoSearchCircleSharp {
     fn view_box(&self) -> &str {
@@ -40088,7 +40885,7 @@ impl IconShape for IoSearchCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSearchCircle;
 impl IconShape for IoSearchCircle {
     fn view_box(&self) -> &str {
@@ -40120,7 +40917,7 @@ impl IconShape for IoSearchCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSearchOutline;
 impl IconShape for IoSearchOutline {
     fn view_box(&self) -> &str {
@@ -40155,7 +40952,7 @@ impl IconShape for IoSearchOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSearchSharp;
 impl IconShape for IoSearchSharp {
     fn view_box(&self) -> &str {
@@ -40182,7 +40979,7 @@ impl IconShape for IoSearchSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSearch;
 impl IconShape for IoSearch {
     fn view_box(&self) -> &str {
@@ -40209,7 +41006,7 @@ impl IconShape for IoSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSendOutline;
 impl IconShape for IoSendOutline {
     fn view_box(&self) -> &str {
@@ -40237,7 +41034,7 @@ impl IconShape for IoSendOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSendSharp;
 impl IconShape for IoSendSharp {
     fn view_box(&self) -> &str {
@@ -40264,7 +41061,7 @@ impl IconShape for IoSendSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSend;
 impl IconShape for IoSend {
     fn view_box(&self) -> &str {
@@ -40291,7 +41088,7 @@ impl IconShape for IoSend {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoServerOutline;
 impl IconShape for IoServerOutline {
     fn view_box(&self) -> &str {
@@ -40313,28 +41110,33 @@ impl IconShape for IoServerOutline {
         rsx! {
             ellipse {
                 cx: "256",
-                cy: "128",
-                rx: "192",
+                cy: "112",
+                rx: "176",
                 ry: "80",
-                style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M448,214c0,44.18-86,80-192,80S64,258.18,64,214",
-                style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M432 112C432 112 432 376.055 432 400C432 444.183 353.202 480 256 480C158.798 480 80 444.183 80 400C80 378.169 80 112 80 112",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M448,300c0,44.18-86,80-192,80S64,344.18,64,300",
-                style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-            }
-            path {
-                d: "M64,127.24V384.76C64,428.52,150,464,256,464s192-35.48,192-79.24V127.24",
-                style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M432 256C432 300.183 353.202 336 256 336C158.798 336 80 300.183 80 256",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoServerSharp;
 impl IconShape for IoServerSharp {
     fn view_box(&self) -> &str {
@@ -40355,22 +41157,19 @@ impl IconShape for IoServerSharp {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M409.43,389.87C362,410,305.4,421.05,256,421.05s-105.87-11.3-153.44-31.18S48,353.16,48,353.16v38.2c0,31.15,18,43.64,67.32,64.35C153.13,471.59,203.18,480,256,480s102.87-8.41,140.68-24.29C446,435,464,422.51,464,391.36v-38.2S456.86,369.75,409.43,389.87Z",
+                d: "M125.295 40.7282C159.804 25.1587 206.27 16 256.5 16C306.73 16 352.966 25.1588 387.248 40.7476C420.143 55.7056 448 80 448 112V112.03C447.989 117.563 444.902 125.92 435.705 136.25C426.71 146.352 413.088 156.908 395.432 166.514C360.162 185.702 310.794 200 256 200C201.206 200 151.838 185.702 116.568 166.514C98.9116 156.908 85.2901 146.352 76.2953 136.25C67.0809 125.901 64 117.532 64 112C64 79.5721 92.2455 55.6392 125.295 40.7282Z",
             }
             path {
-                d: "M63.69,173.22c11.23,9.84,27.82,19.49,48,27.92,42.48,17.76,96.45,28.37,144.36,28.37s101.88-10.61,144.36-28.37c20.13-8.43,36.72-18.08,47.95-27.92,6.06-5.31,10.85-10.12,13.47-12.85a8,8,0,0,0,2.22-5.54l0-26.06v-.1c-.84-28.79-24.71-54.41-67.21-72.14C358.83,40.71,308.84,32,256,32S153.17,40.71,115.26,56.53C72.85,74.22,49,99.78,48.05,128.5l0,26.33a8,8,0,0,0,2.21,5.54C52.84,163.1,57.62,167.91,63.69,173.22Z",
+                d: "M410.724 194.623C424.937 186.892 437.558 176.244 448 165.024V258C448 263.532 444.919 269.901 435.705 280.25C426.71 290.352 413.088 300.908 395.432 310.514C360.162 329.702 310.794 344 256 344C201.206 344 151.838 329.702 116.568 310.514C98.9116 300.908 85.2901 290.352 76.2953 280.25C67.0809 269.901 64 263.532 64 258V165.024C74.4417 176.244 87.0634 186.892 101.276 194.623C141.286 216.39 195.918 232 256 232C316.082 232 370.714 216.39 410.724 194.623Z",
             }
             path {
-                d: "M409.43,221.91C365,241,305.4,253.09,256,253.09s-108.87-12.27-153.43-31.18S48,185.2,48,185.2v47.36c.08,7.52,5.5,16.2,15.69,25.13,11.24,9.84,27.82,19.5,48,27.92C154.12,303.38,208.09,314,256,314s101.88-10.6,144.36-28.37c20.13-8.42,36.72-18.08,47.95-27.92,10.25-9,15.68-17.71,15.69-25.27V185.2S453.87,202.82,409.43,221.91Z",
-            }
-            path {
-                d: "M409.43,306.38C362,326,305.4,337.56,256,337.56s-109.87-12.8-153.43-31.18S48,269.67,48,269.67v46.25c0,7.55,5.44,16.28,15.69,25.26,11.23,9.84,27.81,19.5,48,27.92,42.48,17.77,96.44,28.37,144.36,28.37s101.88-10.6,144.36-28.37c20.13-8.43,36.72-18.08,47.95-27.92,10.19-8.93,15.61-17.61,15.69-25.13V269.67S456.87,286.76,409.43,306.38Z",
+                d: "M64 309.024V400C64 432.224 92.0043 456.169 124.928 471.134C159.297 486.756 205.653 496 256 496C306.347 496 352.703 486.756 387.072 471.134C419.996 456.169 448 432.224 448 400V309.024C437.558 320.244 424.937 330.892 410.724 338.623C370.714 360.39 316.082 376 256 376C195.918 376 141.286 360.39 101.276 338.623C87.0634 330.892 74.4417 320.244 64 309.024Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoServer;
 impl IconShape for IoServer {
     fn view_box(&self) -> &str {
@@ -40391,22 +41190,19 @@ impl IconShape for IoServer {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M256,428C203.65,428,144.61,416.39,98.07,397,81,389.81,66.38,378.18,54.43,369A4,4,0,0,0,48,372.18v12.58c0,28.07,23.49,53.22,66.14,70.82C152.29,471.33,202.67,480,256,480s103.7-8.67,141.86-24.42C440.51,438,464,412.83,464,384.76V372.18a4,4,0,0,0-6.43-3.18C445.62,378.17,431,389.81,413.92,397,367.38,416.39,308.35,428,256,428Z",
+                d: "M125.295 40.7282C159.804 25.1587 206.27 16 256.5 16C306.73 16 352.966 25.1588 387.248 40.7476C420.143 55.7056 448 80 448 112V112.03C447.989 117.563 444.902 125.92 435.705 136.25C426.71 146.352 413.088 156.908 395.432 166.514C360.162 185.702 310.794 200 256 200C201.206 200 151.838 185.702 116.568 166.514C98.9116 156.908 85.2901 146.352 76.2953 136.25C67.0809 125.901 64 117.532 64 112C64 79.5721 92.2455 55.6392 125.295 40.7282Z",
             }
             path {
-                d: "M464,126.51c-.81-27.65-24.18-52.4-66-69.85C359.74,40.76,309.34,32,256,32S152.26,40.76,114.09,56.66c-41.78,17.41-65.15,42.11-66,69.69L48,144c0,6.41,5.2,16.48,14.63,24.73,11.13,9.73,27.65,19.33,47.78,27.73C153.24,214.36,207.67,225,256,225s102.76-10.68,145.59-28.58c20.13-8.4,36.65-18,47.78-27.73C458.8,160.49,464,150.42,464,144Z",
+                d: "M410.724 194.623C420.31 189.409 429.172 182.868 437.13 175.719C441.184 172.077 448 174.829 448 180.279V258C448 263.532 444.919 269.901 435.705 280.25C426.71 290.352 413.088 300.908 395.432 310.514C360.162 329.702 310.794 344 256 344C201.206 344 151.838 329.702 116.568 310.514C98.9116 300.908 85.2901 290.352 76.2953 280.25C67.0809 269.901 64 263.532 64 258V180.279C64 174.829 70.8158 172.077 74.8702 175.719C82.8279 182.867 91.69 189.409 101.276 194.623C141.286 216.39 195.918 232 256 232C316.082 232 370.714 216.39 410.724 194.623Z",
             }
             path {
-                d: "M413.92,226C367.39,245.43,308.35,257,256,257S144.61,245.43,98.07,226C81,218.85,66.38,207.21,54.43,198A4,4,0,0,0,48,201.22V232c0,6.41,5.2,14.48,14.63,22.73,11.13,9.74,27.65,19.33,47.78,27.74C153.24,300.34,207.67,311,256,311s102.76-10.68,145.59-28.57c20.13-8.41,36.65-18,47.78-27.74C458.8,246.47,464,238.41,464,232V201.22a4,4,0,0,0-6.43-3.18C445.62,207.21,431,218.85,413.92,226Z",
-            }
-            path {
-                d: "M413.92,312C367.38,331.41,308.35,343,256,343S144.61,331.41,98.07,312C81,304.83,66.38,293.19,54.43,284A4,4,0,0,0,48,287.2V317c0,6.41,5.2,14.47,14.62,22.71,11.13,9.74,27.66,19.33,47.79,27.74C153.24,385.32,207.66,396,256,396s102.76-10.68,145.59-28.57c20.13-8.41,36.65-18,47.78-27.74C458.8,331.44,464,323.37,464,317V287.2a4,4,0,0,0-6.43-3.18C445.62,293.19,431,304.83,413.92,312Z",
+                d: "M74.8702 319.719C70.8158 316.077 64 318.829 64 324.279V400C64 432.224 92.0043 456.169 124.928 471.134C159.297 486.756 205.653 496 256 496C306.347 496 352.703 486.756 387.072 471.134C419.996 456.169 448 432.224 448 400V324.279C448 318.829 441.184 316.077 437.13 319.719C429.172 326.867 420.31 333.409 410.724 338.623C370.714 360.39 316.082 376 256 376C195.918 376 141.286 360.39 101.276 338.623C91.69 333.409 82.8279 326.867 74.8702 319.719Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSettingsOutline;
 impl IconShape for IoSettingsOutline {
     fn view_box(&self) -> &str {
@@ -40434,7 +41230,7 @@ impl IconShape for IoSettingsOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSettingsSharp;
 impl IconShape for IoSettingsSharp {
     fn view_box(&self) -> &str {
@@ -40461,7 +41257,7 @@ impl IconShape for IoSettingsSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSettings;
 impl IconShape for IoSettings {
     fn view_box(&self) -> &str {
@@ -40493,7 +41289,7 @@ impl IconShape for IoSettings {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShapesOutline;
 impl IconShape for IoShapesOutline {
     fn view_box(&self) -> &str {
@@ -40525,7 +41321,7 @@ impl IconShape for IoShapesOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShapesSharp;
 impl IconShape for IoShapesSharp {
     fn view_box(&self) -> &str {
@@ -40555,7 +41351,7 @@ impl IconShape for IoShapesSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShapes;
 impl IconShape for IoShapes {
     fn view_box(&self) -> &str {
@@ -40585,7 +41381,7 @@ impl IconShape for IoShapes {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShareOutline;
 impl IconShape for IoShareOutline {
     fn view_box(&self) -> &str {
@@ -40624,7 +41420,7 @@ impl IconShape for IoShareOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShareSharp;
 impl IconShape for IoShareSharp {
     fn view_box(&self) -> &str {
@@ -40654,7 +41450,7 @@ impl IconShape for IoShareSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShareSocialOutline;
 impl IconShape for IoShareSocialOutline {
     fn view_box(&self) -> &str {
@@ -40710,7 +41506,7 @@ impl IconShape for IoShareSocialOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShareSocialSharp;
 impl IconShape for IoShareSocialSharp {
     fn view_box(&self) -> &str {
@@ -40737,7 +41533,7 @@ impl IconShape for IoShareSocialSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShareSocial;
 impl IconShape for IoShareSocial {
     fn view_box(&self) -> &str {
@@ -40764,7 +41560,7 @@ impl IconShape for IoShareSocial {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShare;
 impl IconShape for IoShare {
     fn view_box(&self) -> &str {
@@ -40794,7 +41590,7 @@ impl IconShape for IoShare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShieldCheckmarkOutline;
 impl IconShape for IoShieldCheckmarkOutline {
     fn view_box(&self) -> &str {
@@ -40826,7 +41622,7 @@ impl IconShape for IoShieldCheckmarkOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShieldCheckmarkSharp;
 impl IconShape for IoShieldCheckmarkSharp {
     fn view_box(&self) -> &str {
@@ -40853,7 +41649,7 @@ impl IconShape for IoShieldCheckmarkSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShieldCheckmark;
 impl IconShape for IoShieldCheckmark {
     fn view_box(&self) -> &str {
@@ -40880,7 +41676,7 @@ impl IconShape for IoShieldCheckmark {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShieldHalfOutline;
 impl IconShape for IoShieldHalfOutline {
     fn view_box(&self) -> &str {
@@ -40914,7 +41710,7 @@ impl IconShape for IoShieldHalfOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShieldHalfSharp;
 impl IconShape for IoShieldHalfSharp {
     fn view_box(&self) -> &str {
@@ -40941,7 +41737,7 @@ impl IconShape for IoShieldHalfSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShieldHalf;
 impl IconShape for IoShieldHalf {
     fn view_box(&self) -> &str {
@@ -40975,7 +41771,7 @@ impl IconShape for IoShieldHalf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShieldOutline;
 impl IconShape for IoShieldOutline {
     fn view_box(&self) -> &str {
@@ -41003,7 +41799,7 @@ impl IconShape for IoShieldOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShieldSharp;
 impl IconShape for IoShieldSharp {
     fn view_box(&self) -> &str {
@@ -41030,7 +41826,7 @@ impl IconShape for IoShieldSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShield;
 impl IconShape for IoShield {
     fn view_box(&self) -> &str {
@@ -41057,7 +41853,7 @@ impl IconShape for IoShield {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShirtOutline;
 impl IconShape for IoShirtOutline {
     fn view_box(&self) -> &str {
@@ -41089,7 +41885,7 @@ impl IconShape for IoShirtOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShirtSharp;
 impl IconShape for IoShirtSharp {
     fn view_box(&self) -> &str {
@@ -41119,7 +41915,7 @@ impl IconShape for IoShirtSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShirt;
 impl IconShape for IoShirt {
     fn view_box(&self) -> &str {
@@ -41149,7 +41945,7 @@ impl IconShape for IoShirt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShuffleOutline;
 impl IconShape for IoShuffleOutline {
     fn view_box(&self) -> &str {
@@ -41193,7 +41989,7 @@ impl IconShape for IoShuffleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShuffleSharp;
 impl IconShape for IoShuffleSharp {
     fn view_box(&self) -> &str {
@@ -41237,7 +42033,7 @@ impl IconShape for IoShuffleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoShuffle;
 impl IconShape for IoShuffle {
     fn view_box(&self) -> &str {
@@ -41281,7 +42077,7 @@ impl IconShape for IoShuffle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSkullOutline;
 impl IconShape for IoSkullOutline {
     fn view_box(&self) -> &str {
@@ -41346,7 +42142,7 @@ impl IconShape for IoSkullOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSkullSharp;
 impl IconShape for IoSkullSharp {
     fn view_box(&self) -> &str {
@@ -41373,7 +42169,7 @@ impl IconShape for IoSkullSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSkull;
 impl IconShape for IoSkull {
     fn view_box(&self) -> &str {
@@ -41400,7 +42196,7 @@ impl IconShape for IoSkull {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSnowOutline;
 impl IconShape for IoSnowOutline {
     fn view_box(&self) -> &str {
@@ -41469,7 +42265,7 @@ impl IconShape for IoSnowOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSnowSharp;
 impl IconShape for IoSnowSharp {
     fn view_box(&self) -> &str {
@@ -41496,7 +42292,7 @@ impl IconShape for IoSnowSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSnow;
 impl IconShape for IoSnow {
     fn view_box(&self) -> &str {
@@ -41523,7 +42319,7 @@ impl IconShape for IoSnow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSparklesOutline;
 impl IconShape for IoSparklesOutline {
     fn view_box(&self) -> &str {
@@ -41568,7 +42364,7 @@ impl IconShape for IoSparklesOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSparklesSharp;
 impl IconShape for IoSparklesSharp {
     fn view_box(&self) -> &str {
@@ -41601,7 +42397,7 @@ impl IconShape for IoSparklesSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSparkles;
 impl IconShape for IoSparkles {
     fn view_box(&self) -> &str {
@@ -41634,7 +42430,7 @@ impl IconShape for IoSparkles {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSpeedometerOutline;
 impl IconShape for IoSpeedometerOutline {
     fn view_box(&self) -> &str {
@@ -41700,7 +42496,7 @@ impl IconShape for IoSpeedometerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSpeedometerSharp;
 impl IconShape for IoSpeedometerSharp {
     fn view_box(&self) -> &str {
@@ -41727,7 +42523,7 @@ impl IconShape for IoSpeedometerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSpeedometer;
 impl IconShape for IoSpeedometer {
     fn view_box(&self) -> &str {
@@ -41754,7 +42550,7 @@ impl IconShape for IoSpeedometer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSquareOutline;
 impl IconShape for IoSquareOutline {
     fn view_box(&self) -> &str {
@@ -41782,7 +42578,7 @@ impl IconShape for IoSquareOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSquareSharp;
 impl IconShape for IoSquareSharp {
     fn view_box(&self) -> &str {
@@ -41812,7 +42608,7 @@ impl IconShape for IoSquareSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSquare;
 impl IconShape for IoSquare {
     fn view_box(&self) -> &str {
@@ -41839,7 +42635,7 @@ impl IconShape for IoSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStarHalfOutline;
 impl IconShape for IoStarHalfOutline {
     fn view_box(&self) -> &str {
@@ -41870,7 +42666,7 @@ impl IconShape for IoStarHalfOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStarHalfSharp;
 impl IconShape for IoStarHalfSharp {
     fn view_box(&self) -> &str {
@@ -41897,7 +42693,7 @@ impl IconShape for IoStarHalfSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStarHalf;
 impl IconShape for IoStarHalf {
     fn view_box(&self) -> &str {
@@ -41928,7 +42724,7 @@ impl IconShape for IoStarHalf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStarOutline;
 impl IconShape for IoStarOutline {
     fn view_box(&self) -> &str {
@@ -41956,7 +42752,7 @@ impl IconShape for IoStarOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStarSharp;
 impl IconShape for IoStarSharp {
     fn view_box(&self) -> &str {
@@ -41983,7 +42779,7 @@ impl IconShape for IoStarSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStar;
 impl IconShape for IoStar {
     fn view_box(&self) -> &str {
@@ -42010,7 +42806,7 @@ impl IconShape for IoStar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStatsChartOutline;
 impl IconShape for IoStatsChartOutline {
     fn view_box(&self) -> &str {
@@ -42070,7 +42866,7 @@ impl IconShape for IoStatsChartOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStatsChartSharp;
 impl IconShape for IoStatsChartSharp {
     fn view_box(&self) -> &str {
@@ -42106,7 +42902,7 @@ impl IconShape for IoStatsChartSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStatsChart;
 impl IconShape for IoStatsChart {
     fn view_box(&self) -> &str {
@@ -42142,7 +42938,7 @@ impl IconShape for IoStatsChart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStopCircleOutline;
 impl IconShape for IoStopCircleOutline {
     fn view_box(&self) -> &str {
@@ -42173,7 +42969,7 @@ impl IconShape for IoStopCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStopCircleSharp;
 impl IconShape for IoStopCircleSharp {
     fn view_box(&self) -> &str {
@@ -42200,7 +42996,7 @@ impl IconShape for IoStopCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStopCircle;
 impl IconShape for IoStopCircle {
     fn view_box(&self) -> &str {
@@ -42227,7 +43023,7 @@ impl IconShape for IoStopCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStopOutline;
 impl IconShape for IoStopOutline {
     fn view_box(&self) -> &str {
@@ -42260,7 +43056,7 @@ impl IconShape for IoStopOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStopSharp;
 impl IconShape for IoStopSharp {
     fn view_box(&self) -> &str {
@@ -42290,7 +43086,7 @@ impl IconShape for IoStopSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStop;
 impl IconShape for IoStop {
     fn view_box(&self) -> &str {
@@ -42317,7 +43113,7 @@ impl IconShape for IoStop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStopwatchOutline;
 impl IconShape for IoStopwatchOutline {
     fn view_box(&self) -> &str {
@@ -42372,7 +43168,7 @@ impl IconShape for IoStopwatchOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStopwatchSharp;
 impl IconShape for IoStopwatchSharp {
     fn view_box(&self) -> &str {
@@ -42399,7 +43195,7 @@ impl IconShape for IoStopwatchSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStopwatch;
 impl IconShape for IoStopwatch {
     fn view_box(&self) -> &str {
@@ -42431,7 +43227,7 @@ impl IconShape for IoStopwatch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStorefrontOutline;
 impl IconShape for IoStorefrontOutline {
     fn view_box(&self) -> &str {
@@ -42506,7 +43302,7 @@ impl IconShape for IoStorefrontOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStorefrontSharp;
 impl IconShape for IoStorefrontSharp {
     fn view_box(&self) -> &str {
@@ -42536,7 +43332,7 @@ impl IconShape for IoStorefrontSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoStorefront;
 impl IconShape for IoStorefront {
     fn view_box(&self) -> &str {
@@ -42566,7 +43362,7 @@ impl IconShape for IoStorefront {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSubwayOutline;
 impl IconShape for IoSubwayOutline {
     fn view_box(&self) -> &str {
@@ -42648,7 +43444,7 @@ impl IconShape for IoSubwayOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSubwaySharp;
 impl IconShape for IoSubwaySharp {
     fn view_box(&self) -> &str {
@@ -42678,7 +43474,7 @@ impl IconShape for IoSubwaySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSubway;
 impl IconShape for IoSubway {
     fn view_box(&self) -> &str {
@@ -42708,7 +43504,7 @@ impl IconShape for IoSubway {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSunnyOutline;
 impl IconShape for IoSunnyOutline {
     fn view_box(&self) -> &str {
@@ -42794,7 +43590,7 @@ impl IconShape for IoSunnyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSunnySharp;
 impl IconShape for IoSunnySharp {
     fn view_box(&self) -> &str {
@@ -42873,7 +43669,7 @@ impl IconShape for IoSunnySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSunny;
 impl IconShape for IoSunny {
     fn view_box(&self) -> &str {
@@ -42924,7 +43720,7 @@ impl IconShape for IoSunny {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSwapHorizontalOutline;
 impl IconShape for IoSwapHorizontalOutline {
     fn view_box(&self) -> &str {
@@ -42970,7 +43766,7 @@ impl IconShape for IoSwapHorizontalOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSwapHorizontalSharp;
 impl IconShape for IoSwapHorizontalSharp {
     fn view_box(&self) -> &str {
@@ -43016,7 +43812,7 @@ impl IconShape for IoSwapHorizontalSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSwapHorizontal;
 impl IconShape for IoSwapHorizontal {
     fn view_box(&self) -> &str {
@@ -43062,7 +43858,7 @@ impl IconShape for IoSwapHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSwapVerticalOutline;
 impl IconShape for IoSwapVerticalOutline {
     fn view_box(&self) -> &str {
@@ -43108,7 +43904,7 @@ impl IconShape for IoSwapVerticalOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSwapVerticalSharp;
 impl IconShape for IoSwapVerticalSharp {
     fn view_box(&self) -> &str {
@@ -43154,7 +43950,7 @@ impl IconShape for IoSwapVerticalSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSwapVertical;
 impl IconShape for IoSwapVertical {
     fn view_box(&self) -> &str {
@@ -43200,7 +43996,7 @@ impl IconShape for IoSwapVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSyncCircleOutline;
 impl IconShape for IoSyncCircleOutline {
     fn view_box(&self) -> &str {
@@ -43240,7 +44036,7 @@ impl IconShape for IoSyncCircleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSyncCircleSharp;
 impl IconShape for IoSyncCircleSharp {
     fn view_box(&self) -> &str {
@@ -43267,7 +44063,7 @@ impl IconShape for IoSyncCircleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSyncCircle;
 impl IconShape for IoSyncCircle {
     fn view_box(&self) -> &str {
@@ -43294,7 +44090,7 @@ impl IconShape for IoSyncCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSyncOutline;
 impl IconShape for IoSyncOutline {
     fn view_box(&self) -> &str {
@@ -43330,7 +44126,7 @@ impl IconShape for IoSyncOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSyncSharp;
 impl IconShape for IoSyncSharp {
     fn view_box(&self) -> &str {
@@ -43366,7 +44162,7 @@ impl IconShape for IoSyncSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoSync;
 impl IconShape for IoSync {
     fn view_box(&self) -> &str {
@@ -43402,7 +44198,7 @@ impl IconShape for IoSync {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTabletLandscapeOutline;
 impl IconShape for IoTabletLandscapeOutline {
     fn view_box(&self) -> &str {
@@ -43436,7 +44232,7 @@ impl IconShape for IoTabletLandscapeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTabletLandscapeSharp;
 impl IconShape for IoTabletLandscapeSharp {
     fn view_box(&self) -> &str {
@@ -43463,7 +44259,7 @@ impl IconShape for IoTabletLandscapeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTabletLandscape;
 impl IconShape for IoTabletLandscape {
     fn view_box(&self) -> &str {
@@ -43493,7 +44289,7 @@ impl IconShape for IoTabletLandscape {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTabletPortraitOutline;
 impl IconShape for IoTabletPortraitOutline {
     fn view_box(&self) -> &str {
@@ -43526,7 +44322,7 @@ impl IconShape for IoTabletPortraitOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTabletPortraitSharp;
 impl IconShape for IoTabletPortraitSharp {
     fn view_box(&self) -> &str {
@@ -43553,7 +44349,7 @@ impl IconShape for IoTabletPortraitSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTabletPortrait;
 impl IconShape for IoTabletPortrait {
     fn view_box(&self) -> &str {
@@ -43583,7 +44379,7 @@ impl IconShape for IoTabletPortrait {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTelescopeOutline;
 impl IconShape for IoTelescopeOutline {
     fn view_box(&self) -> &str {
@@ -43648,7 +44444,7 @@ impl IconShape for IoTelescopeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTelescopeSharp;
 impl IconShape for IoTelescopeSharp {
     fn view_box(&self) -> &str {
@@ -43681,7 +44477,7 @@ impl IconShape for IoTelescopeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTelescope;
 impl IconShape for IoTelescope {
     fn view_box(&self) -> &str {
@@ -43714,7 +44510,7 @@ impl IconShape for IoTelescope {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTennisballOutline;
 impl IconShape for IoTennisballOutline {
     fn view_box(&self) -> &str {
@@ -43752,7 +44548,7 @@ impl IconShape for IoTennisballOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTennisballSharp;
 impl IconShape for IoTennisballSharp {
     fn view_box(&self) -> &str {
@@ -43785,7 +44581,7 @@ impl IconShape for IoTennisballSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTennisball;
 impl IconShape for IoTennisball {
     fn view_box(&self) -> &str {
@@ -43818,7 +44614,7 @@ impl IconShape for IoTennisball {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTerminalOutline;
 impl IconShape for IoTerminalOutline {
     fn view_box(&self) -> &str {
@@ -43862,7 +44658,7 @@ impl IconShape for IoTerminalOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTerminalSharp;
 impl IconShape for IoTerminalSharp {
     fn view_box(&self) -> &str {
@@ -43889,7 +44685,7 @@ impl IconShape for IoTerminalSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTerminal;
 impl IconShape for IoTerminal {
     fn view_box(&self) -> &str {
@@ -43916,7 +44712,7 @@ impl IconShape for IoTerminal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTextOutline;
 impl IconShape for IoTextOutline {
     fn view_box(&self) -> &str {
@@ -43959,7 +44755,7 @@ impl IconShape for IoTextOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTextSharp;
 impl IconShape for IoTextSharp {
     fn view_box(&self) -> &str {
@@ -43989,7 +44785,7 @@ impl IconShape for IoTextSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoText;
 impl IconShape for IoText {
     fn view_box(&self) -> &str {
@@ -44019,7 +44815,7 @@ impl IconShape for IoText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThermometerOutline;
 impl IconShape for IoThermometerOutline {
     fn view_box(&self) -> &str {
@@ -44059,7 +44855,7 @@ impl IconShape for IoThermometerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThermometerSharp;
 impl IconShape for IoThermometerSharp {
     fn view_box(&self) -> &str {
@@ -44086,7 +44882,7 @@ impl IconShape for IoThermometerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThermometer;
 impl IconShape for IoThermometer {
     fn view_box(&self) -> &str {
@@ -44113,7 +44909,7 @@ impl IconShape for IoThermometer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThumbsDownOutline;
 impl IconShape for IoThumbsDownOutline {
     fn view_box(&self) -> &str {
@@ -44157,7 +44953,7 @@ impl IconShape for IoThumbsDownOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThumbsDownSharp;
 impl IconShape for IoThumbsDownSharp {
     fn view_box(&self) -> &str {
@@ -44195,7 +44991,7 @@ impl IconShape for IoThumbsDownSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThumbsDown;
 impl IconShape for IoThumbsDown {
     fn view_box(&self) -> &str {
@@ -44236,7 +45032,7 @@ impl IconShape for IoThumbsDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThumbsUpOutline;
 impl IconShape for IoThumbsUpOutline {
     fn view_box(&self) -> &str {
@@ -44280,7 +45076,7 @@ impl IconShape for IoThumbsUpOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThumbsUpSharp;
 impl IconShape for IoThumbsUpSharp {
     fn view_box(&self) -> &str {
@@ -44307,7 +45103,7 @@ impl IconShape for IoThumbsUpSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThumbsUp;
 impl IconShape for IoThumbsUp {
     fn view_box(&self) -> &str {
@@ -44348,7 +45144,7 @@ impl IconShape for IoThumbsUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThunderstormOutline;
 impl IconShape for IoThunderstormOutline {
     fn view_box(&self) -> &str {
@@ -44408,7 +45204,7 @@ impl IconShape for IoThunderstormOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThunderstormSharp;
 impl IconShape for IoThunderstormSharp {
     fn view_box(&self) -> &str {
@@ -44463,7 +45259,7 @@ impl IconShape for IoThunderstormSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoThunderstorm;
 impl IconShape for IoThunderstorm {
     fn view_box(&self) -> &str {
@@ -44502,7 +45298,7 @@ impl IconShape for IoThunderstorm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTicketOutline;
 impl IconShape for IoTicketOutline {
     fn view_box(&self) -> &str {
@@ -44572,7 +45368,7 @@ impl IconShape for IoTicketOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTicketSharp;
 impl IconShape for IoTicketSharp {
     fn view_box(&self) -> &str {
@@ -44599,7 +45395,7 @@ impl IconShape for IoTicketSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTicket;
 impl IconShape for IoTicket {
     fn view_box(&self) -> &str {
@@ -44626,7 +45422,7 @@ impl IconShape for IoTicket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTimeOutline;
 impl IconShape for IoTimeOutline {
     fn view_box(&self) -> &str {
@@ -44658,7 +45454,7 @@ impl IconShape for IoTimeOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTimeSharp;
 impl IconShape for IoTimeSharp {
     fn view_box(&self) -> &str {
@@ -44685,7 +45481,7 @@ impl IconShape for IoTimeSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTime;
 impl IconShape for IoTime {
     fn view_box(&self) -> &str {
@@ -44712,7 +45508,7 @@ impl IconShape for IoTime {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTimerOutline;
 impl IconShape for IoTimerOutline {
     fn view_box(&self) -> &str {
@@ -44743,7 +45539,7 @@ impl IconShape for IoTimerOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTimerSharp;
 impl IconShape for IoTimerSharp {
     fn view_box(&self) -> &str {
@@ -44770,7 +45566,7 @@ impl IconShape for IoTimerSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTimer;
 impl IconShape for IoTimer {
     fn view_box(&self) -> &str {
@@ -44797,7 +45593,7 @@ impl IconShape for IoTimer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTodayOutline;
 impl IconShape for IoTodayOutline {
     fn view_box(&self) -> &str {
@@ -44872,7 +45668,7 @@ impl IconShape for IoTodayOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTodaySharp;
 impl IconShape for IoTodaySharp {
     fn view_box(&self) -> &str {
@@ -44902,7 +45698,7 @@ impl IconShape for IoTodaySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoToday;
 impl IconShape for IoToday {
     fn view_box(&self) -> &str {
@@ -44932,7 +45728,7 @@ impl IconShape for IoToday {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoToggleOutline;
 impl IconShape for IoToggleOutline {
     fn view_box(&self) -> &str {
@@ -44971,7 +45767,7 @@ impl IconShape for IoToggleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoToggleSharp;
 impl IconShape for IoToggleSharp {
     fn view_box(&self) -> &str {
@@ -44998,7 +45794,7 @@ impl IconShape for IoToggleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoToggle;
 impl IconShape for IoToggle {
     fn view_box(&self) -> &str {
@@ -45025,7 +45821,7 @@ impl IconShape for IoToggle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrailSignOutline;
 impl IconShape for IoTrailSignOutline {
     fn view_box(&self) -> &str {
@@ -45078,7 +45874,7 @@ impl IconShape for IoTrailSignOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrailSignSharp;
 impl IconShape for IoTrailSignSharp {
     fn view_box(&self) -> &str {
@@ -45105,7 +45901,7 @@ impl IconShape for IoTrailSignSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrailSign;
 impl IconShape for IoTrailSign {
     fn view_box(&self) -> &str {
@@ -45132,7 +45928,7 @@ impl IconShape for IoTrailSign {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrainOutline;
 impl IconShape for IoTrainOutline {
     fn view_box(&self) -> &str {
@@ -45181,7 +45977,7 @@ impl IconShape for IoTrainOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrainSharp;
 impl IconShape for IoTrainSharp {
     fn view_box(&self) -> &str {
@@ -45211,7 +46007,7 @@ impl IconShape for IoTrainSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrain;
 impl IconShape for IoTrain {
     fn view_box(&self) -> &str {
@@ -45248,7 +46044,7 @@ impl IconShape for IoTrain {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTransgenderOutline;
 impl IconShape for IoTransgenderOutline {
     fn view_box(&self) -> &str {
@@ -45321,7 +46117,7 @@ impl IconShape for IoTransgenderOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTransgenderSharp;
 impl IconShape for IoTransgenderSharp {
     fn view_box(&self) -> &str {
@@ -45348,7 +46144,7 @@ impl IconShape for IoTransgenderSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTransgender;
 impl IconShape for IoTransgender {
     fn view_box(&self) -> &str {
@@ -45375,7 +46171,7 @@ impl IconShape for IoTransgender {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrashBinOutline;
 impl IconShape for IoTrashBinOutline {
     fn view_box(&self) -> &str {
@@ -45426,7 +46222,7 @@ impl IconShape for IoTrashBinOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrashBinSharp;
 impl IconShape for IoTrashBinSharp {
     fn view_box(&self) -> &str {
@@ -45469,7 +46265,7 @@ impl IconShape for IoTrashBinSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrashBin;
 impl IconShape for IoTrashBin {
     fn view_box(&self) -> &str {
@@ -45504,7 +46300,7 @@ impl IconShape for IoTrashBin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrashOutline;
 impl IconShape for IoTrashOutline {
     fn view_box(&self) -> &str {
@@ -45564,7 +46360,7 @@ impl IconShape for IoTrashOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrashSharp;
 impl IconShape for IoTrashSharp {
     fn view_box(&self) -> &str {
@@ -45599,7 +46395,7 @@ impl IconShape for IoTrashSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrash;
 impl IconShape for IoTrash {
     fn view_box(&self) -> &str {
@@ -45630,7 +46426,7 @@ impl IconShape for IoTrash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrendingDownOutline;
 impl IconShape for IoTrendingDownOutline {
     fn view_box(&self) -> &str {
@@ -45662,7 +46458,7 @@ impl IconShape for IoTrendingDownOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrendingDownSharp;
 impl IconShape for IoTrendingDownSharp {
     fn view_box(&self) -> &str {
@@ -45694,7 +46490,7 @@ impl IconShape for IoTrendingDownSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrendingDown;
 impl IconShape for IoTrendingDown {
     fn view_box(&self) -> &str {
@@ -45726,7 +46522,7 @@ impl IconShape for IoTrendingDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrendingUpOutline;
 impl IconShape for IoTrendingUpOutline {
     fn view_box(&self) -> &str {
@@ -45758,7 +46554,7 @@ impl IconShape for IoTrendingUpOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrendingUpSharp;
 impl IconShape for IoTrendingUpSharp {
     fn view_box(&self) -> &str {
@@ -45790,7 +46586,7 @@ impl IconShape for IoTrendingUpSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrendingUp;
 impl IconShape for IoTrendingUp {
     fn view_box(&self) -> &str {
@@ -45822,7 +46618,7 @@ impl IconShape for IoTrendingUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTriangleOutline;
 impl IconShape for IoTriangleOutline {
     fn view_box(&self) -> &str {
@@ -45850,7 +46646,7 @@ impl IconShape for IoTriangleOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTriangleSharp;
 impl IconShape for IoTriangleSharp {
     fn view_box(&self) -> &str {
@@ -45877,7 +46673,7 @@ impl IconShape for IoTriangleSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTriangle;
 impl IconShape for IoTriangle {
     fn view_box(&self) -> &str {
@@ -45904,7 +46700,7 @@ impl IconShape for IoTriangle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrophyOutline;
 impl IconShape for IoTrophyOutline {
     fn view_box(&self) -> &str {
@@ -45954,7 +46750,7 @@ impl IconShape for IoTrophyOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrophySharp;
 impl IconShape for IoTrophySharp {
     fn view_box(&self) -> &str {
@@ -45981,7 +46777,7 @@ impl IconShape for IoTrophySharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTrophy;
 impl IconShape for IoTrophy {
     fn view_box(&self) -> &str {
@@ -46008,7 +46804,7 @@ impl IconShape for IoTrophy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTvOutline;
 impl IconShape for IoTvOutline {
     fn view_box(&self) -> &str {
@@ -46048,7 +46844,7 @@ impl IconShape for IoTvOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTvSharp;
 impl IconShape for IoTvSharp {
     fn view_box(&self) -> &str {
@@ -46083,7 +46879,7 @@ impl IconShape for IoTvSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoTv;
 impl IconShape for IoTv {
     fn view_box(&self) -> &str {
@@ -46117,7 +46913,7 @@ impl IconShape for IoTv {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoUmbrellaOutline;
 impl IconShape for IoUmbrellaOutline {
     fn view_box(&self) -> &str {
@@ -46156,7 +46952,7 @@ impl IconShape for IoUmbrellaOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoUmbrellaSharp;
 impl IconShape for IoUmbrellaSharp {
     fn view_box(&self) -> &str {
@@ -46189,7 +46985,7 @@ impl IconShape for IoUmbrellaSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoUmbrella;
 impl IconShape for IoUmbrella {
     fn view_box(&self) -> &str {
@@ -46216,7 +47012,7 @@ impl IconShape for IoUmbrella {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoUnlinkOutline;
 impl IconShape for IoUnlinkOutline {
     fn view_box(&self) -> &str {
@@ -46254,7 +47050,7 @@ impl IconShape for IoUnlinkOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoUnlinkSharp;
 impl IconShape for IoUnlinkSharp {
     fn view_box(&self) -> &str {
@@ -46292,7 +47088,7 @@ impl IconShape for IoUnlinkSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoUnlink;
 impl IconShape for IoUnlink {
     fn view_box(&self) -> &str {
@@ -46330,7 +47126,7 @@ impl IconShape for IoUnlink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVideocamOffOutline;
 impl IconShape for IoVideocamOffOutline {
     fn view_box(&self) -> &str {
@@ -46385,7 +47181,7 @@ impl IconShape for IoVideocamOffOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVideocamOffSharp;
 impl IconShape for IoVideocamOffSharp {
     fn view_box(&self) -> &str {
@@ -46422,7 +47218,7 @@ impl IconShape for IoVideocamOffSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVideocamOff;
 impl IconShape for IoVideocamOff {
     fn view_box(&self) -> &str {
@@ -46465,7 +47261,7 @@ impl IconShape for IoVideocamOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVideocamOutline;
 impl IconShape for IoVideocamOutline {
     fn view_box(&self) -> &str {
@@ -46497,7 +47293,7 @@ impl IconShape for IoVideocamOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVideocamSharp;
 impl IconShape for IoVideocamSharp {
     fn view_box(&self) -> &str {
@@ -46524,7 +47320,7 @@ impl IconShape for IoVideocamSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVideocam;
 impl IconShape for IoVideocam {
     fn view_box(&self) -> &str {
@@ -46554,7 +47350,7 @@ impl IconShape for IoVideocam {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeHighOutline;
 impl IconShape for IoVolumeHighOutline {
     fn view_box(&self) -> &str {
@@ -46594,7 +47390,7 @@ impl IconShape for IoVolumeHighOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeHighSharp;
 impl IconShape for IoVolumeHighSharp {
     fn view_box(&self) -> &str {
@@ -46633,7 +47429,7 @@ impl IconShape for IoVolumeHighSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeHigh;
 impl IconShape for IoVolumeHigh {
     fn view_box(&self) -> &str {
@@ -46669,7 +47465,7 @@ impl IconShape for IoVolumeHigh {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeLowOutline;
 impl IconShape for IoVolumeLowOutline {
     fn view_box(&self) -> &str {
@@ -46701,7 +47497,7 @@ impl IconShape for IoVolumeLowOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeLowSharp;
 impl IconShape for IoVolumeLowSharp {
     fn view_box(&self) -> &str {
@@ -46731,7 +47527,7 @@ impl IconShape for IoVolumeLowSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeLow;
 impl IconShape for IoVolumeLow {
     fn view_box(&self) -> &str {
@@ -46761,7 +47557,7 @@ impl IconShape for IoVolumeLow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeMediumOutline;
 impl IconShape for IoVolumeMediumOutline {
     fn view_box(&self) -> &str {
@@ -46797,7 +47593,7 @@ impl IconShape for IoVolumeMediumOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeMediumSharp;
 impl IconShape for IoVolumeMediumSharp {
     fn view_box(&self) -> &str {
@@ -46832,7 +47628,7 @@ impl IconShape for IoVolumeMediumSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeMedium;
 impl IconShape for IoVolumeMedium {
     fn view_box(&self) -> &str {
@@ -46865,7 +47661,7 @@ impl IconShape for IoVolumeMedium {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeMuteOutline;
 impl IconShape for IoVolumeMuteOutline {
     fn view_box(&self) -> &str {
@@ -46911,7 +47707,7 @@ impl IconShape for IoVolumeMuteOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeMuteSharp;
 impl IconShape for IoVolumeMuteSharp {
     fn view_box(&self) -> &str {
@@ -46957,7 +47753,7 @@ impl IconShape for IoVolumeMuteSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeMute;
 impl IconShape for IoVolumeMute {
     fn view_box(&self) -> &str {
@@ -47003,7 +47799,7 @@ impl IconShape for IoVolumeMute {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeOffOutline;
 impl IconShape for IoVolumeOffOutline {
     fn view_box(&self) -> &str {
@@ -47031,7 +47827,7 @@ impl IconShape for IoVolumeOffOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeOffSharp;
 impl IconShape for IoVolumeOffSharp {
     fn view_box(&self) -> &str {
@@ -47058,7 +47854,7 @@ impl IconShape for IoVolumeOffSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoVolumeOff;
 impl IconShape for IoVolumeOff {
     fn view_box(&self) -> &str {
@@ -47085,7 +47881,7 @@ impl IconShape for IoVolumeOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWalkOutline;
 impl IconShape for IoWalkOutline {
     fn view_box(&self) -> &str {
@@ -47137,7 +47933,7 @@ impl IconShape for IoWalkOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWalkSharp;
 impl IconShape for IoWalkSharp {
     fn view_box(&self) -> &str {
@@ -47181,7 +47977,7 @@ impl IconShape for IoWalkSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWalk;
 impl IconShape for IoWalk {
     fn view_box(&self) -> &str {
@@ -47225,7 +48021,7 @@ impl IconShape for IoWalk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWalletOutline;
 impl IconShape for IoWalletOutline {
     fn view_box(&self) -> &str {
@@ -47265,7 +48061,7 @@ impl IconShape for IoWalletOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWalletSharp;
 impl IconShape for IoWalletSharp {
     fn view_box(&self) -> &str {
@@ -47298,7 +48094,7 @@ impl IconShape for IoWalletSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWallet;
 impl IconShape for IoWallet {
     fn view_box(&self) -> &str {
@@ -47331,7 +48127,7 @@ impl IconShape for IoWallet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWarningOutline;
 impl IconShape for IoWarningOutline {
     fn view_box(&self) -> &str {
@@ -47366,7 +48162,7 @@ impl IconShape for IoWarningOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWarningSharp;
 impl IconShape for IoWarningSharp {
     fn view_box(&self) -> &str {
@@ -47393,7 +48189,7 @@ impl IconShape for IoWarningSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWarning;
 impl IconShape for IoWarning {
     fn view_box(&self) -> &str {
@@ -47420,7 +48216,7 @@ impl IconShape for IoWarning {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWatchOutline;
 impl IconShape for IoWatchOutline {
     fn view_box(&self) -> &str {
@@ -47461,7 +48257,7 @@ impl IconShape for IoWatchOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWatchSharp;
 impl IconShape for IoWatchSharp {
     fn view_box(&self) -> &str {
@@ -47496,7 +48292,7 @@ impl IconShape for IoWatchSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWatch;
 impl IconShape for IoWatch {
     fn view_box(&self) -> &str {
@@ -47531,7 +48327,7 @@ impl IconShape for IoWatch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWaterOutline;
 impl IconShape for IoWaterOutline {
     fn view_box(&self) -> &str {
@@ -47563,7 +48359,7 @@ impl IconShape for IoWaterOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWaterSharp;
 impl IconShape for IoWaterSharp {
     fn view_box(&self) -> &str {
@@ -47590,7 +48386,7 @@ impl IconShape for IoWaterSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWater;
 impl IconShape for IoWater {
     fn view_box(&self) -> &str {
@@ -47617,7 +48413,7 @@ impl IconShape for IoWater {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWifiOutline;
 impl IconShape for IoWifiOutline {
     fn view_box(&self) -> &str {
@@ -47638,25 +48434,31 @@ impl IconShape for IoWifiOutline {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M332.41,310.59a115,115,0,0,0-152.8,0",
-                style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M318.586 363.5L256 424L193.414 363.5C193.414 363.5 212 336 256 336C300 336 318.586 363.5 318.586 363.5Z",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M393.46,249.54a201.26,201.26,0,0,0-274.92,0",
-                style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M407.31 278L372 312C372 312 331 266 256 266C181 266 140 312 140 312L104.69 278C104.69 278 142.5 214 256 214C369.5 214 407.31 278 407.31 278Z",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M447.72,182.11a288,288,0,0,0-383.44,0",
-                style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-            }
-            path {
-                d: "M256,416a32,32,0,1,1,32-32A32,32,0,0,1,256,416Z",
+                d: "M496 192L459.31 227.5C459.31 227.5 386.5 141 256 141C125.5 141 52.6897 227.5 52.6897 227.5L16 192C16 192 88 88 256 88C424 88 496 192 496 192Z",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWifiSharp;
 impl IconShape for IoWifiSharp {
     fn view_box(&self) -> &str {
@@ -47677,25 +48479,25 @@ impl IconShape for IoWifiSharp {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M332.69,320a115,115,0,0,0-152.8,0",
-                style: "stroke-linecap:square;stroke-linejoin:round;stroke-width:42px",
+                clip_rule: "evenodd",
+                d: "M337.78 362.819C333.534 354.366 326.706 347.132 325.179 345.509C322.129 342.268 317.644 338.112 311.59 334.004C299.362 325.705 281.02 317.813 256 317.813C230.98 317.813 212.638 325.705 200.41 334.004C194.356 338.112 189.871 342.268 186.821 345.509C185.294 347.132 184.116 348.537 183.273 349.606C182.851 350.141 178.966 354.366 174.22 362.819L256 442L337.78 362.819Z",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M393.74,259a201.26,201.26,0,0,0-274.92,0",
-                style: "stroke-linecap:square;stroke-linejoin:round;stroke-width:42px",
+                clip_rule: "evenodd",
+                d: "M425.25 279.287C425.25 279.287 417.255 269.058 409.547 260.359C403.564 253.606 391.447 242.649 378.646 233.982C352.884 216.538 314.749 198.905 256 198.905C197.251 198.905 159.116 216.538 133.354 233.982C120.553 242.649 112.519 249.455 104.485 258.154C96.451 266.854 86.7496 279.287 86.7496 279.287L143.384 333.878L154.421 321.49C154.446 321.463 154.509 321.395 154.608 321.289C154.808 321.078 155.157 320.716 155.652 320.224C156.643 319.24 158.218 317.742 160.361 315.898C164.655 312.205 171.184 307.165 179.834 302.094C197.103 291.97 222.709 281.78 256 281.78C289.291 281.78 314.897 291.97 332.166 302.094C340.816 307.165 347.345 312.205 351.639 315.898C353.782 317.742 355.357 319.24 356.348 320.224C356.843 320.716 357.192 321.078 357.392 321.289C357.491 321.395 357.554 321.462 357.579 321.49C357.591 321.504 357.595 321.507 357.588 321.5L368.616 333.878L425.25 279.287Z",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M448,191.52a288,288,0,0,0-383.44,0",
-                style: "stroke-linecap:square;stroke-linejoin:round;stroke-width:42px",
-            }
-            path {
-                d: "M300.67,384,256,433l-44.34-49a56.73,56.73,0,0,1,88.92,0Z",
+                clip_rule: "evenodd",
+                d: "M512 195.36C512 195.36 507.5 187 500.15 178.875C495.759 174.02 493.931 171.469 488.995 166.364C479.127 156.157 464.292 142.716 444.094 129.324C403.583 102.463 341.778 76 256 76C170.222 76 108.417 102.463 67.9063 129.324C47.7083 142.716 32.8725 156.157 23.0052 166.364C18.0692 171.469 14.3673 175.775 11.85 178.875C10.591 180.425 10.066 181.116 8.95243 182.575C5.25382 187.42 0 195.36 0 195.36L58.06 251.233L69.0637 238.232L69.0664 238.228L69.0684 238.226C69.08 238.213 69.1066 238.182 69.1483 238.134C69.2369 238.032 69.3932 237.854 69.6168 237.605C70.064 237.106 70.7799 236.323 71.7606 235.296C73.7228 233.24 76.7398 230.213 80.7814 226.536C88.873 219.175 101.017 209.256 116.97 199.315C148.861 179.443 195.744 159.606 256 159.606C316.256 159.606 363.139 179.443 395.03 199.315C410.983 209.256 423.127 219.175 431.219 226.536C435.26 230.213 438.277 233.24 440.239 235.296C441.22 236.323 441.936 237.106 442.383 237.605C442.607 237.854 442.763 238.032 442.852 238.134L442.888 238.176C442.91 238.201 442.925 238.218 442.932 238.227L442.934 238.228L442.936 238.232L453.94 251.233L512 195.36Z",
+                fill_rule: "evenodd",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWifi;
 impl IconShape for IoWifi {
     fn view_box(&self) -> &str {
@@ -47716,24 +48518,23 @@ impl IconShape for IoWifi {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M346.65,304.3a136,136,0,0,0-180.71,0,21,21,0,1,0,27.91,31.38,94,94,0,0,1,124.89,0,21,21,0,0,0,27.91-31.4Z",
+                clip_rule: "evenodd",
+                d: "M331.295 353.764C331.426 353.945 331.204 353.634 331.295 353.764C331.031 353.403 330.686 352.943 330.256 352.399C329.397 351.312 328.196 349.882 326.638 348.229C323.526 344.927 318.948 340.692 312.768 336.504C300.287 328.047 281.56 320 256 320C230.44 320 211.713 328.047 199.232 336.504C193.052 340.692 188.474 344.927 185.362 348.229C183.804 349.882 182.603 351.312 181.744 352.399C182.008 352.038 181.314 352.943 181.744 352.399L180.158 354.541C175.808 360.976 176.709 369.605 182.293 375.004L244.879 435.504C251.081 441.499 260.918 441.499 267.12 435.504L329.707 375.004C335.291 369.605 336.192 360.976 331.843 354.541L331.295 353.764Z",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M256.28,183.7a221.47,221.47,0,0,0-151.8,59.92,21,21,0,1,0,28.68,30.67,180.28,180.28,0,0,1,246.24,0,21,21,0,1,0,28.68-30.67A221.47,221.47,0,0,0,256.28,183.7Z",
+                clip_rule: "evenodd",
+                d: "M421.086 269.862C420.951 269.644 420.49 268.896 420.274 268.562C419.84 267.896 419.24 267.005 418.464 265.923C416.912 263.76 414.651 260.827 411.603 257.387C405.504 250.507 396.241 241.585 383.186 232.75C356.915 214.969 315.967 198 256 198C196.033 198 155.085 214.969 128.814 232.75C115.759 241.585 106.496 250.507 100.397 257.387C97.3485 260.827 95.0878 263.76 93.5358 265.923C92.7595 267.005 92.1597 267.896 91.7263 268.562C91.5096 268.896 91.3343 269.174 91.1994 269.391C91.132 269.5 90.9141 269.862 90.9141 269.862C87.1429 276.245 88.2511 284.383 93.5918 289.526L128.902 323.526C132.036 326.543 136.263 328.154 140.61 327.988C144.936 327.823 149.009 325.913 151.901 322.695C151.903 322.692 151.905 322.689 151.909 322.686C151.936 322.656 152.001 322.586 152.104 322.477C152.311 322.258 152.669 321.886 153.178 321.381C154.197 320.37 155.812 318.834 158.009 316.945C162.411 313.16 169.102 307.998 177.964 302.804C195.658 292.436 221.893 282 256 282C290.107 282 316.342 292.436 334.036 302.804C342.898 307.998 349.589 313.16 353.991 316.945C356.188 318.834 357.803 320.37 358.822 321.381C359.331 321.886 359.689 322.258 359.896 322.477C359.999 322.586 360.064 322.656 360.091 322.686L360.086 322.68L360.073 322.665M360.073 322.665C360.082 322.675 360.091 322.685 360.099 322.694C362.991 325.913 367.064 327.823 371.39 327.988C375.737 328.154 379.964 326.543 383.098 323.526L418.408 289.526C423.749 284.383 424.857 276.245 421.086 269.862",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M462,175.86a309,309,0,0,0-411.44,0,21,21,0,1,0,28,31.29,267,267,0,0,1,355.43,0,21,21,0,0,0,28-31.31Z",
-            }
-            circle {
-                cx: "256.28",
-                cy: "393.41",
-                r: "32",
+                d: "M507.974 181.264C508.317 181.723 509.155 182.893 509.155 182.893C513.613 189.332 512.754 198.052 507.126 203.499L470.436 238.999C467.248 242.083 462.923 243.706 458.493 243.479C454.074 243.253 449.947 241.207 447.091 237.829L447.088 237.826C447.077 237.813 447.049 237.78 447.003 237.727C446.911 237.621 446.75 237.437 446.521 237.179C446.062 236.665 445.328 235.858 444.324 234.8C442.315 232.684 439.229 229.571 435.095 225.79C426.82 218.221 414.405 208.026 398.098 197.809C365.499 177.384 317.58 157 256 157C194.42 157 146.501 177.384 113.902 197.809C97.5948 208.026 85.1796 218.221 76.9047 225.79C72.7716 229.571 69.685 232.684 67.676 234.8C66.6719 235.858 65.9384 236.665 65.4791 237.179C65.2496 237.437 65.0888 237.621 64.9971 237.727L64.9503 237.781L64.9205 237.815L64.916 237.821L64.9117 237.826L64.9085 237.83C62.0528 241.208 57.9255 243.253 53.5069 243.479C49.0769 243.706 44.7517 242.083 41.5639 238.999L4.87425 203.499C-0.754421 198.052 -1.61321 189.332 2.84493 182.893L2.85549 182.877L2.86773 182.86L2.89728 182.817C2.91924 182.786 2.94571 182.748 2.9767 182.704C3.03868 182.616 3.11877 182.504 3.21704 182.367C3.41359 182.093 3.68298 181.723 4.02598 181.264C4.71191 180.344 5.69278 179.065 6.97482 177.478C9.53819 174.304 13.3104 169.893 18.3417 164.66C28.3994 154.2 43.5266 140.419 64.1248 126.687C105.437 99.1458 168.481 72 256 72C343.519 72 406.563 99.1458 447.875 126.687C468.473 140.419 483.601 154.2 493.658 164.66C498.69 169.893 502.462 174.304 505.025 177.478C506.307 179.065 507.288 180.344 507.974 181.264Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWineOutline;
 impl IconShape for IoWineOutline {
     fn view_box(&self) -> &str {
@@ -47782,7 +48583,7 @@ impl IconShape for IoWineOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWineSharp;
 impl IconShape for IoWineSharp {
     fn view_box(&self) -> &str {
@@ -47809,7 +48610,7 @@ impl IconShape for IoWineSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWine;
 impl IconShape for IoWine {
     fn view_box(&self) -> &str {
@@ -47836,7 +48637,7 @@ impl IconShape for IoWine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWomanOutline;
 impl IconShape for IoWomanOutline {
     fn view_box(&self) -> &str {
@@ -47882,7 +48683,7 @@ impl IconShape for IoWomanOutline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWomanSharp;
 impl IconShape for IoWomanSharp {
     fn view_box(&self) -> &str {
@@ -47914,7 +48715,7 @@ impl IconShape for IoWomanSharp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct IoWoman;
 impl IconShape for IoWoman {
     fn view_box(&self) -> &str {

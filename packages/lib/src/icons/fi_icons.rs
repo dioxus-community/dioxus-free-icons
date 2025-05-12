@@ -1,7 +1,7 @@
 use super::super::IconShape;
 use dioxus::prelude::*;
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiActivity;
 impl IconShape for FiActivity {
     fn view_box(&self) -> &str {
@@ -28,7 +28,7 @@ impl IconShape for FiActivity {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAirplay;
 impl IconShape for FiAirplay {
     fn view_box(&self) -> &str {
@@ -58,7 +58,7 @@ impl IconShape for FiAirplay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAlertCircle;
 impl IconShape for FiAlertCircle {
     fn view_box(&self) -> &str {
@@ -99,7 +99,7 @@ impl IconShape for FiAlertCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAlertOctagon;
 impl IconShape for FiAlertOctagon {
     fn view_box(&self) -> &str {
@@ -138,7 +138,7 @@ impl IconShape for FiAlertOctagon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAlertTriangle;
 impl IconShape for FiAlertTriangle {
     fn view_box(&self) -> &str {
@@ -177,7 +177,7 @@ impl IconShape for FiAlertTriangle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAlignCenter;
 impl IconShape for FiAlignCenter {
     fn view_box(&self) -> &str {
@@ -225,7 +225,7 @@ impl IconShape for FiAlignCenter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAlignJustify;
 impl IconShape for FiAlignJustify {
     fn view_box(&self) -> &str {
@@ -273,7 +273,7 @@ impl IconShape for FiAlignJustify {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAlignLeft;
 impl IconShape for FiAlignLeft {
     fn view_box(&self) -> &str {
@@ -321,7 +321,7 @@ impl IconShape for FiAlignLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAlignRight;
 impl IconShape for FiAlignRight {
     fn view_box(&self) -> &str {
@@ -369,7 +369,7 @@ impl IconShape for FiAlignRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAnchor;
 impl IconShape for FiAnchor {
     fn view_box(&self) -> &str {
@@ -407,7 +407,7 @@ impl IconShape for FiAnchor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAperture;
 impl IconShape for FiAperture {
     fn view_box(&self) -> &str {
@@ -472,7 +472,7 @@ impl IconShape for FiAperture {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArchive;
 impl IconShape for FiArchive {
     fn view_box(&self) -> &str {
@@ -511,7 +511,7 @@ impl IconShape for FiArchive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowDownCircle;
 impl IconShape for FiArrowDownCircle {
     fn view_box(&self) -> &str {
@@ -549,7 +549,7 @@ impl IconShape for FiArrowDownCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowDownLeft;
 impl IconShape for FiArrowDownLeft {
     fn view_box(&self) -> &str {
@@ -582,7 +582,7 @@ impl IconShape for FiArrowDownLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowDownRight;
 impl IconShape for FiArrowDownRight {
     fn view_box(&self) -> &str {
@@ -615,7 +615,7 @@ impl IconShape for FiArrowDownRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowDown;
 impl IconShape for FiArrowDown {
     fn view_box(&self) -> &str {
@@ -648,7 +648,7 @@ impl IconShape for FiArrowDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowLeftCircle;
 impl IconShape for FiArrowLeftCircle {
     fn view_box(&self) -> &str {
@@ -686,7 +686,7 @@ impl IconShape for FiArrowLeftCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowLeft;
 impl IconShape for FiArrowLeft {
     fn view_box(&self) -> &str {
@@ -719,7 +719,7 @@ impl IconShape for FiArrowLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowRightCircle;
 impl IconShape for FiArrowRightCircle {
     fn view_box(&self) -> &str {
@@ -757,7 +757,7 @@ impl IconShape for FiArrowRightCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowRight;
 impl IconShape for FiArrowRight {
     fn view_box(&self) -> &str {
@@ -790,7 +790,7 @@ impl IconShape for FiArrowRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowUpCircle;
 impl IconShape for FiArrowUpCircle {
     fn view_box(&self) -> &str {
@@ -828,7 +828,7 @@ impl IconShape for FiArrowUpCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowUpLeft;
 impl IconShape for FiArrowUpLeft {
     fn view_box(&self) -> &str {
@@ -861,7 +861,7 @@ impl IconShape for FiArrowUpLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowUpRight;
 impl IconShape for FiArrowUpRight {
     fn view_box(&self) -> &str {
@@ -894,7 +894,7 @@ impl IconShape for FiArrowUpRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiArrowUp;
 impl IconShape for FiArrowUp {
     fn view_box(&self) -> &str {
@@ -927,7 +927,7 @@ impl IconShape for FiArrowUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAtSign;
 impl IconShape for FiAtSign {
     fn view_box(&self) -> &str {
@@ -959,7 +959,7 @@ impl IconShape for FiAtSign {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiAward;
 impl IconShape for FiAward {
     fn view_box(&self) -> &str {
@@ -991,7 +991,7 @@ impl IconShape for FiAward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBarChart2;
 impl IconShape for FiBarChart2 {
     fn view_box(&self) -> &str {
@@ -1033,7 +1033,7 @@ impl IconShape for FiBarChart2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBarChart;
 impl IconShape for FiBarChart {
     fn view_box(&self) -> &str {
@@ -1075,7 +1075,7 @@ impl IconShape for FiBarChart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBatteryCharging;
 impl IconShape for FiBatteryCharging {
     fn view_box(&self) -> &str {
@@ -1111,7 +1111,7 @@ impl IconShape for FiBatteryCharging {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBattery;
 impl IconShape for FiBattery {
     fn view_box(&self) -> &str {
@@ -1149,7 +1149,7 @@ impl IconShape for FiBattery {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBellOff;
 impl IconShape for FiBellOff {
     fn view_box(&self) -> &str {
@@ -1191,7 +1191,7 @@ impl IconShape for FiBellOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBell;
 impl IconShape for FiBell {
     fn view_box(&self) -> &str {
@@ -1221,7 +1221,7 @@ impl IconShape for FiBell {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBluetooth;
 impl IconShape for FiBluetooth {
     fn view_box(&self) -> &str {
@@ -1248,7 +1248,7 @@ impl IconShape for FiBluetooth {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBold;
 impl IconShape for FiBold {
     fn view_box(&self) -> &str {
@@ -1278,7 +1278,7 @@ impl IconShape for FiBold {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBookOpen;
 impl IconShape for FiBookOpen {
     fn view_box(&self) -> &str {
@@ -1308,7 +1308,7 @@ impl IconShape for FiBookOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBook;
 impl IconShape for FiBook {
     fn view_box(&self) -> &str {
@@ -1338,7 +1338,7 @@ impl IconShape for FiBook {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBookmark;
 impl IconShape for FiBookmark {
     fn view_box(&self) -> &str {
@@ -1365,7 +1365,7 @@ impl IconShape for FiBookmark {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBox;
 impl IconShape for FiBox {
     fn view_box(&self) -> &str {
@@ -1401,7 +1401,7 @@ impl IconShape for FiBox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiBriefcase;
 impl IconShape for FiBriefcase {
     fn view_box(&self) -> &str {
@@ -1436,7 +1436,7 @@ impl IconShape for FiBriefcase {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCalendar;
 impl IconShape for FiCalendar {
     fn view_box(&self) -> &str {
@@ -1486,7 +1486,7 @@ impl IconShape for FiCalendar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCameraOff;
 impl IconShape for FiCameraOff {
     fn view_box(&self) -> &str {
@@ -1519,7 +1519,7 @@ impl IconShape for FiCameraOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCamera;
 impl IconShape for FiCamera {
     fn view_box(&self) -> &str {
@@ -1551,7 +1551,7 @@ impl IconShape for FiCamera {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCast;
 impl IconShape for FiCast {
     fn view_box(&self) -> &str {
@@ -1584,7 +1584,7 @@ impl IconShape for FiCast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCheckCircle;
 impl IconShape for FiCheckCircle {
     fn view_box(&self) -> &str {
@@ -1614,7 +1614,7 @@ impl IconShape for FiCheckCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCheckSquare;
 impl IconShape for FiCheckSquare {
     fn view_box(&self) -> &str {
@@ -1644,7 +1644,7 @@ impl IconShape for FiCheckSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCheck;
 impl IconShape for FiCheck {
     fn view_box(&self) -> &str {
@@ -1671,7 +1671,7 @@ impl IconShape for FiCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChevronDown;
 impl IconShape for FiChevronDown {
     fn view_box(&self) -> &str {
@@ -1698,7 +1698,7 @@ impl IconShape for FiChevronDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChevronLeft;
 impl IconShape for FiChevronLeft {
     fn view_box(&self) -> &str {
@@ -1725,7 +1725,7 @@ impl IconShape for FiChevronLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChevronRight;
 impl IconShape for FiChevronRight {
     fn view_box(&self) -> &str {
@@ -1752,7 +1752,7 @@ impl IconShape for FiChevronRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChevronUp;
 impl IconShape for FiChevronUp {
     fn view_box(&self) -> &str {
@@ -1779,7 +1779,7 @@ impl IconShape for FiChevronUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChevronsDown;
 impl IconShape for FiChevronsDown {
     fn view_box(&self) -> &str {
@@ -1809,7 +1809,7 @@ impl IconShape for FiChevronsDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChevronsLeft;
 impl IconShape for FiChevronsLeft {
     fn view_box(&self) -> &str {
@@ -1839,7 +1839,7 @@ impl IconShape for FiChevronsLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChevronsRight;
 impl IconShape for FiChevronsRight {
     fn view_box(&self) -> &str {
@@ -1869,7 +1869,7 @@ impl IconShape for FiChevronsRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChevronsUp;
 impl IconShape for FiChevronsUp {
     fn view_box(&self) -> &str {
@@ -1899,7 +1899,7 @@ impl IconShape for FiChevronsUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiChrome;
 impl IconShape for FiChrome {
     fn view_box(&self) -> &str {
@@ -1951,7 +1951,7 @@ impl IconShape for FiChrome {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCircle;
 impl IconShape for FiCircle {
     fn view_box(&self) -> &str {
@@ -1980,7 +1980,7 @@ impl IconShape for FiCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiClipboard;
 impl IconShape for FiClipboard {
     fn view_box(&self) -> &str {
@@ -2015,7 +2015,7 @@ impl IconShape for FiClipboard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiClock;
 impl IconShape for FiClock {
     fn view_box(&self) -> &str {
@@ -2047,7 +2047,7 @@ impl IconShape for FiClock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCloudDrizzle;
 impl IconShape for FiCloudDrizzle {
     fn view_box(&self) -> &str {
@@ -2110,7 +2110,7 @@ impl IconShape for FiCloudDrizzle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCloudLightning;
 impl IconShape for FiCloudLightning {
     fn view_box(&self) -> &str {
@@ -2140,7 +2140,7 @@ impl IconShape for FiCloudLightning {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCloudOff;
 impl IconShape for FiCloudOff {
     fn view_box(&self) -> &str {
@@ -2173,7 +2173,7 @@ impl IconShape for FiCloudOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCloudRain;
 impl IconShape for FiCloudRain {
     fn view_box(&self) -> &str {
@@ -2218,7 +2218,7 @@ impl IconShape for FiCloudRain {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCloudSnow;
 impl IconShape for FiCloudSnow {
     fn view_box(&self) -> &str {
@@ -2281,7 +2281,7 @@ impl IconShape for FiCloudSnow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCloud;
 impl IconShape for FiCloud {
     fn view_box(&self) -> &str {
@@ -2308,7 +2308,7 @@ impl IconShape for FiCloud {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCode;
 impl IconShape for FiCode {
     fn view_box(&self) -> &str {
@@ -2338,7 +2338,7 @@ impl IconShape for FiCode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCodepen;
 impl IconShape for FiCodepen {
     fn view_box(&self) -> &str {
@@ -2383,7 +2383,7 @@ impl IconShape for FiCodepen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCodesandbox;
 impl IconShape for FiCodesandbox {
     fn view_box(&self) -> &str {
@@ -2428,7 +2428,7 @@ impl IconShape for FiCodesandbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCoffee;
 impl IconShape for FiCoffee {
     fn view_box(&self) -> &str {
@@ -2476,7 +2476,7 @@ impl IconShape for FiCoffee {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiColumns;
 impl IconShape for FiColumns {
     fn view_box(&self) -> &str {
@@ -2503,7 +2503,7 @@ impl IconShape for FiColumns {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCommand;
 impl IconShape for FiCommand {
     fn view_box(&self) -> &str {
@@ -2530,7 +2530,7 @@ impl IconShape for FiCommand {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCompass;
 impl IconShape for FiCompass {
     fn view_box(&self) -> &str {
@@ -2562,7 +2562,7 @@ impl IconShape for FiCompass {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCopy;
 impl IconShape for FiCopy {
     fn view_box(&self) -> &str {
@@ -2597,7 +2597,7 @@ impl IconShape for FiCopy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCornerDownLeft;
 impl IconShape for FiCornerDownLeft {
     fn view_box(&self) -> &str {
@@ -2627,7 +2627,7 @@ impl IconShape for FiCornerDownLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCornerDownRight;
 impl IconShape for FiCornerDownRight {
     fn view_box(&self) -> &str {
@@ -2657,7 +2657,7 @@ impl IconShape for FiCornerDownRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCornerLeftDown;
 impl IconShape for FiCornerLeftDown {
     fn view_box(&self) -> &str {
@@ -2687,7 +2687,7 @@ impl IconShape for FiCornerLeftDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCornerLeftUp;
 impl IconShape for FiCornerLeftUp {
     fn view_box(&self) -> &str {
@@ -2717,7 +2717,7 @@ impl IconShape for FiCornerLeftUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCornerRightDown;
 impl IconShape for FiCornerRightDown {
     fn view_box(&self) -> &str {
@@ -2747,7 +2747,7 @@ impl IconShape for FiCornerRightDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCornerRightUp;
 impl IconShape for FiCornerRightUp {
     fn view_box(&self) -> &str {
@@ -2777,7 +2777,7 @@ impl IconShape for FiCornerRightUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCornerUpLeft;
 impl IconShape for FiCornerUpLeft {
     fn view_box(&self) -> &str {
@@ -2807,7 +2807,7 @@ impl IconShape for FiCornerUpLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCornerUpRight;
 impl IconShape for FiCornerUpRight {
     fn view_box(&self) -> &str {
@@ -2837,7 +2837,7 @@ impl IconShape for FiCornerUpRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCpu;
 impl IconShape for FiCpu {
     fn view_box(&self) -> &str {
@@ -2923,7 +2923,7 @@ impl IconShape for FiCpu {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCreditCard;
 impl IconShape for FiCreditCard {
     fn view_box(&self) -> &str {
@@ -2961,7 +2961,7 @@ impl IconShape for FiCreditCard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCrop;
 impl IconShape for FiCrop {
     fn view_box(&self) -> &str {
@@ -2991,7 +2991,7 @@ impl IconShape for FiCrop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiCrosshair;
 impl IconShape for FiCrosshair {
     fn view_box(&self) -> &str {
@@ -3044,7 +3044,7 @@ impl IconShape for FiCrosshair {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDatabase;
 impl IconShape for FiDatabase {
     fn view_box(&self) -> &str {
@@ -3080,7 +3080,7 @@ impl IconShape for FiDatabase {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDelete;
 impl IconShape for FiDelete {
     fn view_box(&self) -> &str {
@@ -3119,7 +3119,7 @@ impl IconShape for FiDelete {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDisc;
 impl IconShape for FiDisc {
     fn view_box(&self) -> &str {
@@ -3153,7 +3153,7 @@ impl IconShape for FiDisc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDivideCircle;
 impl IconShape for FiDivideCircle {
     fn view_box(&self) -> &str {
@@ -3200,7 +3200,7 @@ impl IconShape for FiDivideCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDivideSquare;
 impl IconShape for FiDivideSquare {
     fn view_box(&self) -> &str {
@@ -3250,7 +3250,7 @@ impl IconShape for FiDivideSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDivide;
 impl IconShape for FiDivide {
     fn view_box(&self) -> &str {
@@ -3290,7 +3290,7 @@ impl IconShape for FiDivide {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDollarSign;
 impl IconShape for FiDollarSign {
     fn view_box(&self) -> &str {
@@ -3323,7 +3323,7 @@ impl IconShape for FiDollarSign {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDownloadCloud;
 impl IconShape for FiDownloadCloud {
     fn view_box(&self) -> &str {
@@ -3359,7 +3359,7 @@ impl IconShape for FiDownloadCloud {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDownload;
 impl IconShape for FiDownload {
     fn view_box(&self) -> &str {
@@ -3395,7 +3395,7 @@ impl IconShape for FiDownload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDribbble;
 impl IconShape for FiDribbble {
     fn view_box(&self) -> &str {
@@ -3427,7 +3427,7 @@ impl IconShape for FiDribbble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiDroplet;
 impl IconShape for FiDroplet {
     fn view_box(&self) -> &str {
@@ -3454,7 +3454,7 @@ impl IconShape for FiDroplet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiEdit2;
 impl IconShape for FiEdit2 {
     fn view_box(&self) -> &str {
@@ -3481,7 +3481,7 @@ impl IconShape for FiEdit2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiEdit3;
 impl IconShape for FiEdit3 {
     fn view_box(&self) -> &str {
@@ -3511,7 +3511,7 @@ impl IconShape for FiEdit3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiEdit;
 impl IconShape for FiEdit {
     fn view_box(&self) -> &str {
@@ -3541,7 +3541,7 @@ impl IconShape for FiEdit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiExternalLink;
 impl IconShape for FiExternalLink {
     fn view_box(&self) -> &str {
@@ -3577,7 +3577,7 @@ impl IconShape for FiExternalLink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiEyeOff;
 impl IconShape for FiEyeOff {
     fn view_box(&self) -> &str {
@@ -3610,7 +3610,7 @@ impl IconShape for FiEyeOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiEye;
 impl IconShape for FiEye {
     fn view_box(&self) -> &str {
@@ -3642,7 +3642,7 @@ impl IconShape for FiEye {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFacebook;
 impl IconShape for FiFacebook {
     fn view_box(&self) -> &str {
@@ -3669,7 +3669,7 @@ impl IconShape for FiFacebook {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFastForward;
 impl IconShape for FiFastForward {
     fn view_box(&self) -> &str {
@@ -3699,7 +3699,7 @@ impl IconShape for FiFastForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFeather;
 impl IconShape for FiFeather {
     fn view_box(&self) -> &str {
@@ -3738,7 +3738,7 @@ impl IconShape for FiFeather {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFigma;
 impl IconShape for FiFigma {
     fn view_box(&self) -> &str {
@@ -3777,7 +3777,7 @@ impl IconShape for FiFigma {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFileMinus;
 impl IconShape for FiFileMinus {
     fn view_box(&self) -> &str {
@@ -3813,7 +3813,7 @@ impl IconShape for FiFileMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFilePlus;
 impl IconShape for FiFilePlus {
     fn view_box(&self) -> &str {
@@ -3855,7 +3855,7 @@ impl IconShape for FiFilePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFileText;
 impl IconShape for FiFileText {
     fn view_box(&self) -> &str {
@@ -3900,7 +3900,7 @@ impl IconShape for FiFileText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFile;
 impl IconShape for FiFile {
     fn view_box(&self) -> &str {
@@ -3930,7 +3930,7 @@ impl IconShape for FiFile {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFilm;
 impl IconShape for FiFilm {
     fn view_box(&self) -> &str {
@@ -4004,7 +4004,7 @@ impl IconShape for FiFilm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFilter;
 impl IconShape for FiFilter {
     fn view_box(&self) -> &str {
@@ -4031,7 +4031,7 @@ impl IconShape for FiFilter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFlag;
 impl IconShape for FiFlag {
     fn view_box(&self) -> &str {
@@ -4064,7 +4064,7 @@ impl IconShape for FiFlag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFolderMinus;
 impl IconShape for FiFolderMinus {
     fn view_box(&self) -> &str {
@@ -4097,7 +4097,7 @@ impl IconShape for FiFolderMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFolderPlus;
 impl IconShape for FiFolderPlus {
     fn view_box(&self) -> &str {
@@ -4136,7 +4136,7 @@ impl IconShape for FiFolderPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFolder;
 impl IconShape for FiFolder {
     fn view_box(&self) -> &str {
@@ -4163,7 +4163,7 @@ impl IconShape for FiFolder {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFramer;
 impl IconShape for FiFramer {
     fn view_box(&self) -> &str {
@@ -4190,7 +4190,7 @@ impl IconShape for FiFramer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiFrown;
 impl IconShape for FiFrown {
     fn view_box(&self) -> &str {
@@ -4234,7 +4234,7 @@ impl IconShape for FiFrown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGift;
 impl IconShape for FiGift {
     fn view_box(&self) -> &str {
@@ -4279,7 +4279,7 @@ impl IconShape for FiGift {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGitBranch;
 impl IconShape for FiGitBranch {
     fn view_box(&self) -> &str {
@@ -4322,7 +4322,7 @@ impl IconShape for FiGitBranch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGitCommit;
 impl IconShape for FiGitCommit {
     fn view_box(&self) -> &str {
@@ -4363,7 +4363,7 @@ impl IconShape for FiGitCommit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGitMerge;
 impl IconShape for FiGitMerge {
     fn view_box(&self) -> &str {
@@ -4400,7 +4400,7 @@ impl IconShape for FiGitMerge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGitPullRequest;
 impl IconShape for FiGitPullRequest {
     fn view_box(&self) -> &str {
@@ -4443,7 +4443,7 @@ impl IconShape for FiGitPullRequest {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGithub;
 impl IconShape for FiGithub {
     fn view_box(&self) -> &str {
@@ -4470,7 +4470,7 @@ impl IconShape for FiGithub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGitlab;
 impl IconShape for FiGitlab {
     fn view_box(&self) -> &str {
@@ -4497,7 +4497,7 @@ impl IconShape for FiGitlab {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGlobe;
 impl IconShape for FiGlobe {
     fn view_box(&self) -> &str {
@@ -4535,7 +4535,7 @@ impl IconShape for FiGlobe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiGrid;
 impl IconShape for FiGrid {
     fn view_box(&self) -> &str {
@@ -4583,7 +4583,7 @@ impl IconShape for FiGrid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiHardDrive;
 impl IconShape for FiHardDrive {
     fn view_box(&self) -> &str {
@@ -4628,7 +4628,7 @@ impl IconShape for FiHardDrive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiHash;
 impl IconShape for FiHash {
     fn view_box(&self) -> &str {
@@ -4676,7 +4676,7 @@ impl IconShape for FiHash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiHeadphones;
 impl IconShape for FiHeadphones {
     fn view_box(&self) -> &str {
@@ -4706,7 +4706,7 @@ impl IconShape for FiHeadphones {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiHeart;
 impl IconShape for FiHeart {
     fn view_box(&self) -> &str {
@@ -4733,7 +4733,7 @@ impl IconShape for FiHeart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiHelpCircle;
 impl IconShape for FiHelpCircle {
     fn view_box(&self) -> &str {
@@ -4771,7 +4771,7 @@ impl IconShape for FiHelpCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiHexagon;
 impl IconShape for FiHexagon {
     fn view_box(&self) -> &str {
@@ -4798,7 +4798,7 @@ impl IconShape for FiHexagon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiHome;
 impl IconShape for FiHome {
     fn view_box(&self) -> &str {
@@ -4828,7 +4828,7 @@ impl IconShape for FiHome {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiImage;
 impl IconShape for FiImage {
     fn view_box(&self) -> &str {
@@ -4868,7 +4868,7 @@ impl IconShape for FiImage {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiInbox;
 impl IconShape for FiInbox {
     fn view_box(&self) -> &str {
@@ -4898,7 +4898,7 @@ impl IconShape for FiInbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiInfo;
 impl IconShape for FiInfo {
     fn view_box(&self) -> &str {
@@ -4939,7 +4939,7 @@ impl IconShape for FiInfo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiInstagram;
 impl IconShape for FiInstagram {
     fn view_box(&self) -> &str {
@@ -4980,7 +4980,7 @@ impl IconShape for FiInstagram {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiItalic;
 impl IconShape for FiItalic {
     fn view_box(&self) -> &str {
@@ -5022,7 +5022,7 @@ impl IconShape for FiItalic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiKey;
 impl IconShape for FiKey {
     fn view_box(&self) -> &str {
@@ -5049,7 +5049,7 @@ impl IconShape for FiKey {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLayers;
 impl IconShape for FiLayers {
     fn view_box(&self) -> &str {
@@ -5082,7 +5082,7 @@ impl IconShape for FiLayers {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLayout;
 impl IconShape for FiLayout {
     fn view_box(&self) -> &str {
@@ -5126,7 +5126,7 @@ impl IconShape for FiLayout {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLifeBuoy;
 impl IconShape for FiLifeBuoy {
     fn view_box(&self) -> &str {
@@ -5190,7 +5190,7 @@ impl IconShape for FiLifeBuoy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLink2;
 impl IconShape for FiLink2 {
     fn view_box(&self) -> &str {
@@ -5223,7 +5223,7 @@ impl IconShape for FiLink2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLink;
 impl IconShape for FiLink {
     fn view_box(&self) -> &str {
@@ -5253,7 +5253,7 @@ impl IconShape for FiLink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLinkedin;
 impl IconShape for FiLinkedin {
     fn view_box(&self) -> &str {
@@ -5291,7 +5291,7 @@ impl IconShape for FiLinkedin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiList;
 impl IconShape for FiList {
     fn view_box(&self) -> &str {
@@ -5351,7 +5351,7 @@ impl IconShape for FiList {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLoader;
 impl IconShape for FiLoader {
     fn view_box(&self) -> &str {
@@ -5423,7 +5423,7 @@ impl IconShape for FiLoader {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLock;
 impl IconShape for FiLock {
     fn view_box(&self) -> &str {
@@ -5458,7 +5458,7 @@ impl IconShape for FiLock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLogIn;
 impl IconShape for FiLogIn {
     fn view_box(&self) -> &str {
@@ -5494,7 +5494,7 @@ impl IconShape for FiLogIn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiLogOut;
 impl IconShape for FiLogOut {
     fn view_box(&self) -> &str {
@@ -5530,7 +5530,7 @@ impl IconShape for FiLogOut {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMail;
 impl IconShape for FiMail {
     fn view_box(&self) -> &str {
@@ -5560,7 +5560,7 @@ impl IconShape for FiMail {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMapPin;
 impl IconShape for FiMapPin {
     fn view_box(&self) -> &str {
@@ -5592,7 +5592,7 @@ impl IconShape for FiMapPin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMap;
 impl IconShape for FiMap {
     fn view_box(&self) -> &str {
@@ -5631,7 +5631,7 @@ impl IconShape for FiMap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMaximize2;
 impl IconShape for FiMaximize2 {
     fn view_box(&self) -> &str {
@@ -5673,7 +5673,7 @@ impl IconShape for FiMaximize2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMaximize;
 impl IconShape for FiMaximize {
     fn view_box(&self) -> &str {
@@ -5700,7 +5700,7 @@ impl IconShape for FiMaximize {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMeh;
 impl IconShape for FiMeh {
     fn view_box(&self) -> &str {
@@ -5747,7 +5747,7 @@ impl IconShape for FiMeh {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMenu;
 impl IconShape for FiMenu {
     fn view_box(&self) -> &str {
@@ -5789,7 +5789,7 @@ impl IconShape for FiMenu {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMessageCircle;
 impl IconShape for FiMessageCircle {
     fn view_box(&self) -> &str {
@@ -5816,7 +5816,7 @@ impl IconShape for FiMessageCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMessageSquare;
 impl IconShape for FiMessageSquare {
     fn view_box(&self) -> &str {
@@ -5843,7 +5843,7 @@ impl IconShape for FiMessageSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMicOff;
 impl IconShape for FiMicOff {
     fn view_box(&self) -> &str {
@@ -5891,7 +5891,7 @@ impl IconShape for FiMicOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMic;
 impl IconShape for FiMic {
     fn view_box(&self) -> &str {
@@ -5933,7 +5933,7 @@ impl IconShape for FiMic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMinimize2;
 impl IconShape for FiMinimize2 {
     fn view_box(&self) -> &str {
@@ -5975,7 +5975,7 @@ impl IconShape for FiMinimize2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMinimize;
 impl IconShape for FiMinimize {
     fn view_box(&self) -> &str {
@@ -6002,7 +6002,7 @@ impl IconShape for FiMinimize {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMinusCircle;
 impl IconShape for FiMinusCircle {
     fn view_box(&self) -> &str {
@@ -6037,7 +6037,7 @@ impl IconShape for FiMinusCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMinusSquare;
 impl IconShape for FiMinusSquare {
     fn view_box(&self) -> &str {
@@ -6075,7 +6075,7 @@ impl IconShape for FiMinusSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMinus;
 impl IconShape for FiMinus {
     fn view_box(&self) -> &str {
@@ -6105,7 +6105,7 @@ impl IconShape for FiMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMonitor;
 impl IconShape for FiMonitor {
     fn view_box(&self) -> &str {
@@ -6149,7 +6149,7 @@ impl IconShape for FiMonitor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMoon;
 impl IconShape for FiMoon {
     fn view_box(&self) -> &str {
@@ -6176,7 +6176,7 @@ impl IconShape for FiMoon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMoreHorizontal;
 impl IconShape for FiMoreHorizontal {
     fn view_box(&self) -> &str {
@@ -6215,7 +6215,7 @@ impl IconShape for FiMoreHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMoreVertical;
 impl IconShape for FiMoreVertical {
     fn view_box(&self) -> &str {
@@ -6254,7 +6254,7 @@ impl IconShape for FiMoreVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMousePointer;
 impl IconShape for FiMousePointer {
     fn view_box(&self) -> &str {
@@ -6284,7 +6284,7 @@ impl IconShape for FiMousePointer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMove;
 impl IconShape for FiMove {
     fn view_box(&self) -> &str {
@@ -6332,7 +6332,7 @@ impl IconShape for FiMove {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiMusic;
 impl IconShape for FiMusic {
     fn view_box(&self) -> &str {
@@ -6369,7 +6369,7 @@ impl IconShape for FiMusic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiNavigation2;
 impl IconShape for FiNavigation2 {
     fn view_box(&self) -> &str {
@@ -6396,7 +6396,7 @@ impl IconShape for FiNavigation2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiNavigation;
 impl IconShape for FiNavigation {
     fn view_box(&self) -> &str {
@@ -6423,7 +6423,7 @@ impl IconShape for FiNavigation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiOctagon;
 impl IconShape for FiOctagon {
     fn view_box(&self) -> &str {
@@ -6450,7 +6450,7 @@ impl IconShape for FiOctagon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPackage;
 impl IconShape for FiPackage {
     fn view_box(&self) -> &str {
@@ -6492,7 +6492,7 @@ impl IconShape for FiPackage {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPaperclip;
 impl IconShape for FiPaperclip {
     fn view_box(&self) -> &str {
@@ -6519,7 +6519,7 @@ impl IconShape for FiPaperclip {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPauseCircle;
 impl IconShape for FiPauseCircle {
     fn view_box(&self) -> &str {
@@ -6560,7 +6560,7 @@ impl IconShape for FiPauseCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPause;
 impl IconShape for FiPause {
     fn view_box(&self) -> &str {
@@ -6596,7 +6596,7 @@ impl IconShape for FiPause {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPenTool;
 impl IconShape for FiPenTool {
     fn view_box(&self) -> &str {
@@ -6634,7 +6634,7 @@ impl IconShape for FiPenTool {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPercent;
 impl IconShape for FiPercent {
     fn view_box(&self) -> &str {
@@ -6674,7 +6674,7 @@ impl IconShape for FiPercent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPhoneCall;
 impl IconShape for FiPhoneCall {
     fn view_box(&self) -> &str {
@@ -6701,7 +6701,7 @@ impl IconShape for FiPhoneCall {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPhoneForwarded;
 impl IconShape for FiPhoneForwarded {
     fn view_box(&self) -> &str {
@@ -6737,7 +6737,7 @@ impl IconShape for FiPhoneForwarded {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPhoneIncoming;
 impl IconShape for FiPhoneIncoming {
     fn view_box(&self) -> &str {
@@ -6773,7 +6773,7 @@ impl IconShape for FiPhoneIncoming {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPhoneMissed;
 impl IconShape for FiPhoneMissed {
     fn view_box(&self) -> &str {
@@ -6812,7 +6812,7 @@ impl IconShape for FiPhoneMissed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPhoneOff;
 impl IconShape for FiPhoneOff {
     fn view_box(&self) -> &str {
@@ -6845,7 +6845,7 @@ impl IconShape for FiPhoneOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPhoneOutgoing;
 impl IconShape for FiPhoneOutgoing {
     fn view_box(&self) -> &str {
@@ -6881,7 +6881,7 @@ impl IconShape for FiPhoneOutgoing {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPhone;
 impl IconShape for FiPhone {
     fn view_box(&self) -> &str {
@@ -6908,7 +6908,7 @@ impl IconShape for FiPhone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPieChart;
 impl IconShape for FiPieChart {
     fn view_box(&self) -> &str {
@@ -6938,7 +6938,7 @@ impl IconShape for FiPieChart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPlayCircle;
 impl IconShape for FiPlayCircle {
     fn view_box(&self) -> &str {
@@ -6970,7 +6970,7 @@ impl IconShape for FiPlayCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPlay;
 impl IconShape for FiPlay {
     fn view_box(&self) -> &str {
@@ -6997,7 +6997,7 @@ impl IconShape for FiPlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPlusCircle;
 impl IconShape for FiPlusCircle {
     fn view_box(&self) -> &str {
@@ -7038,7 +7038,7 @@ impl IconShape for FiPlusCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPlusSquare;
 impl IconShape for FiPlusSquare {
     fn view_box(&self) -> &str {
@@ -7082,7 +7082,7 @@ impl IconShape for FiPlusSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPlus;
 impl IconShape for FiPlus {
     fn view_box(&self) -> &str {
@@ -7118,7 +7118,7 @@ impl IconShape for FiPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPocket;
 impl IconShape for FiPocket {
     fn view_box(&self) -> &str {
@@ -7148,7 +7148,7 @@ impl IconShape for FiPocket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPower;
 impl IconShape for FiPower {
     fn view_box(&self) -> &str {
@@ -7181,7 +7181,7 @@ impl IconShape for FiPower {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiPrinter;
 impl IconShape for FiPrinter {
     fn view_box(&self) -> &str {
@@ -7217,7 +7217,7 @@ impl IconShape for FiPrinter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiRadio;
 impl IconShape for FiRadio {
     fn view_box(&self) -> &str {
@@ -7249,7 +7249,7 @@ impl IconShape for FiRadio {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiRefreshCcw;
 impl IconShape for FiRefreshCcw {
     fn view_box(&self) -> &str {
@@ -7282,7 +7282,7 @@ impl IconShape for FiRefreshCcw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiRefreshCw;
 impl IconShape for FiRefreshCw {
     fn view_box(&self) -> &str {
@@ -7315,7 +7315,7 @@ impl IconShape for FiRefreshCw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiRepeat;
 impl IconShape for FiRepeat {
     fn view_box(&self) -> &str {
@@ -7351,7 +7351,7 @@ impl IconShape for FiRepeat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiRewind;
 impl IconShape for FiRewind {
     fn view_box(&self) -> &str {
@@ -7381,7 +7381,7 @@ impl IconShape for FiRewind {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiRotateCcw;
 impl IconShape for FiRotateCcw {
     fn view_box(&self) -> &str {
@@ -7411,7 +7411,7 @@ impl IconShape for FiRotateCcw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiRotateCw;
 impl IconShape for FiRotateCw {
     fn view_box(&self) -> &str {
@@ -7441,7 +7441,7 @@ impl IconShape for FiRotateCw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiRss;
 impl IconShape for FiRss {
     fn view_box(&self) -> &str {
@@ -7476,7 +7476,7 @@ impl IconShape for FiRss {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSave;
 impl IconShape for FiSave {
     fn view_box(&self) -> &str {
@@ -7509,7 +7509,7 @@ impl IconShape for FiSave {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiScissors;
 impl IconShape for FiScissors {
     fn view_box(&self) -> &str {
@@ -7561,7 +7561,7 @@ impl IconShape for FiScissors {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSearch;
 impl IconShape for FiSearch {
     fn view_box(&self) -> &str {
@@ -7596,7 +7596,7 @@ impl IconShape for FiSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSend;
 impl IconShape for FiSend {
     fn view_box(&self) -> &str {
@@ -7629,7 +7629,7 @@ impl IconShape for FiSend {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiServer;
 impl IconShape for FiServer {
     fn view_box(&self) -> &str {
@@ -7681,7 +7681,7 @@ impl IconShape for FiServer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSettings;
 impl IconShape for FiSettings {
     fn view_box(&self) -> &str {
@@ -7713,7 +7713,7 @@ impl IconShape for FiSettings {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiShare2;
 impl IconShape for FiShare2 {
     fn view_box(&self) -> &str {
@@ -7764,7 +7764,7 @@ impl IconShape for FiShare2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiShare;
 impl IconShape for FiShare {
     fn view_box(&self) -> &str {
@@ -7800,7 +7800,7 @@ impl IconShape for FiShare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiShieldOff;
 impl IconShape for FiShieldOff {
     fn view_box(&self) -> &str {
@@ -7836,7 +7836,7 @@ impl IconShape for FiShieldOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiShield;
 impl IconShape for FiShield {
     fn view_box(&self) -> &str {
@@ -7863,7 +7863,7 @@ impl IconShape for FiShield {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiShoppingBag;
 impl IconShape for FiShoppingBag {
     fn view_box(&self) -> &str {
@@ -7899,7 +7899,7 @@ impl IconShape for FiShoppingBag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiShoppingCart;
 impl IconShape for FiShoppingCart {
     fn view_box(&self) -> &str {
@@ -7936,7 +7936,7 @@ impl IconShape for FiShoppingCart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiShuffle;
 impl IconShape for FiShuffle {
     fn view_box(&self) -> &str {
@@ -7984,7 +7984,7 @@ impl IconShape for FiShuffle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSidebar;
 impl IconShape for FiSidebar {
     fn view_box(&self) -> &str {
@@ -8022,7 +8022,7 @@ impl IconShape for FiSidebar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSkipBack;
 impl IconShape for FiSkipBack {
     fn view_box(&self) -> &str {
@@ -8055,7 +8055,7 @@ impl IconShape for FiSkipBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSkipForward;
 impl IconShape for FiSkipForward {
     fn view_box(&self) -> &str {
@@ -8088,7 +8088,7 @@ impl IconShape for FiSkipForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSlack;
 impl IconShape for FiSlack {
     fn view_box(&self) -> &str {
@@ -8136,7 +8136,7 @@ impl IconShape for FiSlack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSlash;
 impl IconShape for FiSlash {
     fn view_box(&self) -> &str {
@@ -8171,7 +8171,7 @@ impl IconShape for FiSlash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSliders;
 impl IconShape for FiSliders {
     fn view_box(&self) -> &str {
@@ -8249,7 +8249,7 @@ impl IconShape for FiSliders {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSmartphone;
 impl IconShape for FiSmartphone {
     fn view_box(&self) -> &str {
@@ -8287,7 +8287,7 @@ impl IconShape for FiSmartphone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSmile;
 impl IconShape for FiSmile {
     fn view_box(&self) -> &str {
@@ -8331,7 +8331,7 @@ impl IconShape for FiSmile {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSpeaker;
 impl IconShape for FiSpeaker {
     fn view_box(&self) -> &str {
@@ -8374,7 +8374,7 @@ impl IconShape for FiSpeaker {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSquare;
 impl IconShape for FiSquare {
     fn view_box(&self) -> &str {
@@ -8406,7 +8406,7 @@ impl IconShape for FiSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiStar;
 impl IconShape for FiStar {
     fn view_box(&self) -> &str {
@@ -8433,7 +8433,7 @@ impl IconShape for FiStar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiStopCircle;
 impl IconShape for FiStopCircle {
     fn view_box(&self) -> &str {
@@ -8468,7 +8468,7 @@ impl IconShape for FiStopCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSun;
 impl IconShape for FiSun {
     fn view_box(&self) -> &str {
@@ -8545,7 +8545,7 @@ impl IconShape for FiSun {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSunrise;
 impl IconShape for FiSunrise {
     fn view_box(&self) -> &str {
@@ -8611,7 +8611,7 @@ impl IconShape for FiSunrise {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiSunset;
 impl IconShape for FiSunset {
     fn view_box(&self) -> &str {
@@ -8677,7 +8677,7 @@ impl IconShape for FiSunset {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTable;
 impl IconShape for FiTable {
     fn view_box(&self) -> &str {
@@ -8704,7 +8704,7 @@ impl IconShape for FiTable {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTablet;
 impl IconShape for FiTablet {
     fn view_box(&self) -> &str {
@@ -8742,7 +8742,7 @@ impl IconShape for FiTablet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTag;
 impl IconShape for FiTag {
     fn view_box(&self) -> &str {
@@ -8775,7 +8775,7 @@ impl IconShape for FiTag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTarget;
 impl IconShape for FiTarget {
     fn view_box(&self) -> &str {
@@ -8814,7 +8814,7 @@ impl IconShape for FiTarget {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTerminal;
 impl IconShape for FiTerminal {
     fn view_box(&self) -> &str {
@@ -8847,7 +8847,7 @@ impl IconShape for FiTerminal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiThermometer;
 impl IconShape for FiThermometer {
     fn view_box(&self) -> &str {
@@ -8874,7 +8874,7 @@ impl IconShape for FiThermometer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiThumbsDown;
 impl IconShape for FiThumbsDown {
     fn view_box(&self) -> &str {
@@ -8901,7 +8901,7 @@ impl IconShape for FiThumbsDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiThumbsUp;
 impl IconShape for FiThumbsUp {
     fn view_box(&self) -> &str {
@@ -8928,7 +8928,7 @@ impl IconShape for FiThumbsUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiToggleLeft;
 impl IconShape for FiToggleLeft {
     fn view_box(&self) -> &str {
@@ -8965,7 +8965,7 @@ impl IconShape for FiToggleLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiToggleRight;
 impl IconShape for FiToggleRight {
     fn view_box(&self) -> &str {
@@ -9002,7 +9002,7 @@ impl IconShape for FiToggleRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTool;
 impl IconShape for FiTool {
     fn view_box(&self) -> &str {
@@ -9029,7 +9029,7 @@ impl IconShape for FiTool {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTrash2;
 impl IconShape for FiTrash2 {
     fn view_box(&self) -> &str {
@@ -9071,7 +9071,7 @@ impl IconShape for FiTrash2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTrash;
 impl IconShape for FiTrash {
     fn view_box(&self) -> &str {
@@ -9101,7 +9101,7 @@ impl IconShape for FiTrash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTrello;
 impl IconShape for FiTrello {
     fn view_box(&self) -> &str {
@@ -9145,7 +9145,7 @@ impl IconShape for FiTrello {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTrendingDown;
 impl IconShape for FiTrendingDown {
     fn view_box(&self) -> &str {
@@ -9175,7 +9175,7 @@ impl IconShape for FiTrendingDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTrendingUp;
 impl IconShape for FiTrendingUp {
     fn view_box(&self) -> &str {
@@ -9205,7 +9205,7 @@ impl IconShape for FiTrendingUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTriangle;
 impl IconShape for FiTriangle {
     fn view_box(&self) -> &str {
@@ -9232,7 +9232,7 @@ impl IconShape for FiTriangle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTruck;
 impl IconShape for FiTruck {
     fn view_box(&self) -> &str {
@@ -9275,7 +9275,7 @@ impl IconShape for FiTruck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTv;
 impl IconShape for FiTv {
     fn view_box(&self) -> &str {
@@ -9310,7 +9310,7 @@ impl IconShape for FiTv {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTwitch;
 impl IconShape for FiTwitch {
     fn view_box(&self) -> &str {
@@ -9331,13 +9331,13 @@ impl IconShape for FiTwitch {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M21 2H3v16h5v4l4-4h5l4-4V2zM11 11V7M16 11V7",
+                d: "M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiTwitter;
 impl IconShape for FiTwitter {
     fn view_box(&self) -> &str {
@@ -9364,7 +9364,7 @@ impl IconShape for FiTwitter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiType;
 impl IconShape for FiType {
     fn view_box(&self) -> &str {
@@ -9403,7 +9403,7 @@ impl IconShape for FiType {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUmbrella;
 impl IconShape for FiUmbrella {
     fn view_box(&self) -> &str {
@@ -9430,7 +9430,7 @@ impl IconShape for FiUmbrella {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUnderline;
 impl IconShape for FiUnderline {
     fn view_box(&self) -> &str {
@@ -9463,7 +9463,7 @@ impl IconShape for FiUnderline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUnlock;
 impl IconShape for FiUnlock {
     fn view_box(&self) -> &str {
@@ -9498,7 +9498,7 @@ impl IconShape for FiUnlock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUploadCloud;
 impl IconShape for FiUploadCloud {
     fn view_box(&self) -> &str {
@@ -9537,7 +9537,7 @@ impl IconShape for FiUploadCloud {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUpload;
 impl IconShape for FiUpload {
     fn view_box(&self) -> &str {
@@ -9573,7 +9573,7 @@ impl IconShape for FiUpload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUserCheck;
 impl IconShape for FiUserCheck {
     fn view_box(&self) -> &str {
@@ -9608,7 +9608,7 @@ impl IconShape for FiUserCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUserMinus;
 impl IconShape for FiUserMinus {
     fn view_box(&self) -> &str {
@@ -9646,7 +9646,7 @@ impl IconShape for FiUserMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUserPlus;
 impl IconShape for FiUserPlus {
     fn view_box(&self) -> &str {
@@ -9690,7 +9690,7 @@ impl IconShape for FiUserPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUserX;
 impl IconShape for FiUserX {
     fn view_box(&self) -> &str {
@@ -9734,7 +9734,7 @@ impl IconShape for FiUserX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUser;
 impl IconShape for FiUser {
     fn view_box(&self) -> &str {
@@ -9766,7 +9766,7 @@ impl IconShape for FiUser {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiUsers;
 impl IconShape for FiUsers {
     fn view_box(&self) -> &str {
@@ -9804,7 +9804,7 @@ impl IconShape for FiUsers {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiVideoOff;
 impl IconShape for FiVideoOff {
     fn view_box(&self) -> &str {
@@ -9837,7 +9837,7 @@ impl IconShape for FiVideoOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiVideo;
 impl IconShape for FiVideo {
     fn view_box(&self) -> &str {
@@ -9872,7 +9872,7 @@ impl IconShape for FiVideo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiVoicemail;
 impl IconShape for FiVoicemail {
     fn view_box(&self) -> &str {
@@ -9912,7 +9912,7 @@ impl IconShape for FiVoicemail {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiVolume1;
 impl IconShape for FiVolume1 {
     fn view_box(&self) -> &str {
@@ -9942,7 +9942,7 @@ impl IconShape for FiVolume1 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiVolume2;
 impl IconShape for FiVolume2 {
     fn view_box(&self) -> &str {
@@ -9972,7 +9972,7 @@ impl IconShape for FiVolume2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiVolumeX;
 impl IconShape for FiVolumeX {
     fn view_box(&self) -> &str {
@@ -10011,7 +10011,7 @@ impl IconShape for FiVolumeX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiVolume;
 impl IconShape for FiVolume {
     fn view_box(&self) -> &str {
@@ -10038,7 +10038,7 @@ impl IconShape for FiVolume {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiWatch;
 impl IconShape for FiWatch {
     fn view_box(&self) -> &str {
@@ -10073,7 +10073,7 @@ impl IconShape for FiWatch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiWifiOff;
 impl IconShape for FiWifiOff {
     fn view_box(&self) -> &str {
@@ -10124,7 +10124,7 @@ impl IconShape for FiWifiOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiWifi;
 impl IconShape for FiWifi {
     fn view_box(&self) -> &str {
@@ -10163,7 +10163,7 @@ impl IconShape for FiWifi {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiWind;
 impl IconShape for FiWind {
     fn view_box(&self) -> &str {
@@ -10190,7 +10190,7 @@ impl IconShape for FiWind {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiXCircle;
 impl IconShape for FiXCircle {
     fn view_box(&self) -> &str {
@@ -10231,7 +10231,7 @@ impl IconShape for FiXCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiXOctagon;
 impl IconShape for FiXOctagon {
     fn view_box(&self) -> &str {
@@ -10270,7 +10270,7 @@ impl IconShape for FiXOctagon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiXSquare;
 impl IconShape for FiXSquare {
     fn view_box(&self) -> &str {
@@ -10314,7 +10314,7 @@ impl IconShape for FiXSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiX;
 impl IconShape for FiX {
     fn view_box(&self) -> &str {
@@ -10350,7 +10350,7 @@ impl IconShape for FiX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiYoutube;
 impl IconShape for FiYoutube {
     fn view_box(&self) -> &str {
@@ -10380,7 +10380,7 @@ impl IconShape for FiYoutube {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiZapOff;
 impl IconShape for FiZapOff {
     fn view_box(&self) -> &str {
@@ -10419,7 +10419,7 @@ impl IconShape for FiZapOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiZap;
 impl IconShape for FiZap {
     fn view_box(&self) -> &str {
@@ -10446,7 +10446,7 @@ impl IconShape for FiZap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiZoomIn;
 impl IconShape for FiZoomIn {
     fn view_box(&self) -> &str {
@@ -10493,7 +10493,7 @@ impl IconShape for FiZoomIn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FiZoomOut;
 impl IconShape for FiZoomOut {
     fn view_box(&self) -> &str {
