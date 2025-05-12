@@ -40,7 +40,7 @@ impl IconShape for {ICON_NAME} {
 
 pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
     let files = collect_svg_files(svg_path, icon_prefix);
-
+    
     let icon_file = files
         .into_iter()
         .map(|file| {
@@ -143,7 +143,7 @@ fn icon_name(path: &Path, icon_prefix: &str) -> String {
 }
 
 fn extract_svg_attrs(element: &Element) -> (String, String) {
-    let view_box = element.attr("viewBox").unwrap();
+    let view_box = element.attr("viewBox").unwrap_or("0 0 16 16");
     let xmlns = element
         .attr("xmlns")
         .unwrap_or("http://www.w3.org/2000/svg");
