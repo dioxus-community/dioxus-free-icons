@@ -9,7 +9,7 @@ members = [
 ]
 
 [workspace.dependencies]
-dioxus = "0.6.0"
+dioxus = "0.7.0-alpha.3"
 
 [profile]
 
