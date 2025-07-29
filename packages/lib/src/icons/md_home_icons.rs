@@ -10,8 +10,8 @@ impl IconShape for MdSensorDoor {
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill_and_stroke<'a>(&self, color_stroke: &'a str, color_fill: &'a str) -> (&'a str, &'a str, &'a str) {
+        (color_fill, color_stroke, "0")
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37,8 +37,8 @@ impl IconShape for MdSensorWindow {
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill_and_stroke<'a>(&self, color_stroke: &'a str, color_fill: &'a str) -> (&'a str, &'a str, &'a str) {
+        (color_fill, color_stroke, "0")
     }
     fn stroke_linecap(&self) -> &str {
         "butt"

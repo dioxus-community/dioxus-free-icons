@@ -5,8 +5,12 @@ pub trait IconShape {
     fn view_box(&self) -> &str;
     fn xmlns(&self) -> &str;
     fn child_elements(&self) -> Element;
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "0")
+    fn fill_and_stroke<'a>(
+        &self,
+        stroke_color: &'a str,
+        fill_color: &'a str,
+    ) -> (&'a str, &'a str, &'a str) {
+        (stroke_color, fill_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27,9 +31,12 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     /// The width of the `<svg>` element. Defaults to 20. Pass None to omit.
     #[props(default = Some(20))]
     pub width: Option<u32>,
-    /// The color to use for filling the icon. Defaults to "currentColor".
-    #[props(default = "currentColor".to_string())]
+    /// The color to use for filling the icon. Defaults to "none".
+    #[props(default = "none".to_string())]
     pub fill: String,
+    /// The color to use for the stroke of the icon. Defaults to "none".
+    #[props(default = "none".to_string())]
+    pub stroke: String,
     /// An class for the `<svg>` element.
     #[props(default = "".to_string())]
     pub class: String,
@@ -42,7 +49,7 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
 /// Icon component which generates SVG elements
 #[allow(non_snake_case)]
 pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> Element {
-    let (fill, stroke, stroke_width) = props.icon.fill_and_stroke(&props.fill);
+    let (stroke, fill, stroke_width) = props.icon.fill_and_stroke(&props.stroke, &props.fill);
     rsx!(
         svg {
             class: "{props.class}",
