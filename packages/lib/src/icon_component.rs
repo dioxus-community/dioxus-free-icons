@@ -41,6 +41,7 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
 
 /// Icon component which generates SVG elements
 #[allow(non_snake_case)]
+#[component]
 pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> Element {
     let (fill, stroke, stroke_width) = props.icon.fill_and_stroke(&props.fill);
     rsx!(
