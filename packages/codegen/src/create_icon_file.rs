@@ -21,8 +21,8 @@ impl IconShape for {ICON_NAME} {
     fn xmlns(&self) -> &str {
         "{XMLNS}"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ({FILL_COLOR}, {STROKE_COLOR}, {STROKE_WIDTH})
+    fn fill_and_stroke<'a>(&self, color_stroke: &'a str, color_fill: &'a str) -> (&'a str, &'a str, &'a str) {
+        ({STROKE_COLOR}, {FILL_COLOR}, {STROKE_WIDTH})
     }
     fn stroke_linecap(&self) -> &str {
         "{STROKE_LINECAP}"
@@ -40,7 +40,7 @@ impl IconShape for {ICON_NAME} {
 
 pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
     let files = collect_svg_files(svg_path, icon_prefix);
-    
+
     let icon_file = files
         .into_iter()
         .map(|file| {
@@ -152,10 +152,10 @@ fn extract_svg_attrs(element: &Element) -> (String, String) {
 
 fn extract_svg_colors(icon_prefix: &str) -> (&str, &str, &str) {
     match icon_prefix {
-        "Fi" => ("\"none\"", "user_color", "\"2\""),
-        "Ld" => ("\"none\"", "user_color", "\"2\""),
-        "Io" => ("user_color", "user_color", "\"0\""),
-        _ => ("user_color", "\"none\"", "\"0\""),
+        "Fi" => ("color_stroke", "color_fill", "\"2\""),
+        "Ld" => ("color_stroke", "color_fill", "\"2\""),
+        "Io" => ("color_stroke", "color_stroke", "\"0\""),
+        _ => ("color_stroke", "color_fill", "\"0\""),
     }
 }
 
