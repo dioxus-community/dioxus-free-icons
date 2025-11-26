@@ -5,7 +5,7 @@ authors = ["nissy-dev <nd.12021218@gmail.com>"]
 edition = "2021"
 
 [dependencies]
-dioxus = { workspace = true, features = ["web"] }
+dioxus = { workspace = true, features = ["launch", "web"] }
 dioxus-free-icons = { path = "../lib", features = ["font-awesome-brands"] }
 
 log = "0.4.6"
