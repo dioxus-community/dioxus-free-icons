@@ -81,7 +81,7 @@ Icon Library|License|Version
 [Bootstrap Icons](https://icons.getbootstrap.com/)|[MIT License](https://github.com/twbs/icons/blob/main/LICENSE.md)| [1.8.3](https://github.com/twbs/icons/tree/v1.8.3)
 [Codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html)|[MIT License](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE-CODE) & [CC BY 4.0 License](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE) | [0.0.36](https://github.com/microsoft/vscode-codicons/tree/0.0.36)
 [Feather](https://feathericons.com/)|[MIT License](https://github.com/feathericons/feather/blob/master/LICENSE)| [4.29.0](https://github.com/feathericons/feather/tree/v4.29.0)
-[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)| [6.1.1](https://github.com/FortAwesome/Font-Awesome/tree/6.1.1)
+[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)| [7.1.0](https://github.com/FortAwesome/Font-Awesome/tree/7.1.0)
 [Heroicons](https://heroicons.com/)|[MIT License](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE)| [1.0.6](https://github.com/tailwindlabs/heroicons/tree/v1.0.6)
 [Ionicons](https://ionic.io/ionicons)|[MIT License](https://github.com/ionic-team/ionicons/blob/main/LICENSE)| [6.0.2](https://github.com/ionic-team/ionicons/tree/v6.0.2)
 [Lucide](https://lucide.dev)|[ISC License](https://github.com/lucide-icons/lucide/blob/main/LICENSE)| [0.555.0](https://github.com/lucide-icons/lucide/tree/v0.555.0)
